@@ -1,0 +1,196 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0d1fc3e0c493f576c6e29c368ab75b9, type: 3}
+  m_Name: MechaDB
+  m_EditorClassIdentifier:
+  MechList:
+  - MechDescriptionName: Vulturius | Id:0 | Body:0 | Base:0 | Weapon:29 | Drone:-1[ViperDash]
+    MechName: Vulturius
+    Id: 0
+    NotAvailable: 0
+    BaseChassis: 0
+    BaseType: 0
+    BodyId: 0
+    BaseId: 0
+    WeaponId: 29
+    DroneId: -1
+    Chassis:
+    - ChassisName: Viper Dash Frame I
+      Core: 0
+      DriveUnity: 0
+      MechIcon: {fileID: 0}
+    - ChassisName: Viper Dash Frame II
+      Core: 1
+      DriveUnity: 2
+      MechIcon: {fileID: 0}
+    - ChassisName: Viper Dash Frame III
+      Core: 2
+      DriveUnity: 1
+      MechIcon: {fileID: 0}
+    Weapons:
+    - Kind: 0
+      Id: 29
+    - Kind: 0
+      Id: 16
+    - Kind: 0
+      Id: 1
+    BodyParts:
+    - Kind: 0
+      Id: 0
+    - Kind: 0
+      Id: 1
+    - Kind: 0
+      Id: 2
+    BaseParts:
+    - Kind: 0
+      Id: 0
+    - Kind: 0
+      Id: 2
+    - Kind: 0
+      Id: 1
+  - MechDescriptionName: Wrathblade | Id:1 | Body:6 | Base:6 | Weapon:-1 | Drone:4[HiveSalvage]
+    MechName: Wrathblade
+    Id: 1
+    NotAvailable: 1
+    BaseChassis: 0
+    BaseType: 0
+    BodyId: 6
+    BaseId: 6
+    WeaponId: -1
+    DroneId: 4
+    Chassis:
+    - ChassisName: Hive Salvage Frame I
+      Core: 6
+      DriveUnity: 6
+      MechIcon: {fileID: 0}
+    - ChassisName: Hive Salvage Frame II
+      Core: 7
+      DriveUnity: 7
+      MechIcon: {fileID: 0}
+    - ChassisName: Hive Salvage Frame III
+      Core: 8
+      DriveUnity: 8
+      MechIcon: {fileID: 0}
+    Weapons:
+    - Kind: 1
+      Id: 4
+    - Kind: 1
+      Id: 2
+    - Kind: 1
+      Id: 3
+    BodyParts:
+    - Kind: 0
+      Id: 6
+    - Kind: 0
+      Id: 7
+    - Kind: 0
+      Id: 8
+    BaseParts:
+    - Kind: 0
+      Id: 6
+    - Kind: 0
+      Id: 7
+    - Kind: 0
+      Id: 8
+  - MechDescriptionName: Ferratus | Id:2 | Body:3 | Base:3 | Weapon:19 | Drone:-1[BulwarkSiege]
+    MechName: Ferratus
+    Id: 2
+    NotAvailable: 1
+    BaseChassis: 0
+    BaseType: 0
+    BodyId: 3
+    BaseId: 3
+    WeaponId: 19
+    DroneId: -1
+    Chassis:
+    - ChassisName: Bulwark Siege Frame I
+      Core: 3
+      DriveUnity: 3
+      MechIcon: {fileID: 0}
+    - ChassisName: Bulwark Siege Frame II
+      Core: 4
+      DriveUnity: 4
+      MechIcon: {fileID: 0}
+    - ChassisName: Bulwark Siege Frame III
+      Core: 5
+      DriveUnity: 5
+      MechIcon: {fileID: 0}
+    Weapons:
+    - Kind: 0
+      Id: 19
+    - Kind: 0
+      Id: 11
+    - Kind: 0
+      Id: 27
+    BodyParts:
+    - Kind: 0
+      Id: 3
+    - Kind: 0
+      Id: 4
+    - Kind: 0
+      Id: 5
+    BaseParts:
+    - Kind: 0
+      Id: 3
+    - Kind: 0
+      Id: 4
+    - Kind: 0
+      Id: 5
+  - MechDescriptionName: Magnus Rex | Id:3 | Body:9 | Base:9 | Weapon:28 | Drone:-1[FurnacePrototype][BulwarkSiege]
+    MechName: Magnus Rex
+    Id: 3
+    NotAvailable: 1
+    BaseChassis: 0
+    BaseType: 0
+    BodyId: 9
+    BaseId: 9
+    WeaponId: 28
+    DroneId: -1
+    Chassis:
+    - ChassisName: Furnace Prototype Frame I
+      Core: 9
+      DriveUnity: 9
+      MechIcon: {fileID: 0}
+    - ChassisName: Furnace Prototype Frame II
+      Core: 10
+      DriveUnity: 10
+      MechIcon: {fileID: 0}
+    - ChassisName: Furnace Prototype FrameI II
+      Core: 11
+      DriveUnity: 11
+      MechIcon: {fileID: 0}
+    Weapons:
+    - Kind: 0
+      Id: 28
+    - Kind: 0
+      Id: 17
+    - Kind: 0
+      Id: 5
+    BodyParts:
+    - Kind: 0
+      Id: 9
+    - Kind: 0
+      Id: 10
+    - Kind: 0
+      Id: 11
+    BaseParts:
+    - Kind: 0
+      Id: 9
+    - Kind: 0
+      Id: 10
+    - Kind: 0
+      Id: 11
+  WeaponsDb: {fileID: 11400000, guid: da3634919160d9d48b6b930e64f96f8a, type: 2}
+  RobotBodyDb: {fileID: 11400000, guid: 881c353d81a32a242b47dfdebeabba56, type: 2}
+  RobotBaseDb: {fileID: 11400000, guid: 9ae0e5ed6e9592a488fe9e3bcf886ef9, type: 2}
+  DroneDb: {fileID: 11400000, guid: 3ba75b2edb3c6794ca3542d6a1be6ee3, type: 2}
+  TagOfferWeightConfig: {fileID: 11400000, guid: 0763c128516b33246bb1afe6ecf50749, type: 2}

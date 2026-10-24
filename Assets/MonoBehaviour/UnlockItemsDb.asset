@@ -1,0 +1,934 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3aeae100f0fb7ecf8f378e5a564f9d9, type: 3}
+  m_Name: UnlockItemsDb
+  m_EditorClassIdentifier:
+  MechUnlocks:
+  - EditorName: Wrathblade | Id:1 | Condition:stat_runs_started - UnlockValue:1
+    Id: 0
+    ItemId: 1
+    Type: 0
+    Condition:
+      UnlockValue: 1
+      StatsApiName: 17
+      ExtraId: 0
+      Description: Start #X runs.
+      HideProgressSlider: 0
+  - EditorName: Ferratus | Id:2 | Condition:stat_runs_started - UnlockValue:1
+    Id: 1
+    ItemId: 2
+    Type: 0
+    Condition:
+      UnlockValue: 1
+      StatsApiName: 17
+      ExtraId: 0
+      Description: Start #X runs.
+      HideProgressSlider: 1
+  - EditorName: Magnus Rex | Id:3 | Condition:stat_planet_completed - UnlockValue:1 ExtraId:0
+    Id: 2
+    ItemId: 3
+    Type: 0
+    Condition:
+      UnlockValue: 1
+      StatsApiName: 27
+      ExtraId: 0
+      Description: Complete #Z.
+      HideProgressSlider: 0
+  WeaponUnlocks:
+  - EditorName: Satellite laser | Id:10 | Condition:stat_enemies_defeated - UnlockValue:250
+    Id: 0
+    ItemId: 10
+    Type: 1
+    Condition:
+      UnlockValue: 250
+      StatsApiName: 2
+      ExtraId: 0
+      Description: Eliminate #X enemies of any type.
+      HideProgressSlider: 0
+  - EditorName: Heat seeker missile | Id:3 | Condition:stat_enemies_elite_defeated - UnlockValue:25
+    Id: 1
+    ItemId: 3
+    Type: 1
+    Condition:
+      UnlockValue: 25
+      StatsApiName: 4
+      ExtraId: 0
+      Description: Eliminate #X elite monsters.
+      HideProgressSlider: 0
+  - EditorName: Field mine | Id:11 | Condition:stat_chest_open - UnlockValue:10
+    Id: 2
+    ItemId: 11
+    Type: 1
+    Condition:
+      UnlockValue: 10
+      StatsApiName: 7
+      ExtraId: 0
+      Description: Open #X chests.
+      HideProgressSlider: 0
+  - EditorName: Flamethrower | Id:18 | Condition:stat_quest_completed - UnlockValue:2
+    Id: 3
+    ItemId: 18
+    Type: 1
+    Condition:
+      UnlockValue: 2
+      StatsApiName: 8
+      ExtraId: 0
+      Description: Complete #X quests.
+      HideProgressSlider: 0
+  - EditorName: Energy ball | Id:5 | Condition:stat_any_microchip_level_max - UnlockValue:5
+    Id: 4
+    ItemId: 5
+    Type: 1
+    Condition:
+      UnlockValue: 5
+      StatsApiName: 16
+      ExtraId: 0
+      Description: Upgrade a microchip to level #X.
+      HideProgressSlider: 1
+  - EditorName: Fragmented bullet turret | Id:19 | Condition:stat_runs_started - UnlockValue:1
+    Id: 5
+    ItemId: 19
+    Type: 1
+    Condition:
+      UnlockValue: 1
+      StatsApiName: 17
+      ExtraId: 0
+      Description: Start #X runs.
+      HideProgressSlider: 1
+  - EditorName: Rain of steel | Id:9 | Condition:stat_enemies_mercenary_defeated - UnlockValue:10
+    Id: 6
+    ItemId: 9
+    Type: 1
+    Condition:
+      UnlockValue: 10
+      StatsApiName: 5
+      ExtraId: 0
+      Description: Eliminate #X mercenaries.
+      HideProgressSlider: 0
+  - EditorName: Fire steps | Id:26 | Condition:stat_enemies_elite_defeated - UnlockValue:5
+    Id: 7
+    ItemId: 26
+    Type: 1
+    Condition:
+      UnlockValue: 5
+      StatsApiName: 4
+      ExtraId: 0
+      Description: Eliminate #X elite monsters.
+      HideProgressSlider: 0
+  - EditorName: Small turret | Id:4 | Condition:stat_planet_completed - UnlockValue:1 ExtraId:0
+    Id: 8
+    ItemId: 4
+    Type: 1
+    Condition:
+      UnlockValue: 1
+      StatsApiName: 27
+      ExtraId: 0
+      Description: Complete #Z.
+      HideProgressSlider: 0
+  - EditorName: Static area | Id:12 | Condition:stat_enemies_elite_defeated - UnlockValue:100
+    Id: 9
+    ItemId: 12
+    Type: 1
+    Condition:
+      UnlockValue: 100
+      StatsApiName: 4
+      ExtraId: 0
+      Description: Eliminate #X elite monsters.
+      HideProgressSlider: 0
+  - EditorName: Photon Burst Rifle | Id:17 | Condition:stat_score - UnlockValue:2000
+    Id: 10
+    ItemId: 17
+    Type: 1
+    Condition:
+      UnlockValue: 2000
+      StatsApiName: 1
+      ExtraId: 0
+      Description: Acquire more than #X score points
+      HideProgressSlider: 1
+  - EditorName: Front laser beam | Id:20 | Condition:stat_score - UnlockValue:15000
+    Id: 11
+    ItemId: 20
+    Type: 1
+    Condition:
+      UnlockValue: 15000
+      StatsApiName: 1
+      ExtraId: 0
+      Description: Acquire more than #X score points
+      HideProgressSlider: 1
+  - EditorName: Electric impulse | Id:21 | Condition:stat_any_microchip_level_max - UnlockValue:8
+    Id: 12
+    ItemId: 21
+    Type: 1
+    Condition:
+      UnlockValue: 8
+      StatsApiName: 16
+      ExtraId: 0
+      Description: Upgrade a microchip to level #X.
+      HideProgressSlider: 1
+  - EditorName: Railgun | Id:28 | Condition:stat_planet_completed - UnlockValue:1 ExtraId:0
+    Id: 13
+    ItemId: 28
+    Type: 1
+    Condition:
+      UnlockValue: 1
+      StatsApiName: 27
+      ExtraId: 0
+      Description: Complete #Z.
+      HideProgressSlider: 0
+  - EditorName: Boomerang | Id:27 | Condition:stat_runs_started - UnlockValue:1
+    Id: 14
+    ItemId: 27
+    Type: 1
+    Condition:
+      UnlockValue: 1
+      StatsApiName: 17
+      ExtraId: 0
+      Description: Start #X runs.
+      HideProgressSlider: 1
+  MicroChipUnlocks:
+  - EditorName: Drone bay | Id:25 | Condition:stat_shops_visited - UnlockValue:3
+    Id: 0
+    ItemId: 25
+    Type: 2
+    Condition:
+      UnlockValue: 3
+      StatsApiName: 21
+      ExtraId: 0
+      Description: Visit #X shops.
+      HideProgressSlider: 0
+  - EditorName: Muzzle brake | Id:20 | Condition:stat_nodes_cleared - UnlockValue:50
+    Id: 1
+    ItemId: 20
+    Type: 2
+    Condition:
+      UnlockValue: 50
+      StatsApiName: 18
+      ExtraId: 0
+      Description: Clear #X map nodes.
+      HideProgressSlider: 0
+  - EditorName: Second chance chipset | Id:17 | Condition:stat_any_microchip_level_max - UnlockValue:5
+    Id: 2
+    ItemId: 17
+    Type: 2
+    Condition:
+      UnlockValue: 5
+      StatsApiName: 16
+      ExtraId: 0
+      Description: Upgrade a microchip to level #X.
+      HideProgressSlider: 1
+  - EditorName: Energy core | Id:2 | Condition:stat_quest_completed - UnlockValue:6
+    Id: 3
+    ItemId: 2
+    Type: 2
+    Condition:
+      UnlockValue: 6
+      StatsApiName: 8
+      ExtraId: 0
+      Description: Complete #X quests.
+      HideProgressSlider: 0
+  - EditorName: Critical Damage Core Protector | Id:12 | Condition:stat_weapon_damage - UnlockValue:1000
+    Id: 4
+    ItemId: 12
+    Type: 2
+    Condition:
+      UnlockValue: 1000
+      StatsApiName: 13
+      ExtraId: 0
+      Description: Deal #X total weapon damage.
+      HideProgressSlider: 1
+  - EditorName: Critical Damage Core | Id:11 | Condition:stat_weapon_damage - UnlockValue:3000
+    Id: 5
+    ItemId: 11
+    Type: 2
+    Condition:
+      UnlockValue: 3000
+      StatsApiName: 13
+      ExtraId: 0
+      Description: Deal #X total weapon damage.
+      HideProgressSlider: 1
+  - EditorName: Solid State Drive | Id:9 | Condition:stat_enemy_defeated - UnlockValue:1 ExtraId:32
+    Id: 6
+    ItemId: 9
+    Type: 2
+    Condition:
+      UnlockValue: 1
+      StatsApiName: 28
+      ExtraId: 32
+      Description: Kill the enemy #Z.
+      HideProgressSlider: 0
+  OverloadUnlocks:
+  - EditorName: Electric dash | Id:4 | Condition:stat_dashes - UnlockValue:100
+    Id: 0
+    ItemId: 4
+    Type: 3
+    Condition:
+      UnlockValue: 100
+      StatsApiName: 19
+      ExtraId: 0
+      Description: Perform #X dashes.
+      HideProgressSlider: 0
+  - EditorName: Energy recycling | Id:0 | Condition:stat_nodes_cleared - UnlockValue:40
+    Id: 1
+    ItemId: 0
+    Type: 3
+    Condition:
+      UnlockValue: 40
+      StatsApiName: 18
+      ExtraId: 0
+      Description: Clear #X map nodes.
+      HideProgressSlider: 0
+  - EditorName: Stationary barrage | Id:15 | Condition:stat_elites_one_run - UnlockValue:10
+    Id: 2
+    ItemId: 15
+    Type: 3
+    Condition:
+      UnlockValue: 10
+      StatsApiName: 22
+      ExtraId: 0
+      Description: Eliminate #X elites in a single run.
+      HideProgressSlider: 1
+  - EditorName: Adaptive plating | Id:23 | Condition:stat_run_completed - UnlockValue:1
+    Id: 3
+    ItemId: 23
+    Type: 3
+    Condition:
+      UnlockValue: 1
+      StatsApiName: 10
+      ExtraId: 0
+      Description: Complete #X runs.
+      HideProgressSlider: 1
+  - EditorName: Residual Pulse | Id:21 | Condition:stat_enemies_elite_defeated - UnlockValue:15
+    Id: 4
+    ItemId: 21
+    Type: 3
+    Condition:
+      UnlockValue: 15
+      StatsApiName: 4
+      ExtraId: 0
+      Description: Eliminate #X elite monsters.
+      HideProgressSlider: 0
+  - EditorName: Pulse grenade | Id:3 | Condition:stat_chest_open - UnlockValue:25
+    Id: 5
+    ItemId: 3
+    Type: 3
+    Condition:
+      UnlockValue: 25
+      StatsApiName: 7
+      ExtraId: 0
+      Description: Open #X chests.
+      HideProgressSlider: 0
+  - EditorName: Spread disease | Id:8 | Condition:stat_enemies_defeated - UnlockValue:2000
+    Id: 6
+    ItemId: 8
+    Type: 3
+    Condition:
+      UnlockValue: 2000
+      StatsApiName: 2
+      ExtraId: 0
+      Description: Eliminate #X enemies of any type.
+      HideProgressSlider: 0
+  - EditorName: Mine Perimeter | Id:30 | Condition:stat_score - UnlockValue:1500
+    Id: 7
+    ItemId: 30
+    Type: 3
+    Condition:
+      UnlockValue: 1500
+      StatsApiName: 1
+      ExtraId: 0
+      Description: Acquire more than #X score points
+      HideProgressSlider: 0
+  - EditorName: Drone Repair Protocol | Id:35 | Condition:stat_shops_visited - UnlockValue:5
+    Id: 8
+    ItemId: 35
+    Type: 3
+    Condition:
+      UnlockValue: 5
+      StatsApiName: 21
+      ExtraId: 0
+      Description: Visit #X shops.
+      HideProgressSlider: 0
+  - EditorName: Salvage Protocol | Id:34 | Condition:stat_elites_one_run - UnlockValue:5
+    Id: 9
+    ItemId: 34
+    Type: 3
+    Condition:
+      UnlockValue: 5
+      StatsApiName: 22
+      ExtraId: 0
+      Description: Eliminate #X elites in a single run.
+      HideProgressSlider: 1
+  - EditorName: Air Cooling System | Id:17 | Condition:stat_dashes - UnlockValue:50
+    Id: 10
+    ItemId: 17
+    Type: 3
+    Condition:
+      UnlockValue: 50
+      StatsApiName: 19
+      ExtraId: 0
+      Description: Perform #X dashes.
+      HideProgressSlider: 0
+  - EditorName: Lightning strike | Id:11 | Condition:stat_enemies_mercenary_defeated - UnlockValue:10
+    Id: 11
+    ItemId: 11
+    Type: 3
+    Condition:
+      UnlockValue: 10
+      StatsApiName: 5
+      ExtraId: 0
+      Description: Eliminate #X mercenaries.
+      HideProgressSlider: 0
+  DroneUnlocks:
+  - EditorName: Shotgun drone | Id:2 | Condition:stat_enemies_mercenary_defeated - UnlockValue:3
+    Id: 0
+    ItemId: 2
+    Type: 4
+    Condition:
+      UnlockValue: 3
+      StatsApiName: 5
+      ExtraId: 0
+      Description: Eliminate #X mercenaries.
+      HideProgressSlider: 0
+  - EditorName: Flamethrower drone | Id:4 | Condition:stat_runs_started - UnlockValue:1
+    Id: 1
+    ItemId: 4
+    Type: 4
+    Condition:
+      UnlockValue: 1
+      StatsApiName: 17
+      ExtraId: 0
+      Description: Start #X runs.
+      HideProgressSlider: 0
+  PilotUnlocks: []
+  BaseUnlocks:
+  - EditorName: 0001 | Id:1 | Condition:stat_enemies_mercenary_defeated - UnlockValue:10
+    Id: 0
+    ItemId: 1
+    Type: 6
+    Condition:
+      UnlockValue: 10
+      StatsApiName: 5
+      ExtraId: 0
+      Description: Eliminate #X mercenaries.
+      HideProgressSlider: 0
+  - EditorName: 0002 | Id:2 | Condition:stat_shops_visited - UnlockValue:1
+    Id: 1
+    ItemId: 2
+    Type: 6
+    Condition:
+      UnlockValue: 1
+      StatsApiName: 21
+      ExtraId: 0
+      Description: Visit #X shops.
+      HideProgressSlider: 0
+  - EditorName: 0101 | Id:4 | Condition:stat_quest_completed_with_mecha - UnlockValue:10 ExtraId:2
+    Id: 2
+    ItemId: 4
+    Type: 6
+    Condition:
+      UnlockValue: 10
+      StatsApiName: 25
+      ExtraId: 2
+      Description: Complete #X quests with #Z.
+      HideProgressSlider: 0
+  - EditorName: 0201 | Id:7 | Condition:stat_nodes_cleared_with_mecha - UnlockValue:100 ExtraId:1
+    Id: 3
+    ItemId: 7
+    Type: 6
+    Condition:
+      UnlockValue: 100
+      StatsApiName: 26
+      ExtraId: 1
+      Description: Clear #X map nodes with #Z.
+      HideProgressSlider: 0
+  - EditorName: 0200 | Id:6 | Condition:stat_runs_started - UnlockValue:1
+    Id: 4
+    ItemId: 6
+    Type: 6
+    Condition:
+      UnlockValue: 1
+      StatsApiName: 17
+      ExtraId: 0
+      Description: Start #X runs.
+      HideProgressSlider: 0
+  - EditorName: 0100 | Id:3 | Condition:stat_runs_started - UnlockValue:1
+    Id: 5
+    ItemId: 3
+    Type: 6
+    Condition:
+      UnlockValue: 1
+      StatsApiName: 17
+      ExtraId: 0
+      Description: Start #X runs.
+      HideProgressSlider: 1
+  - EditorName: 0301 | Id:9 | Condition:stat_planet_completed - UnlockValue:1 ExtraId:0
+    Id: 6
+    ItemId: 9
+    Type: 6
+    Condition:
+      UnlockValue: 1
+      StatsApiName: 27
+      ExtraId: 0
+      Description: Complete #Z.
+      HideProgressSlider: 0
+  - EditorName: 0102 | Id:5 | Condition:stat_planet_completed - UnlockValue:1 ExtraId:2
+    Id: 7
+    ItemId: 5
+    Type: 6
+    Condition:
+      UnlockValue: 1
+      StatsApiName: 27
+      ExtraId: 2
+      Description: Complete #Z.
+      HideProgressSlider: 1
+  - EditorName: 0202 | Id:8 | Condition:stat_nodes_cleared - UnlockValue:30
+    Id: 8
+    ItemId: 8
+    Type: 6
+    Condition:
+      UnlockValue: 30
+      StatsApiName: 18
+      ExtraId: 0
+      Description: Clear #X map nodes.
+      HideProgressSlider: 0
+  - EditorName: 0300 | Id:10 | Condition:stat_enemies_defeated_with_mecha - UnlockValue:5 ExtraId:3
+    Id: 9
+    ItemId: 10
+    Type: 6
+    Condition:
+      UnlockValue: 5
+      StatsApiName: 23
+      ExtraId: 3
+      Description: Eliminate #X enemies with #Z.
+      HideProgressSlider: 0
+  - EditorName: 0302 | Id:11 | Condition:stat_enemies_mercenary_defeated - UnlockValue:500
+    Id: 10
+    ItemId: 11
+    Type: 6
+    Condition:
+      UnlockValue: 500
+      StatsApiName: 5
+      ExtraId: 0
+      Description: Eliminate #X mercenaries.
+      HideProgressSlider: 0
+  BodyUnlocks:
+  - EditorName: 0201 | Id:7 | Condition:stat_enemies_elite_defeated_with_mecha - UnlockValue:30 ExtraId:1
+    Id: 0
+    ItemId: 7
+    Type: 7
+    Condition:
+      UnlockValue: 30
+      StatsApiName: 24
+      ExtraId: 1
+      Description: Eliminate #X elite monsters with #Z.
+      HideProgressSlider: 0
+  - EditorName: 0101 | Id:4 | Condition:stat_enemies_defeated_with_mecha - UnlockValue:800 ExtraId:2
+    Id: 1
+    ItemId: 4
+    Type: 7
+    Condition:
+      UnlockValue: 800
+      StatsApiName: 23
+      ExtraId: 2
+      Description: Eliminate #X enemies with #Z.
+      HideProgressSlider: 0
+  - EditorName: 0001 | Id:1 | Condition:stat_runs_started - UnlockValue:1
+    Id: 2
+    ItemId: 1
+    Type: 7
+    Condition:
+      UnlockValue: 1
+      StatsApiName: 17
+      ExtraId: 0
+      Description: Start #X runs.
+      HideProgressSlider: 0
+  - EditorName: 0002 | Id:2 | Condition:stat_enemies_elite_defeated_with_mecha - UnlockValue:15 ExtraId:0
+    Id: 3
+    ItemId: 2
+    Type: 7
+    Condition:
+      UnlockValue: 15
+      StatsApiName: 24
+      ExtraId: 0
+      Description: Eliminate #X elite monsters with #Z.
+      HideProgressSlider: 0
+  - EditorName: 0200 | Id:6 | Condition:stat_runs_started - UnlockValue:1
+    Id: 4
+    ItemId: 6
+    Type: 7
+    Condition:
+      UnlockValue: 1
+      StatsApiName: 17
+      ExtraId: 0
+      Description: Start #X runs.
+      HideProgressSlider: 0
+  - EditorName: 0100 | Id:3 | Condition:stat_runs_started - UnlockValue:1
+    Id: 5
+    ItemId: 3
+    Type: 7
+    Condition:
+      UnlockValue: 1
+      StatsApiName: 17
+      ExtraId: 0
+      Description: Start #X runs.
+      HideProgressSlider: 1
+  - EditorName: 0300 | Id:9 | Condition:stat_planet_completed - UnlockValue:1 ExtraId:0
+    Id: 6
+    ItemId: 9
+    Type: 7
+    Condition:
+      UnlockValue: 1
+      StatsApiName: 27
+      ExtraId: 0
+      Description: Complete #Z.
+      HideProgressSlider: 0
+  - EditorName: 0202 | Id:8 | Condition:stat_nodes_cleared - UnlockValue:30
+    Id: 7
+    ItemId: 8
+    Type: 7
+    Condition:
+      UnlockValue: 30
+      StatsApiName: 18
+      ExtraId: 0
+      Description: Clear #X map nodes.
+      HideProgressSlider: 0
+  - EditorName: 0301 | Id:10 | Condition:stat_enemies_mercenary_defeated - UnlockValue:100
+    Id: 8
+    ItemId: 10
+    Type: 7
+    Condition:
+      UnlockValue: 100
+      StatsApiName: 5
+      ExtraId: 0
+      Description: Eliminate #X mercenaries.
+      HideProgressSlider: 0
+  - EditorName: 0302 | Id:11 | Condition:stat_chest_open - UnlockValue:500
+    Id: 9
+    ItemId: 11
+    Type: 7
+    Condition:
+      UnlockValue: 500
+      StatsApiName: 7
+      ExtraId: 0
+      Description: Open #X chests.
+      HideProgressSlider: 0
+  - EditorName: 0102 | Id:5 | Condition:stat_planet_completed - UnlockValue:1 ExtraId:0
+    Id: 10
+    ItemId: 5
+    Type: 7
+    Condition:
+      UnlockValue: 1
+      StatsApiName: 27
+      ExtraId: 0
+      Description: Complete #Z.
+      HideProgressSlider: 1
+  WeaponsDb: {fileID: 11400000, guid: da3634919160d9d48b6b930e64f96f8a, type: 2}
+  DroneDb: {fileID: 11400000, guid: 3ba75b2edb3c6794ca3542d6a1be6ee3, type: 2}
+  ChipDb: {fileID: 11400000, guid: ba9430d1c62232c45bd4909f6b840061, type: 2}
+  OverloadDb: {fileID: 11400000, guid: 373881de5fd576940aba0d460c8a5543, type: 2}
+  RobotBodyDb: {fileID: 11400000, guid: 881c353d81a32a242b47dfdebeabba56, type: 2}
+  RobotBaseDb: {fileID: 11400000, guid: 9ae0e5ed6e9592a488fe9e3bcf886ef9, type: 2}
+  MechaDataBase: {fileID: 11400000, guid: d9ab0526be5d21d4c88993a5b37be904, type: 2}
+  PilotDb: {fileID: 11400000, guid: 85310f051b3199849bc8bfa999e2ab0b, type: 2}
+  EnemiesDb: {fileID: 11400000, guid: 7972e737efac39444bf1df5d52c0c962, type: 2}
+  MissingMech:
+  - NameDescription: Vulturius 0
+    ItemId: 0
+    Type: 0
+  MissingWeapons:
+  - NameDescription: Gatling Cannon 0
+    ItemId: 0
+    Type: 1
+  - NameDescription: Twin Laser 1
+    ItemId: 1
+    Type: 1
+  - NameDescription: BreachMissiles 2
+    ItemId: 2
+    Type: 1
+  - NameDescription: Sky missiles 6
+    ItemId: 6
+    Type: 1
+  - NameDescription: Shotgun turret 8
+    ItemId: 8
+    Type: 1
+  - NameDescription: Copter attack 13
+    ItemId: 13
+    Type: 1
+  - NameDescription: Dismembering blades 15
+    ItemId: 15
+    Type: 1
+  - NameDescription: Frontal Gatling gun 16
+    ItemId: 16
+    Type: 1
+  - NameDescription: Frontal weakening laser 22
+    ItemId: 22
+    Type: 1
+  - NameDescription: Laser turret single 23
+    ItemId: 23
+    Type: 1
+  - NameDescription: Grenade launcher 24
+    ItemId: 24
+    Type: 1
+  - NameDescription: Lightsabers 25
+    ItemId: 25
+    Type: 1
+  - NameDescription: Missile pod 29
+    ItemId: 29
+    Type: 1
+  - NameDescription: Flamethrower II 1000
+    ItemId: 1000
+    Type: 1
+  - NameDescription: Scatterstorm 1001
+    ItemId: 1001
+    Type: 1
+  - NameDescription: Twin Laser II 1002
+    ItemId: 1002
+    Type: 1
+  - NameDescription: Front laser beam II 1003
+    ItemId: 1003
+    Type: 1
+  - NameDescription: Gatling Cannon II 1004
+    ItemId: 1004
+    Type: 1
+  - NameDescription: Photon Burst Rifle II 1005
+    ItemId: 1005
+    Type: 1
+  - NameDescription: Heat seeker missile II 1006
+    ItemId: 1006
+    Type: 1
+  - NameDescription: Railgun II 1007
+    ItemId: 1007
+    Type: 1
+  - NameDescription: Golden Tip Missile Pod 1008
+    ItemId: 1008
+    Type: 1
+  - NameDescription: BreachMissiles II 1009
+    ItemId: 1009
+    Type: 1
+  - NameDescription: Small turret II 1010
+    ItemId: 1010
+    Type: 1
+  - NameDescription: Energy ball II 1011
+    ItemId: 1011
+    Type: 1
+  - NameDescription: Sky missiles II 1012
+    ItemId: 1012
+    Type: 1
+  - NameDescription: Rain of steel II 1014
+    ItemId: 1014
+    Type: 1
+  - NameDescription: Satellite laser II 1015
+    ItemId: 1015
+    Type: 1
+  - NameDescription: Field mine II 1016
+    ItemId: 1016
+    Type: 1
+  - NameDescription: Static area II 1017
+    ItemId: 1017
+    Type: 1
+  - NameDescription: Copter attack II 1018
+    ItemId: 1018
+    Type: 1
+  - NameDescription: Dismembering blades II 1020
+    ItemId: 1020
+    Type: 1
+  - NameDescription: Frontal Gatling gun II 1021
+    ItemId: 1021
+    Type: 1
+  - NameDescription: Fragmented bullet turret II 1022
+    ItemId: 1022
+    Type: 1
+  - NameDescription: Electric impulse II 1023
+    ItemId: 1023
+    Type: 1
+  - NameDescription: Frontal weakening laser II 1024
+    ItemId: 1024
+    Type: 1
+  - NameDescription: Laser turret single II 1025
+    ItemId: 1025
+    Type: 1
+  - NameDescription: Grenade launcher II 1026
+    ItemId: 1026
+    Type: 1
+  - NameDescription: Lightsabers II 1027
+    ItemId: 1027
+    Type: 1
+  - NameDescription: Fire steps II 1028
+    ItemId: 1028
+    Type: 1
+  - NameDescription: Boomerang II 1029
+    ItemId: 1029
+    Type: 1
+  MissingMicroChip:
+  - NameDescription: Serum 0
+    ItemId: 0
+    Type: 2
+  - NameDescription: First aid 1
+    ItemId: 1
+    Type: 2
+  - NameDescription: Physical core 3
+    ItemId: 3
+    Type: 2
+  - NameDescription: Lightweight loader 4
+    ItemId: 4
+    Type: 2
+  - NameDescription: Extra bullets 5
+    ItemId: 5
+    Type: 2
+  - NameDescription: Box of bullets 6
+    ItemId: 6
+    Type: 2
+  - NameDescription: Muscles 7
+    ItemId: 7
+    Type: 2
+  - NameDescription: Lens 8
+    ItemId: 8
+    Type: 2
+  - NameDescription: Extra coins 10
+    ItemId: 10
+    Type: 2
+  - NameDescription: Reinforced Cannons 13
+    ItemId: 13
+    Type: 2
+  - NameDescription: Large missile box 14
+    ItemId: 14
+    Type: 2
+  - NameDescription: Ricochet Core 15
+    ItemId: 15
+    Type: 2
+  - NameDescription: Missile core 16
+    ItemId: 16
+    Type: 2
+  - NameDescription: Elimination chipset 18
+    ItemId: 18
+    Type: 2
+  - NameDescription: Shift chip 19
+    ItemId: 19
+    Type: 2
+  - NameDescription: Portable Energy 21
+    ItemId: 21
+    Type: 2
+  - NameDescription: Dash recharger 22
+    ItemId: 22
+    Type: 2
+  - NameDescription: Shield Stabilizer 23
+    ItemId: 23
+    Type: 2
+  - NameDescription: Barrier Capacitor 24
+    ItemId: 24
+    Type: 2
+  - NameDescription: Cargo Amplifier 26
+    ItemId: 26
+    Type: 2
+  - NameDescription: Thrusters 27
+    ItemId: 27
+    Type: 2
+  MissingOverload:
+  - NameDescription: Mothership missiles 1
+    ItemId: 1
+    Type: 3
+  - NameDescription: Mothership laser beam 2
+    ItemId: 2
+    Type: 3
+  - NameDescription: Emergency shield 5
+    ItemId: 5
+    Type: 3
+  - NameDescription: Combustion 6
+    ItemId: 6
+    Type: 3
+  - NameDescription: Electrical paralysis 7
+    ItemId: 7
+    Type: 3
+  - NameDescription: Missile overload 9
+    ItemId: 9
+    Type: 3
+  - NameDescription: Chain lightning 10
+    ItemId: 10
+    Type: 3
+  - NameDescription: Ballistic turret 12
+    ItemId: 12
+    Type: 3
+  - NameDescription: Rolling barrage 13
+    ItemId: 13
+    Type: 3
+  - NameDescription: Hunter lock 14
+    ItemId: 14
+    Type: 3
+  - NameDescription: Recovery volley 16
+    ItemId: 16
+    Type: 3
+  - NameDescription: Kinetic Energy Converter 18
+    ItemId: 18
+    Type: 3
+  - NameDescription: Opening volley 19
+    ItemId: 19
+    Type: 3
+  - NameDescription: Overdrive 20
+    ItemId: 20
+    Type: 3
+  - NameDescription: Anchor field 22
+    ItemId: 22
+    Type: 3
+  - NameDescription: Retaliatory arc 24
+    ItemId: 24
+    Type: 3
+  - NameDescription: Field Repair 25
+    ItemId: 25
+    Type: 3
+  - NameDescription: Siege Calibration 26
+    ItemId: 26
+    Type: 3
+  - NameDescription: Servo Lock 27
+    ItemId: 27
+    Type: 3
+  - NameDescription: Bunker Plating 28
+    ItemId: 28
+    Type: 3
+  - NameDescription: Siege Detonation 31
+    ItemId: 31
+    Type: 3
+  - NameDescription: Dash Mines 32
+    ItemId: 32
+    Type: 3
+  - NameDescription: Anchor Buffer 33
+    ItemId: 33
+    Type: 3
+  - NameDescription: Salvage Arc 36
+    ItemId: 36
+    Type: 3
+  MissingDrone:
+  - NameDescription: Drone_Gatling Cannon 0
+    ItemId: 0
+    Type: 4
+  - NameDescription: Drone_Laser 1
+    ItemId: 1
+    Type: 4
+  - NameDescription: Missile drone 3
+    ItemId: 3
+    Type: 4
+  - NameDescription: Collector drone 5
+    ItemId: 5
+    Type: 4
+  MissingPilot:
+  - NameDescription: Lune Ardent 0
+    ItemId: 0
+    Type: 5
+  - NameDescription: Kane Drax 1
+    ItemId: 1
+    Type: 5
+  MissingBase:
+  - NameDescription: 0000 0
+    ItemId: 0
+    Type: 6
+  MissingBody:
+  - NameDescription: 0000 0
+    ItemId: 0
+    Type: 7

@@ -1,0 +1,135 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95fc00e3cf196c06bc198d323c83e8db, type: 3}
+  m_Name: QuestDB
+  m_EditorClassIdentifier:
+  Quest:
+  - QuestName: Collect crystal
+    QuestId: 0
+    QuestDescription: Collet crystal
+    CoinsRewards: 50
+    QuestIdNeeds:
+    ItemsNeeds:
+    - ItemId: 1
+      ItemQuantity: 1
+    ForceMonsterOnMap: 0
+    MonstersNeeds: []
+    ByEnemyType: 0
+    EnemyType: 0
+    Quantity: 0
+    QuantityCurrent: 0
+  - QuestName: Kill normal monster
+    QuestId: 1
+    QuestDescription: Kill normal monster
+    CoinsRewards: 300
+    QuestIdNeeds:
+    ItemsNeeds: []
+    ForceMonsterOnMap: 0
+    MonstersNeeds: []
+    ByEnemyType: 1
+    EnemyType: 0
+    Quantity: 15
+    QuantityCurrent: 0
+  - QuestName: Kill elite monster
+    QuestId: 2
+    QuestDescription: Kill elite monster
+    CoinsRewards: 0
+    QuestIdNeeds:
+    ItemsNeeds: []
+    ForceMonsterOnMap: 0
+    MonstersNeeds: []
+    ByEnemyType: 1
+    EnemyType: 1
+    Quantity: 2
+    QuantityCurrent: 0
+  - QuestName: Kill mercenaries
+    QuestId: 3
+    QuestDescription: Kill mercenaries
+    CoinsRewards: 0
+    QuestIdNeeds:
+    ItemsNeeds: []
+    ForceMonsterOnMap: 0
+    MonstersNeeds: []
+    ByEnemyType: 1
+    EnemyType: 2
+    Quantity: 3
+    QuantityCurrent: 0
+  - QuestName: Collect energy core crystal
+    QuestId: 4
+    QuestDescription: Collect energy core crystal
+    CoinsRewards: 50
+    QuestIdNeeds:
+    ItemsNeeds:
+    - ItemId: 2
+      ItemQuantity: 1
+    ForceMonsterOnMap: 0
+    MonstersNeeds: []
+    ByEnemyType: 0
+    EnemyType: 0
+    Quantity: 0
+    QuantityCurrent: 0
+  - QuestName: Collect physics core crystal
+    QuestId: 5
+    QuestDescription: Collect physics core crystal
+    CoinsRewards: 50
+    QuestIdNeeds:
+    ItemsNeeds:
+    - ItemId: 3
+      ItemQuantity: 1
+    ForceMonsterOnMap: 0
+    MonstersNeeds: []
+    ByEnemyType: 0
+    EnemyType: 0
+    Quantity: 0
+    QuantityCurrent: 0
+  - QuestName: Enemy turrets
+    QuestId: 6
+    QuestDescription: Destroy enemy turrets
+    CoinsRewards: 100
+    QuestIdNeeds:
+    ItemsNeeds: []
+    ForceMonsterOnMap: 1
+    MonstersNeeds:
+    - MonsterId: 26
+      MonsterQuantity: 1
+    ByEnemyType: 0
+    EnemyType: 2
+    Quantity: 0
+    QuantityCurrent: 0
+  - QuestName: Clear the Nests
+    QuestId: 7
+    QuestDescription: Clear the Nests
+    CoinsRewards: 100
+    QuestIdNeeds:
+    ItemsNeeds: []
+    ForceMonsterOnMap: 1
+    MonstersNeeds:
+    - MonsterId: 27
+      MonsterQuantity: 1
+    ByEnemyType: 0
+    EnemyType: 0
+    Quantity: 0
+    QuantityCurrent: 0
+  - QuestName: Enemy turrets
+    QuestId: 8
+    QuestDescription: Destroy enemy turrets
+    CoinsRewards: 100
+    QuestIdNeeds:
+    ItemsNeeds: []
+    ForceMonsterOnMap: 1
+    MonstersNeeds:
+    - MonsterId: 29
+      MonsterQuantity: 1
+    ByEnemyType: 0
+    EnemyType: 2
+    Quantity: 0
+    QuantityCurrent: 0

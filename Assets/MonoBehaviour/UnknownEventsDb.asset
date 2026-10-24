@@ -1,0 +1,167 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f02fef51dd4fe033a09264334e40dc01, type: 3}
+  m_Name: UnknownEventsDb
+  m_EditorClassIdentifier:
+  UnknownEvents:
+  - EventName: Help call
+    Id: 0
+    IgnoreEvent: 1
+    MinNodeLevelToTrigger: 0
+    EventDangerLevel: 0
+    EventDescription:
+    SelectionType: 1
+    Selection0Key: Help
+    Selection1Key: Leave
+    PossibleEventConclusions0:
+    - HaveConclusionText: 1
+      ConclusionText: OnlyEnemies
+      ConditionId: 0
+      RewardType: 1
+    - HaveConclusionText: 1
+      ConclusionText: FindReactorCoreWeaponsUpgrade
+      ConditionId: 0
+      RewardType: 9
+    - HaveConclusionText: 1
+      ConclusionText: MercenaryTrap
+      ConditionId: 0
+      RewardType: 5
+    PossibleEventConclusions1:
+    - HaveConclusionText: 1
+      ConclusionText: IgnoreCall
+      ConditionId: 0
+      RewardType: 0
+  - EventName: FindContainer
+    Id: 1
+    IgnoreEvent: 1
+    MinNodeLevelToTrigger: 0
+    EventDangerLevel: 0
+    EventDescription:
+    SelectionType: 1
+    Selection0Key: Open
+    Selection1Key: Leave
+    PossibleEventConclusions0:
+    - HaveConclusionText: 1
+      ConclusionText: FindReactorCoreWeaponsUpgrade
+      ConditionId: 0
+      RewardType: 9
+    - HaveConclusionText: 1
+      ConclusionText: ContainerExplodes
+      ConditionId: 0
+      RewardType: 7
+    - HaveConclusionText: 1
+      ConclusionText: RecoverSomeLife
+      ConditionId: 0
+      RewardType: 8
+    PossibleEventConclusions1: []
+  - EventName: Spaceship crash
+    Id: 2
+    IgnoreEvent: 1
+    MinNodeLevelToTrigger: 0
+    EventDangerLevel: 0
+    EventDescription:
+    SelectionType: 0
+    Selection0Key: Continue
+    Selection1Key:
+    PossibleEventConclusions0:
+    - HaveConclusionText: 1
+      ConclusionText: FallingSupply
+      ConditionId: 0
+      RewardType: 3
+    - HaveConclusionText: 1
+      ConclusionText: EnemiesAttentionDraw
+      ConditionId: 0
+      RewardType: 2
+    PossibleEventConclusions1: []
+  - EventName: FindReactorCore
+    Id: 3
+    IgnoreEvent: 1
+    MinNodeLevelToTrigger: 0
+    EventDangerLevel: 0
+    EventDescription:
+    SelectionType: 1
+    Selection0Key: Open
+    Selection1Key: Leave
+    PossibleEventConclusions0:
+    - HaveConclusionText: 1
+      ConclusionText: FindReactorCoreDamgePlayer
+      ConditionId: 0
+      RewardType: 7
+    - HaveConclusionText: 1
+      ConclusionText: RecoverSomeLife
+      ConditionId: 0
+      RewardType: 8
+    - HaveConclusionText: 1
+      ConclusionText: FindReactorCoreWeaponsUpgrade
+      ConditionId: 0
+      RewardType: 9
+    PossibleEventConclusions1: []
+  - EventName: MercenaryAmbush
+    Id: 4
+    IgnoreEvent: 0
+    MinNodeLevelToTrigger: 0
+    EventDangerLevel: 0
+    EventDescription: MercenaryAmbush_description
+    SelectionType: 0
+    Selection0Key: Continue
+    Selection1Key:
+    PossibleEventConclusions0:
+    - HaveConclusionText: 0
+      ConclusionText: MercenaryAmbush_conclusion
+      ConditionId: 0
+      RewardType: 5
+    PossibleEventConclusions1: []
+  - EventName: GaiaAttack
+    Id: 5
+    IgnoreEvent: 0
+    MinNodeLevelToTrigger: 3
+    EventDangerLevel: 0
+    EventDescription: GaiaAttack_description
+    SelectionType: 0
+    Selection0Key: Continue
+    Selection1Key:
+    PossibleEventConclusions0:
+    - HaveConclusionText: 0
+      ConclusionText: GaiaAttack_conclusion
+      ConditionId: 9
+      RewardType: 12
+    PossibleEventConclusions1: []
+  - EventName: HealArea
+    Id: 6
+    IgnoreEvent: 0
+    MinNodeLevelToTrigger: 0
+    EventDangerLevel: 0
+    EventDescription: HealArea_description
+    SelectionType: 0
+    Selection0Key: Continue
+    Selection1Key:
+    PossibleEventConclusions0:
+    - HaveConclusionText: 0
+      ConclusionText: HealArea_conclusion
+      ConditionId: 0
+      RewardType: 13
+    PossibleEventConclusions1: []
+  - EventName: MassiveLaserAttackMothership
+    Id: 7
+    IgnoreEvent: 0
+    MinNodeLevelToTrigger: 3
+    EventDangerLevel: 0
+    EventDescription: MassiveLaserAttackMothership_description
+    SelectionType: 0
+    Selection0Key: Continue
+    Selection1Key:
+    PossibleEventConclusions0:
+    - HaveConclusionText: 0
+      ConclusionText: GaiaAttack_conclusion
+      ConditionId: 46
+      RewardType: 14
+    PossibleEventConclusions1: []

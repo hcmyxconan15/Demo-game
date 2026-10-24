@@ -1,0 +1,528 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 524e91b25765d46ca4bf2adc9d7613ac, type: 3}
+  m_Name: StageEnemyConfigForest
+  m_EditorClassIdentifier:
+  EnemySetups:
+  - SetupName: '| Step LV: 0 | Tripodonte spw:4 Inter:8s Time:0s '
+    StepLevel: 0
+    MaxEnemiesAliveOnStep: 20
+    PrisonId: 0
+    ActivePrisonTime: 0
+    EnemySetups:
+    - EnemyName: Tripodonte
+      EnemyIndex: 30
+      EnemyNumberToSpam: 4
+      SpamIntervalInitialTime: 2
+      SpamInterval: 8
+      SpamTimes: 0
+      InfinitySpawn: 1
+      OnceTimeSpawn: 0
+  - SetupName: '| Step LV: 1 | InsectFlyElite spw:1 Inter:5s Time:0s  | Tripodonte spw:6 Inter:2s Time:0s '
+    StepLevel: 1
+    MaxEnemiesAliveOnStep: 30
+    PrisonId: 0
+    ActivePrisonTime: 0
+    EnemySetups:
+    - EnemyName: InsectFlyElite
+      EnemyIndex: 2
+      EnemyNumberToSpam: 1
+      SpamIntervalInitialTime: 1
+      SpamInterval: 5
+      SpamTimes: 0
+      InfinitySpawn: 0
+      OnceTimeSpawn: 1
+    - EnemyName: Tripodonte
+      EnemyIndex: 30
+      EnemyNumberToSpam: 6
+      SpamIntervalInitialTime: 1
+      SpamInterval: 2
+      SpamTimes: 0
+      InfinitySpawn: 1
+      OnceTimeSpawn: 0
+  - SetupName: '| Step LV: 2 | InsectFly spw:10 Inter:2s Time:0s  | CarcidonteRange spw:4 Inter:1s Time:0s  | Tripodonte spw:5 Inter:1s Time:0s '
+    StepLevel: 2
+    MaxEnemiesAliveOnStep: 50
+    PrisonId: 0
+    ActivePrisonTime: 0
+    EnemySetups:
+    - EnemyName: InsectFly
+      EnemyIndex: 0
+      EnemyNumberToSpam: 10
+      SpamIntervalInitialTime: 1
+      SpamInterval: 2
+      SpamTimes: 0
+      InfinitySpawn: 1
+      OnceTimeSpawn: 0
+    - EnemyName: CarcidonteRange
+      EnemyIndex: 16
+      EnemyNumberToSpam: 4
+      SpamIntervalInitialTime: 1
+      SpamInterval: 1
+      SpamTimes: 0
+      InfinitySpawn: 0
+      OnceTimeSpawn: 1
+    - EnemyName: Tripodonte
+      EnemyIndex: 30
+      EnemyNumberToSpam: 5
+      SpamIntervalInitialTime: 1
+      SpamInterval: 1
+      SpamTimes: 0
+      InfinitySpawn: 1
+      OnceTimeSpawn: 1
+  - SetupName: '| Step LV: 3 | Anglerox spw:15 Inter:1s Time:0s  | Tripodonte spw:5 Inter:2s Time:0s '
+    StepLevel: 3
+    MaxEnemiesAliveOnStep: 50
+    PrisonId: 0
+    ActivePrisonTime: 0
+    EnemySetups:
+    - EnemyName: Anglerox
+      EnemyIndex: 3
+      EnemyNumberToSpam: 15
+      SpamIntervalInitialTime: 1
+      SpamInterval: 1
+      SpamTimes: 0
+      InfinitySpawn: 1
+      OnceTimeSpawn: 0
+    - EnemyName: Tripodonte
+      EnemyIndex: 30
+      EnemyNumberToSpam: 5
+      SpamIntervalInitialTime: 1
+      SpamInterval: 2
+      SpamTimes: 0
+      InfinitySpawn: 1
+      OnceTimeSpawn: 0
+  - SetupName: '| Step LV: 4 | Gobbler spw:5 Inter:0s Time:0s  | Anglerox spw:15 Inter:2s Time:0s '
+    StepLevel: 4
+    MaxEnemiesAliveOnStep: 50
+    PrisonId: 0
+    ActivePrisonTime: 0
+    EnemySetups:
+    - EnemyName: Gobbler
+      EnemyIndex: 5
+      EnemyNumberToSpam: 5
+      SpamIntervalInitialTime: 1
+      SpamInterval: 0
+      SpamTimes: 0
+      InfinitySpawn: 0
+      OnceTimeSpawn: 1
+    - EnemyName: Anglerox
+      EnemyIndex: 3
+      EnemyNumberToSpam: 15
+      SpamIntervalInitialTime: 1
+      SpamInterval: 2
+      SpamTimes: 0
+      InfinitySpawn: 1
+      OnceTimeSpawn: 0
+  - SetupName: '| Step LV: 5 | Anglerox spw:10 Inter:1s Time:0s  | InfectedKamikaze spw:1 Inter:8s Time:5s '
+    StepLevel: 5
+    MaxEnemiesAliveOnStep: 50
+    PrisonId: 0
+    ActivePrisonTime: 0
+    EnemySetups:
+    - EnemyName: Anglerox
+      EnemyIndex: 3
+      EnemyNumberToSpam: 10
+      SpamIntervalInitialTime: 5
+      SpamInterval: 1
+      SpamTimes: 0
+      InfinitySpawn: 1
+      OnceTimeSpawn: 0
+    - EnemyName: InfectedKamikaze
+      EnemyIndex: 25
+      EnemyNumberToSpam: 1
+      SpamIntervalInitialTime: 1
+      SpamInterval: 8
+      SpamTimes: 5
+      InfinitySpawn: 0
+      OnceTimeSpawn: 0
+  - SetupName: '| Step LV: 6 | Anglerox spw:10 Inter:1s Time:0s  | InfectedKamikaze spw:1 Inter:8s Time:5s | Prison player 20'
+    StepLevel: 6
+    MaxEnemiesAliveOnStep: 90
+    PrisonId: 0
+    ActivePrisonTime: 20
+    EnemySetups:
+    - EnemyName: Anglerox
+      EnemyIndex: 3
+      EnemyNumberToSpam: 10
+      SpamIntervalInitialTime: 1
+      SpamInterval: 1
+      SpamTimes: 0
+      InfinitySpawn: 1
+      OnceTimeSpawn: 0
+    - EnemyName: InfectedKamikaze
+      EnemyIndex: 25
+      EnemyNumberToSpam: 1
+      SpamIntervalInitialTime: 1
+      SpamInterval: 8
+      SpamTimes: 5
+      InfinitySpawn: 0
+      OnceTimeSpawn: 0
+  - SetupName: '| Step LV: 7 | InsectFly spw:20 Inter:2s Time:0s  | Carcidonte spw:4 Inter:20s Time:4s  | InfectedKamikaze spw:1 Inter:8s Time:8s '
+    StepLevel: 7
+    MaxEnemiesAliveOnStep: 90
+    PrisonId: 0
+    ActivePrisonTime: 0
+    EnemySetups:
+    - EnemyName: InsectFly
+      EnemyIndex: 0
+      EnemyNumberToSpam: 20
+      SpamIntervalInitialTime: 1
+      SpamInterval: 2
+      SpamTimes: 0
+      InfinitySpawn: 1
+      OnceTimeSpawn: 0
+    - EnemyName: Carcidonte
+      EnemyIndex: 15
+      EnemyNumberToSpam: 4
+      SpamIntervalInitialTime: 1
+      SpamInterval: 20
+      SpamTimes: 4
+      InfinitySpawn: 0
+      OnceTimeSpawn: 0
+    - EnemyName: InfectedKamikaze
+      EnemyIndex: 25
+      EnemyNumberToSpam: 1
+      SpamIntervalInitialTime: 5
+      SpamInterval: 8
+      SpamTimes: 8
+      InfinitySpawn: 0
+      OnceTimeSpawn: 0
+  - SetupName: '| Step LV: 8 | Gobbler spw:5 Inter:20s Time:4s  | Anglerox spw:20 Inter:2s Time:0s  | Carcidonte spw:4 Inter:20s Time:4s '
+    StepLevel: 8
+    MaxEnemiesAliveOnStep: 100
+    PrisonId: 0
+    ActivePrisonTime: 0
+    EnemySetups:
+    - EnemyName: Gobbler
+      EnemyIndex: 5
+      EnemyNumberToSpam: 5
+      SpamIntervalInitialTime: 1
+      SpamInterval: 20
+      SpamTimes: 4
+      InfinitySpawn: 0
+      OnceTimeSpawn: 0
+    - EnemyName: Anglerox
+      EnemyIndex: 3
+      EnemyNumberToSpam: 20
+      SpamIntervalInitialTime: 1
+      SpamInterval: 2
+      SpamTimes: 0
+      InfinitySpawn: 1
+      OnceTimeSpawn: 0
+    - EnemyName: Carcidonte
+      EnemyIndex: 15
+      EnemyNumberToSpam: 4
+      SpamIntervalInitialTime: 1
+      SpamInterval: 20
+      SpamTimes: 4
+      InfinitySpawn: 0
+      OnceTimeSpawn: 0
+  - SetupName: '| Step LV: 9 | InsectFly spw:20 Inter:1s Time:3s  | Carcidonte spw:4 Inter:1s Time:3s  | CarcidonteRangeElite spw:1 Inter:10s Time:1s '
+    StepLevel: 9
+    MaxEnemiesAliveOnStep: 100
+    PrisonId: 0
+    ActivePrisonTime: 0
+    EnemySetups:
+    - EnemyName: InsectFly
+      EnemyIndex: 0
+      EnemyNumberToSpam: 20
+      SpamIntervalInitialTime: 1
+      SpamInterval: 1
+      SpamTimes: 3
+      InfinitySpawn: 1
+      OnceTimeSpawn: 0
+    - EnemyName: Carcidonte
+      EnemyIndex: 15
+      EnemyNumberToSpam: 4
+      SpamIntervalInitialTime: 1
+      SpamInterval: 1
+      SpamTimes: 3
+      InfinitySpawn: 1
+      OnceTimeSpawn: 0
+    - EnemyName: CarcidonteRangeElite
+      EnemyIndex: 23
+      EnemyNumberToSpam: 1
+      SpamIntervalInitialTime: 1
+      SpamInterval: 10
+      SpamTimes: 1
+      InfinitySpawn: 0
+      OnceTimeSpawn: 0
+  - SetupName: '| Step LV: 10 | Gastarias spw:30 Inter:2s Time:3s  | InsectFlyElite spw:1 Inter:1s Time:0s | Prison player 30'
+    StepLevel: 10
+    MaxEnemiesAliveOnStep: 100
+    PrisonId: 0
+    ActivePrisonTime: 30
+    EnemySetups:
+    - EnemyName: Gastarias
+      EnemyIndex: 4
+      EnemyNumberToSpam: 30
+      SpamIntervalInitialTime: 1
+      SpamInterval: 2
+      SpamTimes: 3
+      InfinitySpawn: 1
+      OnceTimeSpawn: 0
+    - EnemyName: InsectFlyElite
+      EnemyIndex: 2
+      EnemyNumberToSpam: 1
+      SpamIntervalInitialTime: 1
+      SpamInterval: 1
+      SpamTimes: 0
+      InfinitySpawn: 0
+      OnceTimeSpawn: 0
+  - SetupName: '| Step LV: 11 | InsectFly spw:30 Inter:2s Time:3s  | Robot_2Leg_Melee spw:1 Inter:1s Time:0s '
+    StepLevel: 11
+    MaxEnemiesAliveOnStep: 150
+    PrisonId: 0
+    ActivePrisonTime: 0
+    EnemySetups:
+    - EnemyName: InsectFly
+      EnemyIndex: 0
+      EnemyNumberToSpam: 30
+      SpamIntervalInitialTime: 1
+      SpamInterval: 2
+      SpamTimes: 3
+      InfinitySpawn: 1
+      OnceTimeSpawn: 0
+    - EnemyName: Robot_2Leg_Melee
+      EnemyIndex: 20
+      EnemyNumberToSpam: 1
+      SpamIntervalInitialTime: 1
+      SpamInterval: 1
+      SpamTimes: 0
+      InfinitySpawn: 0
+      OnceTimeSpawn: 0
+  - SetupName: '| Step LV: 12 | Anglerox spw:20 Inter:2s Time:0s  | Robot_2L_Random spw:1 Inter:10s Time:0s '
+    StepLevel: 12
+    MaxEnemiesAliveOnStep: 150
+    PrisonId: 0
+    ActivePrisonTime: 0
+    EnemySetups:
+    - EnemyName: Anglerox
+      EnemyIndex: 3
+      EnemyNumberToSpam: 20
+      SpamIntervalInitialTime: 1
+      SpamInterval: 2
+      SpamTimes: 0
+      InfinitySpawn: 1
+      OnceTimeSpawn: 0
+    - EnemyName: Robot_2L_Random
+      EnemyIndex: 11
+      EnemyNumberToSpam: 1
+      SpamIntervalInitialTime: 1
+      SpamInterval: 10
+      SpamTimes: 0
+      InfinitySpawn: 0
+      OnceTimeSpawn: 1
+  - SetupName: '| Step LV: 13 | CarcidonteRangeElite spw:1 Inter:5s Time:0s  | Anglerox spw:30 Inter:2s Time:0s  | CarcidonteRange spw:10 Inter:2s Time:0s | Prison player 40'
+    StepLevel: 13
+    MaxEnemiesAliveOnStep: 150
+    PrisonId: 0
+    ActivePrisonTime: 40
+    EnemySetups:
+    - EnemyName: CarcidonteRangeElite
+      EnemyIndex: 23
+      EnemyNumberToSpam: 1
+      SpamIntervalInitialTime: 1
+      SpamInterval: 5
+      SpamTimes: 0
+      InfinitySpawn: 0
+      OnceTimeSpawn: 0
+    - EnemyName: Anglerox
+      EnemyIndex: 3
+      EnemyNumberToSpam: 30
+      SpamIntervalInitialTime: 1
+      SpamInterval: 2
+      SpamTimes: 0
+      InfinitySpawn: 1
+      OnceTimeSpawn: 0
+    - EnemyName: CarcidonteRange
+      EnemyIndex: 16
+      EnemyNumberToSpam: 10
+      SpamIntervalInitialTime: 1
+      SpamInterval: 2
+      SpamTimes: 0
+      InfinitySpawn: 1
+      OnceTimeSpawn: 0
+  - SetupName: '| Step LV: 14 | Ceratoferox spw:15 Inter:5s Time:0s  | SpiderMecha spw:1 Inter:5s Time:0s '
+    StepLevel: 14
+    MaxEnemiesAliveOnStep: 150
+    PrisonId: 0
+    ActivePrisonTime: 0
+    EnemySetups:
+    - EnemyName: Ceratoferox
+      EnemyIndex: 10
+      EnemyNumberToSpam: 15
+      SpamIntervalInitialTime: 1
+      SpamInterval: 5
+      SpamTimes: 0
+      InfinitySpawn: 1
+      OnceTimeSpawn: 0
+    - EnemyName: SpiderMecha
+      EnemyIndex: 14
+      EnemyNumberToSpam: 1
+      SpamIntervalInitialTime: 1
+      SpamInterval: 5
+      SpamTimes: 0
+      InfinitySpawn: 0
+      OnceTimeSpawn: 1
+  - SetupName: '| Step LV: 15 | Anglerox spw:30 Inter:2s Time:0s  | Robot_Heavy_2L_Laser spw:1 Inter:5s Time:0s  | Swarm of Explosive spw:1 Inter:5s Time:0s '
+    StepLevel: 15
+    MaxEnemiesAliveOnStep: 150
+    PrisonId: 0
+    ActivePrisonTime: 0
+    EnemySetups:
+    - EnemyName: Anglerox
+      EnemyIndex: 3
+      EnemyNumberToSpam: 30
+      SpamIntervalInitialTime: 1
+      SpamInterval: 2
+      SpamTimes: 0
+      InfinitySpawn: 1
+      OnceTimeSpawn: 0
+    - EnemyName: Robot_Heavy_2L_Laser
+      EnemyIndex: 22
+      EnemyNumberToSpam: 1
+      SpamIntervalInitialTime: 3
+      SpamInterval: 5
+      SpamTimes: 0
+      InfinitySpawn: 0
+      OnceTimeSpawn: 1
+    - EnemyName: Swarm of Explosive
+      EnemyIndex: 17
+      EnemyNumberToSpam: 1
+      SpamIntervalInitialTime: 1
+      SpamInterval: 5
+      SpamTimes: 0
+      InfinitySpawn: 0
+      OnceTimeSpawn: 1
+  - SetupName: '| Step LV: 16 | InsectFly spw:30 Inter:2s Time:0s  | InfectedKamikaze spw:2 Inter:5s Time:0s '
+    StepLevel: 16
+    MaxEnemiesAliveOnStep: 200
+    PrisonId: 0
+    ActivePrisonTime: 0
+    EnemySetups:
+    - EnemyName: InsectFly
+      EnemyIndex: 0
+      EnemyNumberToSpam: 30
+      SpamIntervalInitialTime: 1
+      SpamInterval: 2
+      SpamTimes: 0
+      InfinitySpawn: 1
+      OnceTimeSpawn: 0
+    - EnemyName: InfectedKamikaze
+      EnemyIndex: 25
+      EnemyNumberToSpam: 2
+      SpamIntervalInitialTime: 1
+      SpamInterval: 5
+      SpamTimes: 0
+      InfinitySpawn: 1
+      OnceTimeSpawn: 0
+  - SetupName: '| Step LV: 17 | Ceratoferox spw:30 Inter:2s Time:0s  | Gobbler spw:6 Inter:2s Time:0s '
+    StepLevel: 17
+    MaxEnemiesAliveOnStep: 200
+    PrisonId: 0
+    ActivePrisonTime: 0
+    EnemySetups:
+    - EnemyName: Ceratoferox
+      EnemyIndex: 10
+      EnemyNumberToSpam: 30
+      SpamIntervalInitialTime: 1
+      SpamInterval: 2
+      SpamTimes: 0
+      InfinitySpawn: 1
+      OnceTimeSpawn: 0
+    - EnemyName: Gobbler
+      EnemyIndex: 5
+      EnemyNumberToSpam: 6
+      SpamIntervalInitialTime: 3
+      SpamInterval: 2
+      SpamTimes: 0
+      InfinitySpawn: 0
+      OnceTimeSpawn: 0
+  - SetupName: '| Step LV: 18 | InsectFly spw:30 Inter:2s Time:0s  | CarcidonteRangeElite spw:2 Inter:5s Time:0s '
+    StepLevel: 18
+    MaxEnemiesAliveOnStep: 200
+    PrisonId: 0
+    ActivePrisonTime: 0
+    EnemySetups:
+    - EnemyName: InsectFly
+      EnemyIndex: 0
+      EnemyNumberToSpam: 30
+      SpamIntervalInitialTime: 1
+      SpamInterval: 2
+      SpamTimes: 0
+      InfinitySpawn: 1
+      OnceTimeSpawn: 0
+    - EnemyName: CarcidonteRangeElite
+      EnemyIndex: 23
+      EnemyNumberToSpam: 2
+      SpamIntervalInitialTime: 1
+      SpamInterval: 5
+      SpamTimes: 0
+      InfinitySpawn: 0
+      OnceTimeSpawn: 0
+  - SetupName: '| Step LV: 19 | Ceratoferox spw:30 Inter:2s Time:0s  | InfectedKamikaze spw:2 Inter:3s Time:0s '
+    StepLevel: 19
+    MaxEnemiesAliveOnStep: 200
+    PrisonId: 0
+    ActivePrisonTime: 0
+    EnemySetups:
+    - EnemyName: Ceratoferox
+      EnemyIndex: 10
+      EnemyNumberToSpam: 30
+      SpamIntervalInitialTime: 1
+      SpamInterval: 2
+      SpamTimes: 0
+      InfinitySpawn: 1
+      OnceTimeSpawn: 0
+    - EnemyName: InfectedKamikaze
+      EnemyIndex: 25
+      EnemyNumberToSpam: 2
+      SpamIntervalInitialTime: 1
+      SpamInterval: 3
+      SpamTimes: 0
+      InfinitySpawn: 1
+      OnceTimeSpawn: 0
+  - SetupName: '| Step LV: 20 | Ceratoferox spw:30 Inter:2s Time:0s  | InfectedKamikaze spw:2 Inter:3s Time:0s  | Robot_2L_Random spw:1 Inter:5s Time:0s '
+    StepLevel: 20
+    MaxEnemiesAliveOnStep: 200
+    PrisonId: 0
+    ActivePrisonTime: 0
+    EnemySetups:
+    - EnemyName: Ceratoferox
+      EnemyIndex: 10
+      EnemyNumberToSpam: 30
+      SpamIntervalInitialTime: 1
+      SpamInterval: 2
+      SpamTimes: 0
+      InfinitySpawn: 1
+      OnceTimeSpawn: 0
+    - EnemyName: InfectedKamikaze
+      EnemyIndex: 25
+      EnemyNumberToSpam: 2
+      SpamIntervalInitialTime: 1
+      SpamInterval: 3
+      SpamTimes: 0
+      InfinitySpawn: 1
+      OnceTimeSpawn: 0
+    - EnemyName: Robot_2L_Random
+      EnemyIndex: 11
+      EnemyNumberToSpam: 1
+      SpamIntervalInitialTime: 1
+      SpamInterval: 5
+      SpamTimes: 0
+      InfinitySpawn: 0
+      OnceTimeSpawn: 0
+  EnemiesDb: {fileID: 11400000, guid: 7972e737efac39444bf1df5d52c0c962, type: 2}
+  DontSetLevelAutomatic: 0
+  LevelSetup:

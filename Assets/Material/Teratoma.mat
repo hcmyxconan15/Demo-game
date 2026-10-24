@@ -1,0 +1,130 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Teratoma
+  m_Shader: {fileID: 4800000, guid: d0ce2f72c82637f4499dab13e1fbbb84, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - _ENABLEATMOSPHERE_ON
+  - _ENABLECLOUDS_ON
+  - _ENABLEWATER_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties:
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      _CitiesTexture:
+        m_Texture: {fileID: 2800000, guid: 76c5180e5714f174eac0cf4145162aff, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _CloudsNormals:
+        m_Texture: {fileID: 2800000, guid: 9de89adc1a6e105418ba07846fdd2d35, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _CloudsTexture:
+        m_Texture: {fileID: 2800000, guid: 9eecfe65b60c33e449214e240fcccd69, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _ColorTexture:
+        m_Texture: {fileID: 2800000, guid: 235f2febe48df7d45bba6f8a987905ad, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _NecessaryWaterMask:
+        m_Texture: {fileID: 2800000, guid: fc0cccb7ac77a1e4eb581a3ada56fa1a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _Normals:
+        m_Texture: {fileID: 2800000, guid: fd1256912330b9c4b949789905be54e8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _PolarMask:
+        m_Texture: {fileID: 2800000, guid: 0f80882f9346c47419bdb4b1e4ff24ba, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: {}
+    m_Floats:
+      _BumpScale: 1
+      _CitiesDetail: 1.3
+      _CitiesSharpness: 1
+      _Citiesoffset: 0
+      _CloudSpeed: 2
+      _CloudsRelief: 1
+      _Cutoff: 0.5
+      _DetailNormalMapScale: 1
+      _DstBlend: 0
+      _EnableAtmosphere: 1
+      _EnableCities: 0
+      _EnableClouds: 1
+      _EnableLandLava: 0
+      _EnableWater: 1
+      _EnumFloat: 1
+      _ExteriorIntensity: 0.38
+      _ExteriorSize: 0.25
+      _Float10: 1
+      _ForceExterior: 0
+      _GlossMapScale: 1
+      _Glossiness: 0.5
+      _GlossyReflections: 1
+      _IlluminationAmbient: 0.579
+      _IlluminationBoost: 1
+      _IlluminationSmoothness: 4
+      _InteriorIntensity: 1
+      _InteriorSize: -1.05
+      _Metallic: 0
+      _Mode: 0
+      _NormalsIntensity: 0
+      _OcclusionStrength: 1
+      _Parallax: 0.02
+      _ReliefIntensity: 0.29
+      _ReliefSmoothness: 2.11
+      _ShadowsIntensity: 1
+      _ShadowsOffset: 0.0008
+      _ShadowsSharpness: 0
+      _ShadowsXOffset: -0.001
+      _ShadowsYOffset: 0.0084
+      _SmoothnessTextureChannel: 0
+      _SpecularHighlights: 1
+      _SpecularIntensity: 0
+      _SpecularSharpness: 0.518
+      _SpecularSize: 1
+      _SrcBlend: 1
+      _UVSec: 0
+      _ZWrite: 1
+    m_Colors:
+      _AtmosphereColor: {r: 0.65882355, g: 0.3840377, b: 0.32216474, a: 0}
+      _BaseColormodifier: {r: 1, g: 1, b: 1, a: 0}
+      _Citiescolor: {r: 0, g: 0, b: 0, a: 0}
+      _CloudShadowColor: {r: 0, g: 0.07058821, b: 0.3137255, a: 0}
+      _CloudShadows: {r: 0.05732999, g: 0.1026346, b: 0.315, a: 0}
+      _Color: {r: 1, g: 1, b: 1, a: 1}
+      _ColorA: {r: 8, g: 5.3193717, b: 3.7277489, a: 0.105882354}
+      _ColorTransparency: {r: 3.4808812, g: 3.4808812, b: 3.4808812, a: 0.39607844}
+      _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+      _EvenigColor: {r: 0.29799998, g: 0.10836363, b: 0, a: 0}
+      _IlluminationAmbient: {r: 0.19107352, g: 0.213, b: 0.16288234, a: 0}
+      _LightSource: {r: 7004.913, g: 7098.083, b: 0.029130807, a: 0}
+      _ShadowColor: {r: 0.07063498, g: 0.10829547, b: 0.255, a: 1}
+      _ShadowColorA: {r: 0.525, g: 0.2672913, b: 0, a: 1}
+      _ShadowsColorIntensity: {r: 0.30828, g: 0.62634665, b: 0.734, a: 1}
+      _SkyblendA: {r: 0.55917996, g: 0.6696877, b: 0.766, a: 0}
+      _SunsetColor: {r: 0.3685, g: 0.55275, b: 0.737, a: 0}
+      _WaterColor: {r: 0.7490196, g: 0.47749004, b: 0.34529802, a: 0}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 0

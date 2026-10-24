@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26c71363217b2e30040e03fd2b825592, type: 3}
+  m_Name: QuestEnemyProfile_Planet_0
+  m_EditorClassIdentifier:
+  StageEnemyConfiguration: {fileID: 11400000, guid: fb4c4d98c83d16f47a1053bced6ff967, type: 2}
+  EndgameEnemyConfiguration: {fileID: 11400000, guid: 6a1266f75b09b8c48bdd709c9dcd9b3a, type: 2}
+  NormalEliteEnemy: {fileID: 11400000, guid: 641f8dc4e05426e44964234eebed25e8, type: 2}
+  EliteEnemy: {fileID: 11400000, guid: 57ea9431e1ed18a47bbcb942f1d437ce, type: 2}
+  BossEnemy: {fileID: 11400000, guid: 09e347344c24db145aa66289b89fc423, type: 2}
+  Mercenary: {fileID: 11400000, guid: b224f8a510cef2648bc1cbebfe1446ef, type: 2}
+  OptionalHuntEnemy: {fileID: 11400000, guid: 3c77e16b4b0b14f4099d538d10f5b109, type: 2}

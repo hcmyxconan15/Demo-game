@@ -1,0 +1,431 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dfaca33267902fe7c5d82ab164e983a, type: 3}
+  m_Name: DroneWeaponsDb
+  m_EditorClassIdentifier:
+  Weapons:
+  - WeaponDescriptionName: 'Gatling Cannon | Id:0 | Bullet Id:0 | Evolution: False | Unlock: Unlock Condition Missing!!!'
+    WeaponName: Gatling Cannon
+    NotInclude: 0
+    NotAvailable: 0
+    NotFoundByLevelUp: 0
+    Icon: {fileID: 21300000, guid: 1e5eff47363af664abdd83395d04e3a8, type: 2}
+    WeaponPrefab: {fileID: 1709254077376921, guid: 52fa1d1fe38746443ac52d5741f57cc5, type: 2}
+    WeaponId: 0
+    MaxWeaponLevel: 8
+    WeaponSlotType: 0
+    BulletId: 0
+    AlternateBulletId: -1
+    BasePrice: 150
+    UnlockPrice: 15
+    WeaponDamage: 2
+    WeaponDamageGrowUp: 3
+    WeaponShieldDamage: 0
+    PermanentWeapon: 0
+    DontTriggerCriticalHits: 0
+    IgnoreMagazineGrowWeapon: 0
+    AttackRate: 0.1
+    AttackRateGrowUp: 0
+    ReloadTime: 4
+    ReloadTimeGrowUp: 0.1
+    BaseMagazine: 8
+    BaseMagazineGrowUp: 2
+    PassEnemyCount: 0
+    RicochetCount: 0
+    ChainBulletId: -1
+    ChainDamagePercent: 0
+    ChainActivationPercent: 100
+    ChainSpawnOnGround: 0
+    LaunchChainBulletId: -1
+    LaunchChainDamagePercent: 0
+    LaunchChainActivationPercent: 100
+    LaunchChainSpawnOnGround: 0
+    IntervalWeapon: 0
+    PositionControlByBullet: 0
+    IntervalWeaponActiveTime: 0
+    IntervalWeaponActiveTimeGrow: 0
+    WeaponSoundId: 2
+    OnWeak: 0
+    OnFire: 0
+    TickNeedForAccumulatedFirePotencyUp: 0
+    OnShock: 0
+    OnMark: 0
+    OnMarkCriticalChanceBonus: 0
+    ResolvedTags: 0a0000001400000053000000
+    ExtraTags: 53000000
+    TagGate:
+      RequiredAnyTags:
+      RequiredAllTags:
+      IncompatibleTags:
+    Archetypes: 01000000
+    PartStats:
+      Life: 0
+      Shield: 0
+      Damage: 0
+      ReloadTimePercent: 0
+      MagazineIncreaseRaw: 0
+      CriticalDamagePercent: 0
+      CriticalChancePercent: 0
+      DamageIncreasePercent: 0
+      FireRateIncreasePercent: 0
+      MicrochipSlots: 0
+      OverloadSlots: 0
+      DroneCapacity: 0
+    RequiredWeaponsId:
+    RequiredOverloadId:
+    RequiredChipsId:
+    IncompatibleChipsId:
+    EvolutionUnlockProficiencyLevel: 0
+    ProficiencyLevelRewards: []
+    WeaponToEvolveId: []
+    MicrochipRequiredToEvolve: []
+    OverloadRequiredToEvolve: []
+  - WeaponDescriptionName: 'Laser turret | Id:1 | Bullet Id:1 | Evolution: 1002 | Unlock: Unlock Condition Missing!!!'
+    WeaponName: Laser turret
+    NotInclude: 0
+    NotAvailable: 0
+    NotFoundByLevelUp: 0
+    Icon: {fileID: 21300000, guid: ba90e7541f5096d4e89c8ff43870aced, type: 2}
+    WeaponPrefab: {fileID: 1709254077376921, guid: 1897590c06565e14a9b13f0cd0c86d97, type: 2}
+    WeaponId: 1
+    MaxWeaponLevel: 8
+    WeaponSlotType: 0
+    BulletId: 1
+    AlternateBulletId: -1
+    BasePrice: 150
+    UnlockPrice: 30
+    WeaponDamage: 5
+    WeaponDamageGrowUp: 2
+    WeaponShieldDamage: 0
+    PermanentWeapon: 0
+    DontTriggerCriticalHits: 0
+    IgnoreMagazineGrowWeapon: 0
+    AttackRate: 1
+    AttackRateGrowUp: 0.01
+    ReloadTime: 4
+    ReloadTimeGrowUp: 0.2
+    BaseMagazine: 3
+    BaseMagazineGrowUp: 1
+    PassEnemyCount: 0
+    RicochetCount: 0
+    ChainBulletId: -1
+    ChainDamagePercent: 0
+    ChainActivationPercent: 100
+    ChainSpawnOnGround: 0
+    LaunchChainBulletId: -1
+    LaunchChainDamagePercent: 0
+    LaunchChainActivationPercent: 100
+    LaunchChainSpawnOnGround: 0
+    IntervalWeapon: 0
+    PositionControlByBullet: 0
+    IntervalWeaponActiveTime: 0
+    IntervalWeaponActiveTimeGrow: 0
+    WeaponSoundId: 13
+    OnWeak: 0
+    OnFire: 0
+    TickNeedForAccumulatedFirePotencyUp: 0
+    OnShock: 0
+    OnMark: 0
+    OnMarkCriticalChanceBonus: 0
+    ResolvedTags: 0b00000014000000
+    ExtraTags:
+    TagGate:
+      RequiredAnyTags:
+      RequiredAllTags:
+      IncompatibleTags:
+    Archetypes: 05000000
+    PartStats:
+      Life: 0
+      Shield: 0
+      Damage: 0
+      ReloadTimePercent: 0
+      MagazineIncreaseRaw: 0
+      CriticalDamagePercent: 0
+      CriticalChancePercent: 0
+      DamageIncreasePercent: 0
+      FireRateIncreasePercent: 0
+      MicrochipSlots: 0
+      OverloadSlots: 0
+      DroneCapacity: 0
+    RequiredWeaponsId:
+    RequiredOverloadId:
+    RequiredChipsId:
+    IncompatibleChipsId:
+    EvolutionUnlockProficiencyLevel: 0
+    ProficiencyLevelRewards: []
+    WeaponToEvolveId:
+    - Id: 1002
+    MicrochipRequiredToEvolve:
+    - Id: 2
+    OverloadRequiredToEvolve: []
+  - WeaponDescriptionName: 'Missiles | Id:2 | Bullet Id:2 | Evolution: False | Unlock: Unlock Condition Missing!!!'
+    WeaponName: Missiles
+    NotInclude: 0
+    NotAvailable: 0
+    NotFoundByLevelUp: 0
+    Icon: {fileID: 21300000, guid: 729646b094128d04cb80ac2c9271468d, type: 2}
+    WeaponPrefab: {fileID: 1709254077376921, guid: 719d1f281025d0140b8391f5165cce75, type: 2}
+    WeaponId: 2
+    MaxWeaponLevel: 8
+    WeaponSlotType: 1
+    BulletId: 2
+    AlternateBulletId: -1
+    BasePrice: 100
+    UnlockPrice: 30
+    WeaponDamage: 6
+    WeaponDamageGrowUp: 2
+    WeaponShieldDamage: 0
+    PermanentWeapon: 0
+    DontTriggerCriticalHits: 0
+    IgnoreMagazineGrowWeapon: 0
+    AttackRate: 0.2
+    AttackRateGrowUp: 0
+    ReloadTime: 3
+    ReloadTimeGrowUp: 0
+    BaseMagazine: 1
+    BaseMagazineGrowUp: 2
+    PassEnemyCount: 0
+    RicochetCount: 0
+    ChainBulletId: -1
+    ChainDamagePercent: 0
+    ChainActivationPercent: 100
+    ChainSpawnOnGround: 0
+    LaunchChainBulletId: -1
+    LaunchChainDamagePercent: 0
+    LaunchChainActivationPercent: 100
+    LaunchChainSpawnOnGround: 0
+    IntervalWeapon: 0
+    PositionControlByBullet: 0
+    IntervalWeaponActiveTime: 0
+    IntervalWeaponActiveTimeGrow: 0
+    WeaponSoundId: 4
+    OnWeak: 0
+    OnFire: 0
+    TickNeedForAccumulatedFirePotencyUp: 0
+    OnShock: 0
+    OnMark: 0
+    OnMarkCriticalChanceBonus: 0
+    ResolvedTags: 0a00000015000000
+    ExtraTags:
+    TagGate:
+      RequiredAnyTags:
+      RequiredAllTags:
+      IncompatibleTags:
+    Archetypes: 02000000
+    PartStats:
+      Life: 0
+      Shield: 0
+      Damage: 0
+      ReloadTimePercent: 0
+      MagazineIncreaseRaw: 0
+      CriticalDamagePercent: 0
+      CriticalChancePercent: 0
+      DamageIncreasePercent: 0
+      FireRateIncreasePercent: 0
+      MicrochipSlots: 0
+      OverloadSlots: 0
+      DroneCapacity: 0
+    RequiredWeaponsId:
+    RequiredOverloadId:
+    RequiredChipsId:
+    IncompatibleChipsId:
+    EvolutionUnlockProficiencyLevel: 0
+    ProficiencyLevelRewards: []
+    WeaponToEvolveId: []
+    MicrochipRequiredToEvolve: []
+    OverloadRequiredToEvolve: []
+  - WeaponDescriptionName: 'Shotgun turret | Id:3 | Bullet Id:7 | Evolution: 1001 | Unlock: Unlock Condition Missing!!!'
+    WeaponName: Shotgun turret
+    NotInclude: 0
+    NotAvailable: 0
+    NotFoundByLevelUp: 0
+    Icon: {fileID: 21300000, guid: b9cb8f95b5d15f141881fc612aa8d71c, type: 2}
+    WeaponPrefab: {fileID: 1709254077376921, guid: a654aa21552db4f42b6e1676fd443fda, type: 2}
+    WeaponId: 3
+    MaxWeaponLevel: 8
+    WeaponSlotType: 0
+    BulletId: 7
+    AlternateBulletId: -1
+    BasePrice: 120
+    UnlockPrice: 30
+    WeaponDamage: 4
+    WeaponDamageGrowUp: 5
+    WeaponShieldDamage: 0
+    PermanentWeapon: 0
+    DontTriggerCriticalHits: 0
+    IgnoreMagazineGrowWeapon: 0
+    AttackRate: 2
+    AttackRateGrowUp: 0.05
+    ReloadTime: 3
+    ReloadTimeGrowUp: 0.1
+    BaseMagazine: 2
+    BaseMagazineGrowUp: 1
+    PassEnemyCount: 0
+    RicochetCount: 0
+    ChainBulletId: -1
+    ChainDamagePercent: 0
+    ChainActivationPercent: 100
+    ChainSpawnOnGround: 0
+    LaunchChainBulletId: -1
+    LaunchChainDamagePercent: 0
+    LaunchChainActivationPercent: 100
+    LaunchChainSpawnOnGround: 0
+    IntervalWeapon: 0
+    PositionControlByBullet: 0
+    IntervalWeaponActiveTime: 0
+    IntervalWeaponActiveTimeGrow: 0
+    WeaponSoundId: 10
+    OnWeak: 0
+    OnFire: 0
+    TickNeedForAccumulatedFirePotencyUp: 0
+    OnShock: 0
+    OnMark: 0
+    OnMarkCriticalChanceBonus: 0
+    ResolvedTags: 0a00000014000000
+    ExtraTags:
+    TagGate:
+      RequiredAnyTags:
+      RequiredAllTags:
+      IncompatibleTags:
+    Archetypes: 01000000
+    PartStats:
+      Life: 0
+      Shield: 0
+      Damage: 0
+      ReloadTimePercent: 0
+      MagazineIncreaseRaw: 0
+      CriticalDamagePercent: 0
+      CriticalChancePercent: 0
+      DamageIncreasePercent: 0
+      FireRateIncreasePercent: 0
+      MicrochipSlots: 0
+      OverloadSlots: 0
+      DroneCapacity: 0
+    RequiredWeaponsId:
+    RequiredOverloadId:
+    RequiredChipsId:
+    IncompatibleChipsId:
+    EvolutionUnlockProficiencyLevel: 0
+    ProficiencyLevelRewards: []
+    WeaponToEvolveId:
+    - Id: 1001
+    MicrochipRequiredToEvolve:
+    - Id: 3
+    OverloadRequiredToEvolve: []
+  - WeaponDescriptionName: 'Flamethrower | Id:4 | Bullet Id:23 | Evolution: False | Unlock: Unlock Condition Missing!!!'
+    WeaponName: Flamethrower
+    NotInclude: 0
+    NotAvailable: 0
+    NotFoundByLevelUp: 0
+    Icon: {fileID: 21300000, guid: fa5b3ffffc3b83c4db24c70074564395, type: 2}
+    WeaponPrefab: {fileID: 1709254077376921, guid: 1c1e959063a1c2243adac26b7dd4926e, type: 2}
+    WeaponId: 4
+    MaxWeaponLevel: 8
+    WeaponSlotType: 0
+    BulletId: 23
+    AlternateBulletId: -1
+    BasePrice: 100
+    UnlockPrice: 15
+    WeaponDamage: 2
+    WeaponDamageGrowUp: 2
+    WeaponShieldDamage: 0
+    PermanentWeapon: 0
+    DontTriggerCriticalHits: 1
+    IgnoreMagazineGrowWeapon: 0
+    AttackRate: 0.6
+    AttackRateGrowUp: 0.05
+    ReloadTime: 5
+    ReloadTimeGrowUp: 0.1
+    BaseMagazine: 1
+    BaseMagazineGrowUp: 0
+    PassEnemyCount: 10
+    RicochetCount: 0
+    ChainBulletId: -1
+    ChainDamagePercent: 0
+    ChainActivationPercent: 100
+    ChainSpawnOnGround: 0
+    LaunchChainBulletId: -1
+    LaunchChainDamagePercent: 0
+    LaunchChainActivationPercent: 100
+    LaunchChainSpawnOnGround: 0
+    IntervalWeapon: 1
+    PositionControlByBullet: 0
+    IntervalWeaponActiveTime: 6
+    IntervalWeaponActiveTimeGrow: 1
+    WeaponSoundId: -1
+    OnWeak: 0
+    OnFire: 10
+    TickNeedForAccumulatedFirePotencyUp: 5
+    OnShock: 0
+    OnMark: 0
+    OnMarkCriticalChanceBonus: 0
+    ResolvedTags: 0b000000160000001e000000
+    ExtraTags:
+    TagGate:
+      RequiredAnyTags:
+      RequiredAllTags:
+      IncompatibleTags:
+    Archetypes: 04000000
+    PartStats:
+      Life: 0
+      Shield: 0
+      Damage: 0
+      ReloadTimePercent: 0
+      MagazineIncreaseRaw: 0
+      CriticalDamagePercent: 0
+      CriticalChancePercent: 0
+      DamageIncreasePercent: 0
+      FireRateIncreasePercent: 0
+      MicrochipSlots: 0
+      OverloadSlots: 0
+      DroneCapacity: 0
+    RequiredWeaponsId:
+    RequiredOverloadId:
+    RequiredChipsId:
+    IncompatibleChipsId:
+    EvolutionUnlockProficiencyLevel: 0
+    ProficiencyLevelRewards: []
+    WeaponToEvolveId: []
+    MicrochipRequiredToEvolve: []
+    OverloadRequiredToEvolve: []
+  BulletsDb: {fileID: 11400000, guid: 2d3c0e0870b166445a899266aba1c939, type: 2}
+  WeaponsEvolutionsDb: {fileID: 0}
+  UnlockDb: {fileID: 0}
+  ChipDb: {fileID: 0}
+  OverloadDb: {fileID: 0}
+  WeaponProficiencyConfig: {fileID: 0}
+  PhysicProjectileWeapons: 0000000003000000
+  EnergyProjectileWeapons: 01000000
+  MissileWeapons: 02000000
+  BeamWeapons: 04000000
+  Others:
+  UnlockList:
+  - Id: 0
+    NewUnlock: 0
+    AlreadySeen: 0
+    Purchased: 0
+  - Id: 1
+    NewUnlock: 0
+    AlreadySeen: 0
+    Purchased: 0
+  - Id: 2
+    NewUnlock: 0
+    AlreadySeen: 0
+    Purchased: 0
+  - Id: 3
+    NewUnlock: 0
+    AlreadySeen: 0
+    Purchased: 0
+  - Id: 4
+    NewUnlock: 0
+    AlreadySeen: 0
+    Purchased: 0

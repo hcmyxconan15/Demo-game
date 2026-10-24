@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7fd9488000d3734a9e00ee676215985, type: 3}
+  m_Name: SceneSettings_TDE
+  m_EditorClassIdentifier:
+  components:
+  - {fileID: 11400000, guid: 6195cf8296a482d49974980e6401b376, type: 2}
+  - {fileID: 11400000, guid: 1c8b0f61415180340866d0810e9e8665, type: 2}
+  - {fileID: 11400000, guid: e366ff2b31bdf9f479d15a6f06fcc7ff, type: 2}
+  - {fileID: 11400000, guid: bbf8300135395a246a526c2ffff43060, type: 2}
+  - {fileID: 11400000, guid: 39db86dcaed97134fa5770d5c985b2d9, type: 2}
+  - {fileID: 11400000, guid: e00756029f87ceb4c85d590881eae7f3, type: 2}
+  - {fileID: 11400000, guid: 48d1827173ba21244b6b3bc079892db0, type: 2}

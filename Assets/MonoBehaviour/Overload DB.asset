@@ -1,0 +1,2013 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b207b475ef4e7d40e7734704fb416be5, type: 3}
+  m_Name: Overload DB
+  m_EditorClassIdentifier:
+  Overloads:
+  - OverloadDescriptionName: 'Energy recycling | Id:0 | Bullet:6 | ReloadEnergy | Unlock: stat_nodes_cleared - UnlockValue:40[CapacitorPrototype]'
+    Name: Energy recycling
+    NotInclude: 0
+    NotAvailable: 0
+    NotFoundByLevelUp: 0
+    Icon: {fileID: 21300000, guid: e724793c0ce24134ebced3502912aad9, type: 2}
+    Id: 0
+    MaxLevel: 10
+    ActionType: 0
+    BulletId: 6
+    DirectAction: 0
+    BasePrice: 150
+    UnlockPrice: 25
+    Damage: 5
+    GrowDamage: 5
+    OnWeak: 0
+    OnFire: 0
+    OnShock: 2
+    OnMark: 0
+    OnMarkCriticalChanceBonus: 0
+    ActivationTrigger: 5
+    ActivationTriggerCount: 1
+    GrowActivationTriggerCount: 0
+    ActivationPercent: 100
+    ActivationPercentGrow: 10
+    ActiveTime: 0
+    ActiveTimeIncrease: 0
+    ShowActivationPopup: 1
+    ActivationInterval: 0
+    ActivationIntervalGrow: 0
+    LaunchPosition: 0
+    LaunchMode: 0
+    LaunchTimes: 1
+    TimeBetweenLaunch: 0
+    GrowLaunchTimes: 0
+    TimeBetweenLaunchGrow: 0
+    TimeBetweenTurretLaunch: 0
+    TimeBetweenTurretLaunchGrow: 0
+    ResolvedTags: 280000000b0000001f00000017000000
+    ExtraTags:
+    TagGate:
+      RequiredAnyTags:
+      RequiredAllTags:
+      IncompatibleTags:
+    BonusWeaponTags:
+    Archetypes: 05000000
+    RequiredWeaponsId: 0100000005000000070000000a0000000c000000110000001200000014000000150000001600000017000000190000001a000000e8030000ea030000eb030000ed030000
+    RequiredDronesId:
+    RequiredOverloadId:
+    RequiredChipsId:
+    IncompatibleChipsId:
+  - OverloadDescriptionName: 'Mothership missiles | Id:1 | Bullet:20 | PhysicLaunchProjectile | Unlock: Unlock Condition Missing!!![ViperDash]'
+    Name: Mothership missiles
+    NotInclude: 0
+    NotAvailable: 1
+    NotFoundByLevelUp: 1
+    Icon: {fileID: 21300000, guid: 18502e03567785143b0ef2e88dc19198, type: 2}
+    Id: 1
+    MaxLevel: 10
+    ActionType: 0
+    BulletId: 20
+    DirectAction: 0
+    BasePrice: 240
+    UnlockPrice: 25
+    Damage: 10
+    GrowDamage: 5
+    OnWeak: 0
+    OnFire: 0
+    OnShock: 0
+    OnMark: 0
+    OnMarkCriticalChanceBonus: 0
+    ActivationTrigger: 13
+    ActivationTriggerCount: 15
+    GrowActivationTriggerCount: 1
+    ActivationPercent: 100
+    ActivationPercentGrow: 0
+    ActiveTime: 0
+    ActiveTimeIncrease: 0
+    ShowActivationPopup: 1
+    ActivationInterval: 0
+    ActivationIntervalGrow: 0
+    LaunchPosition: 0
+    LaunchMode: 0
+    LaunchTimes: 1
+    TimeBetweenLaunch: 0
+    GrowLaunchTimes: 0
+    TimeBetweenLaunchGrow: 0
+    TimeBetweenTurretLaunch: 0
+    TimeBetweenTurretLaunchGrow: 0
+    ResolvedTags: 2b0000000a0000001400000015000000
+    ExtraTags:
+    TagGate:
+      RequiredAnyTags:
+      RequiredAllTags:
+      IncompatibleTags:
+    BonusWeaponTags:
+    Archetypes: 02000000
+    RequiredWeaponsId: 0000000004000000080000000d0000001000000013000000180000001c000000e9030000ec030000
+    RequiredDronesId:
+    RequiredOverloadId:
+    RequiredChipsId:
+    IncompatibleChipsId:
+  - OverloadDescriptionName: 'Mothership laser beam | Id:2 | Bullet:21 | EnergyLaunch | Unlock: Unlock Condition Missing!!![FurnacePrototype]'
+    Name: Mothership laser beam
+    NotInclude: 0
+    NotAvailable: 0
+    NotFoundByLevelUp: 0
+    Icon: {fileID: 21300000, guid: 7ecb65fe94d21bf4a903b2d6294454ff, type: 2}
+    Id: 2
+    MaxLevel: 10
+    ActionType: 0
+    BulletId: 21
+    DirectAction: 0
+    BasePrice: 210
+    UnlockPrice: 25
+    Damage: 20
+    GrowDamage: 8
+    OnWeak: 0
+    OnFire: 0
+    OnShock: 0
+    OnMark: 0
+    OnMarkCriticalChanceBonus: 0
+    ActivationTrigger: 1
+    ActivationTriggerCount: 10
+    GrowActivationTriggerCount: 1
+    ActivationPercent: 100
+    ActivationPercentGrow: 0
+    ActiveTime: 0
+    ActiveTimeIncrease: 0
+    ShowActivationPopup: 1
+    ActivationInterval: 0
+    ActivationIntervalGrow: 0
+    LaunchPosition: 0
+    LaunchMode: 0
+    LaunchTimes: 1
+    TimeBetweenLaunch: 0
+    GrowLaunchTimes: 0
+    TimeBetweenLaunchGrow: 0
+    TimeBetweenTurretLaunch: 0
+    TimeBetweenTurretLaunchGrow: 0
+    ResolvedTags: 2b0000000b00000016000000
+    ExtraTags:
+    TagGate:
+      RequiredAnyTags:
+      RequiredAllTags:
+      IncompatibleTags:
+    BonusWeaponTags:
+    Archetypes: 04000000
+    RequiredWeaponsId: 010000000500000011000000170000001c000000070000000a0000000c00000012000000140000001500000016000000190000001a000000e8030000ea030000eb030000ed03000002000000f1030000
+    RequiredDronesId:
+    RequiredOverloadId:
+    RequiredChipsId:
+    IncompatibleChipsId:
+  - OverloadDescriptionName: 'Pulse grenade | Id:3 | Bullet:22 | EnergyLaunch | Unlock: stat_chest_open - UnlockValue:25[CapacitorPrototype]'
+    Name: Pulse grenade
+    NotInclude: 0
+    NotAvailable: 1
+    NotFoundByLevelUp: 0
+    Icon: {fileID: 21300000, guid: 9460548ef34c6e94e84aa77ea9b8839d, type: 2}
+    Id: 3
+    MaxLevel: 10
+    ActionType: 0
+    BulletId: 22
+    DirectAction: 0
+    BasePrice: 200
+    UnlockPrice: 25
+    Damage: 13
+    GrowDamage: 5
+    OnWeak: 0
+    OnFire: 0
+    OnShock: 0
+    OnMark: 0
+    OnMarkCriticalChanceBonus: 0
+    ActivationTrigger: 1
+    ActivationTriggerCount: 20
+    GrowActivationTriggerCount: 1
+    ActivationPercent: 100
+    ActivationPercentGrow: 0
+    ActiveTime: 0
+    ActiveTimeIncrease: 0
+    ShowActivationPopup: 1
+    ActivationInterval: 0
+    ActivationIntervalGrow: 0
+    LaunchPosition: 0
+    LaunchMode: 0
+    LaunchTimes: 1
+    TimeBetweenLaunch: 0
+    GrowLaunchTimes: 0
+    TimeBetweenLaunchGrow: 0
+    TimeBetweenTurretLaunch: 0
+    TimeBetweenTurretLaunchGrow: 0
+    ResolvedTags: 2b0000000b00000017000000
+    ExtraTags:
+    TagGate:
+      RequiredAnyTags: 0b000000
+      RequiredAllTags:
+      IncompatibleTags:
+    BonusWeaponTags:
+    Archetypes: 05000000
+    RequiredWeaponsId: 01000000050000000a0000001100000017000000ea030000ed030000
+    RequiredDronesId:
+    RequiredOverloadId:
+    RequiredChipsId:
+    IncompatibleChipsId:
+  - OverloadDescriptionName: 'Electric dash | Id:4 | Bullet:6 | StartDash | Unlock: stat_dashes - UnlockValue:100[CapacitorPrototype]'
+    Name: Electric dash
+    NotInclude: 0
+    NotAvailable: 0
+    NotFoundByLevelUp: 0
+    Icon: {fileID: 21300000, guid: 0264fa5f2cb55d94baf9eab3ba684cd7, type: 2}
+    Id: 4
+    MaxLevel: 1
+    ActionType: 0
+    BulletId: 6
+    DirectAction: 0
+    BasePrice: 270
+    UnlockPrice: 25
+    Damage: 0
+    GrowDamage: 0
+    OnWeak: 0
+    OnFire: 0
+    OnShock: 3
+    OnMark: 0
+    OnMarkCriticalChanceBonus: 0
+    ActivationTrigger: 8
+    ActivationTriggerCount: 1
+    GrowActivationTriggerCount: 0
+    ActivationPercent: 100
+    ActivationPercentGrow: 0
+    ActiveTime: 0
+    ActiveTimeIncrease: 0
+    ShowActivationPopup: 1
+    ActivationInterval: 0
+    ActivationIntervalGrow: 0
+    LaunchPosition: 0
+    LaunchMode: 0
+    LaunchTimes: 1
+    TimeBetweenLaunch: 0
+    GrowLaunchTimes: 0
+    TimeBetweenLaunchGrow: 0
+    TimeBetweenTurretLaunch: 0
+    TimeBetweenTurretLaunchGrow: 0
+    ResolvedTags: 290000001f0000000b00000017000000
+    ExtraTags:
+    TagGate:
+      RequiredAnyTags: 0b000000
+      RequiredAllTags:
+      IncompatibleTags:
+    BonusWeaponTags:
+    Archetypes: 05000000
+    RequiredWeaponsId:
+    RequiredDronesId:
+    RequiredOverloadId:
+    RequiredChipsId:
+    IncompatibleChipsId:
+  - OverloadDescriptionName: 'Emergency shield | Id:5 | Action:AddShield | EndDash | Unlock: Unlock Condition Missing!!![BulwarkSiege]'
+    Name: Emergency shield
+    NotInclude: 0
+    NotAvailable: 0
+    NotFoundByLevelUp: 0
+    Icon: {fileID: 21300000, guid: 8993c7d60b6a6754681a074f77188959, type: 2}
+    Id: 5
+    MaxLevel: 5
+    ActionType: 1
+    BulletId: 24
+    DirectAction: 6
+    BasePrice: 310
+    UnlockPrice: 25
+    Damage: 25
+    GrowDamage: 5
+    OnWeak: 0
+    OnFire: 0
+    OnShock: 0
+    OnMark: 0
+    OnMarkCriticalChanceBonus: 0
+    ActivationTrigger: 7
+    ActivationTriggerCount: 1
+    GrowActivationTriggerCount: 0
+    ActivationPercent: 100
+    ActivationPercentGrow: 0
+    ActiveTime: 0
+    ActiveTimeIncrease: 0
+    ShowActivationPopup: 1
+    ActivationInterval: 0
+    ActivationIntervalGrow: 0
+    LaunchPosition: 0
+    LaunchMode: 0
+    LaunchTimes: 1
+    TimeBetweenLaunch: 0
+    GrowLaunchTimes: 0
+    TimeBetweenLaunchGrow: 0
+    TimeBetweenTurretLaunch: 0
+    TimeBetweenTurretLaunchGrow: 0
+    ResolvedTags: 290000003200000054000000
+    ExtraTags:
+    TagGate:
+      RequiredAnyTags:
+      RequiredAllTags:
+      IncompatibleTags:
+    BonusWeaponTags:
+    Archetypes: 01000000
+    RequiredWeaponsId:
+    RequiredDronesId:
+    RequiredOverloadId:
+    RequiredChipsId:
+    IncompatibleChipsId:
+  - OverloadDescriptionName: 'Combustion | Id:6 | Bullet:25 | KillOnFire | Unlock: Unlock Condition Missing!!![FurnacePrototype]'
+    Name: Combustion
+    NotInclude: 0
+    NotAvailable: 0
+    NotFoundByLevelUp: 0
+    Icon: {fileID: 21300000, guid: 2ac8168af7fd3794ba56fecec271be49, type: 2}
+    Id: 6
+    MaxLevel: 10
+    ActionType: 0
+    BulletId: 25
+    DirectAction: 0
+    BasePrice: 270
+    UnlockPrice: 25
+    Damage: 5
+    GrowDamage: 10
+    OnWeak: 0
+    OnFire: 0
+    OnShock: 0
+    OnMark: 0
+    OnMarkCriticalChanceBonus: 0
+    ActivationTrigger: 9
+    ActivationTriggerCount: 1
+    GrowActivationTriggerCount: 0
+    ActivationPercent: 5
+    ActivationPercentGrow: 10
+    ActiveTime: 0
+    ActiveTimeIncrease: 0
+    ShowActivationPopup: 1
+    ActivationInterval: 0
+    ActivationIntervalGrow: 0
+    LaunchPosition: 0
+    LaunchMode: 0
+    LaunchTimes: 1
+    TimeBetweenLaunch: 0
+    GrowLaunchTimes: 0
+    TimeBetweenLaunchGrow: 0
+    TimeBetweenTurretLaunch: 0
+    TimeBetweenTurretLaunchGrow: 0
+    ResolvedTags: 2a0000000b00000017000000
+    ExtraTags:
+    TagGate:
+      RequiredAnyTags:
+      RequiredAllTags:
+      IncompatibleTags:
+    BonusWeaponTags:
+    Archetypes: 04000000
+    RequiredWeaponsId: 12000000140000001a000000e8030000eb030000ed030000
+    RequiredDronesId:
+    RequiredOverloadId:
+    RequiredChipsId:
+    IncompatibleChipsId:
+  - OverloadDescriptionName: 'Electrical paralysis | Id:7 | Bullet:26 | KillOnShock | Unlock: Unlock Condition Missing!!![CapacitorPrototype]'
+    Name: Electrical paralysis
+    NotInclude: 0
+    NotAvailable: 1
+    NotFoundByLevelUp: 0
+    Icon: {fileID: 21300000, guid: c23617eb13165e945a946aed328959ac, type: 2}
+    Id: 7
+    MaxLevel: 5
+    ActionType: 0
+    BulletId: 26
+    DirectAction: 0
+    BasePrice: 240
+    UnlockPrice: 25
+    Damage: 0
+    GrowDamage: 0
+    OnWeak: 0
+    OnFire: 0
+    OnShock: 4
+    OnMark: 0
+    OnMarkCriticalChanceBonus: 0
+    ActivationTrigger: 10
+    ActivationTriggerCount: 1
+    GrowActivationTriggerCount: 0
+    ActivationPercent: 15
+    ActivationPercentGrow: 10
+    ActiveTime: 0
+    ActiveTimeIncrease: 0
+    ShowActivationPopup: 1
+    ActivationInterval: 0
+    ActivationIntervalGrow: 0
+    LaunchPosition: 0
+    LaunchMode: 0
+    LaunchTimes: 1
+    TimeBetweenLaunch: 0
+    GrowLaunchTimes: 0
+    TimeBetweenLaunchGrow: 0
+    TimeBetweenTurretLaunch: 0
+    TimeBetweenTurretLaunchGrow: 0
+    ResolvedTags: 2a0000001f0000000b00000017000000
+    ExtraTags:
+    TagGate:
+      RequiredAnyTags:
+      RequiredAllTags:
+      IncompatibleTags:
+    BonusWeaponTags:
+    Archetypes: 05000000
+    RequiredWeaponsId:
+    RequiredDronesId:
+    RequiredOverloadId: 00000000040000000b000000
+    RequiredChipsId:
+    IncompatibleChipsId:
+  - OverloadDescriptionName: 'Spread disease | Id:8 | Bullet:27 | OnKill | Unlock: stat_enemies_defeated - UnlockValue:2000'
+    Name: Spread disease
+    NotInclude: 0
+    NotAvailable: 0
+    NotFoundByLevelUp: 0
+    Icon: {fileID: 21300000, guid: ea70535443550c547bb5b639773144c7, type: 2}
+    Id: 8
+    MaxLevel: 5
+    ActionType: 0
+    BulletId: 27
+    DirectAction: 0
+    BasePrice: 270
+    UnlockPrice: 25
+    Damage: 0
+    GrowDamage: 0
+    OnWeak: 10
+    OnFire: 0
+    OnShock: 0
+    OnMark: 0
+    OnMarkCriticalChanceBonus: 0
+    ActivationTrigger: 12
+    ActivationTriggerCount: 1
+    GrowActivationTriggerCount: 0
+    ActivationPercent: 10
+    ActivationPercentGrow: 10
+    ActiveTime: 0
+    ActiveTimeIncrease: 0
+    ShowActivationPopup: 0
+    ActivationInterval: 0
+    ActivationIntervalGrow: 0
+    LaunchPosition: 0
+    LaunchMode: 0
+    LaunchTimes: 1
+    TimeBetweenLaunch: 0
+    GrowLaunchTimes: 0
+    TimeBetweenLaunchGrow: 0
+    TimeBetweenTurretLaunch: 0
+    TimeBetweenTurretLaunchGrow: 0
+    ResolvedTags: 2a000000200000000b00000017000000
+    ExtraTags:
+    TagGate:
+      RequiredAnyTags:
+      RequiredAllTags:
+      IncompatibleTags:
+    BonusWeaponTags:
+    Archetypes:
+    RequiredWeaponsId:
+    RequiredDronesId:
+    RequiredOverloadId:
+    RequiredChipsId:
+    IncompatibleChipsId:
+  - OverloadDescriptionName: 'Missile overload | Id:9 | Bullet:53 | PhysicLaunchProjectile | Unlock: Unlock Condition Missing!!![ViperDash]'
+    Name: Missile overload
+    NotInclude: 0
+    NotAvailable: 0
+    NotFoundByLevelUp: 0
+    Icon: {fileID: 21300000, guid: 7e216a504f698dc479e9955b14a6f49e, type: 2}
+    Id: 9
+    MaxLevel: 5
+    ActionType: 0
+    BulletId: 53
+    DirectAction: 0
+    BasePrice: 270
+    UnlockPrice: 25
+    Damage: 10
+    GrowDamage: 3
+    OnWeak: 0
+    OnFire: 0
+    OnShock: 0
+    OnMark: 0
+    OnMarkCriticalChanceBonus: 0
+    ActivationTrigger: 13
+    ActivationTriggerCount: 10
+    GrowActivationTriggerCount: 1
+    ActivationPercent: 100
+    ActivationPercentGrow: 0
+    ActiveTime: 0
+    ActiveTimeIncrease: 0
+    ShowActivationPopup: 1
+    ActivationInterval: 0
+    ActivationIntervalGrow: 0
+    LaunchPosition: 1
+    LaunchMode: 0
+    LaunchTimes: 1
+    TimeBetweenLaunch: 0
+    GrowLaunchTimes: 0
+    TimeBetweenLaunchGrow: 0
+    TimeBetweenTurretLaunch: 0
+    TimeBetweenTurretLaunchGrow: 0
+    ResolvedTags: 2b0000000a0000001400000015000000
+    ExtraTags:
+    TagGate:
+      RequiredAnyTags:
+      RequiredAllTags:
+      IncompatibleTags:
+    BonusWeaponTags:
+    Archetypes: 02000000
+    RequiredWeaponsId: 0000000004000000080000001000000013000000180000001c000000e9030000ec030000
+    RequiredDronesId:
+    RequiredOverloadId:
+    RequiredChipsId:
+    IncompatibleChipsId:
+  - OverloadDescriptionName: 'Chain lightning | Id:10 | Bullet:43 | EnergyLaunchProjectile | Unlock: Unlock Condition Missing!!![CapacitorPrototype]'
+    Name: Chain lightning
+    NotInclude: 0
+    NotAvailable: 0
+    NotFoundByLevelUp: 0
+    Icon: {fileID: 21300000, guid: b699005dc7d6bf6458602ceaaee03609, type: 2}
+    Id: 10
+    MaxLevel: 10
+    ActionType: 0
+    BulletId: 43
+    DirectAction: 0
+    BasePrice: 270
+    UnlockPrice: 25
+    Damage: 5
+    GrowDamage: 5
+    OnWeak: 0
+    OnFire: 0
+    OnShock: 0
+    OnMark: 0
+    OnMarkCriticalChanceBonus: 0
+    ActivationTrigger: 15
+    ActivationTriggerCount: 1
+    GrowActivationTriggerCount: 0
+    ActivationPercent: 10
+    ActivationPercentGrow: 5
+    ActiveTime: 0
+    ActiveTimeIncrease: 0
+    ShowActivationPopup: 1
+    ActivationInterval: 0
+    ActivationIntervalGrow: 0
+    LaunchPosition: 1
+    LaunchMode: 0
+    LaunchTimes: 1
+    TimeBetweenLaunch: 0
+    GrowLaunchTimes: 0
+    TimeBetweenLaunchGrow: 0
+    TimeBetweenTurretLaunch: 0
+    TimeBetweenTurretLaunchGrow: 0
+    ResolvedTags: 2b0000000b0000001400000016000000
+    ExtraTags:
+    TagGate:
+      RequiredAnyTags:
+      RequiredAllTags:
+      IncompatibleTags:
+    BonusWeaponTags:
+    Archetypes: 05000000
+    RequiredWeaponsId: 01000000050000001100000017000000ea030000ed030000
+    RequiredDronesId:
+    RequiredOverloadId:
+    RequiredChipsId:
+    IncompatibleChipsId:
+  - OverloadDescriptionName: 'Lightning strike | Id:11 | Bullet:45 | StartReload | Unlock: stat_enemies_mercenary_defeated - UnlockValue:10[CapacitorPrototype]'
+    Name: Lightning strike
+    NotInclude: 0
+    NotAvailable: 0
+    NotFoundByLevelUp: 0
+    Icon: {fileID: 21300000, guid: c8361367f673167489de98a14565d6f3, type: 2}
+    Id: 11
+    MaxLevel: 10
+    ActionType: 0
+    BulletId: 45
+    DirectAction: 0
+    BasePrice: 210
+    UnlockPrice: 25
+    Damage: 4
+    GrowDamage: 5
+    OnWeak: 0
+    OnFire: 0
+    OnShock: 1
+    OnMark: 0
+    OnMarkCriticalChanceBonus: 0
+    ActivationTrigger: 17
+    ActivationTriggerCount: 1
+    GrowActivationTriggerCount: 1
+    ActivationPercent: 100
+    ActivationPercentGrow: 0
+    ActiveTime: 0
+    ActiveTimeIncrease: 0
+    ShowActivationPopup: 1
+    ActivationInterval: 0
+    ActivationIntervalGrow: 0
+    LaunchPosition: 0
+    LaunchMode: 0
+    LaunchTimes: 1
+    TimeBetweenLaunch: 0
+    GrowLaunchTimes: 0
+    TimeBetweenLaunchGrow: 0
+    TimeBetweenTurretLaunch: 0
+    TimeBetweenTurretLaunchGrow: 0
+    ResolvedTags: 280000001f0000000b00000017000000
+    ExtraTags:
+    TagGate:
+      RequiredAnyTags:
+      RequiredAllTags:
+      IncompatibleTags:
+    BonusWeaponTags:
+    Archetypes: 05000000
+    RequiredWeaponsId:
+    RequiredDronesId:
+    RequiredOverloadId:
+    RequiredChipsId:
+    IncompatibleChipsId:
+  - OverloadDescriptionName: 'Ballistic turret | Id:12 | Bullet:0 | PhysicLaunchProjectile | Unlock: Unlock Condition Missing!!![BulwarkSiege]'
+    Name: Ballistic turret
+    NotInclude: 0
+    NotAvailable: 1
+    NotFoundByLevelUp: 1
+    Icon: {fileID: 21300000, guid: e2de0a5b7013d034d95e23e12e519d9d, type: 2}
+    Id: 12
+    MaxLevel: 10
+    ActionType: 0
+    BulletId: 0
+    DirectAction: 0
+    BasePrice: 400
+    UnlockPrice: 25
+    Damage: 2
+    GrowDamage: 2
+    OnWeak: 0
+    OnFire: 0
+    OnShock: 0
+    OnMark: 0
+    OnMarkCriticalChanceBonus: 0
+    ActivationTrigger: 13
+    ActivationTriggerCount: 30
+    GrowActivationTriggerCount: 1
+    ActivationPercent: 100
+    ActivationPercentGrow: 0
+    ActiveTime: 0
+    ActiveTimeIncrease: 0
+    ShowActivationPopup: 1
+    ActivationInterval: 0
+    ActivationIntervalGrow: 0
+    LaunchPosition: 1
+    LaunchMode: 0
+    LaunchTimes: 1
+    TimeBetweenLaunch: 0
+    GrowLaunchTimes: 0
+    TimeBetweenLaunchGrow: 0
+    TimeBetweenTurretLaunch: 0
+    TimeBetweenTurretLaunchGrow: 0
+    ResolvedTags: 2b0000000a00000014000000
+    ExtraTags:
+    TagGate:
+      RequiredAnyTags:
+      RequiredAllTags:
+      IncompatibleTags:
+    BonusWeaponTags:
+    Archetypes: 01000000
+    RequiredWeaponsId:
+    RequiredDronesId:
+    RequiredOverloadId:
+    RequiredChipsId:
+    IncompatibleChipsId:
+  - OverloadDescriptionName: 'Rolling barrage | Id:13 | Bullet:3 | WhileMoving | Unlock: Unlock Condition Missing!!![ViperDash]'
+    Name: Rolling barrage
+    NotInclude: 0
+    NotAvailable: 0
+    NotFoundByLevelUp: 0
+    Icon: {fileID: 21300000, guid: ef58e418e2e1f7d4fab3a88ad038a701, type: 2}
+    Id: 13
+    MaxLevel: 10
+    ActionType: 0
+    BulletId: 3
+    DirectAction: 0
+    BasePrice: 210
+    UnlockPrice: 25
+    Damage: 4
+    GrowDamage: 5
+    OnWeak: 0
+    OnFire: 0
+    OnShock: 0
+    OnMark: 0
+    OnMarkCriticalChanceBonus: 0
+    ActivationTrigger: 20
+    ActivationTriggerCount: 1
+    GrowActivationTriggerCount: 1
+    ActivationPercent: 100
+    ActivationPercentGrow: 0
+    ActiveTime: 0
+    ActiveTimeIncrease: 0
+    ShowActivationPopup: 1
+    ActivationInterval: 2
+    ActivationIntervalGrow: 0.2
+    LaunchPosition: 2
+    LaunchMode: 0
+    LaunchTimes: 1
+    TimeBetweenLaunch: 0
+    GrowLaunchTimes: 0
+    TimeBetweenLaunchGrow: 0
+    TimeBetweenTurretLaunch: 0
+    TimeBetweenTurretLaunchGrow: 0
+    ResolvedTags: 2d0000000a00000015000000
+    ExtraTags:
+    TagGate:
+      RequiredAnyTags:
+      RequiredAllTags:
+      IncompatibleTags:
+    BonusWeaponTags:
+    Archetypes: 02000000
+    RequiredWeaponsId: 000000000200000003000000040000000600000008000000090000000b0000000d0000000e0000000f0000001000000013000000180000001b0000001c0000001d000000e9030000ec030000ee030000
+    RequiredDronesId:
+    RequiredOverloadId:
+    RequiredChipsId:
+    IncompatibleChipsId:
+  - OverloadDescriptionName: 'Hunter lock | Id:14 | Action:MissileGuaranteedCritical | StartDash | Unlock: Unlock Condition Missing!!![ViperDash]'
+    Name: Hunter lock
+    NotInclude: 0
+    NotAvailable: 1
+    NotFoundByLevelUp: 0
+    Icon: {fileID: 21300000, guid: e4cd847d011697d4296e3172204967a7, type: 2}
+    Id: 14
+    MaxLevel: 5
+    ActionType: 1
+    BulletId: 0
+    DirectAction: 5
+    BasePrice: 270
+    UnlockPrice: 25
+    Damage: 0
+    GrowDamage: 0
+    OnWeak: 0
+    OnFire: 0
+    OnShock: 0
+    OnMark: 0
+    OnMarkCriticalChanceBonus: 0
+    ActivationTrigger: 8
+    ActivationTriggerCount: 1
+    GrowActivationTriggerCount: 0
+    ActivationPercent: 100
+    ActivationPercentGrow: 0
+    ActiveTime: 3
+    ActiveTimeIncrease: 1
+    ShowActivationPopup: 1
+    ActivationInterval: 0
+    ActivationIntervalGrow: 0
+    LaunchPosition: 0
+    LaunchMode: 0
+    LaunchTimes: 1
+    TimeBetweenLaunch: 0
+    GrowLaunchTimes: 0
+    TimeBetweenLaunchGrow: 0
+    TimeBetweenTurretLaunch: 0
+    TimeBetweenTurretLaunchGrow: 0
+    ResolvedTags: 290000001500000033000000
+    ExtraTags:
+    TagGate:
+      RequiredAnyTags:
+      RequiredAllTags:
+      IncompatibleTags:
+    BonusWeaponTags:
+    Archetypes: 02000000
+    RequiredWeaponsId: 0200000003000000060000001d000000ee030000
+    RequiredDronesId:
+    RequiredOverloadId:
+    RequiredChipsId:
+    IncompatibleChipsId:
+  - OverloadDescriptionName: 'Stationary barrage | Id:15 | Bullet:42 | WhileStationary | Unlock: stat_elites_one_run - UnlockValue:10[BulwarkSiege]'
+    Name: Stationary barrage
+    NotInclude: 0
+    NotAvailable: 1
+    NotFoundByLevelUp: 0
+    Icon: {fileID: 21300000, guid: 2401cf1991a96f64dbe3ca601a575130, type: 2}
+    Id: 15
+    MaxLevel: 5
+    ActionType: 0
+    BulletId: 42
+    DirectAction: 0
+    BasePrice: 270
+    UnlockPrice: 25
+    Damage: 10
+    GrowDamage: 3
+    OnWeak: 0
+    OnFire: 0
+    OnShock: 0
+    OnMark: 0
+    OnMarkCriticalChanceBonus: 0
+    ActivationTrigger: 21
+    ActivationTriggerCount: 1
+    GrowActivationTriggerCount: 0
+    ActivationPercent: 100
+    ActivationPercentGrow: 0
+    ActiveTime: 0
+    ActiveTimeIncrease: 0
+    ShowActivationPopup: 1
+    ActivationInterval: 1.5
+    ActivationIntervalGrow: 0.2
+    LaunchPosition: 2
+    LaunchMode: 0
+    LaunchTimes: 1
+    TimeBetweenLaunch: 0.2
+    GrowLaunchTimes: 0
+    TimeBetweenLaunchGrow: 0
+    TimeBetweenTurretLaunch: 0.2
+    TimeBetweenTurretLaunchGrow: 0
+    ResolvedTags: 2e0000000a00000015000000
+    ExtraTags:
+    TagGate:
+      RequiredAnyTags:
+      RequiredAllTags:
+      IncompatibleTags:
+    BonusWeaponTags:
+    Archetypes: 01000000
+    RequiredWeaponsId: 0000000004000000080000000d000000100000001300000018000000020000000300000006000000090000000b0000000e0000000f0000001b0000001c0000001d000000e9030000ec030000ee030000
+    RequiredDronesId:
+    RequiredOverloadId:
+    RequiredChipsId:
+    IncompatibleChipsId:
+  - OverloadDescriptionName: 'Recovery volley | Id:16 | Bullet:53 | ReloadDash | Unlock: Unlock Condition Missing!!![ViperDash]'
+    Name: Recovery volley
+    NotInclude: 0
+    NotAvailable: 0
+    NotFoundByLevelUp: 0
+    Icon: {fileID: 21300000, guid: 429b7b789ff6b9140a7df83905029942, type: 2}
+    Id: 16
+    MaxLevel: 5
+    ActionType: 0
+    BulletId: 53
+    DirectAction: 0
+    BasePrice: 270
+    UnlockPrice: 25
+    Damage: 3
+    GrowDamage: 3
+    OnWeak: 0
+    OnFire: 0
+    OnShock: 0
+    OnMark: 0
+    OnMarkCriticalChanceBonus: 0
+    ActivationTrigger: 6
+    ActivationTriggerCount: 1
+    GrowActivationTriggerCount: 0
+    ActivationPercent: 100
+    ActivationPercentGrow: 0
+    ActiveTime: 0
+    ActiveTimeIncrease: 0
+    ShowActivationPopup: 1
+    ActivationInterval: 0
+    ActivationIntervalGrow: 0
+    LaunchPosition: 8
+    LaunchMode: 0
+    LaunchTimes: 3
+    TimeBetweenLaunch: 0.2
+    GrowLaunchTimes: 1
+    TimeBetweenLaunchGrow: 0
+    TimeBetweenTurretLaunch: 0.1
+    TimeBetweenTurretLaunchGrow: 0
+    ResolvedTags: 290000000a00000015000000
+    ExtraTags:
+    TagGate:
+      RequiredAnyTags:
+      RequiredAllTags:
+      IncompatibleTags:
+    BonusWeaponTags:
+    Archetypes: 02000000
+    RequiredWeaponsId: 0000000004000000080000001000000013000000180000001c000000e9030000ec030000
+    RequiredDronesId:
+    RequiredOverloadId:
+    RequiredChipsId:
+    IncompatibleChipsId:
+  - OverloadDescriptionName: 'Air Cooling System | Id:17 | Action:ReloadAllMissileWeapons | EndDash | Unlock: stat_dashes - UnlockValue:50[ViperDash]'
+    Name: Air Cooling System
+    NotInclude: 0
+    NotAvailable: 0
+    NotFoundByLevelUp: 0
+    Icon: {fileID: 21300000, guid: dfb702e1b5fcb624d873f483b480478b, type: 2}
+    Id: 17
+    MaxLevel: 0
+    ActionType: 1
+    BulletId: 0
+    DirectAction: 4
+    BasePrice: 270
+    UnlockPrice: 30
+    Damage: 0
+    GrowDamage: 0
+    OnWeak: 0
+    OnFire: 0
+    OnShock: 0
+    OnMark: 0
+    OnMarkCriticalChanceBonus: 0
+    ActivationTrigger: 7
+    ActivationTriggerCount: 1
+    GrowActivationTriggerCount: 1
+    ActivationPercent: 100
+    ActivationPercentGrow: 0
+    ActiveTime: 0
+    ActiveTimeIncrease: 0
+    ShowActivationPopup: 1
+    ActivationInterval: 0
+    ActivationIntervalGrow: 0
+    LaunchPosition: 0
+    LaunchMode: 0
+    LaunchTimes: 1
+    TimeBetweenLaunch: 0
+    GrowLaunchTimes: 0
+    TimeBetweenLaunchGrow: 0
+    TimeBetweenTurretLaunch: 0
+    TimeBetweenTurretLaunchGrow: 0
+    ResolvedTags: 290000002800000015000000
+    ExtraTags:
+    TagGate:
+      RequiredAnyTags:
+      RequiredAllTags:
+      IncompatibleTags:
+    BonusWeaponTags:
+    Archetypes: 02000000
+    RequiredWeaponsId: 0200000003000000060000001d000000ee030000
+    RequiredDronesId:
+    RequiredOverloadId:
+    RequiredChipsId:
+    IncompatibleChipsId:
+  - OverloadDescriptionName: 'Kinetic Energy Converter | Id:18 | Action:ReloadAllEnergyWeapons | EndDash | Unlock: Unlock Condition Missing!!![CapacitorPrototype]'
+    Name: Kinetic Energy Converter
+    NotInclude: 0
+    NotAvailable: 1
+    NotFoundByLevelUp: 0
+    Icon: {fileID: 21300000, guid: 1039fcfc05f079f45b8116396fceea67, type: 2}
+    Id: 18
+    MaxLevel: 0
+    ActionType: 1
+    BulletId: 0
+    DirectAction: 2
+    BasePrice: 270
+    UnlockPrice: 0
+    Damage: 0
+    GrowDamage: 0
+    OnWeak: 0
+    OnFire: 0
+    OnShock: 0
+    OnMark: 0
+    OnMarkCriticalChanceBonus: 0
+    ActivationTrigger: 7
+    ActivationTriggerCount: 1
+    GrowActivationTriggerCount: 1
+    ActivationPercent: 100
+    ActivationPercentGrow: 0
+    ActiveTime: 0
+    ActiveTimeIncrease: 0
+    ShowActivationPopup: 1
+    ActivationInterval: 0
+    ActivationIntervalGrow: 0
+    LaunchPosition: 0
+    LaunchMode: 0
+    LaunchTimes: 1
+    TimeBetweenLaunch: 0
+    GrowLaunchTimes: 0
+    TimeBetweenLaunchGrow: 0
+    TimeBetweenTurretLaunch: 0
+    TimeBetweenTurretLaunchGrow: 0
+    ResolvedTags: 29000000280000000b000000
+    ExtraTags:
+    TagGate:
+      RequiredAnyTags:
+      RequiredAllTags:
+      IncompatibleTags:
+    BonusWeaponTags:
+    Archetypes: 05000000
+    RequiredWeaponsId: 0100000005000000070000000a0000000c000000110000001200000014000000150000001600000017000000190000001a000000e8030000ea030000eb030000ed030000
+    RequiredDronesId:
+    RequiredOverloadId:
+    RequiredChipsId:
+    IncompatibleChipsId:
+  - OverloadDescriptionName: 'Opening volley | Id:19 | Bullet:53 | StartDash | Unlock: Unlock Condition Missing!!![ViperDash]'
+    Name: Opening volley
+    NotInclude: 0
+    NotAvailable: 0
+    NotFoundByLevelUp: 0
+    Icon: {fileID: 21300000, guid: d0dc465ff26ed4e4ea0894d6f8864573, type: 2}
+    Id: 19
+    MaxLevel: 5
+    ActionType: 0
+    BulletId: 53
+    DirectAction: 0
+    BasePrice: 270
+    UnlockPrice: 25
+    Damage: 3
+    GrowDamage: 3
+    OnWeak: 0
+    OnFire: 0
+    OnShock: 0
+    OnMark: 0
+    OnMarkCriticalChanceBonus: 0
+    ActivationTrigger: 8
+    ActivationTriggerCount: 1
+    GrowActivationTriggerCount: 0
+    ActivationPercent: 100
+    ActivationPercentGrow: 0
+    ActiveTime: 0
+    ActiveTimeIncrease: 0
+    ShowActivationPopup: 1
+    ActivationInterval: 0
+    ActivationIntervalGrow: 0
+    LaunchPosition: 2
+    LaunchMode: 0
+    LaunchTimes: 2
+    TimeBetweenLaunch: 0.2
+    GrowLaunchTimes: 1
+    TimeBetweenLaunchGrow: 0
+    TimeBetweenTurretLaunch: 0.1
+    TimeBetweenTurretLaunchGrow: 0
+    ResolvedTags: 290000000a00000015000000
+    ExtraTags:
+    TagGate:
+      RequiredAnyTags:
+      RequiredAllTags:
+      IncompatibleTags:
+    BonusWeaponTags:
+    Archetypes: 02000000
+    RequiredWeaponsId: 0000000003000000040000000600000008000000090000000b0000000d0000000f0000001000000013000000180000001b0000001c0000001d000000e9030000ec030000ee030000ef030000f0030000f2030000f4030000f6030000f8030000fa030000fc030000fd030000fe0300000204000005040000
+    RequiredDronesId:
+    RequiredOverloadId:
+    RequiredChipsId:
+    IncompatibleChipsId:
+  - OverloadDescriptionName: 'Overdrive | Id:20 | Action:IncreaseDamagePercent | EndDash | Unlock: Unlock Condition Missing!!![ViperDash]'
+    Name: Overdrive
+    NotInclude: 0
+    NotAvailable: 0
+    NotFoundByLevelUp: 0
+    Icon: {fileID: 21300000, guid: 05c227220a66d1343bf239414e77ab8f, type: 2}
+    Id: 20
+    MaxLevel: 5
+    ActionType: 1
+    BulletId: 0
+    DirectAction: 7
+    BasePrice: 350
+    UnlockPrice: 25
+    Damage: 25
+    GrowDamage: 5
+    OnWeak: 0
+    OnFire: 0
+    OnShock: 0
+    OnMark: 0
+    OnMarkCriticalChanceBonus: 0
+    ActivationTrigger: 7
+    ActivationTriggerCount: 1
+    GrowActivationTriggerCount: 0
+    ActivationPercent: 100
+    ActivationPercentGrow: 0
+    ActiveTime: 3
+    ActiveTimeIncrease: 1
+    ShowActivationPopup: 1
+    ActivationInterval: 0
+    ActivationIntervalGrow: 0
+    LaunchPosition: 0
+    LaunchMode: 0
+    LaunchTimes: 1
+    TimeBetweenLaunch: 0
+    GrowLaunchTimes: 0
+    TimeBetweenLaunchGrow: 0
+    TimeBetweenTurretLaunch: 0
+    TimeBetweenTurretLaunchGrow: 0
+    ResolvedTags: 290000003a0000003d000000
+    ExtraTags: 3d000000
+    TagGate:
+      RequiredAnyTags:
+      RequiredAllTags:
+      IncompatibleTags:
+    BonusWeaponTags:
+    Archetypes: 02000000
+    RequiredWeaponsId:
+    RequiredDronesId:
+    RequiredOverloadId:
+    RequiredChipsId:
+    IncompatibleChipsId:
+  - OverloadDescriptionName: 'Residual Pulse | Id:21 | Bullet:48 | StartDash | Unlock: stat_enemies_elite_defeated - UnlockValue:15[CapacitorPrototype]'
+    Name: Residual Pulse
+    NotInclude: 0
+    NotAvailable: 0
+    NotFoundByLevelUp: 1
+    Icon: {fileID: 21300000, guid: 12e9b048383397b41a234decdd3c13f5, type: 2}
+    Id: 21
+    MaxLevel: 5
+    ActionType: 0
+    BulletId: 48
+    DirectAction: 0
+    BasePrice: 270
+    UnlockPrice: 25
+    Damage: 10
+    GrowDamage: 5
+    OnWeak: 0
+    OnFire: 0
+    OnShock: 0
+    OnMark: 0
+    OnMarkCriticalChanceBonus: 0
+    ActivationTrigger: 8
+    ActivationTriggerCount: 1
+    GrowActivationTriggerCount: 0
+    ActivationPercent: 100
+    ActivationPercentGrow: 0
+    ActiveTime: 0
+    ActiveTimeIncrease: 0
+    ShowActivationPopup: 1
+    ActivationInterval: 0
+    ActivationIntervalGrow: 0
+    LaunchPosition: 16
+    LaunchMode: 0
+    LaunchTimes: 1
+    TimeBetweenLaunch: 0
+    GrowLaunchTimes: 0
+    TimeBetweenLaunchGrow: 0
+    TimeBetweenTurretLaunch: 0
+    TimeBetweenTurretLaunchGrow: 0
+    ResolvedTags: 290000000b00000017000000
+    ExtraTags:
+    TagGate:
+      RequiredAnyTags:
+      RequiredAllTags:
+      IncompatibleTags:
+    BonusWeaponTags:
+    Archetypes: 05000000
+    RequiredWeaponsId:
+    RequiredDronesId:
+    RequiredOverloadId:
+    RequiredChipsId:
+    IncompatibleChipsId:
+  - OverloadDescriptionName: 'Anchor field | Id:22 | Action:StopShieldDecayWhileStationary | WhileStationary | Unlock: Unlock Condition Missing!!![BulwarkSiege]'
+    Name: Anchor field
+    NotInclude: 0
+    NotAvailable: 1
+    NotFoundByLevelUp: 0
+    Icon: {fileID: 21300000, guid: 35176707f5c16e249a3d786480c48849, type: 2}
+    Id: 22
+    MaxLevel: 1
+    ActionType: 1
+    BulletId: 0
+    DirectAction: 8
+    BasePrice: 310
+    UnlockPrice: 25
+    Damage: 0
+    GrowDamage: 0
+    OnWeak: 0
+    OnFire: 0
+    OnShock: 0
+    OnMark: 0
+    OnMarkCriticalChanceBonus: 0
+    ActivationTrigger: 21
+    ActivationTriggerCount: 1
+    GrowActivationTriggerCount: 0
+    ActivationPercent: 100
+    ActivationPercentGrow: 0
+    ActiveTime: 0
+    ActiveTimeIncrease: 0
+    ShowActivationPopup: 0
+    ActivationInterval: 0
+    ActivationIntervalGrow: 0
+    LaunchPosition: 0
+    LaunchMode: 0
+    LaunchTimes: 1
+    TimeBetweenLaunch: 0
+    GrowLaunchTimes: 0
+    TimeBetweenLaunchGrow: 0
+    TimeBetweenTurretLaunch: 0
+    TimeBetweenTurretLaunchGrow: 0
+    ResolvedTags: 2e0000003200000054000000
+    ExtraTags:
+    TagGate:
+      RequiredAnyTags: 54000000
+      RequiredAllTags:
+      IncompatibleTags:
+    BonusWeaponTags:
+    Archetypes: 01000000
+    RequiredWeaponsId:
+    RequiredDronesId:
+    RequiredOverloadId: 050000001c000000
+    RequiredChipsId:
+    IncompatibleChipsId:
+  - OverloadDescriptionName: 'Adaptive plating | Id:23 | Action:ConvertShieldAbsorptionToLife | WhileStationary | Unlock: stat_run_completed - UnlockValue:1[BulwarkSiege]'
+    Name: Adaptive plating
+    NotInclude: 0
+    NotAvailable: 1
+    NotFoundByLevelUp: 0
+    Icon: {fileID: 21300000, guid: b114a3b7ef30c8747995c1e318b5c6df, type: 2}
+    Id: 23
+    MaxLevel: 5
+    ActionType: 1
+    BulletId: 0
+    DirectAction: 9
+    BasePrice: 310
+    UnlockPrice: 25
+    Damage: 15
+    GrowDamage: 5
+    OnWeak: 0
+    OnFire: 0
+    OnShock: 0
+    OnMark: 0
+    OnMarkCriticalChanceBonus: 0
+    ActivationTrigger: 21
+    ActivationTriggerCount: 1
+    GrowActivationTriggerCount: 0
+    ActivationPercent: 100
+    ActivationPercentGrow: 0
+    ActiveTime: 0
+    ActiveTimeIncrease: 0
+    ShowActivationPopup: 0
+    ActivationInterval: 0
+    ActivationIntervalGrow: 0
+    LaunchPosition: 0
+    LaunchMode: 0
+    LaunchTimes: 1
+    TimeBetweenLaunch: 0
+    GrowLaunchTimes: 0
+    TimeBetweenLaunchGrow: 0
+    TimeBetweenTurretLaunch: 0
+    TimeBetweenTurretLaunchGrow: 0
+    ResolvedTags: 2e0000003200000054000000
+    ExtraTags:
+    TagGate:
+      RequiredAnyTags: 54000000
+      RequiredAllTags:
+      IncompatibleTags:
+    BonusWeaponTags:
+    Archetypes: 01000000
+    RequiredWeaponsId:
+    RequiredDronesId:
+    RequiredOverloadId: 050000001c000000
+    RequiredChipsId:
+    IncompatibleChipsId:
+  - OverloadDescriptionName: 'Retaliatory arc | Id:24 | Bullet:43 | OnShieldAbsorb | Unlock: Unlock Condition Missing!!![BulwarkSiege]'
+    Name: Retaliatory arc
+    NotInclude: 0
+    NotAvailable: 1
+    NotFoundByLevelUp: 0
+    Icon: {fileID: 21300000, guid: c5f96a3b323c10a4d88cc20bee554c25, type: 2}
+    Id: 24
+    MaxLevel: 5
+    ActionType: 0
+    BulletId: 43
+    DirectAction: 0
+    BasePrice: 310
+    UnlockPrice: 25
+    Damage: 10
+    GrowDamage: 5
+    OnWeak: 0
+    OnFire: 0
+    OnShock: 0
+    OnMark: 0
+    OnMarkCriticalChanceBonus: 0
+    ActivationTrigger: 22
+    ActivationTriggerCount: 15
+    GrowActivationTriggerCount: 2
+    ActivationPercent: 100
+    ActivationPercentGrow: 0
+    ActiveTime: 0
+    ActiveTimeIncrease: 0
+    ShowActivationPopup: 1
+    ActivationInterval: 0
+    ActivationIntervalGrow: 0
+    LaunchPosition: 16
+    LaunchMode: 0
+    LaunchTimes: 1
+    TimeBetweenLaunch: 0
+    GrowLaunchTimes: 0
+    TimeBetweenLaunchGrow: 0
+    TimeBetweenTurretLaunch: 0
+    TimeBetweenTurretLaunchGrow: 0
+    ResolvedTags: 54000000320000000b00000016000000
+    ExtraTags:
+    TagGate:
+      RequiredAnyTags: 54000000
+      RequiredAllTags:
+      IncompatibleTags:
+    BonusWeaponTags:
+    Archetypes: 01000000
+    RequiredWeaponsId:
+    RequiredDronesId:
+    RequiredOverloadId: 050000001c000000
+    RequiredChipsId:
+    IncompatibleChipsId:
+  - OverloadDescriptionName: 'Field Repair | Id:25 | Action:IncreaseRecoverHealthWhileStationary | WhileStationary | Unlock: Unlock Condition Missing!!![BulwarkSiege]'
+    Name: Field Repair
+    NotInclude: 0
+    NotAvailable: 0
+    NotFoundByLevelUp: 0
+    Icon: {fileID: 21300000, guid: 126545315905de5469a4975a4bbd1946, type: 2}
+    Id: 25
+    MaxLevel: 5
+    ActionType: 1
+    BulletId: 0
+    DirectAction: 10
+    BasePrice: 270
+    UnlockPrice: 25
+    Damage: 1
+    GrowDamage: 1
+    OnWeak: 0
+    OnFire: 0
+    OnShock: 0
+    OnMark: 0
+    OnMarkCriticalChanceBonus: 0
+    ActivationTrigger: 21
+    ActivationTriggerCount: 1
+    GrowActivationTriggerCount: 0
+    ActivationPercent: 100
+    ActivationPercentGrow: 0
+    ActiveTime: 0
+    ActiveTimeIncrease: 0
+    ShowActivationPopup: 1
+    ActivationInterval: 2
+    ActivationIntervalGrow: 0
+    LaunchPosition: 0
+    LaunchMode: 0
+    LaunchTimes: 1
+    TimeBetweenLaunch: 0
+    GrowLaunchTimes: 0
+    TimeBetweenLaunchGrow: 0
+    TimeBetweenTurretLaunch: 0
+    TimeBetweenTurretLaunchGrow: 0
+    ResolvedTags: 2e0000003200000053000000
+    ExtraTags:
+    TagGate:
+      RequiredAnyTags: 53000000
+      RequiredAllTags:
+      IncompatibleTags:
+    BonusWeaponTags:
+    Archetypes: 01000000
+    RequiredWeaponsId:
+    RequiredDronesId:
+    RequiredOverloadId:
+    RequiredChipsId:
+    IncompatibleChipsId:
+  - OverloadDescriptionName: 'Siege Calibration | Id:26 | Action:IncreaseTagDamageWhileStationary | WhileStationary | Unlock: Unlock Condition Missing!!![BulwarkSiege]'
+    Name: Siege Calibration
+    NotInclude: 0
+    NotAvailable: 1
+    NotFoundByLevelUp: 0
+    Icon: {fileID: 21300000, guid: ef356fe98acac6c4cbaee9f6c8469497, type: 2}
+    Id: 26
+    MaxLevel: 5
+    ActionType: 1
+    BulletId: 0
+    DirectAction: 11
+    BasePrice: 310
+    UnlockPrice: 25
+    Damage: 50
+    GrowDamage: 10
+    OnWeak: 0
+    OnFire: 0
+    OnShock: 0
+    OnMark: 0
+    OnMarkCriticalChanceBonus: 0
+    ActivationTrigger: 21
+    ActivationTriggerCount: 1
+    GrowActivationTriggerCount: 0
+    ActivationPercent: 100
+    ActivationPercentGrow: 0
+    ActiveTime: 0
+    ActiveTimeIncrease: 0
+    ShowActivationPopup: 0
+    ActivationInterval: 0
+    ActivationIntervalGrow: 0
+    LaunchPosition: 0
+    LaunchMode: 0
+    LaunchTimes: 1
+    TimeBetweenLaunch: 0
+    GrowLaunchTimes: 0
+    TimeBetweenLaunchGrow: 0
+    TimeBetweenTurretLaunch: 0
+    TimeBetweenTurretLaunchGrow: 0
+    ResolvedTags: 2e0000003a00000053000000
+    ExtraTags:
+    TagGate:
+      RequiredAnyTags: 53000000
+      RequiredAllTags:
+      IncompatibleTags:
+    BonusWeaponTags: 53000000
+    Archetypes: 01000000
+    RequiredWeaponsId: 000000000f000000180000001c000000
+    RequiredDronesId:
+    RequiredOverloadId:
+    RequiredChipsId:
+    IncompatibleChipsId:
+  - OverloadDescriptionName: 'Servo Lock | Id:27 | Action:IncreaseTagFireRateWhileStationary | WhileStationary | Unlock: Unlock Condition Missing!!![BulwarkSiege]'
+    Name: Servo Lock
+    NotInclude: 0
+    NotAvailable: 0
+    NotFoundByLevelUp: 0
+    Icon: {fileID: 21300000, guid: 1e3af04664a2c974e9fb6da6eed072d3, type: 2}
+    Id: 27
+    MaxLevel: 5
+    ActionType: 1
+    BulletId: 0
+    DirectAction: 12
+    BasePrice: 310
+    UnlockPrice: 25
+    Damage: 50
+    GrowDamage: 3
+    OnWeak: 0
+    OnFire: 0
+    OnShock: 0
+    OnMark: 0
+    OnMarkCriticalChanceBonus: 0
+    ActivationTrigger: 21
+    ActivationTriggerCount: 1
+    GrowActivationTriggerCount: 0
+    ActivationPercent: 100
+    ActivationPercentGrow: 0
+    ActiveTime: 0
+    ActiveTimeIncrease: 0
+    ShowActivationPopup: 0
+    ActivationInterval: 0
+    ActivationIntervalGrow: 0
+    LaunchPosition: 0
+    LaunchMode: 0
+    LaunchTimes: 1
+    TimeBetweenLaunch: 0
+    GrowLaunchTimes: 0
+    TimeBetweenLaunchGrow: 0
+    TimeBetweenTurretLaunch: 0
+    TimeBetweenTurretLaunchGrow: 0
+    ResolvedTags: 2e0000003b00000053000000
+    ExtraTags:
+    TagGate:
+      RequiredAnyTags: 53000000
+      RequiredAllTags:
+      IncompatibleTags:
+    BonusWeaponTags: 53000000
+    Archetypes: 01000000
+    RequiredWeaponsId: 000000000f000000180000001c000000
+    RequiredDronesId:
+    RequiredOverloadId:
+    RequiredChipsId:
+    IncompatibleChipsId:
+  - OverloadDescriptionName: 'Bunker Plating | Id:28 | Action:AddShield | WhileStationary | Unlock: Unlock Condition Missing!!![BulwarkSiege]'
+    Name: Bunker Plating
+    NotInclude: 0
+    NotAvailable: 1
+    NotFoundByLevelUp: 0
+    Icon: {fileID: 21300000, guid: f7aa95040606aec41a159e8ef0fe2b3a, type: 2}
+    Id: 28
+    MaxLevel: 5
+    ActionType: 1
+    BulletId: 0
+    DirectAction: 6
+    BasePrice: 310
+    UnlockPrice: 25
+    Damage: 20
+    GrowDamage: 5
+    OnWeak: 0
+    OnFire: 0
+    OnShock: 0
+    OnMark: 0
+    OnMarkCriticalChanceBonus: 0
+    ActivationTrigger: 21
+    ActivationTriggerCount: 1
+    GrowActivationTriggerCount: 0
+    ActivationPercent: 100
+    ActivationPercentGrow: 0
+    ActiveTime: 0
+    ActiveTimeIncrease: 0
+    ShowActivationPopup: 1
+    ActivationInterval: 4
+    ActivationIntervalGrow: 0.2
+    LaunchPosition: 0
+    LaunchMode: 0
+    LaunchTimes: 1
+    TimeBetweenLaunch: 0
+    GrowLaunchTimes: 0
+    TimeBetweenLaunchGrow: 0
+    TimeBetweenTurretLaunch: 0
+    TimeBetweenTurretLaunchGrow: 0
+    ResolvedTags: 2e0000003200000054000000
+    ExtraTags:
+    TagGate:
+      RequiredAnyTags: 53000000
+      RequiredAllTags:
+      IncompatibleTags:
+    BonusWeaponTags:
+    Archetypes: 01000000
+    RequiredWeaponsId:
+    RequiredDronesId:
+    RequiredOverloadId:
+    RequiredChipsId:
+    IncompatibleChipsId:
+  - OverloadDescriptionName: 'Rail Salvo | Id:29 | Bullet:47 | WhileStationary | Unlock: Unlock Condition Missing!!![BulwarkSiege]'
+    Name: Rail Salvo
+    NotInclude: 1
+    NotAvailable: 1
+    NotFoundByLevelUp: 1
+    Icon: {fileID: 21300000, guid: 5c8bb0155dc11f04b8a75ee316a4ec49, type: 2}
+    Id: 29
+    MaxLevel: 5
+    ActionType: 0
+    BulletId: 47
+    DirectAction: 0
+    BasePrice: 310
+    UnlockPrice: 25
+    Damage: 25
+    GrowDamage: 8
+    OnWeak: 0
+    OnFire: 0
+    OnShock: 0
+    OnMark: 0
+    OnMarkCriticalChanceBonus: 0
+    ActivationTrigger: 21
+    ActivationTriggerCount: 1
+    GrowActivationTriggerCount: 0
+    ActivationPercent: 100
+    ActivationPercentGrow: 0
+    ActiveTime: 0
+    ActiveTimeIncrease: 0
+    ShowActivationPopup: 1
+    ActivationInterval: 2.5
+    ActivationIntervalGrow: 0.15
+    LaunchPosition: 17
+    LaunchMode: 0
+    LaunchTimes: 1
+    TimeBetweenLaunch: 0
+    GrowLaunchTimes: 0
+    TimeBetweenLaunchGrow: 0
+    TimeBetweenTurretLaunch: 0.15
+    TimeBetweenTurretLaunchGrow: 0
+    ResolvedTags: 2e0000000a0000001400000053000000
+    ExtraTags:
+    TagGate:
+      RequiredAnyTags: 53000000
+      RequiredAllTags:
+      IncompatibleTags:
+    BonusWeaponTags: 53000000
+    Archetypes: 01000000
+    RequiredWeaponsId: 00000000180000001c000000
+    RequiredDronesId:
+    RequiredOverloadId:
+    RequiredChipsId:
+    IncompatibleChipsId:
+  - OverloadDescriptionName: 'Mine Perimeter | Id:30 | Bullet:51 | WhileStationary | Unlock: stat_score - UnlockValue:1500[BulwarkSiege]'
+    Name: Mine Perimeter
+    NotInclude: 0
+    NotAvailable: 1
+    NotFoundByLevelUp: 0
+    Icon: {fileID: 21300000, guid: 1c13b10c09ea9af41a6a41adaae99fea, type: 2}
+    Id: 30
+    MaxLevel: 5
+    ActionType: 0
+    BulletId: 51
+    DirectAction: 0
+    BasePrice: 310
+    UnlockPrice: 25
+    Damage: 20
+    GrowDamage: 5
+    OnWeak: 0
+    OnFire: 0
+    OnShock: 0
+    OnMark: 0
+    OnMarkCriticalChanceBonus: 0
+    ActivationTrigger: 21
+    ActivationTriggerCount: 1
+    GrowActivationTriggerCount: 0
+    ActivationPercent: 100
+    ActivationPercentGrow: 0
+    ActiveTime: 12
+    ActiveTimeIncrease: 0
+    ShowActivationPopup: 1
+    ActivationInterval: 1
+    ActivationIntervalGrow: 0.1
+    LaunchPosition: 16
+    LaunchMode: 1
+    LaunchTimes: 4
+    TimeBetweenLaunch: 0
+    GrowLaunchTimes: 1
+    TimeBetweenLaunchGrow: 0
+    TimeBetweenTurretLaunch: 0
+    TimeBetweenTurretLaunchGrow: 0
+    ResolvedTags: 2e0000000a00000017000000
+    ExtraTags:
+    TagGate:
+      RequiredAnyTags: 53000000
+      RequiredAllTags:
+      IncompatibleTags:
+    BonusWeaponTags:
+    Archetypes: 01000000
+    RequiredWeaponsId:
+    RequiredDronesId:
+    RequiredOverloadId:
+    RequiredChipsId:
+    IncompatibleChipsId:
+  - OverloadDescriptionName: 'Siege Detonation | Id:31 | Bullet:49 | SiegeHit | Unlock: Unlock Condition Missing!!![BulwarkSiege]'
+    Name: Siege Detonation
+    NotInclude: 0
+    NotAvailable: 0
+    NotFoundByLevelUp: 0
+    Icon: {fileID: 21300000, guid: c935f27bdd3fb3447a02251e55acfdae, type: 2}
+    Id: 31
+    MaxLevel: 5
+    ActionType: 0
+    BulletId: 49
+    DirectAction: 0
+    BasePrice: 310
+    UnlockPrice: 25
+    Damage: 15
+    GrowDamage: 5
+    OnWeak: 0
+    OnFire: 0
+    OnShock: 0
+    OnMark: 0
+    OnMarkCriticalChanceBonus: 0
+    ActivationTrigger: 23
+    ActivationTriggerCount: 1
+    GrowActivationTriggerCount: 0
+    ActivationPercent: 15
+    ActivationPercentGrow: 5
+    ActiveTime: 0
+    ActiveTimeIncrease: 0
+    ShowActivationPopup: 1
+    ActivationInterval: 0
+    ActivationIntervalGrow: 0
+    LaunchPosition: 1
+    LaunchMode: 0
+    LaunchTimes: 1
+    TimeBetweenLaunch: 0
+    GrowLaunchTimes: 0
+    TimeBetweenLaunchGrow: 0
+    TimeBetweenTurretLaunch: 0
+    TimeBetweenTurretLaunchGrow: 0
+    ResolvedTags: 2c0000000a0000001700000053000000
+    ExtraTags:
+    TagGate:
+      RequiredAnyTags: 53000000
+      RequiredAllTags:
+      IncompatibleTags:
+    BonusWeaponTags: 53000000
+    Archetypes: 01000000
+    RequiredWeaponsId: 00000000180000001c000000
+    RequiredDronesId:
+    RequiredOverloadId:
+    RequiredChipsId:
+    IncompatibleChipsId:
+  - OverloadDescriptionName: 'Dash Mines | Id:32 | Bullet:52 | StartDash | Unlock: Unlock Condition Missing!!![ViperDash]'
+    Name: Dash Mines
+    NotInclude: 0
+    NotAvailable: 0
+    NotFoundByLevelUp: 0
+    Icon: {fileID: 21300000, guid: 23bac750d53d3cd43ba398c62234f202, type: 2}
+    Id: 32
+    MaxLevel: 5
+    ActionType: 0
+    BulletId: 52
+    DirectAction: 0
+    BasePrice: 310
+    UnlockPrice: 25
+    Damage: 15
+    GrowDamage: 4
+    OnWeak: 0
+    OnFire: 0
+    OnShock: 0
+    OnMark: 0
+    OnMarkCriticalChanceBonus: 0
+    ActivationTrigger: 8
+    ActivationTriggerCount: 1
+    GrowActivationTriggerCount: 0
+    ActivationPercent: 100
+    ActivationPercentGrow: 0
+    ActiveTime: 8
+    ActiveTimeIncrease: 0
+    ShowActivationPopup: 1
+    ActivationInterval: 0
+    ActivationIntervalGrow: 0
+    LaunchPosition: 16
+    LaunchMode: 0
+    LaunchTimes: 3
+    TimeBetweenLaunch: 0.08
+    GrowLaunchTimes: 1
+    TimeBetweenLaunchGrow: 0
+    TimeBetweenTurretLaunch: 0
+    TimeBetweenTurretLaunchGrow: 0
+    ResolvedTags: 290000000a00000017000000
+    ExtraTags:
+    TagGate:
+      RequiredAnyTags: 3d000000
+      RequiredAllTags:
+      IncompatibleTags:
+    BonusWeaponTags:
+    Archetypes: 02000000
+    RequiredWeaponsId:
+    RequiredDronesId:
+    RequiredOverloadId:
+    RequiredChipsId:
+    IncompatibleChipsId:
+  - OverloadDescriptionName: 'Anchor Buffer | Id:33 | Action:StationaryBonusLinger | WhileStationary | Unlock: Unlock Condition Missing!!![BulwarkSiege]'
+    Name: Anchor Buffer
+    NotInclude: 0
+    NotAvailable: 1
+    NotFoundByLevelUp: 0
+    Icon: {fileID: 21300000, guid: 1856dff33d51d2b4fb526f7186eeae0d, type: 2}
+    Id: 33
+    MaxLevel: 5
+    ActionType: 1
+    BulletId: 0
+    DirectAction: 13
+    BasePrice: 310
+    UnlockPrice: 25
+    Damage: 0
+    GrowDamage: 0
+    OnWeak: 0
+    OnFire: 0
+    OnShock: 0
+    OnMark: 0
+    OnMarkCriticalChanceBonus: 0
+    ActivationTrigger: 21
+    ActivationTriggerCount: 1
+    GrowActivationTriggerCount: 0
+    ActivationPercent: 100
+    ActivationPercentGrow: 0
+    ActiveTime: 1
+    ActiveTimeIncrease: 0.5
+    ShowActivationPopup: 1
+    ActivationInterval: 3
+    ActivationIntervalGrow: 0.3
+    LaunchPosition: 0
+    LaunchMode: 0
+    LaunchTimes: 1
+    TimeBetweenLaunch: 0
+    GrowLaunchTimes: 0
+    TimeBetweenLaunchGrow: 0
+    TimeBetweenTurretLaunch: 0
+    TimeBetweenTurretLaunchGrow: 0
+    ResolvedTags: 2e00000053000000
+    ExtraTags:
+    TagGate:
+      RequiredAnyTags: 53000000
+      RequiredAllTags: 2e00000053000000
+      IncompatibleTags:
+    BonusWeaponTags:
+    Archetypes: 01000000
+    RequiredWeaponsId:
+    RequiredDronesId:
+    RequiredOverloadId:
+    RequiredChipsId:
+    IncompatibleChipsId:
+  - OverloadDescriptionName: 'Salvage Protocol | Id:34 | Action:ScrapToFirepowerConverter | OnCoinPickup | Unlock: stat_elites_one_run - UnlockValue:5[HiveSalvage]'
+    Name: Salvage Protocol
+    NotInclude: 0
+    NotAvailable: 0
+    NotFoundByLevelUp: 0
+    Icon: {fileID: 21300000, guid: b544b1610ccad3843960b7dacd79c66a, type: 2}
+    Id: 34
+    MaxLevel: 5
+    ActionType: 1
+    BulletId: 0
+    DirectAction: 14
+    BasePrice: 350
+    UnlockPrice: 25
+    Damage: 2
+    GrowDamage: 1
+    OnWeak: 0
+    OnFire: 0
+    OnShock: 0
+    OnMark: 0
+    OnMarkCriticalChanceBonus: 0
+    ActivationTrigger: 24
+    ActivationTriggerCount: 20
+    GrowActivationTriggerCount: 2
+    ActivationPercent: 100
+    ActivationPercentGrow: 0
+    ActiveTime: 0
+    ActiveTimeIncrease: 0
+    ShowActivationPopup: 1
+    ActivationInterval: 0
+    ActivationIntervalGrow: 0
+    LaunchPosition: 0
+    LaunchMode: 0
+    LaunchTimes: 10
+    TimeBetweenLaunch: 0
+    GrowLaunchTimes: 2
+    TimeBetweenLaunchGrow: 0
+    TimeBetweenTurretLaunch: 0
+    TimeBetweenTurretLaunchGrow: 0
+    ResolvedTags: 340000003a00000052000000
+    ExtraTags: 3400000052000000
+    TagGate:
+      RequiredAnyTags: 34000000
+      RequiredAllTags:
+      IncompatibleTags:
+    BonusWeaponTags:
+    Archetypes: 03000000
+    RequiredWeaponsId:
+    RequiredDronesId: 000000000100000002000000030000000400000005000000
+    RequiredOverloadId:
+    RequiredChipsId:
+    IncompatibleChipsId:
+  - OverloadDescriptionName: 'Drone Repair Protocol | Id:35 | Action:DroneRepairProtocol | OnKill | Unlock: stat_shops_visited - UnlockValue:5[HiveSalvage]'
+    Name: Drone Repair Protocol
+    NotInclude: 0
+    NotAvailable: 0
+    NotFoundByLevelUp: 0
+    Icon: {fileID: 21300000, guid: 47e637a8543bd774babcc1bb8796ce6f, type: 2}
+    Id: 35
+    MaxLevel: 5
+    ActionType: 1
+    BulletId: 0
+    DirectAction: 15
+    BasePrice: 350
+    UnlockPrice: 25
+    Damage: 0
+    GrowDamage: 0
+    OnWeak: 0
+    OnFire: 0
+    OnShock: 0
+    OnMark: 0
+    OnMarkCriticalChanceBonus: 0
+    ActivationTrigger: 12
+    ActivationTriggerCount: 1
+    GrowActivationTriggerCount: 0
+    ActivationPercent: 20
+    ActivationPercentGrow: 5
+    ActiveTime: 0
+    ActiveTimeIncrease: 0
+    ShowActivationPopup: 0
+    ActivationInterval: 0
+    ActivationIntervalGrow: 0
+    LaunchPosition: 0
+    LaunchMode: 0
+    LaunchTimes: 1
+    TimeBetweenLaunch: 0
+    GrowLaunchTimes: 0
+    TimeBetweenLaunchGrow: 0
+    TimeBetweenTurretLaunch: 0
+    TimeBetweenTurretLaunchGrow: 0
+    ResolvedTags: 2a000000550000003200000052000000
+    ExtraTags: 550000003200000052000000
+    TagGate:
+      RequiredAnyTags: 55000000
+      RequiredAllTags:
+      IncompatibleTags:
+    BonusWeaponTags:
+    Archetypes: 03000000
+    RequiredWeaponsId:
+    RequiredDronesId: 000000000100000002000000030000000400000005000000
+    RequiredOverloadId:
+    RequiredChipsId:
+    IncompatibleChipsId:
+  - OverloadDescriptionName: 'Salvage Arc | Id:36 | Bullet:43 | OnXpPickup | Unlock: Unlock Condition Missing!!![HiveSalvage]'
+    Name: Salvage Arc
+    NotInclude: 0
+    NotAvailable: 1
+    NotFoundByLevelUp: 0
+    Icon: {fileID: 21300000, guid: 8a2782679f7b5be478a6556013e624c4, type: 2}
+    Id: 36
+    MaxLevel: 5
+    ActionType: 0
+    BulletId: 43
+    DirectAction: 0
+    BasePrice: 350
+    UnlockPrice: 25
+    Damage: 5
+    GrowDamage: 5
+    OnWeak: 0
+    OnFire: 0
+    OnShock: 0
+    OnMark: 0
+    OnMarkCriticalChanceBonus: 0
+    ActivationTrigger: 25
+    ActivationTriggerCount: 1
+    GrowActivationTriggerCount: 0
+    ActivationPercent: 5
+    ActivationPercentGrow: 5
+    ActiveTime: 0
+    ActiveTimeIncrease: 0
+    ShowActivationPopup: 0
+    ActivationInterval: 0
+    ActivationIntervalGrow: 0
+    LaunchPosition: 0
+    LaunchMode: 0
+    LaunchTimes: 1
+    TimeBetweenLaunch: 0
+    GrowLaunchTimes: 0
+    TimeBetweenLaunchGrow: 0
+    TimeBetweenTurretLaunch: 0
+    TimeBetweenTurretLaunchGrow: 0
+    ResolvedTags: 340000000b000000160000005200000055000000
+    ExtraTags: 340000005200000055000000
+    TagGate:
+      RequiredAnyTags: 55000000
+      RequiredAllTags:
+      IncompatibleTags:
+    BonusWeaponTags:
+    Archetypes: 03000000
+    RequiredWeaponsId:
+    RequiredDronesId: 000000000100000002000000030000000400000005000000
+    RequiredOverloadId:
+    RequiredChipsId:
+    IncompatibleChipsId:
+  UnlockDb: {fileID: 11400000, guid: 1c6ae7f8bba78804fab57fb3b522cf80, type: 2}
+  BulletsDb: {fileID: 11400000, guid: 2d3c0e0870b166445a899266aba1c939, type: 2}
+  UnlockList:
+  - Id: 0
+    NewUnlock: 0
+    AlreadySeen: 0
+    Purchased: 0
+  - Id: 1
+    NewUnlock: 0
+    AlreadySeen: 0
+    Purchased: 0
+  - Id: 2
+    NewUnlock: 0
+    AlreadySeen: 0
+    Purchased: 0
+  - Id: 3
+    NewUnlock: 0
+    AlreadySeen: 0
+    Purchased: 0
+  - Id: 4
+    NewUnlock: 0
+    AlreadySeen: 0
+    Purchased: 0
+  - Id: 5
+    NewUnlock: 0
+    AlreadySeen: 0
+    Purchased: 0
+  - Id: 6
+    NewUnlock: 0
+    AlreadySeen: 0
+    Purchased: 0
+  - Id: 7
+    NewUnlock: 0
+    AlreadySeen: 0
+    Purchased: 0
+  - Id: 8
+    NewUnlock: 0
+    AlreadySeen: 0
+    Purchased: 0
+  - Id: 9
+    NewUnlock: 0
+    AlreadySeen: 0
+    Purchased: 0
+  - Id: 10
+    NewUnlock: 0
+    AlreadySeen: 0
+    Purchased: 0
+  - Id: 11
+    NewUnlock: 0
+    AlreadySeen: 0
+    Purchased: 0
+  - Id: 13
+    NewUnlock: 0
+    AlreadySeen: 0
+    Purchased: 0
+  - Id: 14
+    NewUnlock: 0
+    AlreadySeen: 0
+    Purchased: 0
+  - Id: 15
+    NewUnlock: 0
+    AlreadySeen: 0
+    Purchased: 0
+  - Id: 16
+    NewUnlock: 0
+    AlreadySeen: 0
+    Purchased: 0
+  - Id: 17
+    NewUnlock: 0
+    AlreadySeen: 0
+    Purchased: 0
+  - Id: 18
+    NewUnlock: 0
+    AlreadySeen: 0
+    Purchased: 0
+  - Id: 19
+    NewUnlock: 0
+    AlreadySeen: 0
+    Purchased: 0
+  - Id: 22
+    NewUnlock: 0
+    AlreadySeen: 0
+    Purchased: 0
+  - Id: 23
+    NewUnlock: 0
+    AlreadySeen: 0
+    Purchased: 0
+  - Id: 24
+    NewUnlock: 0
+    AlreadySeen: 0
+    Purchased: 0
+  - Id: 25
+    NewUnlock: 0
+    AlreadySeen: 0
+    Purchased: 0
+  - Id: 26
+    NewUnlock: 0
+    AlreadySeen: 0
+    Purchased: 0
+  - Id: 34
+    NewUnlock: 0
+    AlreadySeen: 0
+    Purchased: 0
+  - Id: 35
+    NewUnlock: 0
+    AlreadySeen: 0
+    Purchased: 0
+  - Id: 36
+    NewUnlock: 0
+    AlreadySeen: 0
+    Purchased: 0

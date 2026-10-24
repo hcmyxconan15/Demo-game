@@ -1,0 +1,117 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: LongCrystal_Example_03
+  m_Shader: {fileID: 4800000, guid: 91e41c42616184c4ead8b2b4d7f78676, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - _INNERRIMENABLED_ON
+  - _PARALLAXNOISEENABLED_ON
+  - _RAMPENABLED_ON
+  m_InvalidKeywords:
+  - _EMISSION
+  - _INNERRIMMASKFLIP_ON
+  m_LightmapFlags: 2
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses:
+  - MOTIONVECTORS
+  m_LockedProperties:
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      _AlbedoTransparency:
+        m_Texture: {fileID: 2800000, guid: 118c2cd5144036840bdf40a7d1f47e66, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _InnerRimMask:
+        m_Texture: {fileID: 2800000, guid: aae2be3fc560d2945a74e87a532c4022, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _InnerRimProfile:
+        m_Texture: {fileID: 2800000, guid: fb0a7e4ae9b81b2459d0bad290c20f91, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _MetallicSmoothness:
+        m_Texture: {fileID: 2800000, guid: 009c7a7760f78e8449694641cabfe0f6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _Normal:
+        m_Texture: {fileID: 2800000, guid: 31a223109c724ca44aed3cc47ba8d2ce, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _ParallaxNoise:
+        m_Texture: {fileID: 2800000, guid: b8a83b68d6506ca429ce900926441bc3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _Ramp:
+        m_Texture: {fileID: 2800000, guid: ba289b41a52bf3940bafe28d9d98f3b8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: {}
+    m_Floats:
+      _APPEARGRADIENTENABLED: 0
+      _AppearGradientAbsSwitch: 1
+      _AppearGradientExp: 4
+      _AppearGradientFlipSwitch: 1
+      _AppearGradientOffset: 1.25
+      _AppearGradientPower: 1
+      _AppearGradientRemapMax: 4
+      _AppearVertexYOffset: 0
+      _EmissionVSSwitch: 0
+      _FinalPower: 32
+      _Float0: 1
+      _INNERRIMENABLED: 1
+      _INNERRIMMASKFLIP: 1
+      _INNERRIMPROFILEENABLED: 0
+      _InnerRimExp: 8
+      _InnerRimHackNormals: 0.9
+      _InnerRimMaskExp: 0.25
+      _InnerRimMaskNegate: 0.094
+      _Metallic: 1
+      _PARALLAXNOISEENABLED: 1
+      _ParallaxNoiseDepth: 0.175
+      _ParallaxNoiseNegate: 0.05
+      _ParallaxNoiseScaleU: 2
+      _ParallaxNoiseScaleV: 2
+      _QueueControl: 0
+      _QueueOffset: 0
+      _RAMPENABLED: 1
+      _RampOffsetExp: 1
+      _RampRemapMax: 0.08
+      _RimEmissionNormal: 1
+      _Smoothness: 1
+      _VERTICALGRADIENTENABLED: 0
+      _VERTICALGRADIENTWORLDPOSITION: 0
+      _VerticalGradientExp: 4
+      _VerticalGradientFlipSwitch: 0
+      _VerticalGradientOffset: 1.85
+      _VerticalGradientRemapMax: 4.63
+      __dirty: 0
+    m_Colors:
+      _AlbedoColorTint: {r: 1, g: 1, b: 1, a: 1}
+      _FinalColor: {r: 1, g: 0, b: 0, a: 1}
+      _RampColorTint: {r: 1, g: 0.61764705, b: 0.61764705, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 0

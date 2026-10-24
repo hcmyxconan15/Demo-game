@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a0a3be97651a9fed548d38351fb9827, type: 3}
+  m_Name: LeaderboardFakePlayers
+  m_EditorClassIdentifier:
+  MinDisplayedPlayers: 8
+  Players:
+  - Name: IRON WARDEN
+    HuntScore: 4500
+    ThalassiaTimeSeconds: 1637
+    PyrosiaTimeSeconds: 1901
+    AureglaceTimeSeconds: 1448
+    MirevaTimeSeconds: 2153
+    Avatar: {fileID: 21300000, guid: e0ffed4041985fc46b5acce072f34cf1, type: 2}
+  - Name: NULL PILOT
+    HuntScore: 4100
+    ThalassiaTimeSeconds: 2002
+    PyrosiaTimeSeconds: 1329
+    AureglaceTimeSeconds: 1787
+    MirevaTimeSeconds: 2294
+    Avatar: {fileID: 21300000, guid: a37407d686fbaef49873d94412f97e45, type: 2}
+  - Name: ASH VEIL
+    HuntScore: 3800
+    ThalassiaTimeSeconds: 1536
+    PyrosiaTimeSeconds: 2171
+    AureglaceTimeSeconds: 1974
+    MirevaTimeSeconds: 1699
+    Avatar: {fileID: 21300000, guid: e9ac4524188e8f449af4dcecd18e1a7f, type: 2}
+  - Name: HEX RUNNER
+    HuntScore: 3500
+    ThalassiaTimeSeconds: 1807
+    PyrosiaTimeSeconds: 1603
+    AureglaceTimeSeconds: 2308
+    MirevaTimeSeconds: 1431
+    Avatar: {fileID: 21300000, guid: 1a47e4834e9d5e94883f8c666fe3406b, type: 2}
+  - Name: CRIMSON GEAR
+    HuntScore: 3200
+    ThalassiaTimeSeconds: 2053
+    PyrosiaTimeSeconds: 1778
+    AureglaceTimeSeconds: 1341
+    MirevaTimeSeconds: 1909
+    Avatar: {fileID: 21300000, guid: e3ac38a19aa880f41a505ce24f42a3e8, type: 2}
+  - Name: VOID STALKER
+    HuntScore: 2900
+    ThalassiaTimeSeconds: 1406
+    PyrosiaTimeSeconds: 2238
+    AureglaceTimeSeconds: 2144
+    MirevaTimeSeconds: 1653
+    Avatar: {fileID: 21300000, guid: 4ab7d0baf671b984da1d8ca34ba5d5a1, type: 2}
+  - Name: RUST ORACLE
+    HuntScore: 2600
+    ThalassiaTimeSeconds: 2217
+    PyrosiaTimeSeconds: 1452
+    AureglaceTimeSeconds: 1719
+    MirevaTimeSeconds: 1996
+    Avatar: {fileID: 21300000, guid: b3234d5782a3d4343aef02fe4248ae85, type: 2}
+  - Name: NIGHT COIL
+    HuntScore: 2300
+    ThalassiaTimeSeconds: 1709
+    PyrosiaTimeSeconds: 1962
+    AureglaceTimeSeconds: 2257
+    MirevaTimeSeconds: 1548
+    Avatar: {fileID: 21300000, guid: a0b46087713f8af409bcd59d36206aac, type: 2}

@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1709254077376921
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4730242686860875}
+  - component: {fileID: 114724804207875695}
+  m_Layer: 11
+  m_Name: FireStepsBaseSpawn
+  m_TagString: Missile
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4730242686860875
+Transform:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -1.5258789E-05, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114724804207875695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 548b37e430816abca288d9f8e180ac82, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  IsOverload: 0
+  BulletId: 38
+  WeaponId: 0
+  DroneId: -1
+  Damage: 0
+  IsCritical: 0
+  OnFiredTime: 0
+  TickNeedForAccumulatedFirePotencyUp: 0
+  OnShockTime: 0
+  OnWeakTime: 0
+  OnMarkTime: 0
+  OnMarkCriticalChanceBonus: 0
+  CriticalRollDamage: 0
+  StackDamage: 0
+  PushBack: 0
+  DontReduceDamageOnPassEnemy: 0
+  PassEnemyCount: 0
+  RicochetCount: 0
+  AngleOffset: 0
+  BulletSoundId: 0
+  Type: 1
+  TypeBullet: 0
+  ChainBulletId: -1
+  ChainDamagePercent: 0
+  ChainActivationPercent: 0
+  ChainSpawnOnGround: 0
+  IsChainSpawned: 0
+  ColliderToIgnore: {fileID: 0}
+  _statsBase: {fileID: 0}
+  InPool: 0
+  IsPooledInstance: 0
+  BulletToInstantiateId: 39
+  spawnDistance: 5

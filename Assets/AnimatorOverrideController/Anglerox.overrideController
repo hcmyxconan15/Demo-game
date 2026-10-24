@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Anglerox
+  m_Controller: {fileID: 9100000, guid: f8f66c499ddcfe449879a63aab99abf2, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 58675982e598eff409e20c0f99add47d, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 58675982e598eff409e20c0f99add47d, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 71dc84f9e59581c45945cff47d73f929, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 71dc84f9e59581c45945cff47d73f929, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: ed19242ae932a0d46993880e6c3d0ce5, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: ed19242ae932a0d46993880e6c3d0ce5, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 4ca5f178b8798584ebfba3195a963048, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 4ca5f178b8798584ebfba3195a963048, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 172d8fcf9c9d58e428d51ad5a43ce835, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 172d8fcf9c9d58e428d51ad5a43ce835, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 8be48178adc54f146bcddb85d8f74394, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 8be48178adc54f146bcddb85d8f74394, type: 2}

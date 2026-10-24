@@ -1,0 +1,245 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fddd88e41d5ca05f51bb995753ccd95d, type: 3}
+  m_Name: EnemiesDB
+  m_EditorClassIdentifier:
+  Enemies:
+  - EnemyName: InsectFly
+    EnemyId: 0
+    NotAvailable: 0
+    Type: 0
+    EnemyPrefab: {fileID: 114632746491512912, guid: 1b11666f9ff236149a6a4cbacf2919ae, type: 2}
+  - EnemyName: Arack
+    EnemyId: 1
+    NotAvailable: 0
+    Type: 0
+    EnemyPrefab: {fileID: 114841364053301648, guid: e3737d843907ded43bc6fb678ea6d385, type: 2}
+  - EnemyName: InsectFlyElite
+    EnemyId: 2
+    NotAvailable: 0
+    Type: 1
+    EnemyPrefab: {fileID: 114000955326284023, guid: a56057172df86d04e856800ec8201741, type: 2}
+  - EnemyName: Anglerox
+    EnemyId: 3
+    NotAvailable: 0
+    Type: 0
+    EnemyPrefab: {fileID: 114699617135816954, guid: ca0532e93cc793c409c7013d637dab05, type: 2}
+  - EnemyName: Gastarias
+    EnemyId: 4
+    NotAvailable: 0
+    Type: 0
+    EnemyPrefab: {fileID: 114918264173551851, guid: 8e39750170144954e883efc02d4c4914, type: 2}
+  - EnemyName: Gobbler
+    EnemyId: 5
+    NotAvailable: 0
+    Type: 0
+    EnemyPrefab: {fileID: 114801075752484240, guid: 8ea51ad14097ab9418289dd93842af5a, type: 2}
+  - EnemyName: Onyscidus
+    EnemyId: 6
+    NotAvailable: 0
+    Type: 3
+    EnemyPrefab: {fileID: 114693062532245359, guid: c537734c237345f4abe5e1323b3c007a, type: 2}
+  - EnemyName: Charcharosaurus
+    EnemyId: 7
+    NotAvailable: 0
+    Type: 1
+    EnemyPrefab: {fileID: 114841364053301648, guid: e3737d843907ded43bc6fb678ea6d385, type: 2}
+  - EnemyName: ArackSpit
+    EnemyId: 8
+    NotAvailable: 0
+    Type: 0
+    EnemyPrefab: {fileID: 114841364053301648, guid: e3737d843907ded43bc6fb678ea6d385, type: 2}
+  - EnemyName: Larvae
+    EnemyId: 9
+    NotAvailable: 0
+    Type: 0
+    EnemyPrefab: {fileID: 114841364053301648, guid: e3737d843907ded43bc6fb678ea6d385, type: 2}
+  - EnemyName: Ceratoferox
+    EnemyId: 10
+    NotAvailable: 0
+    Type: 0
+    EnemyPrefab: {fileID: 114149520701623706, guid: 307737715c614844fbd064761738ea45, type: 2}
+  - EnemyName: Robot_2L_Random
+    EnemyId: 11
+    NotAvailable: 0
+    Type: 2
+    EnemyPrefab: {fileID: 114089843903986396, guid: 11dc1f6057cd7f14d9eec5834a7eb5a2, type: 2}
+  - EnemyName: Vulkrath
+    EnemyId: 12
+    NotAvailable: 0
+    Type: 3
+    EnemyPrefab: {fileID: 114841364053301648, guid: e3737d843907ded43bc6fb678ea6d385, type: 2}
+  - EnemyName: KingSpawn
+    EnemyId: 13
+    NotAvailable: 1
+    Type: 3
+    EnemyPrefab: {fileID: 114841364053301648, guid: e3737d843907ded43bc6fb678ea6d385, type: 2}
+  - EnemyName: SpiderMecha
+    EnemyId: 14
+    NotAvailable: 0
+    Type: 2
+    EnemyPrefab: {fileID: 114719342369648492, guid: f538fca57daf3c54d8e42923b825a48c, type: 2}
+  - EnemyName: Carcidonte
+    EnemyId: 15
+    NotAvailable: 0
+    Type: 0
+    EnemyPrefab: {fileID: 114632746491512912, guid: 1a64e314719f3fb4681456c8d2a6d836, type: 2}
+  - EnemyName: CarcidonteRange
+    EnemyId: 16
+    NotAvailable: 0
+    Type: 0
+    EnemyPrefab: {fileID: 114000955326284023, guid: c3aa43d355ab87f49b7b26136ec0adfc, type: 2}
+  - EnemyName: Swarm of Explosive
+    EnemyId: 17
+    NotAvailable: 0
+    Type: 0
+    EnemyPrefab: {fileID: 114724804207875695, guid: e51b205c03fbc4646bec6cb04dd90d1c, type: 2}
+  - EnemyName: ExplosiveDrone
+    EnemyId: 18
+    NotAvailable: 0
+    Type: 0
+    EnemyPrefab: {fileID: 114672306508523268, guid: cd8f8bb0568c84b4b973f16d0da63715, type: 2}
+  - EnemyName: Robot_2Leg_Small
+    EnemyId: 19
+    NotAvailable: 0
+    Type: 2
+    EnemyPrefab: {fileID: 114397768327470545, guid: 4b4377ff9726d97479bec8dec534949c, type: 2}
+  - EnemyName: Robot_2Leg_Melee
+    EnemyId: 20
+    NotAvailable: 0
+    Type: 2
+    EnemyPrefab: {fileID: 114632746491512912, guid: e5cf454914a7769498a901e8a0ed823c, type: 2}
+  - EnemyName: Robot_Heavy_2L_Missiles
+    EnemyId: 21
+    NotAvailable: 0
+    Type: 2
+    EnemyPrefab: {fileID: 114089843903986396, guid: 8e8353ab192219741b6513ef2fcac8b1, type: 2}
+  - EnemyName: Robot_Heavy_2L_Laser
+    EnemyId: 22
+    NotAvailable: 0
+    Type: 2
+    EnemyPrefab: {fileID: 114089843903986396, guid: 43c68837ced546b46b8fb37a4391d989, type: 2}
+  - EnemyName: CarcidonteRangeElite
+    EnemyId: 23
+    NotAvailable: 0
+    Type: 1
+    EnemyPrefab: {fileID: 114477046003934300, guid: a5a9c4dc51e3e7a41b962c5de6a435fe, type: 2}
+  - EnemyName: Valthorn the Destroyer
+    EnemyId: 24
+    NotAvailable: 0
+    Type: 3
+    EnemyPrefab: {fileID: 114719342369648492, guid: 9a3599d1c9ca5e640b28ad37ef3d7f66, type: 2}
+  - EnemyName: InfectedKamikaze
+    EnemyId: 25
+    NotAvailable: 0
+    Type: 0
+    EnemyPrefab: {fileID: 114094320201520353, guid: bee1ff640b98aba4989725724214769c, type: 2}
+  - EnemyName: TurretEnemyBullet
+    EnemyId: 26
+    NotAvailable: 0
+    Type: 2
+    EnemyPrefab: {fileID: 114946936116752871, guid: 966ca094a0f3d0a4b88ecb637ac40274, type: 2}
+  - EnemyName: Spawner
+    EnemyId: 27
+    NotAvailable: 0
+    Type: 1
+    EnemyPrefab: {fileID: 114499726237547504, guid: f48ed4828c04d19439aab74e34c1a285, type: 2}
+  - EnemyName: ScamarExplosive
+    EnemyId: 28
+    NotAvailable: 0
+    Type: 0
+    EnemyPrefab: {fileID: 114841364053301648, guid: e3737d843907ded43bc6fb678ea6d385, type: 2}
+  - EnemyName: TurretEnemySkyAttack
+    EnemyId: 29
+    NotAvailable: 0
+    Type: 2
+    EnemyPrefab: {fileID: 114946936116752871, guid: 5c6208ce5f4ae2e44974f651fe2a20cf, type: 2}
+  - EnemyName: Tripodonte
+    EnemyId: 30
+    NotAvailable: 0
+    Type: 0
+    EnemyPrefab: {fileID: 114841364053301648, guid: 7be2e2819e0dfa74286dc686f4b43fea, type: 2}
+  - EnemyName: MoneyBug
+    EnemyId: 31
+    NotAvailable: 0
+    Type: 1
+    EnemyPrefab: {fileID: 114167524263268962, guid: 673b6110b5f9074458a29a48b9f854f9, type: 2}
+  - EnemyName: Dreadclaw
+    EnemyId: 32
+    NotAvailable: 0
+    Type: 1
+    EnemyPrefab: {fileID: 114450391854282655, guid: f8f7a2f935643474ca407eca8a32a3c9, type: 2}
+  - EnemyName: Horridomorph
+    EnemyId: 33
+    NotAvailable: 0
+    Type: 0
+    EnemyPrefab: {fileID: 114841364053301648, guid: e3737d843907ded43bc6fb678ea6d385, type: 2}
+  - EnemyName: Venodonte
+    EnemyId: 34
+    NotAvailable: 0
+    Type: 0
+    EnemyPrefab: {fileID: 114841364053301648, guid: e3737d843907ded43bc6fb678ea6d385, type: 2}
+  - EnemyName: Limadon
+    EnemyId: 35
+    NotAvailable: 0
+    Type: 0
+    EnemyPrefab: {fileID: 114841364053301648, guid: e3737d843907ded43bc6fb678ea6d385, type: 2}
+  - EnemyName: Scolokarck
+    EnemyId: 36
+    NotAvailable: 0
+    Type: 0
+    EnemyPrefab: {fileID: 114841364053301648, guid: e3737d843907ded43bc6fb678ea6d385, type: 2}
+  - EnemyName: SerpmareTentacle
+    EnemyId: 37
+    NotAvailable: 0
+    Type: 1
+    EnemyPrefab: {fileID: 114841364053301648, guid: e3737d843907ded43bc6fb678ea6d385, type: 2}
+  - EnemyName: HorridomorphElite
+    EnemyId: 38
+    NotAvailable: 0
+    Type: 1
+    EnemyPrefab: {fileID: 114841364053301648, guid: e3737d843907ded43bc6fb678ea6d385, type: 2}
+  - EnemyName: EnemyMonsterCrassorrid
+    EnemyId: 39
+    NotAvailable: 0
+    Type: 0
+    EnemyPrefab: {fileID: 114841364053301648, guid: e3737d843907ded43bc6fb678ea6d385, type: 2}
+  - EnemyName: ScolokarckElite
+    EnemyId: 40
+    NotAvailable: 0
+    Type: 1
+    EnemyPrefab: {fileID: 114841364053301648, guid: e3737d843907ded43bc6fb678ea6d385, type: 2}
+  - EnemyName: Gorhorrid
+    EnemyId: 41
+    NotAvailable: 0
+    Type: 1
+    EnemyPrefab: {fileID: 114841364053301648, guid: e3737d843907ded43bc6fb678ea6d385, type: 2}
+  - EnemyName: CrustaspikanLarvae
+    EnemyId: 42
+    NotAvailable: 0
+    Type: 0
+    EnemyPrefab: {fileID: 114841364053301648, guid: e3737d843907ded43bc6fb678ea6d385, type: 2}
+  - EnemyName: Fulgurodonte
+    EnemyId: 43
+    NotAvailable: 0
+    Type: 1
+    EnemyPrefab: {fileID: 114841364053301648, guid: e3737d843907ded43bc6fb678ea6d385, type: 2}
+  - EnemyName: Occisodonte
+    EnemyId: 44
+    NotAvailable: 0
+    Type: 0
+    EnemyPrefab: {fileID: 114841364053301648, guid: e3737d843907ded43bc6fb678ea6d385, type: 2}
+  - EnemyName: Dimaxillosaurus
+    EnemyId: 45
+    NotAvailable: 0
+    Type: 0
+    EnemyPrefab: {fileID: 114841364053301648, guid: e3737d843907ded43bc6fb678ea6d385, type: 2}

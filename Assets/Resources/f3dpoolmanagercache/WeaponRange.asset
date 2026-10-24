@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1890f9258cc7057568b10f1d33cc233b, type: 3}
+  m_Name: WeaponRange
+  m_EditorClassIdentifier:
+  poolsName: []
+  pools:
+  - poolName: GeneratedPool
+    templates:
+    - {fileID: 4589667821646929, guid: 9360b13ca92819d41becea179c59c097, type: 2}
+    - {fileID: 4618682377417806, guid: 120b80f25d9a72f42a601b5056fea880, type: 2}
+    - {fileID: 4099118695303065, guid: a0a86c09cf7d22943af98c2e838c7cf5, type: 2}
+    - {fileID: 4884547391421755, guid: bda93cff5b099ef41ae3697ab3597eb5, type: 2}
+    - {fileID: 4618682377417806, guid: 8e74e4a48aae20447a04c435e5133659, type: 2}
+    - {fileID: 4044625135789424, guid: bfdac404d8fef5641a7be5f802ef5a50, type: 2}
+    - {fileID: 4243736805655561, guid: a2a31d90091d53f419f61270015b26e0, type: 2}
+    - {fileID: 4243736805655561, guid: 69d21132bc8c6664f8a399c6396710cd, type: 2}
+    - {fileID: 4099118695303065, guid: 800614330b3e29f4188802dd08221111, type: 2}
+    - {fileID: 4703437598541787, guid: d5359e9f596de2d4589c7622f032c834, type: 2}
+    - {fileID: 4243736805655561, guid: 34ac462e86e9be3478ecbbabd5f6ecbd, type: 2}
+    - {fileID: 4730242686860875, guid: a6a4dafcdee3c014cb1b21d31d232f54, type: 2}
+    - {fileID: 4099118695303065, guid: 95aa43e8951451647b9adf988179f5b8, type: 2}
+    - {fileID: 4724804207875695, guid: e3b064e6011c8f94e8888664c2e59089, type: 2}
+    - {fileID: 4061268324235159, guid: 281fb85cab56083458539c88c0789a7b, type: 2}
+    - {fileID: 4703437598541787, guid: a661229a6ce90544f9c852fb780cf74a, type: 2}
+    - {fileID: 4703437598541787, guid: 4b769f62697496d459696e3bdb0fb2e7, type: 2}
+    - {fileID: 4730242686860875, guid: 2d1100cc85917a24baf2575545422a1d, type: 2}
+    - {fileID: 4618682377417806, guid: 1f09bd3d4cf51e54083f9f2cfa7cb425, type: 2}
+    - {fileID: 4703437598541787, guid: 6d275f9873d9c144c9222bbc41384474, type: 2}
+    - {fileID: 4243736805655561, guid: 249e65d0d44d8f246a67405c65499542, type: 2}
+    - {fileID: 4703437598541787, guid: 89e2565116757a640ac72023e7be3d3e, type: 2}
+    - {fileID: 4618682377417806, guid: 5c1a0605735d36b4c9506609ed0e70dc, type: 2}
+    - {fileID: 4703437598541787, guid: 941f749019d1aed4d8d44300450d8dcf, type: 2}
+    - {fileID: 4618682377417806, guid: be3714ff44fa75148bfa2dddd8c6050c, type: 2}
+    - {fileID: 4730242686860875, guid: 5581a155cc4319f43b81b215e280042c, type: 2}
+    - {fileID: 4099118695303065, guid: e0268f50c63c55349a7262e6fcea551c, type: 2}
+    - {fileID: 4243736805655561, guid: c9b8e31a7303a5c43a96859ccf535783, type: 2}
+    poolLength: 32000000320000003200000032000000320000003200000032000000320000003200000032000000320000003200000032000000320000003200000032000000320000003200000032000000320000003200000032000000320000003200000032000000f40100003200000032000000
+    poolLengthMax: 32000000320000003200000032000000320000003200000032000000320000003200000032000000320000003200000032000000320000003200000032000000320000003200000032000000320000003200000032000000320000003200000032000000f40100003200000032000000
+    broadcastSpawnName: OnSpawned
+    broadcastDespawnName: OnDespawned
+    delayedSpawnInInstall: 0
+    objectsPerUpdate: 5
+    needBroadcasting: 1
+    optimizeSpawn: 0
+    targetFPS: 50
+    pooling: 1
+    needSort: 0
+    needParenting: 0
+    needDebug: 0
+  namer: WeaponRange

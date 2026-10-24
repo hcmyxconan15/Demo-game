@@ -1,0 +1,2327 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dfaca33267902fe7c5d82ab164e983a, type: 3}
+  m_Name: WeaponEvolutionsDb
+  m_EditorClassIdentifier:
+  Weapons:
+  - WeaponDescriptionName: 'Flamethrower II | Id:1000 | Bullet Id:57 | Evolution: False | Unlock: Unlock Condition Missing!!!'
+    WeaponName: Flamethrower II
+    NotInclude: 0
+    NotAvailable: 1
+    NotFoundByLevelUp: 0
+    Icon: {fileID: 21300000, guid: dac657328fba9a44d9118c167ffab920, type: 2}
+    WeaponPrefab: {fileID: 1709254077376921, guid: 2d6f4677bcbadaa49b67e494eef80175, type: 2}
+    WeaponId: 1000
+    MaxWeaponLevel: 5
+    WeaponSlotType: 0
+    BulletId: 57
+    AlternateBulletId: -1
+    BasePrice: 100
+    UnlockPrice: 30
+    WeaponDamage: 10
+    WeaponDamageGrowUp: 3
+    WeaponShieldDamage: 0
+    PermanentWeapon: 0
+    DontTriggerCriticalHits: 0
+    IgnoreMagazineGrowWeapon: 0
+    AttackRate: 0.40000004
+    AttackRateGrowUp: 0.05
+    ReloadTime: 4.6
+    ReloadTimeGrowUp: 0.1
+    BaseMagazine: 1
+    BaseMagazineGrowUp: 0
+    PassEnemyCount: 10
+    RicochetCount: 0
+    ChainBulletId: -1
+    ChainDamagePercent: 0
+    ChainActivationPercent: 100
+    ChainSpawnOnGround: 0
+    LaunchChainBulletId: -1
+    LaunchChainDamagePercent: 0
+    LaunchChainActivationPercent: 100
+    LaunchChainSpawnOnGround: 0
+    IntervalWeapon: 1
+    PositionControlByBullet: 0
+    IntervalWeaponActiveTime: 10
+    IntervalWeaponActiveTimeGrow: 1
+    WeaponSoundId: -1
+    OnWeak: 0
+    OnFire: 10
+    TickNeedForAccumulatedFirePotencyUp: 5
+    OnShock: 0
+    OnMark: 0
+    OnMarkCriticalChanceBonus: 0
+    ResolvedTags: 0b000000160000001e00000051000000
+    ExtraTags:
+    TagGate:
+      RequiredAnyTags:
+      RequiredAllTags:
+      IncompatibleTags:
+    Archetypes:
+    PartStats:
+      Life: 0
+      Shield: 0
+      Damage: 0
+      ReloadTimePercent: 0
+      MagazineIncreaseRaw: 0
+      CriticalDamagePercent: 0
+      CriticalChancePercent: 0
+      DamageIncreasePercent: 0
+      FireRateIncreasePercent: 0
+      MicrochipSlots: 0
+      OverloadSlots: 0
+      DroneCapacity: 0
+    RequiredWeaponsId:
+    RequiredOverloadId:
+    RequiredChipsId:
+    IncompatibleChipsId:
+    EvolutionUnlockProficiencyLevel: 0
+    ProficiencyLevelRewards: []
+    WeaponToEvolveId: []
+    MicrochipRequiredToEvolve: []
+    OverloadRequiredToEvolve: []
+  - WeaponDescriptionName: 'Scatterstorm | Id:1001 | Bullet Id:40 | Evolution: False | Unlock: Unlock Condition Missing!!!'
+    WeaponName: Scatterstorm
+    NotInclude: 0
+    NotAvailable: 0
+    NotFoundByLevelUp: 0
+    Icon: {fileID: 21300000, guid: 8c21e4ed0d4af8347a378af73a0c912d, type: 2}
+    WeaponPrefab: {fileID: 1709254077376921, guid: 44b3b06e8723cd04aa5440862dedc001, type: 2}
+    WeaponId: 1001
+    MaxWeaponLevel: 5
+    WeaponSlotType: 0
+    BulletId: 40
+    AlternateBulletId: -1
+    BasePrice: 100
+    UnlockPrice: 30
+    WeaponDamage: 12
+    WeaponDamageGrowUp: 3
+    WeaponShieldDamage: 0
+    PermanentWeapon: 0
+    DontTriggerCriticalHits: 0
+    IgnoreMagazineGrowWeapon: 0
+    AttackRate: 1.8
+    AttackRateGrowUp: 0.05
+    ReloadTime: 2.6
+    ReloadTimeGrowUp: 0.1
+    BaseMagazine: 6
+    BaseMagazineGrowUp: 1
+    PassEnemyCount: 0
+    RicochetCount: 0
+    ChainBulletId: -1
+    ChainDamagePercent: 0
+    ChainActivationPercent: 100
+    ChainSpawnOnGround: 0
+    LaunchChainBulletId: -1
+    LaunchChainDamagePercent: 0
+    LaunchChainActivationPercent: 100
+    LaunchChainSpawnOnGround: 0
+    IntervalWeapon: 0
+    PositionControlByBullet: 0
+    IntervalWeaponActiveTime: 0
+    IntervalWeaponActiveTimeGrow: 0
+    WeaponSoundId: 10
+    OnWeak: 0
+    OnFire: 0
+    TickNeedForAccumulatedFirePotencyUp: 0
+    OnShock: 0
+    OnMark: 0
+    OnMarkCriticalChanceBonus: 0
+    ResolvedTags: 0a0000001400000051000000
+    ExtraTags:
+    TagGate:
+      RequiredAnyTags:
+      RequiredAllTags:
+      IncompatibleTags:
+    Archetypes:
+    PartStats:
+      Life: 0
+      Shield: 0
+      Damage: 0
+      ReloadTimePercent: 0
+      MagazineIncreaseRaw: 0
+      CriticalDamagePercent: 0
+      CriticalChancePercent: 0
+      DamageIncreasePercent: 0
+      FireRateIncreasePercent: 0
+      MicrochipSlots: 0
+      OverloadSlots: 0
+      DroneCapacity: 0
+    RequiredWeaponsId:
+    RequiredOverloadId:
+    RequiredChipsId:
+    IncompatibleChipsId:
+    EvolutionUnlockProficiencyLevel: 0
+    ProficiencyLevelRewards: []
+    WeaponToEvolveId: []
+    MicrochipRequiredToEvolve: []
+    OverloadRequiredToEvolve: []
+  - WeaponDescriptionName: 'Twin Laser II | Id:1002 | Bullet Id:1 | Evolution: False | Unlock: Unlock Condition Missing!!!'
+    WeaponName: Twin Laser II
+    NotInclude: 0
+    NotAvailable: 0
+    NotFoundByLevelUp: 0
+    Icon: {fileID: 21300000, guid: 52ba40e5ccf7bc04793aa9f10ad8ca03, type: 2}
+    WeaponPrefab: {fileID: 1709254077376921, guid: 69d5ccdd4168e094b8ea2a3be8ca1b99, type: 2}
+    WeaponId: 1002
+    MaxWeaponLevel: 5
+    WeaponSlotType: 0
+    BulletId: 1
+    AlternateBulletId: -1
+    BasePrice: 100
+    UnlockPrice: 30
+    WeaponDamage: 13
+    WeaponDamageGrowUp: 2
+    WeaponShieldDamage: 0
+    PermanentWeapon: 0
+    DontTriggerCriticalHits: 0
+    IgnoreMagazineGrowWeapon: 0
+    AttackRate: 0.96
+    AttackRateGrowUp: 0.03
+    ReloadTime: 3.2
+    ReloadTimeGrowUp: 0.2
+    BaseMagazine: 7
+    BaseMagazineGrowUp: 1
+    PassEnemyCount: 0
+    RicochetCount: 0
+    ChainBulletId: 58
+    ChainDamagePercent: 60
+    ChainActivationPercent: 10
+    ChainSpawnOnGround: 1
+    LaunchChainBulletId: -1
+    LaunchChainDamagePercent: 0
+    LaunchChainActivationPercent: 100
+    LaunchChainSpawnOnGround: 0
+    IntervalWeapon: 0
+    PositionControlByBullet: 0
+    IntervalWeaponActiveTime: 0
+    IntervalWeaponActiveTimeGrow: 0
+    WeaponSoundId: 13
+    OnWeak: 0
+    OnFire: 0
+    TickNeedForAccumulatedFirePotencyUp: 0
+    OnShock: 0
+    OnMark: 0
+    OnMarkCriticalChanceBonus: 0
+    ResolvedTags: 0b0000001400000051000000
+    ExtraTags:
+    TagGate:
+      RequiredAnyTags:
+      RequiredAllTags:
+      IncompatibleTags:
+    Archetypes:
+    PartStats:
+      Life: 0
+      Shield: 0
+      Damage: 0
+      ReloadTimePercent: 0
+      MagazineIncreaseRaw: 0
+      CriticalDamagePercent: 0
+      CriticalChancePercent: 0
+      DamageIncreasePercent: 0
+      FireRateIncreasePercent: 0
+      MicrochipSlots: 0
+      OverloadSlots: 0
+      DroneCapacity: 0
+    RequiredWeaponsId:
+    RequiredOverloadId:
+    RequiredChipsId:
+    IncompatibleChipsId:
+    EvolutionUnlockProficiencyLevel: 0
+    ProficiencyLevelRewards: []
+    WeaponToEvolveId: []
+    MicrochipRequiredToEvolve: []
+    OverloadRequiredToEvolve: []
+  - WeaponDescriptionName: 'Front laser beam II | Id:1003 | Bullet Id:33 | Evolution: False | Unlock: Unlock Condition Missing!!!'
+    WeaponName: Front laser beam II
+    NotInclude: 0
+    NotAvailable: 1
+    NotFoundByLevelUp: 0
+    Icon: {fileID: 21300000, guid: be62f82eddfccf04ca5a244ada473bab, type: 2}
+    WeaponPrefab: {fileID: 1709254077376921, guid: 35ba484397a574240989b4bcaf97c4da, type: 2}
+    WeaponId: 1003
+    MaxWeaponLevel: 5
+    WeaponSlotType: 2
+    BulletId: 33
+    AlternateBulletId: -1
+    BasePrice: 100
+    UnlockPrice: 30
+    WeaponDamage: 10
+    WeaponDamageGrowUp: 2
+    WeaponShieldDamage: 0
+    PermanentWeapon: 0
+    DontTriggerCriticalHits: 0
+    IgnoreMagazineGrowWeapon: 0
+    AttackRate: 0.40000004
+    AttackRateGrowUp: 0.05
+    ReloadTime: 4.6
+    ReloadTimeGrowUp: 0.1
+    BaseMagazine: 1
+    BaseMagazineGrowUp: 0
+    PassEnemyCount: 10
+    RicochetCount: 0
+    ChainBulletId: -1
+    ChainDamagePercent: 0
+    ChainActivationPercent: 100
+    ChainSpawnOnGround: 0
+    LaunchChainBulletId: -1
+    LaunchChainDamagePercent: 0
+    LaunchChainActivationPercent: 100
+    LaunchChainSpawnOnGround: 0
+    IntervalWeapon: 1
+    PositionControlByBullet: 0
+    IntervalWeaponActiveTime: 10
+    IntervalWeaponActiveTimeGrow: 1
+    WeaponSoundId: -1
+    OnWeak: 0
+    OnFire: 10
+    TickNeedForAccumulatedFirePotencyUp: 5
+    OnShock: 0
+    OnMark: 0
+    OnMarkCriticalChanceBonus: 0
+    ResolvedTags: 0b000000160000001e00000051000000
+    ExtraTags:
+    TagGate:
+      RequiredAnyTags:
+      RequiredAllTags:
+      IncompatibleTags:
+    Archetypes: 04000000
+    PartStats:
+      Life: 0
+      Shield: 0
+      Damage: 0
+      ReloadTimePercent: 0
+      MagazineIncreaseRaw: 0
+      CriticalDamagePercent: 0
+      CriticalChancePercent: 0
+      DamageIncreasePercent: 0
+      FireRateIncreasePercent: 0
+      MicrochipSlots: 0
+      OverloadSlots: 0
+      DroneCapacity: 0
+    RequiredWeaponsId:
+    RequiredOverloadId:
+    RequiredChipsId:
+    IncompatibleChipsId:
+    EvolutionUnlockProficiencyLevel: 0
+    ProficiencyLevelRewards: []
+    WeaponToEvolveId: []
+    MicrochipRequiredToEvolve: []
+    OverloadRequiredToEvolve: []
+  - WeaponDescriptionName: 'Gatling Cannon II | Id:1004 | Bullet Id:0 | Evolution: False | Unlock: Unlock Condition Missing!!!'
+    WeaponName: Gatling Cannon II
+    NotInclude: 0
+    NotAvailable: 1
+    NotFoundByLevelUp: 0
+    Icon: {fileID: 21300000, guid: 2571fb24a1a8b464797c381e07aea8b3, type: 2}
+    WeaponPrefab: {fileID: 1709254077376921, guid: c6427c0a18d549b458ab225e8b9ed4f6, type: 2}
+    WeaponId: 1004
+    MaxWeaponLevel: 5
+    WeaponSlotType: 0
+    BulletId: 0
+    AlternateBulletId: -1
+    BasePrice: 100
+    UnlockPrice: 30
+    WeaponDamage: 14
+    WeaponDamageGrowUp: 3
+    WeaponShieldDamage: 0
+    PermanentWeapon: 0
+    DontTriggerCriticalHits: 0
+    IgnoreMagazineGrowWeapon: 0
+    AttackRate: 0.1
+    AttackRateGrowUp: 0
+    ReloadTime: 4.6
+    ReloadTimeGrowUp: 0.1
+    BaseMagazine: 16
+    BaseMagazineGrowUp: 5
+    PassEnemyCount: 0
+    RicochetCount: 0
+    ChainBulletId: -1
+    ChainDamagePercent: 0
+    ChainActivationPercent: 100
+    ChainSpawnOnGround: 0
+    LaunchChainBulletId: -1
+    LaunchChainDamagePercent: 0
+    LaunchChainActivationPercent: 100
+    LaunchChainSpawnOnGround: 0
+    IntervalWeapon: 0
+    PositionControlByBullet: 0
+    IntervalWeaponActiveTime: 0
+    IntervalWeaponActiveTimeGrow: 0
+    WeaponSoundId: 2
+    OnWeak: 0
+    OnFire: 0
+    TickNeedForAccumulatedFirePotencyUp: 0
+    OnShock: 0
+    OnMark: 0
+    OnMarkCriticalChanceBonus: 0
+    ResolvedTags: 0a0000001400000051000000
+    ExtraTags:
+    TagGate:
+      RequiredAnyTags:
+      RequiredAllTags:
+      IncompatibleTags:
+    Archetypes: 01000000
+    PartStats:
+      Life: 0
+      Shield: 0
+      Damage: 0
+      ReloadTimePercent: 0
+      MagazineIncreaseRaw: 0
+      CriticalDamagePercent: 0
+      CriticalChancePercent: 0
+      DamageIncreasePercent: 0
+      FireRateIncreasePercent: 0
+      MicrochipSlots: 0
+      OverloadSlots: 0
+      DroneCapacity: 0
+    RequiredWeaponsId:
+    RequiredOverloadId:
+    RequiredChipsId:
+    IncompatibleChipsId:
+    EvolutionUnlockProficiencyLevel: 0
+    ProficiencyLevelRewards: []
+    WeaponToEvolveId: []
+    MicrochipRequiredToEvolve: []
+    OverloadRequiredToEvolve: []
+  - WeaponDescriptionName: 'Photon Burst Rifle II | Id:1005 | Bullet Id:19 | Evolution: False | Unlock: Unlock Condition Missing!!!'
+    WeaponName: Photon Burst Rifle II
+    NotInclude: 0
+    NotAvailable: 1
+    NotFoundByLevelUp: 0
+    Icon: {fileID: 21300000, guid: 05a606e90becc5443bd91b9a0aa537ae, type: 2}
+    WeaponPrefab: {fileID: 1709254077376921, guid: 45cadbee5ebff8845b49aada6db1af00, type: 2}
+    WeaponId: 1005
+    MaxWeaponLevel: 5
+    WeaponSlotType: 0
+    BulletId: 19
+    AlternateBulletId: -1
+    BasePrice: 100
+    UnlockPrice: 30
+    WeaponDamage: 18
+    WeaponDamageGrowUp: 3
+    WeaponShieldDamage: 0
+    PermanentWeapon: 0
+    DontTriggerCriticalHits: 0
+    IgnoreMagazineGrowWeapon: 0
+    AttackRate: 0.40000004
+    AttackRateGrowUp: 0.05
+    ReloadTime: 1.6
+    ReloadTimeGrowUp: 0.1
+    BaseMagazine: 13
+    BaseMagazineGrowUp: 2
+    PassEnemyCount: 0
+    RicochetCount: 0
+    ChainBulletId: -1
+    ChainDamagePercent: 0
+    ChainActivationPercent: 100
+    ChainSpawnOnGround: 0
+    LaunchChainBulletId: -1
+    LaunchChainDamagePercent: 0
+    LaunchChainActivationPercent: 100
+    LaunchChainSpawnOnGround: 0
+    IntervalWeapon: 0
+    PositionControlByBullet: 0
+    IntervalWeaponActiveTime: 0
+    IntervalWeaponActiveTimeGrow: 0
+    WeaponSoundId: 23
+    OnWeak: 0
+    OnFire: 0
+    TickNeedForAccumulatedFirePotencyUp: 0
+    OnShock: 0
+    OnMark: 0
+    OnMarkCriticalChanceBonus: 0
+    ResolvedTags: 0b0000001400000051000000
+    ExtraTags:
+    TagGate:
+      RequiredAnyTags:
+      RequiredAllTags:
+      IncompatibleTags:
+    Archetypes: 05000000
+    PartStats:
+      Life: 0
+      Shield: 0
+      Damage: 0
+      ReloadTimePercent: 0
+      MagazineIncreaseRaw: 0
+      CriticalDamagePercent: 0
+      CriticalChancePercent: 0
+      DamageIncreasePercent: 0
+      FireRateIncreasePercent: 0
+      MicrochipSlots: 0
+      OverloadSlots: 0
+      DroneCapacity: 0
+    RequiredWeaponsId:
+    RequiredOverloadId:
+    RequiredChipsId:
+    IncompatibleChipsId:
+    EvolutionUnlockProficiencyLevel: 0
+    ProficiencyLevelRewards: []
+    WeaponToEvolveId: []
+    MicrochipRequiredToEvolve: []
+    OverloadRequiredToEvolve: []
+  - WeaponDescriptionName: 'Heat seeker missile II | Id:1006 | Bullet Id:2 | Evolution: False | Unlock: Unlock Condition Missing!!!'
+    WeaponName: Heat seeker missile II
+    NotInclude: 0
+    NotAvailable: 1
+    NotFoundByLevelUp: 0
+    Icon: {fileID: 21300000, guid: 9da1a7cb9e161314d96f67334379b15e, type: 2}
+    WeaponPrefab: {fileID: 1709254077376921, guid: fb9172b4ac218614ca2804ad4526a919, type: 2}
+    WeaponId: 1006
+    MaxWeaponLevel: 5
+    WeaponSlotType: 1
+    BulletId: 2
+    AlternateBulletId: -1
+    BasePrice: 100
+    UnlockPrice: 30
+    WeaponDamage: 28
+    WeaponDamageGrowUp: 5
+    WeaponShieldDamage: 0
+    PermanentWeapon: 0
+    DontTriggerCriticalHits: 0
+    IgnoreMagazineGrowWeapon: 0
+    AttackRate: 0.6
+    AttackRateGrowUp: 0.1
+    ReloadTime: 2.6
+    ReloadTimeGrowUp: 0.1
+    BaseMagazine: 7
+    BaseMagazineGrowUp: 1
+    PassEnemyCount: 0
+    RicochetCount: 0
+    ChainBulletId: -1
+    ChainDamagePercent: 0
+    ChainActivationPercent: 100
+    ChainSpawnOnGround: 0
+    LaunchChainBulletId: -1
+    LaunchChainDamagePercent: 0
+    LaunchChainActivationPercent: 100
+    LaunchChainSpawnOnGround: 0
+    IntervalWeapon: 0
+    PositionControlByBullet: 0
+    IntervalWeaponActiveTime: 0
+    IntervalWeaponActiveTimeGrow: 0
+    WeaponSoundId: 4
+    OnWeak: 0
+    OnFire: 0
+    TickNeedForAccumulatedFirePotencyUp: 0
+    OnShock: 0
+    OnMark: 0
+    OnMarkCriticalChanceBonus: 0
+    ResolvedTags: 0a0000001500000051000000
+    ExtraTags:
+    TagGate:
+      RequiredAnyTags:
+      RequiredAllTags:
+      IncompatibleTags:
+    Archetypes: 02000000
+    PartStats:
+      Life: 0
+      Shield: 0
+      Damage: 0
+      ReloadTimePercent: 0
+      MagazineIncreaseRaw: 0
+      CriticalDamagePercent: 0
+      CriticalChancePercent: 0
+      DamageIncreasePercent: 0
+      FireRateIncreasePercent: 0
+      MicrochipSlots: 0
+      OverloadSlots: 0
+      DroneCapacity: 0
+    RequiredWeaponsId:
+    RequiredOverloadId:
+    RequiredChipsId:
+    IncompatibleChipsId:
+    EvolutionUnlockProficiencyLevel: 0
+    ProficiencyLevelRewards: []
+    WeaponToEvolveId: []
+    MicrochipRequiredToEvolve: []
+    OverloadRequiredToEvolve: []
+  - WeaponDescriptionName: 'Railgun II | Id:1007 | Bullet Id:55 | Evolution: False | Unlock: Unlock Condition Missing!!!'
+    WeaponName: Railgun II
+    NotInclude: 0
+    NotAvailable: 0
+    NotFoundByLevelUp: 0
+    Icon: {fileID: 21300000, guid: 34cc100f847a687499237d5c5f28d73a, type: 2}
+    WeaponPrefab: {fileID: 1709254077376921, guid: e348c11165136734fb3a72a2dbb47e45, type: 2}
+    WeaponId: 1007
+    MaxWeaponLevel: 5
+    WeaponSlotType: 0
+    BulletId: 55
+    AlternateBulletId: -1
+    BasePrice: 120
+    UnlockPrice: 25
+    WeaponDamage: 36
+    WeaponDamageGrowUp: 5
+    WeaponShieldDamage: 0
+    PermanentWeapon: 0
+    DontTriggerCriticalHits: 0
+    IgnoreMagazineGrowWeapon: 0
+    AttackRate: 1.8
+    AttackRateGrowUp: 0.05
+    ReloadTime: 2.6
+    ReloadTimeGrowUp: 0.1
+    BaseMagazine: 7
+    BaseMagazineGrowUp: 1
+    PassEnemyCount: 5
+    RicochetCount: 0
+    ChainBulletId: -1
+    ChainDamagePercent: 0
+    ChainActivationPercent: 100
+    ChainSpawnOnGround: 0
+    LaunchChainBulletId: -1
+    LaunchChainDamagePercent: 0
+    LaunchChainActivationPercent: 100
+    LaunchChainSpawnOnGround: 0
+    IntervalWeapon: 0
+    PositionControlByBullet: 0
+    IntervalWeaponActiveTime: 0
+    IntervalWeaponActiveTimeGrow: 0
+    WeaponSoundId: 37
+    OnWeak: 0
+    OnFire: 0
+    TickNeedForAccumulatedFirePotencyUp: 0
+    OnShock: 0
+    OnMark: 0
+    OnMarkCriticalChanceBonus: 0
+    ResolvedTags: 0a000000140000005100000053000000
+    ExtraTags: 53000000
+    TagGate:
+      RequiredAnyTags:
+      RequiredAllTags:
+      IncompatibleTags:
+    Archetypes: 01000000
+    PartStats:
+      Life: 0
+      Shield: 0
+      Damage: 0
+      ReloadTimePercent: 0
+      MagazineIncreaseRaw: 0
+      CriticalDamagePercent: 0
+      CriticalChancePercent: 0
+      DamageIncreasePercent: 0
+      FireRateIncreasePercent: 0
+      MicrochipSlots: 0
+      OverloadSlots: 0
+      DroneCapacity: 0
+    RequiredWeaponsId:
+    RequiredOverloadId:
+    RequiredChipsId:
+    IncompatibleChipsId:
+    EvolutionUnlockProficiencyLevel: 0
+    ProficiencyLevelRewards: []
+    WeaponToEvolveId: []
+    MicrochipRequiredToEvolve: []
+    OverloadRequiredToEvolve: []
+  - WeaponDescriptionName: 'Golden Tip Missile Pod | Id:1008 | Bullet Id:56 | Evolution: False | Unlock: Unlock Condition Missing!!!'
+    WeaponName: Golden Tip Missile Pod
+    NotInclude: 0
+    NotAvailable: 0
+    NotFoundByLevelUp: 0
+    Icon: {fileID: 21300000, guid: 61788ca1e437c9a43866729583848f57, type: 2}
+    WeaponPrefab: {fileID: 1709254077376921, guid: 14772d6222e32a646be4a67afc18fbbb, type: 2}
+    WeaponId: 1008
+    MaxWeaponLevel: 5
+    WeaponSlotType: 0
+    BulletId: 56
+    AlternateBulletId: -1
+    BasePrice: 200
+    UnlockPrice: 30
+    WeaponDamage: 15
+    WeaponDamageGrowUp: 2
+    WeaponShieldDamage: 0
+    PermanentWeapon: 0
+    DontTriggerCriticalHits: 0
+    IgnoreMagazineGrowWeapon: 0
+    AttackRate: 1.6
+    AttackRateGrowUp: 0.1
+    ReloadTime: 2.6
+    ReloadTimeGrowUp: 0.1
+    BaseMagazine: 5
+    BaseMagazineGrowUp: 1
+    PassEnemyCount: 0
+    RicochetCount: 0
+    ChainBulletId: -1
+    ChainDamagePercent: 0
+    ChainActivationPercent: 100
+    ChainSpawnOnGround: 0
+    LaunchChainBulletId: -1
+    LaunchChainDamagePercent: 0
+    LaunchChainActivationPercent: 100
+    LaunchChainSpawnOnGround: 0
+    IntervalWeapon: 0
+    PositionControlByBullet: 0
+    IntervalWeaponActiveTime: 0
+    IntervalWeaponActiveTimeGrow: 0
+    WeaponSoundId: 4
+    OnWeak: 0
+    OnFire: 0
+    TickNeedForAccumulatedFirePotencyUp: 0
+    OnShock: 0
+    OnMark: 0
+    OnMarkCriticalChanceBonus: 0
+    ResolvedTags: 0a0000001500000051000000
+    ExtraTags:
+    TagGate:
+      RequiredAnyTags:
+      RequiredAllTags:
+      IncompatibleTags:
+    Archetypes: 02000000
+    PartStats:
+      Life: 0
+      Shield: 0
+      Damage: 0
+      ReloadTimePercent: 0
+      MagazineIncreaseRaw: 0
+      CriticalDamagePercent: 0
+      CriticalChancePercent: 0
+      DamageIncreasePercent: 0
+      FireRateIncreasePercent: 0
+      MicrochipSlots: 0
+      OverloadSlots: 0
+      DroneCapacity: 0
+    RequiredWeaponsId:
+    RequiredOverloadId:
+    RequiredChipsId:
+    IncompatibleChipsId:
+    EvolutionUnlockProficiencyLevel: 0
+    ProficiencyLevelRewards: []
+    WeaponToEvolveId: []
+    MicrochipRequiredToEvolve: []
+    OverloadRequiredToEvolve: []
+  - WeaponDescriptionName: 'BreachMissiles II | Id:1009 | Bullet Id:54 | Evolution: False | Unlock: Unlock Condition Missing!!!'
+    WeaponName: BreachMissiles II
+    NotInclude: 0
+    NotAvailable: 0
+    NotFoundByLevelUp: 0
+    Icon: {fileID: 21300000, guid: 7693ab7d4cc756d46a8fbf15394e60d3, type: 2}
+    WeaponPrefab: {fileID: 1709254077376921, guid: d4accd4c9bb124c4889e473580fbe10b, type: 2}
+    WeaponId: 1009
+    MaxWeaponLevel: 5
+    WeaponSlotType: 1
+    BulletId: 54
+    AlternateBulletId: -1
+    BasePrice: 100
+    UnlockPrice: 30
+    WeaponDamage: 14
+    WeaponDamageGrowUp: 2
+    WeaponShieldDamage: 0
+    PermanentWeapon: 0
+    DontTriggerCriticalHits: 0
+    IgnoreMagazineGrowWeapon: 0
+    AttackRate: 0.2
+    AttackRateGrowUp: 0
+    ReloadTime: 3
+    ReloadTimeGrowUp: 0
+    BaseMagazine: 9
+    BaseMagazineGrowUp: 2
+    PassEnemyCount: 0
+    RicochetCount: 0
+    ChainBulletId: 41
+    ChainDamagePercent: 100
+    ChainActivationPercent: 25
+    ChainSpawnOnGround: 1
+    LaunchChainBulletId: -1
+    LaunchChainDamagePercent: 0
+    LaunchChainActivationPercent: 100
+    LaunchChainSpawnOnGround: 0
+    IntervalWeapon: 0
+    PositionControlByBullet: 0
+    IntervalWeaponActiveTime: 0
+    IntervalWeaponActiveTimeGrow: 0
+    WeaponSoundId: 4
+    OnWeak: 0
+    OnFire: 0
+    TickNeedForAccumulatedFirePotencyUp: 0
+    OnShock: 0
+    OnMark: 5
+    OnMarkCriticalChanceBonus: 15
+    ResolvedTags: 0b000000150000002100000051000000
+    ExtraTags:
+    TagGate:
+      RequiredAnyTags:
+      RequiredAllTags:
+      IncompatibleTags:
+    Archetypes: 02000000
+    PartStats:
+      Life: 0
+      Shield: 0
+      Damage: 0
+      ReloadTimePercent: 0
+      MagazineIncreaseRaw: 0
+      CriticalDamagePercent: 0
+      CriticalChancePercent: 0
+      DamageIncreasePercent: 0
+      FireRateIncreasePercent: 0
+      MicrochipSlots: 0
+      OverloadSlots: 0
+      DroneCapacity: 0
+    RequiredWeaponsId:
+    RequiredOverloadId:
+    RequiredChipsId:
+    IncompatibleChipsId:
+    EvolutionUnlockProficiencyLevel: 0
+    ProficiencyLevelRewards: []
+    WeaponToEvolveId: []
+    MicrochipRequiredToEvolve: []
+    OverloadRequiredToEvolve: []
+  - WeaponDescriptionName: 'Small turret II | Id:1010 | Bullet Id:18 | Alt Bullet:59 | Evolution: False | Unlock: Unlock Condition Missing!!!'
+    WeaponName: Small turret II
+    NotInclude: 0
+    NotAvailable: 1
+    NotFoundByLevelUp: 0
+    Icon: {fileID: 21300000, guid: 239384fcf439a7b47a9633b2a37a66ff, type: 2}
+    WeaponPrefab: {fileID: 1709254077376921, guid: b6d3f728ad5e54f48b52f0b96298a253, type: 2}
+    WeaponId: 1010
+    MaxWeaponLevel: 5
+    WeaponSlotType: 2
+    BulletId: 18
+    AlternateBulletId: 59
+    BasePrice: 100
+    UnlockPrice: 30
+    WeaponDamage: 24
+    WeaponDamageGrowUp: 4
+    WeaponShieldDamage: 0
+    PermanentWeapon: 0
+    DontTriggerCriticalHits: 0
+    IgnoreMagazineGrowWeapon: 0
+    AttackRate: 0.52000004
+    AttackRateGrowUp: 0.02
+    ReloadTime: 1.2
+    ReloadTimeGrowUp: 0.2
+    BaseMagazine: 7
+    BaseMagazineGrowUp: 1
+    PassEnemyCount: 0
+    RicochetCount: 0
+    ChainBulletId: -1
+    ChainDamagePercent: 0
+    ChainActivationPercent: 100
+    ChainSpawnOnGround: 0
+    LaunchChainBulletId: -1
+    LaunchChainDamagePercent: 0
+    LaunchChainActivationPercent: 100
+    LaunchChainSpawnOnGround: 0
+    IntervalWeapon: 0
+    PositionControlByBullet: 0
+    IntervalWeaponActiveTime: 0
+    IntervalWeaponActiveTimeGrow: 0
+    WeaponSoundId: 2
+    OnWeak: 0
+    OnFire: 0
+    TickNeedForAccumulatedFirePotencyUp: 0
+    OnShock: 0
+    OnMark: 0
+    OnMarkCriticalChanceBonus: 0
+    ResolvedTags: 0a0000001400000051000000
+    ExtraTags:
+    TagGate:
+      RequiredAnyTags:
+      RequiredAllTags:
+      IncompatibleTags:
+    Archetypes: 01000000
+    PartStats:
+      Life: 0
+      Shield: 0
+      Damage: 0
+      ReloadTimePercent: 0
+      MagazineIncreaseRaw: 0
+      CriticalDamagePercent: 0
+      CriticalChancePercent: 0
+      DamageIncreasePercent: 0
+      FireRateIncreasePercent: 0
+      MicrochipSlots: 0
+      OverloadSlots: 0
+      DroneCapacity: 0
+    RequiredWeaponsId:
+    RequiredOverloadId:
+    RequiredChipsId:
+    IncompatibleChipsId:
+    EvolutionUnlockProficiencyLevel: 0
+    ProficiencyLevelRewards: []
+    WeaponToEvolveId: []
+    MicrochipRequiredToEvolve: []
+    OverloadRequiredToEvolve: []
+  - WeaponDescriptionName: 'Energy ball II | Id:1011 | Bullet Id:4 | Evolution: False | Unlock: Unlock Condition Missing!!!'
+    WeaponName: Energy ball II
+    NotInclude: 0
+    NotAvailable: 1
+    NotFoundByLevelUp: 0
+    Icon: {fileID: 21300000, guid: 87eef09d11fbbf346bccf084dd4fc8a7, type: 2}
+    WeaponPrefab: {fileID: 1709254077376921, guid: 8d70dc036a1cbed4cbeb227f87ef7454, type: 2}
+    WeaponId: 1011
+    MaxWeaponLevel: 5
+    WeaponSlotType: 1
+    BulletId: 4
+    AlternateBulletId: -1
+    BasePrice: 250
+    UnlockPrice: 30
+    WeaponDamage: 22
+    WeaponDamageGrowUp: 3
+    WeaponShieldDamage: 0
+    PermanentWeapon: 0
+    DontTriggerCriticalHits: 0
+    IgnoreMagazineGrowWeapon: 0
+    AttackRate: 1.8
+    AttackRateGrowUp: 0.05
+    ReloadTime: 4.2
+    ReloadTimeGrowUp: 0.2
+    BaseMagazine: 5
+    BaseMagazineGrowUp: 1
+    PassEnemyCount: 0
+    RicochetCount: 0
+    ChainBulletId: -1
+    ChainDamagePercent: 0
+    ChainActivationPercent: 100
+    ChainSpawnOnGround: 0
+    LaunchChainBulletId: -1
+    LaunchChainDamagePercent: 0
+    LaunchChainActivationPercent: 100
+    LaunchChainSpawnOnGround: 0
+    IntervalWeapon: 0
+    PositionControlByBullet: 0
+    IntervalWeaponActiveTime: 0
+    IntervalWeaponActiveTimeGrow: 0
+    WeaponSoundId: 12
+    OnWeak: 0
+    OnFire: 0
+    TickNeedForAccumulatedFirePotencyUp: 0
+    OnShock: 0
+    OnMark: 0
+    OnMarkCriticalChanceBonus: 0
+    ResolvedTags: 0b0000001400000051000000
+    ExtraTags:
+    TagGate:
+      RequiredAnyTags:
+      RequiredAllTags:
+      IncompatibleTags:
+    Archetypes: 04000000
+    PartStats:
+      Life: 0
+      Shield: 0
+      Damage: 0
+      ReloadTimePercent: 0
+      MagazineIncreaseRaw: 0
+      CriticalDamagePercent: 0
+      CriticalChancePercent: 0
+      DamageIncreasePercent: 0
+      FireRateIncreasePercent: 0
+      MicrochipSlots: 0
+      OverloadSlots: 0
+      DroneCapacity: 0
+    RequiredWeaponsId:
+    RequiredOverloadId:
+    RequiredChipsId:
+    IncompatibleChipsId:
+    EvolutionUnlockProficiencyLevel: 0
+    ProficiencyLevelRewards: []
+    WeaponToEvolveId: []
+    MicrochipRequiredToEvolve: []
+    OverloadRequiredToEvolve: []
+  - WeaponDescriptionName: 'Sky missiles II | Id:1012 | Bullet Id:5 | Evolution: False | Unlock: Unlock Condition Missing!!!'
+    WeaponName: Sky missiles II
+    NotInclude: 0
+    NotAvailable: 1
+    NotFoundByLevelUp: 0
+    Icon: {fileID: 21300000, guid: 11295a63583ea3543ace6354e2e4c446, type: 2}
+    WeaponPrefab: {fileID: 1709254077376921, guid: 1c5e477f1531108489b4c5f9c8105479, type: 2}
+    WeaponId: 1012
+    MaxWeaponLevel: 5
+    WeaponSlotType: 3
+    BulletId: 5
+    AlternateBulletId: -1
+    BasePrice: 180
+    UnlockPrice: 30
+    WeaponDamage: 12
+    WeaponDamageGrowUp: 2
+    WeaponShieldDamage: 0
+    PermanentWeapon: 0
+    DontTriggerCriticalHits: 0
+    IgnoreMagazineGrowWeapon: 0
+    AttackRate: 2
+    AttackRateGrowUp: 0
+    ReloadTime: 5.6
+    ReloadTimeGrowUp: 0.1
+    BaseMagazine: 5
+    BaseMagazineGrowUp: 1
+    PassEnemyCount: 0
+    RicochetCount: 0
+    ChainBulletId: -1
+    ChainDamagePercent: 0
+    ChainActivationPercent: 100
+    ChainSpawnOnGround: 0
+    LaunchChainBulletId: -1
+    LaunchChainDamagePercent: 0
+    LaunchChainActivationPercent: 100
+    LaunchChainSpawnOnGround: 0
+    IntervalWeapon: 0
+    PositionControlByBullet: 0
+    IntervalWeaponActiveTime: 0
+    IntervalWeaponActiveTimeGrow: 0
+    WeaponSoundId: 4
+    OnWeak: 0
+    OnFire: 0
+    TickNeedForAccumulatedFirePotencyUp: 0
+    OnShock: 0
+    OnMark: 0
+    OnMarkCriticalChanceBonus: 0
+    ResolvedTags: 0a0000001500000051000000
+    ExtraTags:
+    TagGate:
+      RequiredAnyTags:
+      RequiredAllTags:
+      IncompatibleTags:
+    Archetypes: 02000000
+    PartStats:
+      Life: 0
+      Shield: 0
+      Damage: 0
+      ReloadTimePercent: 0
+      MagazineIncreaseRaw: 0
+      CriticalDamagePercent: 0
+      CriticalChancePercent: 0
+      DamageIncreasePercent: 0
+      FireRateIncreasePercent: 0
+      MicrochipSlots: 0
+      OverloadSlots: 0
+      DroneCapacity: 0
+    RequiredWeaponsId:
+    RequiredOverloadId:
+    RequiredChipsId:
+    IncompatibleChipsId:
+    EvolutionUnlockProficiencyLevel: 0
+    ProficiencyLevelRewards: []
+    WeaponToEvolveId: []
+    MicrochipRequiredToEvolve: []
+    OverloadRequiredToEvolve: []
+  - WeaponDescriptionName: 'Electric discharge II | Id:1013 | Bullet Id:6 | Evolution: False | Unlock: Unlock Condition Missing!!!'
+    WeaponName: Electric discharge II
+    NotInclude: 1
+    NotAvailable: 1
+    NotFoundByLevelUp: 1
+    Icon: {fileID: 21300000, guid: b234df425d2007d49a19cdb6d7d3600e, type: 2}
+    WeaponPrefab: {fileID: 1709254077376921, guid: 151a47557912b7e4483f12f7211a30c3, type: 2}
+    WeaponId: 1013
+    MaxWeaponLevel: 8
+    WeaponSlotType: 3
+    BulletId: 6
+    AlternateBulletId: -1
+    BasePrice: 150
+    UnlockPrice: 30
+    WeaponDamage: 114
+    WeaponDamageGrowUp: 12
+    WeaponShieldDamage: 0
+    PermanentWeapon: 0
+    DontTriggerCriticalHits: 0
+    IgnoreMagazineGrowWeapon: 0
+    AttackRate: 1
+    AttackRateGrowUp: 0
+    ReloadTime: 9.3
+    ReloadTimeGrowUp: 0.1
+    BaseMagazine: 8
+    BaseMagazineGrowUp: 1
+    PassEnemyCount: 0
+    RicochetCount: 0
+    ChainBulletId: -1
+    ChainDamagePercent: 0
+    ChainActivationPercent: 100
+    ChainSpawnOnGround: 0
+    LaunchChainBulletId: -1
+    LaunchChainDamagePercent: 0
+    LaunchChainActivationPercent: 100
+    LaunchChainSpawnOnGround: 0
+    IntervalWeapon: 0
+    PositionControlByBullet: 0
+    IntervalWeaponActiveTime: 0
+    IntervalWeaponActiveTimeGrow: 0
+    WeaponSoundId: 6
+    OnWeak: 0
+    OnFire: 0
+    TickNeedForAccumulatedFirePotencyUp: 0
+    OnShock: 0
+    OnMark: 0
+    OnMarkCriticalChanceBonus: 0
+    ResolvedTags: 0b0000001700000051000000
+    ExtraTags:
+    TagGate:
+      RequiredAnyTags:
+      RequiredAllTags:
+      IncompatibleTags:
+    Archetypes: 05000000
+    PartStats:
+      Life: 0
+      Shield: 0
+      Damage: 0
+      ReloadTimePercent: 0
+      MagazineIncreaseRaw: 0
+      CriticalDamagePercent: 0
+      CriticalChancePercent: 0
+      DamageIncreasePercent: 0
+      FireRateIncreasePercent: 0
+      MicrochipSlots: 0
+      OverloadSlots: 0
+      DroneCapacity: 0
+    RequiredWeaponsId:
+    RequiredOverloadId:
+    RequiredChipsId:
+    IncompatibleChipsId:
+    EvolutionUnlockProficiencyLevel: 0
+    ProficiencyLevelRewards: []
+    WeaponToEvolveId: []
+    MicrochipRequiredToEvolve: []
+    OverloadRequiredToEvolve: []
+  - WeaponDescriptionName: 'Rain of steel II | Id:1014 | Bullet Id:9 | Evolution: False | Unlock: Unlock Condition Missing!!!'
+    WeaponName: Rain of steel II
+    NotInclude: 0
+    NotAvailable: 1
+    NotFoundByLevelUp: 0
+    Icon: {fileID: 21300000, guid: 8a615bb580641f94a9300e79ffb4c7e0, type: 2}
+    WeaponPrefab: {fileID: 1709254077376921, guid: 19e67be334131394aace5832209a48fc, type: 2}
+    WeaponId: 1014
+    MaxWeaponLevel: 5
+    WeaponSlotType: 3
+    BulletId: 9
+    AlternateBulletId: -1
+    BasePrice: 180
+    UnlockPrice: 30
+    WeaponDamage: 62
+    WeaponDamageGrowUp: 10
+    WeaponShieldDamage: 0
+    PermanentWeapon: 0
+    DontTriggerCriticalHits: 0
+    IgnoreMagazineGrowWeapon: 0
+    AttackRate: 0.5
+    AttackRateGrowUp: 0
+    ReloadTime: 5.6
+    ReloadTimeGrowUp: 0.1
+    BaseMagazine: 9
+    BaseMagazineGrowUp: 1
+    PassEnemyCount: 0
+    RicochetCount: 0
+    ChainBulletId: -1
+    ChainDamagePercent: 0
+    ChainActivationPercent: 100
+    ChainSpawnOnGround: 0
+    LaunchChainBulletId: -1
+    LaunchChainDamagePercent: 0
+    LaunchChainActivationPercent: 100
+    LaunchChainSpawnOnGround: 0
+    IntervalWeapon: 0
+    PositionControlByBullet: 0
+    IntervalWeaponActiveTime: 0
+    IntervalWeaponActiveTimeGrow: 0
+    WeaponSoundId: -1
+    OnWeak: 0
+    OnFire: 0
+    TickNeedForAccumulatedFirePotencyUp: 0
+    OnShock: 0
+    OnMark: 0
+    OnMarkCriticalChanceBonus: 0
+    ResolvedTags: 0a0000001700000051000000
+    ExtraTags:
+    TagGate:
+      RequiredAnyTags:
+      RequiredAllTags:
+      IncompatibleTags:
+    Archetypes: 01000000
+    PartStats:
+      Life: 0
+      Shield: 0
+      Damage: 0
+      ReloadTimePercent: 0
+      MagazineIncreaseRaw: 0
+      CriticalDamagePercent: 0
+      CriticalChancePercent: 0
+      DamageIncreasePercent: 0
+      FireRateIncreasePercent: 0
+      MicrochipSlots: 0
+      OverloadSlots: 0
+      DroneCapacity: 0
+    RequiredWeaponsId:
+    RequiredOverloadId:
+    RequiredChipsId:
+    IncompatibleChipsId:
+    EvolutionUnlockProficiencyLevel: 0
+    ProficiencyLevelRewards: []
+    WeaponToEvolveId: []
+    MicrochipRequiredToEvolve: []
+    OverloadRequiredToEvolve: []
+  - WeaponDescriptionName: 'Satellite laser II | Id:1015 | Bullet Id:10 | Evolution: False | Unlock: Unlock Condition Missing!!!'
+    WeaponName: Satellite laser II
+    NotInclude: 0
+    NotAvailable: 1
+    NotFoundByLevelUp: 0
+    Icon: {fileID: 21300000, guid: 828ca1d80e7bbfb46bd0c972b0cbc9ee, type: 2}
+    WeaponPrefab: {fileID: 1709254077376921, guid: 5fb6e59fba511d84f973283d7cbf9628, type: 2}
+    WeaponId: 1015
+    MaxWeaponLevel: 5
+    WeaponSlotType: 3
+    BulletId: 10
+    AlternateBulletId: -1
+    BasePrice: 150
+    UnlockPrice: 5
+    WeaponDamage: 35
+    WeaponDamageGrowUp: 5
+    WeaponShieldDamage: 0
+    PermanentWeapon: 0
+    DontTriggerCriticalHits: 0
+    IgnoreMagazineGrowWeapon: 0
+    AttackRate: 1.2
+    AttackRateGrowUp: 0
+    ReloadTime: 5.6
+    ReloadTimeGrowUp: 0.1
+    BaseMagazine: 7
+    BaseMagazineGrowUp: 1
+    PassEnemyCount: 0
+    RicochetCount: 0
+    ChainBulletId: -1
+    ChainDamagePercent: 0
+    ChainActivationPercent: 100
+    ChainSpawnOnGround: 0
+    LaunchChainBulletId: -1
+    LaunchChainDamagePercent: 0
+    LaunchChainActivationPercent: 100
+    LaunchChainSpawnOnGround: 0
+    IntervalWeapon: 0
+    PositionControlByBullet: 0
+    IntervalWeaponActiveTime: 0
+    IntervalWeaponActiveTimeGrow: 0
+    WeaponSoundId: -1
+    OnWeak: 0
+    OnFire: 0
+    TickNeedForAccumulatedFirePotencyUp: 0
+    OnShock: 0
+    OnMark: 0
+    OnMarkCriticalChanceBonus: 0
+    ResolvedTags: 0b0000001600000051000000
+    ExtraTags:
+    TagGate:
+      RequiredAnyTags:
+      RequiredAllTags:
+      IncompatibleTags:
+    Archetypes: 01000000
+    PartStats:
+      Life: 0
+      Shield: 0
+      Damage: 0
+      ReloadTimePercent: 0
+      MagazineIncreaseRaw: 0
+      CriticalDamagePercent: 0
+      CriticalChancePercent: 0
+      DamageIncreasePercent: 0
+      FireRateIncreasePercent: 0
+      MicrochipSlots: 0
+      OverloadSlots: 0
+      DroneCapacity: 0
+    RequiredWeaponsId:
+    RequiredOverloadId:
+    RequiredChipsId:
+    IncompatibleChipsId:
+    EvolutionUnlockProficiencyLevel: 0
+    ProficiencyLevelRewards: []
+    WeaponToEvolveId: []
+    MicrochipRequiredToEvolve: []
+    OverloadRequiredToEvolve: []
+  - WeaponDescriptionName: 'Field mine II | Id:1016 | Bullet Id:11 | Evolution: False | Unlock: Unlock Condition Missing!!!'
+    WeaponName: Field mine II
+    NotInclude: 0
+    NotAvailable: 1
+    NotFoundByLevelUp: 0
+    Icon: {fileID: 21300000, guid: 2609756b34190984491434504b3a767e, type: 2}
+    WeaponPrefab: {fileID: 1709254077376921, guid: 31f4158b8b65cdd47bdec592cd05283c, type: 2}
+    WeaponId: 1016
+    MaxWeaponLevel: 5
+    WeaponSlotType: 3
+    BulletId: 11
+    AlternateBulletId: -1
+    BasePrice: 180
+    UnlockPrice: 20
+    WeaponDamage: 55
+    WeaponDamageGrowUp: 8
+    WeaponShieldDamage: 0
+    PermanentWeapon: 0
+    DontTriggerCriticalHits: 0
+    IgnoreMagazineGrowWeapon: 0
+    AttackRate: 0.1
+    AttackRateGrowUp: 0
+    ReloadTime: 5.6
+    ReloadTimeGrowUp: 0.1
+    BaseMagazine: 8
+    BaseMagazineGrowUp: 1
+    PassEnemyCount: 0
+    RicochetCount: 0
+    ChainBulletId: -1
+    ChainDamagePercent: 0
+    ChainActivationPercent: 100
+    ChainSpawnOnGround: 0
+    LaunchChainBulletId: -1
+    LaunchChainDamagePercent: 0
+    LaunchChainActivationPercent: 100
+    LaunchChainSpawnOnGround: 0
+    IntervalWeapon: 0
+    PositionControlByBullet: 0
+    IntervalWeaponActiveTime: 0
+    IntervalWeaponActiveTimeGrow: 0
+    WeaponSoundId: -1
+    OnWeak: 0
+    OnFire: 0
+    TickNeedForAccumulatedFirePotencyUp: 0
+    OnShock: 0
+    OnMark: 0
+    OnMarkCriticalChanceBonus: 0
+    ResolvedTags: 0a0000001700000051000000
+    ExtraTags:
+    TagGate:
+      RequiredAnyTags:
+      RequiredAllTags:
+      IncompatibleTags:
+    Archetypes: 01000000
+    PartStats:
+      Life: 0
+      Shield: 0
+      Damage: 0
+      ReloadTimePercent: 0
+      MagazineIncreaseRaw: 0
+      CriticalDamagePercent: 0
+      CriticalChancePercent: 0
+      DamageIncreasePercent: 0
+      FireRateIncreasePercent: 0
+      MicrochipSlots: 0
+      OverloadSlots: 0
+      DroneCapacity: 0
+    RequiredWeaponsId:
+    RequiredOverloadId:
+    RequiredChipsId:
+    IncompatibleChipsId:
+    EvolutionUnlockProficiencyLevel: 0
+    ProficiencyLevelRewards: []
+    WeaponToEvolveId: []
+    MicrochipRequiredToEvolve: []
+    OverloadRequiredToEvolve: []
+  - WeaponDescriptionName: 'Static area II | Id:1017 | Bullet Id:12 | Evolution: False | Unlock: Unlock Condition Missing!!!'
+    WeaponName: Static area II
+    NotInclude: 0
+    NotAvailable: 1
+    NotFoundByLevelUp: 0
+    Icon: {fileID: 21300000, guid: b234df425d2007d49a19cdb6d7d3600e, type: 2}
+    WeaponPrefab: {fileID: 1709254077376921, guid: 4e8b4181810d27c439f799714c0f7d0c, type: 2}
+    WeaponId: 1017
+    MaxWeaponLevel: 5
+    WeaponSlotType: 3
+    BulletId: 12
+    AlternateBulletId: -1
+    BasePrice: 100
+    UnlockPrice: 30
+    WeaponDamage: 45
+    WeaponDamageGrowUp: 8
+    WeaponShieldDamage: 0
+    PermanentWeapon: 0
+    DontTriggerCriticalHits: 0
+    IgnoreMagazineGrowWeapon: 0
+    AttackRate: 1
+    AttackRateGrowUp: 0
+    ReloadTime: 5.6
+    ReloadTimeGrowUp: 0.1
+    BaseMagazine: 5
+    BaseMagazineGrowUp: 1
+    PassEnemyCount: 0
+    RicochetCount: 0
+    ChainBulletId: -1
+    ChainDamagePercent: 0
+    ChainActivationPercent: 100
+    ChainSpawnOnGround: 0
+    LaunchChainBulletId: -1
+    LaunchChainDamagePercent: 0
+    LaunchChainActivationPercent: 100
+    LaunchChainSpawnOnGround: 0
+    IntervalWeapon: 0
+    PositionControlByBullet: 0
+    IntervalWeaponActiveTime: 0
+    IntervalWeaponActiveTimeGrow: 0
+    WeaponSoundId: 20
+    OnWeak: 0
+    OnFire: 0
+    TickNeedForAccumulatedFirePotencyUp: 0
+    OnShock: 0
+    OnMark: 0
+    OnMarkCriticalChanceBonus: 0
+    ResolvedTags: 0b0000001700000051000000
+    ExtraTags:
+    TagGate:
+      RequiredAnyTags:
+      RequiredAllTags:
+      IncompatibleTags:
+    Archetypes: 01000000
+    PartStats:
+      Life: 0
+      Shield: 0
+      Damage: 0
+      ReloadTimePercent: 0
+      MagazineIncreaseRaw: 0
+      CriticalDamagePercent: 0
+      CriticalChancePercent: 0
+      DamageIncreasePercent: 0
+      FireRateIncreasePercent: 0
+      MicrochipSlots: 0
+      OverloadSlots: 0
+      DroneCapacity: 0
+    RequiredWeaponsId:
+    RequiredOverloadId:
+    RequiredChipsId:
+    IncompatibleChipsId:
+    EvolutionUnlockProficiencyLevel: 0
+    ProficiencyLevelRewards: []
+    WeaponToEvolveId: []
+    MicrochipRequiredToEvolve: []
+    OverloadRequiredToEvolve: []
+  - WeaponDescriptionName: 'Copter attack II | Id:1018 | Bullet Id:14 | Evolution: False | Unlock: Unlock Condition Missing!!!'
+    WeaponName: Copter attack II
+    NotInclude: 0
+    NotAvailable: 1
+    NotFoundByLevelUp: 0
+    Icon: {fileID: 21300000, guid: 0fe9d49547bb8004bafc60abde5b3d22, type: 2}
+    WeaponPrefab: {fileID: 1709254077376921, guid: 3ea76bcf9ef32824d89916c8b063b6e6, type: 2}
+    WeaponId: 1018
+    MaxWeaponLevel: 5
+    WeaponSlotType: 3
+    BulletId: 14
+    AlternateBulletId: -1
+    BasePrice: 120
+    UnlockPrice: 30
+    WeaponDamage: 45
+    WeaponDamageGrowUp: 8
+    WeaponShieldDamage: 0
+    PermanentWeapon: 0
+    DontTriggerCriticalHits: 0
+    IgnoreMagazineGrowWeapon: 1
+    AttackRate: 10
+    AttackRateGrowUp: 0
+    ReloadTime: 12
+    ReloadTimeGrowUp: 2
+    BaseMagazine: 1
+    BaseMagazineGrowUp: 0
+    PassEnemyCount: 0
+    RicochetCount: 0
+    ChainBulletId: -1
+    ChainDamagePercent: 0
+    ChainActivationPercent: 100
+    ChainSpawnOnGround: 0
+    LaunchChainBulletId: -1
+    LaunchChainDamagePercent: 0
+    LaunchChainActivationPercent: 100
+    LaunchChainSpawnOnGround: 0
+    IntervalWeapon: 0
+    PositionControlByBullet: 0
+    IntervalWeaponActiveTime: 0
+    IntervalWeaponActiveTimeGrow: 0
+    WeaponSoundId: -1
+    OnWeak: 0
+    OnFire: 0
+    TickNeedForAccumulatedFirePotencyUp: 0
+    OnShock: 0
+    OnMark: 0
+    OnMarkCriticalChanceBonus: 0
+    ResolvedTags: 0a0000001500000051000000
+    ExtraTags:
+    TagGate:
+      RequiredAnyTags:
+      RequiredAllTags:
+      IncompatibleTags:
+    Archetypes: 03000000
+    PartStats:
+      Life: 0
+      Shield: 0
+      Damage: 0
+      ReloadTimePercent: 0
+      MagazineIncreaseRaw: 0
+      CriticalDamagePercent: 0
+      CriticalChancePercent: 0
+      DamageIncreasePercent: 0
+      FireRateIncreasePercent: 0
+      MicrochipSlots: 0
+      OverloadSlots: 0
+      DroneCapacity: 0
+    RequiredWeaponsId:
+    RequiredOverloadId:
+    RequiredChipsId:
+    IncompatibleChipsId:
+    EvolutionUnlockProficiencyLevel: 0
+    ProficiencyLevelRewards: []
+    WeaponToEvolveId: []
+    MicrochipRequiredToEvolve: []
+    OverloadRequiredToEvolve: []
+  - WeaponDescriptionName: 'Cutting wave II | Id:1019 | Bullet Id:31 | Evolution: False | Unlock: Unlock Condition Missing!!!'
+    WeaponName: Cutting wave II
+    NotInclude: 1
+    NotAvailable: 0
+    NotFoundByLevelUp: 0
+    Icon: {fileID: 21300000, guid: a1c4ceb12548fe5469a8dd24a3e60192, type: 2}
+    WeaponPrefab: {fileID: 1709254077376921, guid: e25fd5e8b93ce5c4a867f8760e4db5c9, type: 2}
+    WeaponId: 1019
+    MaxWeaponLevel: 8
+    WeaponSlotType: 3
+    BulletId: 31
+    AlternateBulletId: -1
+    BasePrice: 120
+    UnlockPrice: 30
+    WeaponDamage: 93
+    WeaponDamageGrowUp: 11
+    WeaponShieldDamage: 0
+    PermanentWeapon: 0
+    DontTriggerCriticalHits: 0
+    IgnoreMagazineGrowWeapon: 0
+    AttackRate: 0.50000006
+    AttackRateGrowUp: 0.1
+    ReloadTime: 1.3
+    ReloadTimeGrowUp: 0.1
+    BaseMagazine: 8
+    BaseMagazineGrowUp: 1
+    PassEnemyCount: 1000
+    RicochetCount: 0
+    ChainBulletId: -1
+    ChainDamagePercent: 0
+    ChainActivationPercent: 100
+    ChainSpawnOnGround: 0
+    LaunchChainBulletId: -1
+    LaunchChainDamagePercent: 0
+    LaunchChainActivationPercent: 100
+    LaunchChainSpawnOnGround: 0
+    IntervalWeapon: 0
+    PositionControlByBullet: 0
+    IntervalWeaponActiveTime: 0
+    IntervalWeaponActiveTimeGrow: 0
+    WeaponSoundId: 22
+    OnWeak: 0
+    OnFire: 0
+    TickNeedForAccumulatedFirePotencyUp: 0
+    OnShock: 0
+    OnMark: 0
+    OnMarkCriticalChanceBonus: 0
+    ResolvedTags: 0a0000001700000051000000
+    ExtraTags:
+    TagGate:
+      RequiredAnyTags:
+      RequiredAllTags:
+      IncompatibleTags:
+    Archetypes:
+    PartStats:
+      Life: 0
+      Shield: 0
+      Damage: 0
+      ReloadTimePercent: 0
+      MagazineIncreaseRaw: 0
+      CriticalDamagePercent: 0
+      CriticalChancePercent: 0
+      DamageIncreasePercent: 0
+      FireRateIncreasePercent: 0
+      MicrochipSlots: 0
+      OverloadSlots: 0
+      DroneCapacity: 0
+    RequiredWeaponsId:
+    RequiredOverloadId:
+    RequiredChipsId:
+    IncompatibleChipsId:
+    EvolutionUnlockProficiencyLevel: 0
+    ProficiencyLevelRewards: []
+    WeaponToEvolveId: []
+    MicrochipRequiredToEvolve: []
+    OverloadRequiredToEvolve: []
+  - WeaponDescriptionName: 'Dismembering blades II | Id:1020 | Bullet Id:17 | Evolution: False | Unlock: Unlock Condition Missing!!!'
+    WeaponName: Dismembering blades II
+    NotInclude: 0
+    NotAvailable: 1
+    NotFoundByLevelUp: 0
+    Icon: {fileID: 21300000, guid: 08ec392ffc0578a4e867ae122ab91e11, type: 2}
+    WeaponPrefab: {fileID: 1709254077376921, guid: 1a403fa37064ecb46b1d2581daae7f1c, type: 2}
+    WeaponId: 1020
+    MaxWeaponLevel: 5
+    WeaponSlotType: 3
+    BulletId: 17
+    AlternateBulletId: -1
+    BasePrice: 150
+    UnlockPrice: 30
+    WeaponDamage: 12
+    WeaponDamageGrowUp: 3
+    WeaponShieldDamage: 0
+    PermanentWeapon: 1
+    DontTriggerCriticalHits: 1
+    IgnoreMagazineGrowWeapon: 0
+    AttackRate: 0.1
+    AttackRateGrowUp: 0
+    ReloadTime: 0.1
+    ReloadTimeGrowUp: 0
+    BaseMagazine: 5
+    BaseMagazineGrowUp: 1
+    PassEnemyCount: 1000
+    RicochetCount: 0
+    ChainBulletId: -1
+    ChainDamagePercent: 0
+    ChainActivationPercent: 100
+    ChainSpawnOnGround: 0
+    LaunchChainBulletId: -1
+    LaunchChainDamagePercent: 0
+    LaunchChainActivationPercent: 100
+    LaunchChainSpawnOnGround: 0
+    IntervalWeapon: 0
+    PositionControlByBullet: 0
+    IntervalWeaponActiveTime: 0
+    IntervalWeaponActiveTimeGrow: 0
+    WeaponSoundId: -1
+    OnWeak: 0
+    OnFire: 0
+    TickNeedForAccumulatedFirePotencyUp: 0
+    OnShock: 0
+    OnMark: 0
+    OnMarkCriticalChanceBonus: 0
+    ResolvedTags: 0a00000017000000500000005100000053000000
+    ExtraTags: 53000000
+    TagGate:
+      RequiredAnyTags:
+      RequiredAllTags:
+      IncompatibleTags:
+    Archetypes: 01000000
+    PartStats:
+      Life: 0
+      Shield: 0
+      Damage: 0
+      ReloadTimePercent: 0
+      MagazineIncreaseRaw: 0
+      CriticalDamagePercent: 0
+      CriticalChancePercent: 0
+      DamageIncreasePercent: 0
+      FireRateIncreasePercent: 0
+      MicrochipSlots: 0
+      OverloadSlots: 0
+      DroneCapacity: 0
+    RequiredWeaponsId:
+    RequiredOverloadId:
+    RequiredChipsId:
+    IncompatibleChipsId:
+    EvolutionUnlockProficiencyLevel: 0
+    ProficiencyLevelRewards: []
+    WeaponToEvolveId: []
+    MicrochipRequiredToEvolve: []
+    OverloadRequiredToEvolve: []
+  - WeaponDescriptionName: 'Frontal Gatling gun II | Id:1021 | Bullet Id:18 | Alt Bullet:59 | Evolution: False | Unlock: Unlock Condition Missing!!!'
+    WeaponName: Frontal Gatling gun II
+    NotInclude: 0
+    NotAvailable: 1
+    NotFoundByLevelUp: 0
+    Icon: {fileID: 21300000, guid: 78c5ac7724e01734691806090eabfe05, type: 2}
+    WeaponPrefab: {fileID: 1709254077376921, guid: 615fca430309dee45ae1f3cbfeb3ebb2, type: 2}
+    WeaponId: 1021
+    MaxWeaponLevel: 5
+    WeaponSlotType: 2
+    BulletId: 18
+    AlternateBulletId: 59
+    BasePrice: 100
+    UnlockPrice: 30
+    WeaponDamage: 6
+    WeaponDamageGrowUp: 1
+    WeaponShieldDamage: 0
+    PermanentWeapon: 0
+    DontTriggerCriticalHits: 0
+    IgnoreMagazineGrowWeapon: 0
+    AttackRate: 0.1
+    AttackRateGrowUp: 0
+    ReloadTime: 2.2
+    ReloadTimeGrowUp: 0.2
+    BaseMagazine: 13
+    BaseMagazineGrowUp: 2
+    PassEnemyCount: 0
+    RicochetCount: 0
+    ChainBulletId: -1
+    ChainDamagePercent: 0
+    ChainActivationPercent: 100
+    ChainSpawnOnGround: 0
+    LaunchChainBulletId: -1
+    LaunchChainDamagePercent: 0
+    LaunchChainActivationPercent: 100
+    LaunchChainSpawnOnGround: 0
+    IntervalWeapon: 0
+    PositionControlByBullet: 0
+    IntervalWeaponActiveTime: 0
+    IntervalWeaponActiveTimeGrow: 0
+    WeaponSoundId: 11
+    OnWeak: 0
+    OnFire: 0
+    TickNeedForAccumulatedFirePotencyUp: 0
+    OnShock: 0
+    OnMark: 0
+    OnMarkCriticalChanceBonus: 0
+    ResolvedTags: 0a0000001400000051000000
+    ExtraTags:
+    TagGate:
+      RequiredAnyTags:
+      RequiredAllTags:
+      IncompatibleTags:
+    Archetypes: 02000000
+    PartStats:
+      Life: 0
+      Shield: 0
+      Damage: 0
+      ReloadTimePercent: 0
+      MagazineIncreaseRaw: 0
+      CriticalDamagePercent: 0
+      CriticalChancePercent: 0
+      DamageIncreasePercent: 0
+      FireRateIncreasePercent: 0
+      MicrochipSlots: 0
+      OverloadSlots: 0
+      DroneCapacity: 0
+    RequiredWeaponsId:
+    RequiredOverloadId:
+    RequiredChipsId:
+    IncompatibleChipsId:
+    EvolutionUnlockProficiencyLevel: 0
+    ProficiencyLevelRewards: []
+    WeaponToEvolveId: []
+    MicrochipRequiredToEvolve: []
+    OverloadRequiredToEvolve: []
+  - WeaponDescriptionName: 'Fragmented bullet turret II | Id:1022 | Bullet Id:28 | Evolution: False | Unlock: Unlock Condition Missing!!!'
+    WeaponName: Fragmented bullet turret II
+    NotInclude: 0
+    NotAvailable: 1
+    NotFoundByLevelUp: 0
+    Icon: {fileID: 21300000, guid: d0da6dc18bc7b5f4bb1c12f302cea76b, type: 2}
+    WeaponPrefab: {fileID: 1709254077376921, guid: 42e38ff746b50b64aa3dea6b719a422c, type: 2}
+    WeaponId: 1022
+    MaxWeaponLevel: 5
+    WeaponSlotType: 1
+    BulletId: 28
+    AlternateBulletId: -1
+    BasePrice: 140
+    UnlockPrice: 30
+    WeaponDamage: 16
+    WeaponDamageGrowUp: 3
+    WeaponShieldDamage: 0
+    PermanentWeapon: 0
+    DontTriggerCriticalHits: 0
+    IgnoreMagazineGrowWeapon: 0
+    AttackRate: 0.96
+    AttackRateGrowUp: 0.01
+    ReloadTime: 0.7
+    ReloadTimeGrowUp: 0.2
+    BaseMagazine: 7
+    BaseMagazineGrowUp: 1
+    PassEnemyCount: 0
+    RicochetCount: 0
+    ChainBulletId: -1
+    ChainDamagePercent: 0
+    ChainActivationPercent: 100
+    ChainSpawnOnGround: 0
+    LaunchChainBulletId: -1
+    LaunchChainDamagePercent: 0
+    LaunchChainActivationPercent: 100
+    LaunchChainSpawnOnGround: 0
+    IntervalWeapon: 0
+    PositionControlByBullet: 0
+    IntervalWeaponActiveTime: 0
+    IntervalWeaponActiveTimeGrow: 0
+    WeaponSoundId: 10
+    OnWeak: 0
+    OnFire: 0
+    TickNeedForAccumulatedFirePotencyUp: 0
+    OnShock: 0
+    OnMark: 0
+    OnMarkCriticalChanceBonus: 0
+    ResolvedTags: 0a0000001400000051000000
+    ExtraTags:
+    TagGate:
+      RequiredAnyTags:
+      RequiredAllTags:
+      IncompatibleTags:
+    Archetypes: 01000000
+    PartStats:
+      Life: 0
+      Shield: 0
+      Damage: 0
+      ReloadTimePercent: 0
+      MagazineIncreaseRaw: 0
+      CriticalDamagePercent: 0
+      CriticalChancePercent: 0
+      DamageIncreasePercent: 0
+      FireRateIncreasePercent: 0
+      MicrochipSlots: 0
+      OverloadSlots: 0
+      DroneCapacity: 0
+    RequiredWeaponsId:
+    RequiredOverloadId:
+    RequiredChipsId:
+    IncompatibleChipsId:
+    EvolutionUnlockProficiencyLevel: 0
+    ProficiencyLevelRewards: []
+    WeaponToEvolveId: []
+    MicrochipRequiredToEvolve: []
+    OverloadRequiredToEvolve: []
+  - WeaponDescriptionName: 'Electric impulse II | Id:1023 | Bullet Id:35 | Evolution: False | Unlock: Unlock Condition Missing!!!'
+    WeaponName: Electric impulse II
+    NotInclude: 0
+    NotAvailable: 1
+    NotFoundByLevelUp: 0
+    Icon: {fileID: 21300000, guid: 95f9a7436cafd8b4aa2e6a96f41d95e1, type: 2}
+    WeaponPrefab: {fileID: 1709254077376921, guid: 4e8b4181810d27c439f799714c0f7d0c, type: 2}
+    WeaponId: 1023
+    MaxWeaponLevel: 5
+    WeaponSlotType: 3
+    BulletId: 35
+    AlternateBulletId: -1
+    BasePrice: 130
+    UnlockPrice: 30
+    WeaponDamage: 6
+    WeaponDamageGrowUp: 1
+    WeaponShieldDamage: 0
+    PermanentWeapon: 1
+    DontTriggerCriticalHits: 0
+    IgnoreMagazineGrowWeapon: 1
+    AttackRate: 0.2
+    AttackRateGrowUp: 0
+    ReloadTime: 0.1
+    ReloadTimeGrowUp: 0.1
+    BaseMagazine: 1
+    BaseMagazineGrowUp: 0
+    PassEnemyCount: 10
+    RicochetCount: 0
+    ChainBulletId: -1
+    ChainDamagePercent: 0
+    ChainActivationPercent: 100
+    ChainSpawnOnGround: 0
+    LaunchChainBulletId: -1
+    LaunchChainDamagePercent: 0
+    LaunchChainActivationPercent: 100
+    LaunchChainSpawnOnGround: 0
+    IntervalWeapon: 0
+    PositionControlByBullet: 1
+    IntervalWeaponActiveTime: 0
+    IntervalWeaponActiveTimeGrow: 0
+    WeaponSoundId: -1
+    OnWeak: 0
+    OnFire: 0
+    TickNeedForAccumulatedFirePotencyUp: 0
+    OnShock: 0
+    OnMark: 0
+    OnMarkCriticalChanceBonus: 0
+    ResolvedTags: 0b000000160000005000000051000000
+    ExtraTags:
+    TagGate:
+      RequiredAnyTags:
+      RequiredAllTags:
+      IncompatibleTags:
+    Archetypes: 05000000
+    PartStats:
+      Life: 0
+      Shield: 0
+      Damage: 0
+      ReloadTimePercent: 0
+      MagazineIncreaseRaw: 0
+      CriticalDamagePercent: 0
+      CriticalChancePercent: 0
+      DamageIncreasePercent: 0
+      FireRateIncreasePercent: 0
+      MicrochipSlots: 0
+      OverloadSlots: 0
+      DroneCapacity: 0
+    RequiredWeaponsId:
+    RequiredOverloadId:
+    RequiredChipsId:
+    IncompatibleChipsId:
+    EvolutionUnlockProficiencyLevel: 0
+    ProficiencyLevelRewards: []
+    WeaponToEvolveId: []
+    MicrochipRequiredToEvolve: []
+    OverloadRequiredToEvolve: []
+  - WeaponDescriptionName: 'Frontal weakening laser II | Id:1024 | Bullet Id:34 | Evolution: False | Unlock: Unlock Condition Missing!!!'
+    WeaponName: Frontal weakening laser II
+    NotInclude: 0
+    NotAvailable: 1
+    NotFoundByLevelUp: 0
+    Icon: {fileID: 21300000, guid: 948878bbc7b7098438f19cad7feb7d36, type: 2}
+    WeaponPrefab: {fileID: 1709254077376921, guid: fe5bced85db98e041950cd0d1a5d394d, type: 2}
+    WeaponId: 1024
+    MaxWeaponLevel: 5
+    WeaponSlotType: 2
+    BulletId: 34
+    AlternateBulletId: -1
+    BasePrice: 150
+    UnlockPrice: 30
+    WeaponDamage: 15
+    WeaponDamageGrowUp: 3
+    WeaponShieldDamage: 0
+    PermanentWeapon: 0
+    DontTriggerCriticalHits: 1
+    IgnoreMagazineGrowWeapon: 0
+    AttackRate: 0.40000004
+    AttackRateGrowUp: 0.05
+    ReloadTime: 4.6
+    ReloadTimeGrowUp: 0.1
+    BaseMagazine: 1
+    BaseMagazineGrowUp: 0
+    PassEnemyCount: 10
+    RicochetCount: 0
+    ChainBulletId: -1
+    ChainDamagePercent: 0
+    ChainActivationPercent: 100
+    ChainSpawnOnGround: 0
+    LaunchChainBulletId: -1
+    LaunchChainDamagePercent: 0
+    LaunchChainActivationPercent: 100
+    LaunchChainSpawnOnGround: 0
+    IntervalWeapon: 1
+    PositionControlByBullet: 0
+    IntervalWeaponActiveTime: 10
+    IntervalWeaponActiveTimeGrow: 1
+    WeaponSoundId: -1
+    OnWeak: 3
+    OnFire: 0
+    TickNeedForAccumulatedFirePotencyUp: 0
+    OnShock: 0
+    OnMark: 0
+    OnMarkCriticalChanceBonus: 0
+    ResolvedTags: 0b000000160000002000000051000000
+    ExtraTags:
+    TagGate:
+      RequiredAnyTags:
+      RequiredAllTags:
+      IncompatibleTags:
+    Archetypes: 05000000
+    PartStats:
+      Life: 0
+      Shield: 0
+      Damage: 0
+      ReloadTimePercent: 0
+      MagazineIncreaseRaw: 0
+      CriticalDamagePercent: 0
+      CriticalChancePercent: 0
+      DamageIncreasePercent: 0
+      FireRateIncreasePercent: 0
+      MicrochipSlots: 0
+      OverloadSlots: 0
+      DroneCapacity: 0
+    RequiredWeaponsId:
+    RequiredOverloadId:
+    RequiredChipsId:
+    IncompatibleChipsId:
+    EvolutionUnlockProficiencyLevel: 0
+    ProficiencyLevelRewards: []
+    WeaponToEvolveId: []
+    MicrochipRequiredToEvolve: []
+    OverloadRequiredToEvolve: []
+  - WeaponDescriptionName: 'Laser turret single II | Id:1025 | Bullet Id:1 | Evolution: False | Unlock: Unlock Condition Missing!!!'
+    WeaponName: Laser turret single II
+    NotInclude: 0
+    NotAvailable: 1
+    NotFoundByLevelUp: 0
+    Icon: {fileID: 21300000, guid: 5196a14e3cc75484387bc4160bb12571, type: 2}
+    WeaponPrefab: {fileID: 1709254077376921, guid: a7836bef795c4b4499f84c05a3c111b9, type: 2}
+    WeaponId: 1025
+    MaxWeaponLevel: 5
+    WeaponSlotType: 0
+    BulletId: 1
+    AlternateBulletId: -1
+    BasePrice: 110
+    UnlockPrice: 30
+    WeaponDamage: 13
+    WeaponDamageGrowUp: 2
+    WeaponShieldDamage: 0
+    PermanentWeapon: 0
+    DontTriggerCriticalHits: 0
+    IgnoreMagazineGrowWeapon: 0
+    AttackRate: 0.96
+    AttackRateGrowUp: 0.01
+    ReloadTime: 3.2
+    ReloadTimeGrowUp: 0.2
+    BaseMagazine: 9
+    BaseMagazineGrowUp: 1
+    PassEnemyCount: 0
+    RicochetCount: 0
+    ChainBulletId: -1
+    ChainDamagePercent: 0
+    ChainActivationPercent: 100
+    ChainSpawnOnGround: 0
+    LaunchChainBulletId: -1
+    LaunchChainDamagePercent: 0
+    LaunchChainActivationPercent: 100
+    LaunchChainSpawnOnGround: 0
+    IntervalWeapon: 0
+    PositionControlByBullet: 0
+    IntervalWeaponActiveTime: 0
+    IntervalWeaponActiveTimeGrow: 0
+    WeaponSoundId: 13
+    OnWeak: 0
+    OnFire: 0
+    TickNeedForAccumulatedFirePotencyUp: 0
+    OnShock: 0
+    OnMark: 0
+    OnMarkCriticalChanceBonus: 0
+    ResolvedTags: 0b0000001400000051000000
+    ExtraTags:
+    TagGate:
+      RequiredAnyTags:
+      RequiredAllTags:
+      IncompatibleTags:
+    Archetypes: 01000000
+    PartStats:
+      Life: 0
+      Shield: 0
+      Damage: 0
+      ReloadTimePercent: 0
+      MagazineIncreaseRaw: 0
+      CriticalDamagePercent: 0
+      CriticalChancePercent: 0
+      DamageIncreasePercent: 0
+      FireRateIncreasePercent: 0
+      MicrochipSlots: 0
+      OverloadSlots: 0
+      DroneCapacity: 0
+    RequiredWeaponsId:
+    RequiredOverloadId:
+    RequiredChipsId:
+    IncompatibleChipsId:
+    EvolutionUnlockProficiencyLevel: 0
+    ProficiencyLevelRewards: []
+    WeaponToEvolveId: []
+    MicrochipRequiredToEvolve: []
+    OverloadRequiredToEvolve: []
+  - WeaponDescriptionName: 'Grenade launcher II | Id:1026 | Bullet Id:36 | Evolution: False | Unlock: Unlock Condition Missing!!!'
+    WeaponName: Grenade launcher II
+    NotInclude: 0
+    NotAvailable: 1
+    NotFoundByLevelUp: 0
+    Icon: {fileID: 21300000, guid: 23eb22c0949bfc24895e50c7af54395a, type: 2}
+    WeaponPrefab: {fileID: 1709254077376921, guid: 72c7869ed2282cb499e112617bbb4468, type: 2}
+    WeaponId: 1026
+    MaxWeaponLevel: 5
+    WeaponSlotType: 0
+    BulletId: 36
+    AlternateBulletId: -1
+    BasePrice: 150
+    UnlockPrice: 30
+    WeaponDamage: 31
+    WeaponDamageGrowUp: 4
+    WeaponShieldDamage: 0
+    PermanentWeapon: 0
+    DontTriggerCriticalHits: 0
+    IgnoreMagazineGrowWeapon: 0
+    AttackRate: 1.46
+    AttackRateGrowUp: 0.01
+    ReloadTime: 3.2
+    ReloadTimeGrowUp: 0.2
+    BaseMagazine: 9
+    BaseMagazineGrowUp: 1
+    PassEnemyCount: 0
+    RicochetCount: 0
+    ChainBulletId: -1
+    ChainDamagePercent: 0
+    ChainActivationPercent: 100
+    ChainSpawnOnGround: 0
+    LaunchChainBulletId: -1
+    LaunchChainDamagePercent: 0
+    LaunchChainActivationPercent: 100
+    LaunchChainSpawnOnGround: 0
+    IntervalWeapon: 0
+    PositionControlByBullet: 0
+    IntervalWeaponActiveTime: 0
+    IntervalWeaponActiveTimeGrow: 0
+    WeaponSoundId: 13
+    OnWeak: 0
+    OnFire: 0
+    TickNeedForAccumulatedFirePotencyUp: 0
+    OnShock: 0
+    OnMark: 0
+    OnMarkCriticalChanceBonus: 0
+    ResolvedTags: 0a000000140000005100000053000000
+    ExtraTags: 53000000
+    TagGate:
+      RequiredAnyTags:
+      RequiredAllTags:
+      IncompatibleTags:
+    Archetypes: 01000000
+    PartStats:
+      Life: 0
+      Shield: 0
+      Damage: 0
+      ReloadTimePercent: 0
+      MagazineIncreaseRaw: 0
+      CriticalDamagePercent: 0
+      CriticalChancePercent: 0
+      DamageIncreasePercent: 0
+      FireRateIncreasePercent: 0
+      MicrochipSlots: 0
+      OverloadSlots: 0
+      DroneCapacity: 0
+    RequiredWeaponsId:
+    RequiredOverloadId:
+    RequiredChipsId:
+    IncompatibleChipsId:
+    EvolutionUnlockProficiencyLevel: 0
+    ProficiencyLevelRewards: []
+    WeaponToEvolveId: []
+    MicrochipRequiredToEvolve: []
+    OverloadRequiredToEvolve: []
+  - WeaponDescriptionName: 'Lightsabers II | Id:1027 | Bullet Id:37 | Evolution: False | Unlock: Unlock Condition Missing!!!'
+    WeaponName: Lightsabers II
+    NotInclude: 0
+    NotAvailable: 1
+    NotFoundByLevelUp: 0
+    Icon: {fileID: 21300000, guid: a1c4ceb12548fe5469a8dd24a3e60192, type: 2}
+    WeaponPrefab: {fileID: 1709254077376921, guid: e25fd5e8b93ce5c4a867f8760e4db5c9, type: 2}
+    WeaponId: 1027
+    MaxWeaponLevel: 5
+    WeaponSlotType: 3
+    BulletId: 37
+    AlternateBulletId: -1
+    BasePrice: 100
+    UnlockPrice: 30
+    WeaponDamage: 29
+    WeaponDamageGrowUp: 6
+    WeaponShieldDamage: 0
+    PermanentWeapon: 1
+    DontTriggerCriticalHits: 0
+    IgnoreMagazineGrowWeapon: 0
+    AttackRate: 0.1
+    AttackRateGrowUp: 0
+    ReloadTime: 0.1
+    ReloadTimeGrowUp: 0
+    BaseMagazine: 5
+    BaseMagazineGrowUp: 1
+    PassEnemyCount: 1000
+    RicochetCount: 0
+    ChainBulletId: -1
+    ChainDamagePercent: 0
+    ChainActivationPercent: 100
+    ChainSpawnOnGround: 0
+    LaunchChainBulletId: -1
+    LaunchChainDamagePercent: 0
+    LaunchChainActivationPercent: 100
+    LaunchChainSpawnOnGround: 0
+    IntervalWeapon: 0
+    PositionControlByBullet: 0
+    IntervalWeaponActiveTime: 0
+    IntervalWeaponActiveTimeGrow: 0
+    WeaponSoundId: -1
+    OnWeak: 0
+    OnFire: 0
+    TickNeedForAccumulatedFirePotencyUp: 0
+    OnShock: 0
+    OnMark: 0
+    OnMarkCriticalChanceBonus: 0
+    ResolvedTags: 0b00000017000000500000005100000055000000
+    ExtraTags: 55000000
+    TagGate:
+      RequiredAnyTags:
+      RequiredAllTags:
+      IncompatibleTags:
+    Archetypes: 03000000
+    PartStats:
+      Life: 0
+      Shield: 0
+      Damage: 0
+      ReloadTimePercent: 0
+      MagazineIncreaseRaw: 0
+      CriticalDamagePercent: 0
+      CriticalChancePercent: 0
+      DamageIncreasePercent: 0
+      FireRateIncreasePercent: 0
+      MicrochipSlots: 0
+      OverloadSlots: 0
+      DroneCapacity: 0
+    RequiredWeaponsId:
+    RequiredOverloadId:
+    RequiredChipsId:
+    IncompatibleChipsId:
+    EvolutionUnlockProficiencyLevel: 0
+    ProficiencyLevelRewards: []
+    WeaponToEvolveId: []
+    MicrochipRequiredToEvolve: []
+    OverloadRequiredToEvolve: []
+  - WeaponDescriptionName: 'Fire steps II | Id:1028 | Bullet Id:38 | Evolution: False | Unlock: Unlock Condition Missing!!!'
+    WeaponName: Fire steps II
+    NotInclude: 0
+    NotAvailable: 1
+    NotFoundByLevelUp: 0
+    Icon: {fileID: 21300000, guid: 9bad8aa6e85ede846b7e2c34c865559e, type: 2}
+    WeaponPrefab: {fileID: 1709254077376921, guid: 9578b8a93be820548bc967e59f4c8e03, type: 2}
+    WeaponId: 1028
+    MaxWeaponLevel: 5
+    WeaponSlotType: 3
+    BulletId: 38
+    AlternateBulletId: -1
+    BasePrice: 100
+    UnlockPrice: 30
+    WeaponDamage: 6
+    WeaponDamageGrowUp: 1
+    WeaponShieldDamage: 0
+    PermanentWeapon: 1
+    DontTriggerCriticalHits: 0
+    IgnoreMagazineGrowWeapon: 1
+    AttackRate: 0.2
+    AttackRateGrowUp: 0
+    ReloadTime: 0.1
+    ReloadTimeGrowUp: 0.1
+    BaseMagazine: 1
+    BaseMagazineGrowUp: 0
+    PassEnemyCount: 10
+    RicochetCount: 0
+    ChainBulletId: -1
+    ChainDamagePercent: 0
+    ChainActivationPercent: 100
+    ChainSpawnOnGround: 0
+    LaunchChainBulletId: -1
+    LaunchChainDamagePercent: 0
+    LaunchChainActivationPercent: 100
+    LaunchChainSpawnOnGround: 0
+    IntervalWeapon: 0
+    PositionControlByBullet: 1
+    IntervalWeaponActiveTime: 0
+    IntervalWeaponActiveTimeGrow: 0
+    WeaponSoundId: -1
+    OnWeak: 0
+    OnFire: 10
+    TickNeedForAccumulatedFirePotencyUp: 10
+    OnShock: 0
+    OnMark: 0
+    OnMarkCriticalChanceBonus: 0
+    ResolvedTags: 0b000000170000001e0000005000000051000000
+    ExtraTags:
+    TagGate:
+      RequiredAnyTags:
+      RequiredAllTags:
+      IncompatibleTags:
+    Archetypes: 04000000
+    PartStats:
+      Life: 0
+      Shield: 0
+      Damage: 0
+      ReloadTimePercent: 0
+      MagazineIncreaseRaw: 0
+      CriticalDamagePercent: 0
+      CriticalChancePercent: 0
+      DamageIncreasePercent: 0
+      FireRateIncreasePercent: 0
+      MicrochipSlots: 0
+      OverloadSlots: 0
+      DroneCapacity: 0
+    RequiredWeaponsId:
+    RequiredOverloadId:
+    RequiredChipsId:
+    IncompatibleChipsId:
+    EvolutionUnlockProficiencyLevel: 0
+    ProficiencyLevelRewards: []
+    WeaponToEvolveId: []
+    MicrochipRequiredToEvolve: []
+    OverloadRequiredToEvolve: []
+  - WeaponDescriptionName: 'Boomerang II | Id:1029 | Bullet Id:44 | Evolution: False | Unlock: Unlock Condition Missing!!!'
+    WeaponName: Boomerang II
+    NotInclude: 0
+    NotAvailable: 1
+    NotFoundByLevelUp: 0
+    Icon: {fileID: 21300000, guid: f8654233b1756e94eb6a94296ae8e8d9, type: 2}
+    WeaponPrefab: {fileID: 1709254077376921, guid: bd7051e8ce7887d48aafe0af50fde666, type: 2}
+    WeaponId: 1029
+    MaxWeaponLevel: 5
+    WeaponSlotType: 1
+    BulletId: 44
+    AlternateBulletId: -1
+    BasePrice: 160
+    UnlockPrice: 25
+    WeaponDamage: 13
+    WeaponDamageGrowUp: 2
+    WeaponShieldDamage: 0
+    PermanentWeapon: 0
+    DontTriggerCriticalHits: 0
+    IgnoreMagazineGrowWeapon: 0
+    AttackRate: 0.5
+    AttackRateGrowUp: 0
+    ReloadTime: 3
+    ReloadTimeGrowUp: 0
+    BaseMagazine: 9
+    BaseMagazineGrowUp: 2
+    PassEnemyCount: 0
+    RicochetCount: 0
+    ChainBulletId: -1
+    ChainDamagePercent: 0
+    ChainActivationPercent: 100
+    ChainSpawnOnGround: 0
+    LaunchChainBulletId: -1
+    LaunchChainDamagePercent: 0
+    LaunchChainActivationPercent: 100
+    LaunchChainSpawnOnGround: 0
+    IntervalWeapon: 0
+    PositionControlByBullet: 0
+    IntervalWeaponActiveTime: 0
+    IntervalWeaponActiveTimeGrow: 0
+    WeaponSoundId: 4
+    OnWeak: 0
+    OnFire: 0
+    TickNeedForAccumulatedFirePotencyUp: 0
+    OnShock: 0
+    OnMark: 0
+    OnMarkCriticalChanceBonus: 0
+    ResolvedTags: 0a0000001400000051000000
+    ExtraTags:
+    TagGate:
+      RequiredAnyTags:
+      RequiredAllTags:
+      IncompatibleTags:
+    Archetypes: 01000000
+    PartStats:
+      Life: 0
+      Shield: 0
+      Damage: 0
+      ReloadTimePercent: 0
+      MagazineIncreaseRaw: 0
+      CriticalDamagePercent: 0
+      CriticalChancePercent: 0
+      DamageIncreasePercent: 0
+      FireRateIncreasePercent: 0
+      MicrochipSlots: 0
+      OverloadSlots: 0
+      DroneCapacity: 0
+    RequiredWeaponsId:
+    RequiredOverloadId:
+    RequiredChipsId:
+    IncompatibleChipsId:
+    EvolutionUnlockProficiencyLevel: 0
+    ProficiencyLevelRewards: []
+    WeaponToEvolveId: []
+    MicrochipRequiredToEvolve: []
+    OverloadRequiredToEvolve: []
+  BulletsDb: {fileID: 11400000, guid: 2d3c0e0870b166445a899266aba1c939, type: 2}
+  WeaponsEvolutionsDb: {fileID: 0}
+  UnlockDb: {fileID: 0}
+  ChipDb: {fileID: 0}
+  OverloadDb: {fileID: 0}
+  WeaponProficiencyConfig: {fileID: 0}
+  PhysicProjectileWeapons: e9030000ec030000ef030000f2030000fd030000fe0300000204000005040000
+  EnergyProjectileWeapons: ea030000ed030000f303000001040000
+  MissileWeapons: ee030000f0030000f1030000f4030000fa030000
+  BeamWeapons: e8030000eb030000f7030000ff03000000040000
+  Others: f5030000f6030000f8030000f9030000fb030000fc0300000304000004040000
+  UnlockList:
+  - Id: 1001
+    NewUnlock: 0
+    AlreadySeen: 0
+    Purchased: 0
+  - Id: 1002
+    NewUnlock: 0
+    AlreadySeen: 0
+    Purchased: 0
+  - Id: 1007
+    NewUnlock: 0
+    AlreadySeen: 0
+    Purchased: 0
+  - Id: 1008
+    NewUnlock: 0
+    AlreadySeen: 0
+    Purchased: 0
+  - Id: 1009
+    NewUnlock: 0
+    AlreadySeen: 0
+    Purchased: 0

@@ -1,0 +1,889 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ce67efae9361f735d7289507703f961, type: 3}
+  m_Name: MicrochipDB
+  m_EditorClassIdentifier:
+  Microchips:
+  - ChipDescriptionName: 'Serum | Id:0 | Stats:2 | Unlock: Unlock Condition Missing!!!'
+    RealName: Serum
+    NotInclude: 0
+    NotAvailable: 1
+    NotFoundByLevelUp: 1
+    ShowActivationPopup: 0
+    Icon: {fileID: 21300000, guid: f05b8f5985a8e884db43a972c773811e, type: 2}
+    Id: 0
+    MaxLevel: 10
+    BasePrice: 100
+    UnlockPrice: 15
+    StatToIncreases:
+    - StatsType: 1
+      BaseValue: 5
+      IncreaseValue: 5
+    - StatsType: 2
+      BaseValue: 5
+      IncreaseValue: 5
+    ResolvedTags: 32000000
+    ExtraTags:
+    TagGate:
+      RequiredAnyTags:
+      RequiredAllTags:
+      IncompatibleTags:
+    Archetypes: 01000000
+    RequiredWeaponsId:
+    RequiredDronesId:
+    RequiredOverloadId:
+    RequiredChipsId:
+    IncompatibleChipsId:
+  - ChipDescriptionName: 'First aid | Id:1 | Stats:1 | Unlock: Unlock Condition Missing!!!'
+    RealName: First aid
+    NotInclude: 0
+    NotAvailable: 0
+    NotFoundByLevelUp: 0
+    ShowActivationPopup: 0
+    Icon: {fileID: 21300000, guid: 1b590826a5694624395b4c7c770ca0ab, type: 2}
+    Id: 1
+    MaxLevel: 10
+    BasePrice: 100
+    UnlockPrice: 15
+    StatToIncreases:
+    - StatsType: 2
+      BaseValue: 10
+      IncreaseValue: 10
+    ResolvedTags: 32000000
+    ExtraTags:
+    TagGate:
+      RequiredAnyTags:
+      RequiredAllTags:
+      IncompatibleTags:
+    Archetypes: 01000000
+    RequiredWeaponsId:
+    RequiredDronesId:
+    RequiredOverloadId:
+    RequiredChipsId:
+    IncompatibleChipsId:
+  - ChipDescriptionName: 'Energy core | Id:2 | Stats:1 | Unlock: stat_quest_completed - UnlockValue:6'
+    RealName: Energy core
+    NotInclude: 0
+    NotAvailable: 0
+    NotFoundByLevelUp: 0
+    ShowActivationPopup: 0
+    Icon: {fileID: 21300000, guid: 9aab700ccff3053488f255abe689ed83, type: 2}
+    Id: 2
+    MaxLevel: 10
+    BasePrice: 100
+    UnlockPrice: 15
+    StatToIncreases:
+    - StatsType: 18
+      BaseValue: 30
+      IncreaseValue: 10
+    ResolvedTags: 470000000b000000
+    ExtraTags:
+    TagGate:
+      RequiredAnyTags:
+      RequiredAllTags:
+      IncompatibleTags:
+    Archetypes: 04000000
+    RequiredWeaponsId: 0100000005000000070000000a0000000c000000110000001200000014000000150000001600000017000000190000001a000000e8030000ea030000eb030000ed030000
+    RequiredDronesId:
+    RequiredOverloadId:
+    RequiredChipsId:
+    IncompatibleChipsId:
+  - ChipDescriptionName: 'Physical core | Id:3 | Stats:1 | Unlock: Unlock Condition Missing!!!'
+    RealName: Physical core
+    NotInclude: 0
+    NotAvailable: 0
+    NotFoundByLevelUp: 0
+    ShowActivationPopup: 0
+    Icon: {fileID: 21300000, guid: 0ed50fce003b37f45902979fd2b60c08, type: 2}
+    Id: 3
+    MaxLevel: 10
+    BasePrice: 100
+    UnlockPrice: 15
+    StatToIncreases:
+    - StatsType: 19
+      BaseValue: 20
+      IncreaseValue: 10
+    ResolvedTags: 460000000a000000
+    ExtraTags:
+    TagGate:
+      RequiredAnyTags:
+      RequiredAllTags:
+      IncompatibleTags:
+    Archetypes:
+    RequiredWeaponsId: 000000000200000003000000040000000600000008000000090000000b0000000d0000000e0000000f0000001000000013000000180000001b0000001c0000001d000000e9030000ec030000ee030000
+    RequiredDronesId:
+    RequiredOverloadId:
+    RequiredChipsId:
+    IncompatibleChipsId:
+  - ChipDescriptionName: 'Lightweight loader | Id:4 | Stats:1 | Unlock: Unlock Condition Missing!!!'
+    RealName: Lightweight loader
+    NotInclude: 0
+    NotAvailable: 0
+    NotFoundByLevelUp: 0
+    ShowActivationPopup: 0
+    Icon: {fileID: 21300000, guid: 5047818896a8df64aac8589cb347db5d, type: 2}
+    Id: 4
+    MaxLevel: 6
+    BasePrice: 100
+    UnlockPrice: 15
+    StatToIncreases:
+    - StatsType: 5
+      BaseValue: 10
+      IncreaseValue: 5
+    ResolvedTags: 37000000
+    ExtraTags:
+    TagGate:
+      RequiredAnyTags:
+      RequiredAllTags:
+      IncompatibleTags:
+    Archetypes:
+    RequiredWeaponsId:
+    RequiredDronesId:
+    RequiredOverloadId:
+    RequiredChipsId:
+    IncompatibleChipsId:
+  - ChipDescriptionName: 'Extra bullets | Id:5 | Stats:1 | Unlock: Unlock Condition Missing!!!'
+    RealName: Extra bullets
+    NotInclude: 0
+    NotAvailable: 0
+    NotFoundByLevelUp: 0
+    ShowActivationPopup: 0
+    Icon: {fileID: 21300000, guid: 065e85ff1eb2df64f94a7092f0a33db4, type: 2}
+    Id: 5
+    MaxLevel: 10
+    BasePrice: 100
+    UnlockPrice: 15
+    StatToIncreases:
+    - StatsType: 6
+      BaseValue: 5
+      IncreaseValue: 5
+    ResolvedTags: 3c000000
+    ExtraTags:
+    TagGate:
+      RequiredAnyTags:
+      RequiredAllTags:
+      IncompatibleTags:
+    Archetypes:
+    RequiredWeaponsId:
+    RequiredDronesId:
+    RequiredOverloadId:
+    RequiredChipsId:
+    IncompatibleChipsId:
+  - ChipDescriptionName: 'Box of bullets | Id:6 | Stats:1 | Unlock: Unlock Condition Missing!!!'
+    RealName: Box of bullets
+    NotInclude: 0
+    NotAvailable: 1
+    NotFoundByLevelUp: 0
+    ShowActivationPopup: 0
+    Icon: {fileID: 21300000, guid: b2871723dcf701a4aa6fc6f7dfa1d059, type: 2}
+    Id: 6
+    MaxLevel: 10
+    BasePrice: 100
+    UnlockPrice: 15
+    StatToIncreases:
+    - StatsType: 7
+      BaseValue: 1
+      IncreaseValue: 1
+    ResolvedTags: 3c000000
+    ExtraTags:
+    TagGate:
+      RequiredAnyTags:
+      RequiredAllTags:
+      IncompatibleTags:
+    Archetypes:
+    RequiredWeaponsId:
+    RequiredDronesId:
+    RequiredOverloadId:
+    RequiredChipsId:
+    IncompatibleChipsId:
+  - ChipDescriptionName: 'Muscles | Id:7 | Stats:1 | Unlock: Unlock Condition Missing!!!'
+    RealName: Muscles
+    NotInclude: 0
+    NotAvailable: 1
+    NotFoundByLevelUp: 0
+    ShowActivationPopup: 0
+    Icon: {fileID: 21300000, guid: 85a1fdfe3269b3941ab4484d5f2514ff, type: 2}
+    Id: 7
+    MaxLevel: 10
+    BasePrice: 100
+    UnlockPrice: 15
+    StatToIncreases:
+    - StatsType: 8
+      BaseValue: 5
+      IncreaseValue: 5
+    ResolvedTags: 3a000000
+    ExtraTags:
+    TagGate:
+      RequiredAnyTags:
+      RequiredAllTags:
+      IncompatibleTags:
+    Archetypes:
+    RequiredWeaponsId:
+    RequiredDronesId:
+    RequiredOverloadId:
+    RequiredChipsId:
+    IncompatibleChipsId:
+  - ChipDescriptionName: 'Lens | Id:8 | Stats:1 | Unlock: Unlock Condition Missing!!!'
+    RealName: Lens
+    NotInclude: 0
+    NotAvailable: 0
+    NotFoundByLevelUp: 0
+    ShowActivationPopup: 0
+    Icon: {fileID: 21300000, guid: 46ef63636d38bcf439cb3bfcdefa2491, type: 2}
+    Id: 8
+    MaxLevel: 5
+    BasePrice: 100
+    UnlockPrice: 15
+    StatToIncreases:
+    - StatsType: 9
+      BaseValue: 2
+      IncreaseValue: 1
+    ResolvedTags: 350000003e000000
+    ExtraTags: 3e000000
+    TagGate:
+      RequiredAnyTags:
+      RequiredAllTags:
+      IncompatibleTags:
+    Archetypes:
+    RequiredWeaponsId:
+    RequiredDronesId:
+    RequiredOverloadId:
+    RequiredChipsId:
+    IncompatibleChipsId:
+  - ChipDescriptionName: 'Solid State Drive | Id:9 | Stats:1 | Unlock: stat_enemy_defeated - UnlockValue:1'
+    RealName: Solid State Drive
+    NotInclude: 0
+    NotAvailable: 0
+    NotFoundByLevelUp: 0
+    ShowActivationPopup: 0
+    Icon: {fileID: 21300000, guid: 97868632034afb146ba0f1f514ee865c, type: 2}
+    Id: 9
+    MaxLevel: 10
+    BasePrice: 100
+    UnlockPrice: 15
+    StatToIncreases:
+    - StatsType: 10
+      BaseValue: 10
+      IncreaseValue: 5
+    ResolvedTags: 340000003e000000
+    ExtraTags: 3e000000
+    TagGate:
+      RequiredAnyTags:
+      RequiredAllTags:
+      IncompatibleTags:
+    Archetypes:
+    RequiredWeaponsId:
+    RequiredDronesId:
+    RequiredOverloadId:
+    RequiredChipsId:
+    IncompatibleChipsId:
+  - ChipDescriptionName: 'Extra coins | Id:10 | Stats:1 | Unlock: Unlock Condition Missing!!!'
+    RealName: Extra coins
+    NotInclude: 0
+    NotAvailable: 0
+    NotFoundByLevelUp: 0
+    ShowActivationPopup: 0
+    Icon: {fileID: 21300000, guid: 1f8aa847fcea0ce48a12feaef9ea01e1, type: 2}
+    Id: 10
+    MaxLevel: 10
+    BasePrice: 100
+    UnlockPrice: 15
+    StatToIncreases:
+    - StatsType: 11
+      BaseValue: 15
+      IncreaseValue: 10
+    ResolvedTags: 340000003e000000
+    ExtraTags: 3e000000
+    TagGate:
+      RequiredAnyTags:
+      RequiredAllTags:
+      IncompatibleTags:
+    Archetypes:
+    RequiredWeaponsId:
+    RequiredDronesId:
+    RequiredOverloadId:
+    RequiredChipsId:
+    IncompatibleChipsId:
+  - ChipDescriptionName: 'Critical Damage Core | Id:11 | Stats:1 | Unlock: stat_weapon_damage - UnlockValue:3000'
+    RealName: Critical Damage Core
+    NotInclude: 0
+    NotAvailable: 0
+    NotFoundByLevelUp: 0
+    ShowActivationPopup: 0
+    Icon: {fileID: 21300000, guid: 387835f0fb25c8c4f8f43703b53a0edf, type: 2}
+    Id: 11
+    MaxLevel: 10
+    BasePrice: 100
+    UnlockPrice: 15
+    StatToIncreases:
+    - StatsType: 12
+      BaseValue: 3
+      IncreaseValue: 3
+    ResolvedTags: 330000003a000000
+    ExtraTags: 3a000000
+    TagGate:
+      RequiredAnyTags:
+      RequiredAllTags:
+      IncompatibleTags:
+    Archetypes: 02000000
+    RequiredWeaponsId:
+    RequiredDronesId:
+    RequiredOverloadId:
+    RequiredChipsId:
+    IncompatibleChipsId:
+  - ChipDescriptionName: 'Critical Damage Core Protector | Id:12 | Stats:1 | Unlock: stat_weapon_damage - UnlockValue:1000'
+    RealName: Critical Damage Core Protector
+    NotInclude: 0
+    NotAvailable: 1
+    NotFoundByLevelUp: 0
+    ShowActivationPopup: 0
+    Icon: {fileID: 21300000, guid: 89f66fe7d8984d8478e7b45a3e61265e, type: 2}
+    Id: 12
+    MaxLevel: 10
+    BasePrice: 100
+    UnlockPrice: 15
+    StatToIncreases:
+    - StatsType: 13
+      BaseValue: 10
+      IncreaseValue: 10
+    ResolvedTags: 330000003a000000
+    ExtraTags: 3a000000
+    TagGate:
+      RequiredAnyTags:
+      RequiredAllTags:
+      IncompatibleTags:
+    Archetypes: 02000000
+    RequiredWeaponsId:
+    RequiredDronesId:
+    RequiredOverloadId:
+    RequiredChipsId:
+    IncompatibleChipsId:
+  - ChipDescriptionName: 'Reinforced Cannons | Id:13 | Stats:1 | Unlock: Unlock Condition Missing!!!'
+    RealName: Reinforced Cannons
+    NotInclude: 0
+    NotAvailable: 0
+    NotFoundByLevelUp: 0
+    ShowActivationPopup: 0
+    Icon: {fileID: 21300000, guid: 0552e9fa6e6918c4689fd121bc035177, type: 2}
+    Id: 13
+    MaxLevel: 5
+    BasePrice: 100
+    UnlockPrice: 15
+    StatToIncreases:
+    - StatsType: 15
+      BaseValue: 1
+      IncreaseValue: 1
+    ResolvedTags: 3900000053000000
+    ExtraTags: 53000000
+    TagGate:
+      RequiredAnyTags: 14000000
+      RequiredAllTags: 140000000a000000
+      IncompatibleTags:
+    Archetypes: 01000000
+    RequiredWeaponsId: 0000000001000000040000000500000008000000100000001100000013000000170000001c000000e9030000ea030000ec030000ed030000
+    RequiredDronesId:
+    RequiredOverloadId:
+    RequiredChipsId:
+    IncompatibleChipsId: 0f000000
+  - ChipDescriptionName: 'Large missile box | Id:14 | Stats:1 | Unlock: Unlock Condition Missing!!!'
+    RealName: Large missile box
+    NotInclude: 0
+    NotAvailable: 0
+    NotFoundByLevelUp: 0
+    ShowActivationPopup: 0
+    Icon: {fileID: 21300000, guid: 3423972e72e45984c9104455145ca317, type: 2}
+    Id: 14
+    MaxLevel: 10
+    BasePrice: 100
+    UnlockPrice: 15
+    StatToIncreases:
+    - StatsType: 16
+      BaseValue: 2
+      IncreaseValue: 3
+    ResolvedTags: 4800000015000000
+    ExtraTags:
+    TagGate:
+      RequiredAnyTags: 15000000
+      RequiredAllTags:
+      IncompatibleTags:
+    Archetypes: 02000000
+    RequiredWeaponsId: 02000000030000001d00000006000000
+    RequiredDronesId:
+    RequiredOverloadId:
+    RequiredChipsId:
+    IncompatibleChipsId:
+  - ChipDescriptionName: 'Ricochet Core | Id:15 | Stats:1 | Unlock: Unlock Condition Missing!!!'
+    RealName: Ricochet Core
+    NotInclude: 0
+    NotAvailable: 1
+    NotFoundByLevelUp: 0
+    ShowActivationPopup: 0
+    Icon: {fileID: 21300000, guid: 2e99172216e84224f919d20e90baf6d9, type: 2}
+    Id: 15
+    MaxLevel: 3
+    BasePrice: 100
+    UnlockPrice: 15
+    StatToIncreases:
+    - StatsType: 17
+      BaseValue: 1
+      IncreaseValue: 1
+    ResolvedTags: 38000000
+    ExtraTags:
+    TagGate:
+      RequiredAnyTags: 140000000b000000
+      RequiredAllTags:
+      IncompatibleTags:
+    Archetypes: 05000000
+    RequiredWeaponsId: 00000000010000000400000005000000080000000d00000010000000110000001300000017000000180000001c000000e9030000ea030000ec030000ed030000
+    RequiredDronesId:
+    RequiredOverloadId:
+    RequiredChipsId:
+    IncompatibleChipsId: 0d000000
+  - ChipDescriptionName: 'Missile core | Id:16 | Stats:1 | Unlock: Unlock Condition Missing!!!'
+    RealName: Missile core
+    NotInclude: 0
+    NotAvailable: 0
+    NotFoundByLevelUp: 0
+    ShowActivationPopup: 0
+    Icon: {fileID: 21300000, guid: c1f33b0f0fef71648a75c26463c6eacb, type: 2}
+    Id: 16
+    MaxLevel: 10
+    BasePrice: 100
+    UnlockPrice: 15
+    StatToIncreases:
+    - StatsType: 20
+      BaseValue: 25
+      IncreaseValue: 10
+    ResolvedTags: 4800000015000000
+    ExtraTags:
+    TagGate:
+      RequiredAnyTags: 15000000
+      RequiredAllTags:
+      IncompatibleTags:
+    Archetypes: 02000000
+    RequiredWeaponsId: 0200000003000000060000001d000000ee030000
+    RequiredDronesId:
+    RequiredOverloadId:
+    RequiredChipsId:
+    IncompatibleChipsId:
+  - ChipDescriptionName: 'Second chance chipset | Id:17 | Stats:1 | Unlock: stat_any_microchip_level_max - UnlockValue:5'
+    RealName: Second chance chipset
+    NotInclude: 0
+    NotAvailable: 0
+    NotFoundByLevelUp: 0
+    ShowActivationPopup: 0
+    Icon: {fileID: 21300000, guid: 57acc94f684a0444d9d32e4834935e52, type: 2}
+    Id: 17
+    MaxLevel: 1
+    BasePrice: 300
+    UnlockPrice: 15
+    StatToIncreases:
+    - StatsType: 23
+      BaseValue: 1
+      IncreaseValue: 1
+    ResolvedTags: 3e00000034000000
+    ExtraTags: 34000000
+    TagGate:
+      RequiredAnyTags: 34000000
+      RequiredAllTags:
+      IncompatibleTags:
+    Archetypes: 03000000
+    RequiredWeaponsId:
+    RequiredDronesId:
+    RequiredOverloadId:
+    RequiredChipsId:
+    IncompatibleChipsId:
+  - ChipDescriptionName: 'Elimination chipset | Id:18 | Stats:1 | Unlock: Unlock Condition Missing!!!'
+    RealName: Elimination chipset
+    NotInclude: 0
+    NotAvailable: 1
+    NotFoundByLevelUp: 1
+    ShowActivationPopup: 0
+    Icon: {fileID: 21300000, guid: bc5b1abc58f301944a0a848af8a19c67, type: 2}
+    Id: 18
+    MaxLevel: 1
+    BasePrice: 300
+    UnlockPrice: 15
+    StatToIncreases:
+    - StatsType: 22
+      BaseValue: 1
+      IncreaseValue: 1
+    ResolvedTags: 3e00000034000000
+    ExtraTags: 34000000
+    TagGate:
+      RequiredAnyTags: 34000000
+      RequiredAllTags:
+      IncompatibleTags:
+    Archetypes: 03000000
+    RequiredWeaponsId:
+    RequiredDronesId:
+    RequiredOverloadId:
+    RequiredChipsId:
+    IncompatibleChipsId:
+  - ChipDescriptionName: 'Shift chip | Id:19 | Stats:1 | Unlock: Unlock Condition Missing!!!'
+    RealName: Shift chip
+    NotInclude: 0
+    NotAvailable: 0
+    NotFoundByLevelUp: 0
+    ShowActivationPopup: 0
+    Icon: {fileID: 21300000, guid: defb7ac035d55b94fb7d92ec90b09eb7, type: 2}
+    Id: 19
+    MaxLevel: 3
+    BasePrice: 300
+    UnlockPrice: 15
+    StatToIncreases:
+    - StatsType: 24
+      BaseValue: 1
+      IncreaseValue: 1
+    ResolvedTags: 3d00000036000000
+    ExtraTags:
+    TagGate:
+      RequiredAnyTags:
+      RequiredAllTags:
+      IncompatibleTags:
+    Archetypes: 02000000
+    RequiredWeaponsId:
+    RequiredDronesId:
+    RequiredOverloadId:
+    RequiredChipsId:
+    IncompatibleChipsId:
+  - ChipDescriptionName: 'Muzzle brake | Id:20 | Stats:1 | Unlock: stat_nodes_cleared - UnlockValue:50'
+    RealName: Muzzle brake
+    NotInclude: 0
+    NotAvailable: 0
+    NotFoundByLevelUp: 0
+    ShowActivationPopup: 0
+    Icon: {fileID: 21300000, guid: 850484cacd818f34e8103694e812ea7c, type: 2}
+    Id: 20
+    MaxLevel: 10
+    BasePrice: 300
+    UnlockPrice: 15
+    StatToIncreases:
+    - StatsType: 25
+      BaseValue: 10
+      IncreaseValue: 5
+    ResolvedTags: 3b000000
+    ExtraTags:
+    TagGate:
+      RequiredAnyTags:
+      RequiredAllTags:
+      IncompatibleTags:
+    Archetypes: 02000000
+    RequiredWeaponsId:
+    RequiredDronesId:
+    RequiredOverloadId:
+    RequiredChipsId:
+    IncompatibleChipsId:
+  - ChipDescriptionName: 'Portable Energy | Id:21 | Stats:2 | Unlock: Unlock Condition Missing!!!'
+    RealName: Portable Energy
+    NotInclude: 0
+    NotAvailable: 0
+    NotFoundByLevelUp: 1
+    ShowActivationPopup: 0
+    Icon: {fileID: 21300000, guid: 4a115207936e37d4b831f8a5b2bca813, type: 2}
+    Id: 21
+    MaxLevel: 10
+    BasePrice: 300
+    UnlockPrice: 15
+    StatToIncreases:
+    - StatsType: 29
+      BaseValue: 1
+      IncreaseValue: 2
+    - StatsType: 18
+      BaseValue: 3
+      IncreaseValue: 2
+    ResolvedTags: 3c000000470000000b000000
+    ExtraTags:
+    TagGate:
+      RequiredAnyTags:
+      RequiredAllTags:
+      IncompatibleTags:
+    Archetypes: 04000000
+    RequiredWeaponsId: 01000000050000001100000017000000ea030000ed030000
+    RequiredDronesId:
+    RequiredOverloadId:
+    RequiredChipsId:
+    IncompatibleChipsId:
+  - ChipDescriptionName: 'Dash recharger | Id:22 | Stats:1 | Unlock: Unlock Condition Missing!!!'
+    RealName: Dash recharger
+    NotInclude: 0
+    NotAvailable: 0
+    NotFoundByLevelUp: 0
+    ShowActivationPopup: 0
+    Icon: {fileID: 21300000, guid: 10cdd2bd8007ebd40af15cc2ac16ef94, type: 2}
+    Id: 22
+    MaxLevel: 5
+    BasePrice: 100
+    UnlockPrice: 15
+    StatToIncreases:
+    - StatsType: 36
+      BaseValue: 10
+      IncreaseValue: 10
+    ResolvedTags: 3d00000036000000
+    ExtraTags:
+    TagGate:
+      RequiredAnyTags:
+      RequiredAllTags:
+      IncompatibleTags:
+    Archetypes: 02000000
+    RequiredWeaponsId:
+    RequiredDronesId:
+    RequiredOverloadId:
+    RequiredChipsId:
+    IncompatibleChipsId:
+  - ChipDescriptionName: 'Shield Stabilizer | Id:23 | Stats:1 | Unlock: Unlock Condition Missing!!!'
+    RealName: Shield Stabilizer
+    NotInclude: 0
+    NotAvailable: 1
+    NotFoundByLevelUp: 0
+    ShowActivationPopup: 0
+    Icon: {fileID: 21300000, guid: c5d29cb0fbb31464fbd05cca20e9e0a7, type: 2}
+    Id: 23
+    MaxLevel: 5
+    BasePrice: 100
+    UnlockPrice: 15
+    StatToIncreases:
+    - StatsType: 37
+      BaseValue: 20
+      IncreaseValue: 5
+    ResolvedTags: 32000000
+    ExtraTags:
+    TagGate:
+      RequiredAnyTags: 54000000
+      RequiredAllTags:
+      IncompatibleTags:
+    Archetypes: 0500000001000000
+    RequiredWeaponsId:
+    RequiredDronesId:
+    RequiredOverloadId: 050000001c000000
+    RequiredChipsId:
+    IncompatibleChipsId:
+  - ChipDescriptionName: 'Barrier Capacitor | Id:24 | Stats:1 | Unlock: Unlock Condition Missing!!!'
+    RealName: Barrier Capacitor
+    NotInclude: 0
+    NotAvailable: 1
+    NotFoundByLevelUp: 0
+    ShowActivationPopup: 0
+    Icon: {fileID: 21300000, guid: 497dca37039f52e4ba6393af9d108850, type: 2}
+    Id: 24
+    MaxLevel: 10
+    BasePrice: 100
+    UnlockPrice: 15
+    StatToIncreases:
+    - StatsType: 4
+      BaseValue: 20
+      IncreaseValue: 10
+    ResolvedTags: 32000000
+    ExtraTags:
+    TagGate:
+      RequiredAnyTags: 54000000
+      RequiredAllTags:
+      IncompatibleTags:
+    Archetypes: 0500000001000000
+    RequiredWeaponsId:
+    RequiredDronesId:
+    RequiredOverloadId: 050000001c000000
+    RequiredChipsId:
+    IncompatibleChipsId:
+  - ChipDescriptionName: 'Drone bay | Id:25 | Stats:1 | Unlock: stat_shops_visited - UnlockValue:3'
+    RealName: Drone bay
+    NotInclude: 0
+    NotAvailable: 1
+    NotFoundByLevelUp: 0
+    ShowActivationPopup: 0
+    Icon: {fileID: 21300000, guid: c271cc47c3b7e014e8f6d49a28687ae3, type: 2}
+    Id: 25
+    MaxLevel: 3
+    BasePrice: 300
+    UnlockPrice: 15
+    StatToIncreases:
+    - StatsType: 38
+      BaseValue: 1
+      IncreaseValue: 1
+    ResolvedTags: 55000000
+    ExtraTags:
+    TagGate:
+      RequiredAnyTags: 55000000
+      RequiredAllTags:
+      IncompatibleTags:
+    Archetypes: 03000000
+    RequiredWeaponsId:
+    RequiredDronesId:
+    RequiredOverloadId:
+    RequiredChipsId:
+    IncompatibleChipsId:
+  - ChipDescriptionName: 'Cargo Amplifier | Id:26 | Stats:1 | Unlock: Unlock Condition Missing!!!'
+    RealName: Cargo Amplifier
+    NotInclude: 0
+    NotAvailable: 1
+    NotFoundByLevelUp: 0
+    ShowActivationPopup: 0
+    Icon: {fileID: 21300000, guid: 59dddaa7caf89d54ab251bc22ef10d7d, type: 2}
+    Id: 26
+    MaxLevel: 5
+    BasePrice: 150
+    UnlockPrice: 15
+    StatToIncreases:
+    - StatsType: 39
+      BaseValue: 20
+      IncreaseValue: 10
+    ResolvedTags: 340000005500000052000000
+    ExtraTags:
+    TagGate:
+      RequiredAnyTags:
+      RequiredAllTags:
+      IncompatibleTags:
+    Archetypes: 03000000
+    RequiredWeaponsId:
+    RequiredDronesId: 05000000
+    RequiredOverloadId:
+    RequiredChipsId:
+    IncompatibleChipsId:
+  - ChipDescriptionName: 'Thrusters | Id:27 | Stats:1 | Unlock: Unlock Condition Missing!!!'
+    RealName: Thrusters
+    NotInclude: 0
+    NotAvailable: 1
+    NotFoundByLevelUp: 0
+    ShowActivationPopup: 0
+    Icon: {fileID: 21300000, guid: 664f580b5c7b0ef44969de50d67d421f, type: 2}
+    Id: 27
+    MaxLevel: 10
+    BasePrice: 100
+    UnlockPrice: 15
+    StatToIncreases:
+    - StatsType: 40
+      BaseValue: 5
+      IncreaseValue: 5
+    ResolvedTags: 36000000
+    ExtraTags:
+    TagGate:
+      RequiredAnyTags:
+      RequiredAllTags:
+      IncompatibleTags:
+    Archetypes: 02000000
+    RequiredWeaponsId:
+    RequiredDronesId:
+    RequiredOverloadId:
+    RequiredChipsId:
+    IncompatibleChipsId:
+  UnlockDb: {fileID: 11400000, guid: 1c6ae7f8bba78804fab57fb3b522cf80, type: 2}
+  ColorPlus: {r: 0, g: 0.8745098, b: 0.69411767, a: 1}
+  UnlockList:
+  - Id: 1
+    NewUnlock: 0
+    AlreadySeen: 0
+    Purchased: 0
+  - Id: 2
+    NewUnlock: 0
+    AlreadySeen: 0
+    Purchased: 0
+  - Id: 3
+    NewUnlock: 0
+    AlreadySeen: 0
+    Purchased: 0
+  - Id: 4
+    NewUnlock: 0
+    AlreadySeen: 0
+    Purchased: 0
+  - Id: 5
+    NewUnlock: 0
+    AlreadySeen: 0
+    Purchased: 0
+  - Id: 6
+    NewUnlock: 0
+    AlreadySeen: 0
+    Purchased: 0
+  - Id: 7
+    NewUnlock: 0
+    AlreadySeen: 0
+    Purchased: 0
+  - Id: 8
+    NewUnlock: 0
+    AlreadySeen: 0
+    Purchased: 0
+  - Id: 9
+    NewUnlock: 0
+    AlreadySeen: 0
+    Purchased: 0
+  - Id: 10
+    NewUnlock: 0
+    AlreadySeen: 0
+    Purchased: 0
+  - Id: 11
+    NewUnlock: 0
+    AlreadySeen: 0
+    Purchased: 0
+  - Id: 12
+    NewUnlock: 0
+    AlreadySeen: 0
+    Purchased: 0
+  - Id: 13
+    NewUnlock: 0
+    AlreadySeen: 0
+    Purchased: 0
+  - Id: 14
+    NewUnlock: 0
+    AlreadySeen: 0
+    Purchased: 0
+  - Id: 15
+    NewUnlock: 0
+    AlreadySeen: 0
+    Purchased: 0
+  - Id: 16
+    NewUnlock: 0
+    AlreadySeen: 0
+    Purchased: 0
+  - Id: 17
+    NewUnlock: 0
+    AlreadySeen: 0
+    Purchased: 0
+  - Id: 18
+    NewUnlock: 0
+    AlreadySeen: 0
+    Purchased: 0
+  - Id: 19
+    NewUnlock: 0
+    AlreadySeen: 0
+    Purchased: 0
+  - Id: 20
+    NewUnlock: 0
+    AlreadySeen: 0
+    Purchased: 0
+  - Id: 21
+    NewUnlock: 0
+    AlreadySeen: 0
+    Purchased: 0
+  - Id: 22
+    NewUnlock: 0
+    AlreadySeen: 0
+    Purchased: 0
+  - Id: 23
+    NewUnlock: 0
+    AlreadySeen: 0
+    Purchased: 0
+  - Id: 24
+    NewUnlock: 0
+    AlreadySeen: 0
+    Purchased: 0
+  - Id: 25
+    NewUnlock: 0
+    AlreadySeen: 0
+    Purchased: 0
+  - Id: 26
+    NewUnlock: 0
+    AlreadySeen: 0
+    Purchased: 0
+  - Id: 27
+    NewUnlock: 0
+    AlreadySeen: 0
+    Purchased: 0
+  Names: "Serum\nFirst aid\nEnergy core\nPhysical core\nLightweight loader\nExtra bullets\nBox of bullets\nMuscles\nLens\nSolid State Drive\nExtra coins\nCritical Damage Core\nCritical Damage Core Protector\nReinforced Cannons\nLarge missile box\nRicochet Core\nMissile core\nSecond chance chipset\nElimination chipset\nShift chip\nMuzzle brake\nPortable Energy\nDash recharger\nShield stabilizer\nBarrier capacitor\nDrone bay\nCargo Amplifier\nThrusters\n"

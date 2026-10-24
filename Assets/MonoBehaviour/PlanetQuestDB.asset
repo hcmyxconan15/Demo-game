@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4277e0e238632fbd0ba83c1ce0309cf, type: 3}
+  m_Name: PlanetQuestDB
+  m_EditorClassIdentifier:
+  Planets:
+  - SetupName: '| Planet 0 Thalassia | Quests: 3 | Unlocked from start'
+    PlanetId: 0
+    Name: Thalassia
+    UnlockSourcePlanetId: -1
+    UnlockQuestsRequired: 0
+    NotAvailable: 0
+    Quests:
+    - QuestId: 0
+      Name: Valthorn the Destroyer
+      MarkerPointIndex: 0
+      EnemyProfile: {fileID: 11400000, guid: 90b0d77546f746343bad94b3bfd05d25, type: 2}
+      NotAvailable: 0
+    - QuestId: 1
+      Name: Valthorn the Destroyer II
+      MarkerPointIndex: 1
+      EnemyProfile: {fileID: 11400000, guid: 90b0d77546f746343bad94b3bfd05d25, type: 2}
+      NotAvailable: 1
+    - QuestId: 2
+      Name: Valthorn the Destroyer III
+      MarkerPointIndex: 2
+      EnemyProfile: {fileID: 11400000, guid: 90b0d77546f746343bad94b3bfd05d25, type: 2}
+      NotAvailable: 1
+  - SetupName: '| Planet 1 Pyrosia | Quests: 3 | Not available'
+    PlanetId: 1
+    Name: Pyrosia
+    UnlockSourcePlanetId: 0
+    UnlockQuestsRequired: 1
+    NotAvailable: 1
+    Quests:
+    - QuestId: 20
+      Name: Pyrosia
+      MarkerPointIndex: 0
+      EnemyProfile: {fileID: 11400000, guid: cfd8f3d76bc5e614e9a71507616d43aa, type: 2}
+      NotAvailable: 1
+    - QuestId: 21
+      Name: Pyrosia
+      MarkerPointIndex: 1
+      EnemyProfile: {fileID: 11400000, guid: cfd8f3d76bc5e614e9a71507616d43aa, type: 2}
+      NotAvailable: 1
+    - QuestId: 22
+      Name: Pyrosia
+      MarkerPointIndex: 2
+      EnemyProfile: {fileID: 11400000, guid: cfd8f3d76bc5e614e9a71507616d43aa, type: 2}
+      NotAvailable: 1
+  - SetupName: '| Planet 2 Aureglace | Quests: 3 | Not available'
+    PlanetId: 2
+    Name: Aureglace
+    UnlockSourcePlanetId: 1
+    UnlockQuestsRequired: 1
+    NotAvailable: 1
+    Quests:
+    - QuestId: 30
+      Name: Aureglace
+      MarkerPointIndex: 0
+      EnemyProfile: {fileID: 11400000, guid: 00004df70dd08e947be224ffb5c1fddd, type: 2}
+      NotAvailable: 1
+    - QuestId: 31
+      Name: Aureglace
+      MarkerPointIndex: 1
+      EnemyProfile: {fileID: 11400000, guid: 00004df70dd08e947be224ffb5c1fddd, type: 2}
+      NotAvailable: 1
+    - QuestId: 32
+      Name: Aureglace
+      MarkerPointIndex: 2
+      EnemyProfile: {fileID: 11400000, guid: 00004df70dd08e947be224ffb5c1fddd, type: 2}
+      NotAvailable: 1
+  - SetupName: '| Planet 3 Mireva | Quests: 3 | Not available'
+    PlanetId: 3
+    Name: Mireva
+    UnlockSourcePlanetId: 2
+    UnlockQuestsRequired: 1
+    NotAvailable: 1
+    Quests:
+    - QuestId: 10
+      Name: Mireva
+      MarkerPointIndex: 0
+      EnemyProfile: {fileID: 11400000, guid: 5635ea5fceb2a154e988073784f5fde4, type: 2}
+      NotAvailable: 1
+    - QuestId: 11
+      Name: Mireva
+      MarkerPointIndex: 1
+      EnemyProfile: {fileID: 11400000, guid: 5635ea5fceb2a154e988073784f5fde4, type: 2}
+      NotAvailable: 1
+    - QuestId: 12
+      Name: Mireva
+      MarkerPointIndex: 2
+      EnemyProfile: {fileID: 11400000, guid: 5635ea5fceb2a154e988073784f5fde4, type: 2}
+      NotAvailable: 1

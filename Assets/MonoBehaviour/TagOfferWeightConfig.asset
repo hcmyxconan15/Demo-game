@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57c198eba1fbce35f3fac9aaf3183148, type: 3}
+  m_Name: TagOfferWeightConfig
+  m_EditorClassIdentifier:
+  Enabled: 1
+  MinMultiplier: 0.75
+  MaxMultiplier: 2.5
+  BaseOfferWeightWeapon: 100
+  BaseOfferWeightMicrochip: 90
+  BaseOfferWeightDrone: 100
+  BaseOfferWeightOverload: 90
+  SchoolMatchMultiplier: 1.35
+  DeliveryMatchMultiplier: 1.25
+  StatusMatchMultiplier: 1.2
+  TriggerMatchMultiplier: 1.15
+  RoleMatchMultiplier: 1.15
+  BoostMatchMultiplier: 1.3
+  MetaMatchMultiplier: 1.1
+  StackBonusPerTag: 0.12
+  MaxStacksCounted: 4
+  ArchetypeWeightingEnabled: 1
+  ArchetypeMatchMultiplier: 1.85
+  ArchetypeMinStacksForWeight: 2
+  ArchetypeStackBonus: 0.25
+  ArchetypeMaxStacksCounted: 4
+  OffArchetypeWeightPenaltyEnabled: 1
+  OffArchetypeWeightPenalty: 100
+  MinOfferWeightAfterPenalty: 90
+  GuaranteeOneTopWeightedPick: 0
+  TopTierWeightRatio: 0.95
+  GuaranteeOneUnownedPick: 1
+  UnownedOfferWeightMultiplier: 1.5
+  FreshOfferRotationEnabled: 1
+  RecentOfferWeightPenaltyEnabled: 1
+  RecentOfferWeightMultiplier: 0.35
+  SidePoolSplitEnabled: 1
+  SidePoolWildcardCount: 8
+  MinMainPoolSizeBeforeBackfill: 3
+  MinBuildTagStacksForSidePoolSplit: 2
+  IgnoredTagsForOfferWeight: 14000000

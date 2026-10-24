@@ -1,0 +1,421 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29c49c63aa84118a079b46f4d8811769, type: 3}
+  m_Name: InitialDataConfigDemo
+  m_EditorClassIdentifier:
+  Data:
+    SavedBuildNumber: 0
+    UserName:
+    LanguageIndex: 0
+    LanguageSelectedByUser: 0
+    SkillPoints: 0
+    DiamondsPoints: 0
+    Coins: 0
+    CurrentPlanetSelected: 0
+    CurrentQuestSelected: 0
+    SpendSkillPoints: 0
+    BestScore: 0
+    MechSelected: 0
+    MovementTypeSelected: 0
+    PilotSelected: 0
+    PowerUps: []
+    MechData:
+    - Id: 0
+      ChassisId: 0
+      BaseType: 0
+      BaseId: 0
+      BodyId: 0
+      WeaponId: 16
+      DroneId: 0
+      Weapons: 10000000
+      Bodies: 00000000
+      Bases: 00000000
+    - Id: 1
+      ChassisId: 0
+      BaseType: 0
+      BaseId: 3
+      BodyId: 3
+      WeaponId: 10
+      DroneId: 0
+      Weapons: 0a000000
+      Bodies: 03000000
+      Bases: 03000000
+    - Id: 2
+      ChassisId: 0
+      BaseType: 0
+      BaseId: 6
+      BodyId: 6
+      WeaponId: 1
+      DroneId: 0
+      Weapons: 01000000
+      Bodies: 06000000
+      Bases: 06000000
+    - Id: 3
+      ChassisId: 0
+      BaseType: 0
+      BaseId: 9
+      BodyId: 9
+      WeaponId: 0
+      DroneId: 0
+      Weapons: 00000000
+      Bodies: 09000000
+      Bases: 09000000
+    PilotData:
+    - Id: 0
+      PilotLevel: 0
+      Progress: 0
+      SkillsUnlocked: []
+    WeaponProficiencyList: []
+    MapData:
+      CurrentSelectedPath:
+      MapNodeInfo: []
+      GenerationSeed: 0
+      FavoriteMapSeeds: 38ce34e1
+    UnlockPlanets:
+    - Id: 0
+      NewUnlock: 0
+      AlreadySeen: 0
+      Purchased: 0
+    UnlockMechList:
+    - Id: 0
+      NewUnlock: 0
+      AlreadySeen: 0
+      Purchased: 0
+    UnlockWeaponsList:
+    - Id: 1
+      NewUnlock: 0
+      AlreadySeen: 0
+      Purchased: 1
+    - Id: 2
+      NewUnlock: 0
+      AlreadySeen: 0
+      Purchased: 1
+    - Id: 8
+      NewUnlock: 0
+      AlreadySeen: 0
+      Purchased: 1
+    - Id: 13
+      NewUnlock: 0
+      AlreadySeen: 0
+      Purchased: 1
+    - Id: 15
+      NewUnlock: 0
+      AlreadySeen: 0
+      Purchased: 1
+    - Id: 16
+      NewUnlock: 0
+      AlreadySeen: 0
+      Purchased: 1
+    - Id: 22
+      NewUnlock: 0
+      AlreadySeen: 0
+      Purchased: 1
+    - Id: 24
+      NewUnlock: 0
+      AlreadySeen: 0
+      Purchased: 1
+    - Id: 29
+      NewUnlock: 0
+      AlreadySeen: 1
+      Purchased: 1
+    - Id: 0
+      NewUnlock: 0
+      AlreadySeen: 0
+      Purchased: 1
+    - Id: 25
+      NewUnlock: 0
+      AlreadySeen: 0
+      Purchased: 1
+    - Id: 6
+      NewUnlock: 0
+      AlreadySeen: 0
+      Purchased: 1
+    UnlockMicroChipList:
+    - Id: 1
+      NewUnlock: 0
+      AlreadySeen: 0
+      Purchased: 1
+    - Id: 3
+      NewUnlock: 0
+      AlreadySeen: 0
+      Purchased: 1
+    - Id: 4
+      NewUnlock: 0
+      AlreadySeen: 0
+      Purchased: 1
+    - Id: 5
+      NewUnlock: 0
+      AlreadySeen: 0
+      Purchased: 1
+    - Id: 6
+      NewUnlock: 0
+      AlreadySeen: 0
+      Purchased: 1
+    - Id: 7
+      NewUnlock: 0
+      AlreadySeen: 0
+      Purchased: 1
+    - Id: 10
+      NewUnlock: 0
+      AlreadySeen: 0
+      Purchased: 1
+    - Id: 13
+      NewUnlock: 0
+      AlreadySeen: 0
+      Purchased: 1
+    - Id: 14
+      NewUnlock: 0
+      AlreadySeen: 0
+      Purchased: 1
+    - Id: 21
+      NewUnlock: 0
+      AlreadySeen: 0
+      Purchased: 1
+    - Id: 15
+      NewUnlock: 0
+      AlreadySeen: 0
+      Purchased: 1
+    - Id: 18
+      NewUnlock: 0
+      AlreadySeen: 0
+      Purchased: 1
+    - Id: 19
+      NewUnlock: 0
+      AlreadySeen: 0
+      Purchased: 1
+    - Id: 22
+      NewUnlock: 0
+      AlreadySeen: 0
+      Purchased: 1
+    - Id: 16
+      NewUnlock: 0
+      AlreadySeen: 0
+      Purchased: 1
+    - Id: 23
+      NewUnlock: 0
+      AlreadySeen: 0
+      Purchased: 1
+    - Id: 24
+      NewUnlock: 0
+      AlreadySeen: 0
+      Purchased: 1
+    - Id: 26
+      NewUnlock: 0
+      AlreadySeen: 0
+      Purchased: 1
+    - Id: 8
+      NewUnlock: 0
+      AlreadySeen: 0
+      Purchased: 1
+    - Id: 27
+      NewUnlock: 0
+      AlreadySeen: 0
+      Purchased: 1
+    UnlockOverloadList:
+    - Id: 2
+      NewUnlock: 0
+      AlreadySeen: 0
+      Purchased: 1
+    - Id: 5
+      NewUnlock: 0
+      AlreadySeen: 0
+      Purchased: 1
+    - Id: 6
+      NewUnlock: 0
+      AlreadySeen: 0
+      Purchased: 1
+    - Id: 7
+      NewUnlock: 0
+      AlreadySeen: 0
+      Purchased: 1
+    - Id: 9
+      NewUnlock: 0
+      AlreadySeen: 0
+      Purchased: 1
+    - Id: 10
+      NewUnlock: 0
+      AlreadySeen: 0
+      Purchased: 1
+    - Id: 13
+      NewUnlock: 0
+      AlreadySeen: 0
+      Purchased: 1
+    - Id: 14
+      NewUnlock: 0
+      AlreadySeen: 0
+      Purchased: 1
+    - Id: 16
+      NewUnlock: 0
+      AlreadySeen: 0
+      Purchased: 1
+    - Id: 18
+      NewUnlock: 0
+      AlreadySeen: 0
+      Purchased: 1
+    - Id: 12
+      NewUnlock: 0
+      AlreadySeen: 0
+      Purchased: 0
+    - Id: 19
+      NewUnlock: 0
+      AlreadySeen: 0
+      Purchased: 1
+    - Id: 20
+      NewUnlock: 0
+      AlreadySeen: 0
+      Purchased: 1
+    - Id: 22
+      NewUnlock: 0
+      AlreadySeen: 0
+      Purchased: 1
+    - Id: 24
+      NewUnlock: 0
+      AlreadySeen: 0
+      Purchased: 1
+    - Id: 32
+      NewUnlock: 0
+      AlreadySeen: 0
+      Purchased: 1
+    - Id: 31
+      NewUnlock: 0
+      AlreadySeen: 0
+      Purchased: 1
+    - Id: 28
+      NewUnlock: 0
+      AlreadySeen: 0
+      Purchased: 1
+    - Id: 27
+      NewUnlock: 0
+      AlreadySeen: 0
+      Purchased: 1
+    - Id: 26
+      NewUnlock: 0
+      AlreadySeen: 0
+      Purchased: 1
+    - Id: 25
+      NewUnlock: 0
+      AlreadySeen: 0
+      Purchased: 1
+    - Id: 33
+      NewUnlock: 0
+      AlreadySeen: 0
+      Purchased: 1
+    - Id: 36
+      NewUnlock: 0
+      AlreadySeen: 0
+      Purchased: 1
+    - Id: 21
+      NewUnlock: 0
+      AlreadySeen: 0
+      Purchased: 1
+    UnlockDroneList:
+    - Id: 0
+      NewUnlock: 0
+      AlreadySeen: 0
+      Purchased: 1
+    - Id: 5
+      NewUnlock: 0
+      AlreadySeen: 0
+      Purchased: 1
+    - Id: 3
+      NewUnlock: 0
+      AlreadySeen: 0
+      Purchased: 1
+    UnlockBodyList:
+    - Id: 0
+      NewUnlock: 0
+      AlreadySeen: 1
+      Purchased: 1
+    UnlockBaseList:
+    - Id: 0
+      NewUnlock: 0
+      AlreadySeen: 1
+      Purchased: 1
+    NormalEnemyKilledMultiplier: 1
+    EliteEnemyMultiplier: 100
+    MercenaryEnemyKilledMultiplier: 200
+    BossEnemyKilledMultiplier: 1500
+    ChestMultiplier: 50
+    QuestCompletedMultiplier: 300
+    TimePlayedMultiplier: 50
+    Blood: 1
+    Parts: 1
+    DamageNumbers: 1
+    CoinMovement: 1
+    CameraShake: 1
+    EnemyCameraFocus: 1
+    Vibrations: 1
+    LifeBars: 1
+    SpeedUpBoxSequence: 0
+    FullScreen: 1
+    FullScreenModeIndex: 1
+    QualityIndex: 2
+    ResolutionIndex: -1
+    Shadows: 1
+    Vsync: 0
+    Vignette: 1
+    ShowFps: 0
+    TargetFrameRate: 1
+    Brightness: 0
+    RenderScale: 100
+    TargetMonitor: 0
+    MasterSound: 1
+    VolumeMusic: 0.5
+    VolumeFx: 0.5
+    Achievements: []
+    Stats: []
+    HuntsData: []
+    ConsentGiven: 0
+    AnalyticsConsentAnswered: 0
+    FtueStepsSent:
+    TutorialsSeen:
+    HasOpenedHangarParts: 0
+    LevelsStarted: 0
+    LevelsCompleted: 0
+    DeadCount: 0
+    MonsterKilled: 0
+    TotalPlayTimeSeconds: 0
+    UserPlayFabId:
+  Availability:
+    IsCaptured: 1
+    Weapons: 030000000400000007000000090000000b0000000c000000110000001300000014000000150000001600000017000000190000001a000000
+    Microchips: 0000000006000000070000000c0000000f000000120000001700000018000000190000001a0000001b000000
+    Overloads: 0100000003000000070000000c0000000e0000000f000000120000001600000017000000180000001a0000001c0000001d0000001e0000002100000024000000
+    Mechs: 010000000200000003000000
+    Drones: 000000000100000002000000
+    Bodies: 030000000400000005000000060000000700000008000000090000000a0000000b000000
+    Bases: 0300000004000000050000000600000007000000080000000a000000090000000b000000
+    Pilots:
+    Planets: 010000000200000003000000
+    Hunts:
+    - PlanetId: 0
+      QuestId: 1
+    - PlanetId: 0
+      QuestId: 2
+    - PlanetId: 1
+      QuestId: 20
+    - PlanetId: 1
+      QuestId: 21
+    - PlanetId: 1
+      QuestId: 22
+    - PlanetId: 2
+      QuestId: 30
+    - PlanetId: 2
+      QuestId: 31
+    - PlanetId: 2
+      QuestId: 32
+    - PlanetId: 3
+      QuestId: 10
+    - PlanetId: 3
+      QuestId: 11
+    - PlanetId: 3
+      QuestId: 12

@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7fd9488000d3734a9e00ee676215985, type: 3}
+  m_Name: WarpJump
+  m_EditorClassIdentifier:
+  components:
+  - {fileID: 11400000, guid: 85686094ce67ae34dac8b19c5526d283, type: 2}
+  - {fileID: 11400000, guid: c7ee350511523fe4a829b8fcc400a626, type: 2}
+  - {fileID: 11400000, guid: a0235c53f164bef4f856b46d41e87675, type: 2}
+  - {fileID: 11400000, guid: 22e6d1b7201d51e4cb05fe241c6ea09d, type: 2}
+  - {fileID: 11400000, guid: a417daf752b087541b88029732f71abf, type: 2}
+  - {fileID: 11400000, guid: a72f266e4df172442aa1afbc814675c1, type: 2}
+  - {fileID: 11400000, guid: 19b008b63d1a9684e8428805f8f664a1, type: 2}

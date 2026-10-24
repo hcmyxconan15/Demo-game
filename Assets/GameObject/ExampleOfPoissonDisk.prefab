@@ -1,0 +1,159 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1709254077376921
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4730242686860875}
+  - component: {fileID: 114724804207875695}
+  - component: {fileID: 114618682377417806}
+  m_Layer: 0
+  m_Name: ExampleOfPoissonDisk
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4730242686860875
+Transform:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114724804207875695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c64ac0c775d3b56f8bd8afb76b0f25f, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  EnemyId: 17
+  EnemyName:
+  QuestEnemy: 0
+  Type: 0
+  DropItemBox: 0
+  BoxType: 0
+  EndGameEnemy: 0
+  LockTargetEnemy: 0
+  EnemyPartsId:
+  Target: {fileID: 0}
+  Stats: {fileID: 114618682377417806}
+  EnemyCollider: {fileID: 0}
+  EnemyMovement: {fileID: 0}
+  PushBackEffect: {fileID: 0}
+  FlashOnDamage: {fileID: 0}
+  EnemyAnimator: {fileID: 0}
+  EnemyIdToSpawn: 18
+  Radius: 20
+  MinDistance: 10
+  MaxAttempts: 30
+  NavMeshSampleDistance: 2
+  NavMeshAreaMask:
+    serializedVersion: 2
+    m_Bits: 2097143
+  OffsetUpPosition: {x: 0, y: 0, z: 0}
+--- !u!114 &114618682377417806
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45a785f1ec2dde866bbe5e23bd0952d4, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  IsDead: 1
+  NotAvailableToTarget: 0
+  BloodColor: 0
+  Revival: 0
+  CurrentLevel: 1
+  CurrentXp: 0
+  NextLevelXpNeeded: 0
+  Life: 0
+  MaxLife: 0
+  Shield: 0
+  MaxShield: 0
+  Damage: 0
+  MagnetBase: 0
+  Speed: 0
+  IncreaseSpeed: 0
+  MicrochipSlots: 0
+  OverloadSlots: 0
+  DroneCapacity: 0
+  BaseLife: 0
+  BaseShield: 0
+  BaseDamage: 0
+  BaseReloadTimePercent: 0
+  BaseMagazineIncreaseRaw: 0
+  BaseCriticalChancePercent: 0
+  BaseDamageIncreasePercent: 0
+  BaseCriticalDamagePercent: 0
+  BaseFireRatePercent: 0
+  OnFired: 0
+  OnFiredTickTime: 0
+  FirePotency: 0
+  TickNeedForAccumulatedFirePotencyUp: 0
+  AccumulatedFirePotency: 0
+  CantBeShocked: 0
+  OnShock: 0
+  OnShockTime: 0
+  OnShockResistance: 0
+  OnWeak: 0
+  OnWeakTime: 0
+  OnMark: 0
+  OnMarkTime: 0
+  MarkCriticalChanceBonusPercent: 0
+  ShieldDecaysOverTime: 1
+  ShieldDecayPerSecond: 10
+  LifeIncreaseRaw: 0
+  LifeIncreasePercent: 0
+  ShieldIncreaseRaw: 0
+  ShieldIncreasePercent: 0
+  CriticalChancePercent: 0
+  CriticalDamagePercent: 0
+  DamageIncreasePercent: 0
+  ReloadTimePercent: 0
+  FireRatePercent: 0
+  MagazinePercent: 0
+  MagazineIncreaseRaw: 0
+  DamageIncreasePhysicalPercent: 0
+  DamageIncreaseEnergyPercent: 0
+  DamageIncreaseMissilePercent: 0
+  DamageIncreaseBeamPercent: 0
+  MagnetArea: 0
+  XpCollectionPercent: 0
+  CollectorXpDepositPercent: 0
+  GoldCollectionPercent: 0
+  RecoverBySecond: 0
+  PierceEnemiesNumber: 0
+  MissileIncreaseMagazine: 0
+  ProjectileMagazineIncreasePhysical: 0
+  ProjectileMagazineIncreaseEnergy: 0
+  MissileMagazineIncreasePhysical: 0
+  MissileMagazineIncreaseEnergy: 0
+  BeamMagazineIncreasePhysical: 0
+  BeamMagazineIncreaseEnergy: 0
+  AreaMagazineIncreasePhysical: 0
+  AreaMagazineIncreaseEnergy: 0
+  BulletRicochet: 0
+  DamageIncreasePercentTemp: 0

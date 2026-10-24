@@ -1,0 +1,577 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4bfca09c9f5f8c73c29a32892d84651e, type: 3}
+  m_Name: PilotDB
+  m_EditorClassIdentifier:
+  MaxPilotLevel: 10
+  BaseXp: 100
+  GrowthFactor: 3.5
+  Pilots:
+  - PilotDescriptionName: Lune Ardent | Id:0 | Overload:21 | Overload2:0 | Chip:21 | Chip2:17
+    Name: Lune Ardent
+    Description: Lune Ardent_description
+    NotAvailable: 0
+    AvatarSprite: {fileID: 21300000, guid: 91d218f8afe096846aec5d834d9df924, type: 2}
+    Id: 0
+    MaxLevel: 10
+    BodyPrefab: {fileID: 114703931505913403, guid: 1c610713beda5c34fb2e8d1241ca90b9, type: 2}
+    Skills:
+      PilotOverloadId: 21
+      PilotOverloadId2: 0
+      PilotMicrochipId: 21
+      PilotMicrochipId2: 17
+      StatsOnPilot:
+      - StatName: 'IncreaseCriticalChance: 3'
+        Id: 0
+        StatToIncreaseIcon: {fileID: 21300000, guid: b9d2f7478b1c8ab46bbb5020604ee5f6, type: 2}
+        UseCustomIcon: 0
+        StatToIncrease:
+          StatsType: 12
+          BaseValue: 3
+          IncreaseValue: 0
+      - StatName: 'FireRatePercent: 4'
+        Id: 1
+        StatToIncreaseIcon: {fileID: 21300000, guid: 58af808d35c3e384e97a4e99e749f4b8, type: 2}
+        UseCustomIcon: 0
+        StatToIncrease:
+          StatsType: 25
+          BaseValue: 4
+          IncreaseValue: 0
+      - StatName: 'MagnetSize: 1'
+        Id: 2
+        StatToIncreaseIcon: {fileID: 21300000, guid: 3898e67113db1ee40934e0a44902c434, type: 2}
+        UseCustomIcon: 0
+        StatToIncrease:
+          StatsType: 27
+          BaseValue: 1
+          IncreaseValue: 0
+      - StatName: 'LifeMax: 5'
+        Id: 3
+        StatToIncreaseIcon: {fileID: 21300000, guid: d7aa7a4e64138c043b8ae43006dc23cc, type: 2}
+        UseCustomIcon: 0
+        StatToIncrease:
+          StatsType: 2
+          BaseValue: 5
+          IncreaseValue: 0
+      - StatName: 'FireRatePercent: 2'
+        Id: 4
+        StatToIncreaseIcon: {fileID: 21300000, guid: 58af808d35c3e384e97a4e99e749f4b8, type: 2}
+        UseCustomIcon: 0
+        StatToIncrease:
+          StatsType: 25
+          BaseValue: 2
+          IncreaseValue: 0
+      - StatName: 'Speed: 0.5'
+        Id: 5
+        StatToIncreaseIcon: {fileID: 21300000, guid: 82e344f3e914857468934121f93bb0e6, type: 2}
+        UseCustomIcon: 0
+        StatToIncrease:
+          StatsType: 26
+          BaseValue: 0.5
+          IncreaseValue: 0
+      - StatName: 'Speed: 0.5'
+        Id: 6
+        StatToIncreaseIcon: {fileID: 21300000, guid: 82e344f3e914857468934121f93bb0e6, type: 2}
+        UseCustomIcon: 0
+        StatToIncrease:
+          StatsType: 26
+          BaseValue: 0.5
+          IncreaseValue: 0
+      - StatName: 'MagnetSize: 1'
+        Id: 7
+        StatToIncreaseIcon: {fileID: 21300000, guid: 3898e67113db1ee40934e0a44902c434, type: 2}
+        UseCustomIcon: 0
+        StatToIncrease:
+          StatsType: 27
+          BaseValue: 1
+          IncreaseValue: 0
+      - StatName: 'IncreaseCriticalDamage: 10'
+        Id: 8
+        StatToIncreaseIcon: {fileID: 21300000, guid: 8039d0e3604639842a064a9d0b6ba0ab, type: 2}
+        UseCustomIcon: 0
+        StatToIncrease:
+          StatsType: 13
+          BaseValue: 10
+          IncreaseValue: 0
+      - StatName: 'Speed: 1'
+        Id: 9
+        StatToIncreaseIcon: {fileID: 21300000, guid: 82e344f3e914857468934121f93bb0e6, type: 2}
+        UseCustomIcon: 0
+        StatToIncrease:
+          StatsType: 26
+          BaseValue: 1
+          IncreaseValue: 0
+      - StatName: 'IncreaseCriticalChance: 2'
+        Id: 10
+        StatToIncreaseIcon: {fileID: 21300000, guid: b9d2f7478b1c8ab46bbb5020604ee5f6, type: 2}
+        UseCustomIcon: 0
+        StatToIncrease:
+          StatsType: 12
+          BaseValue: 2
+          IncreaseValue: 0
+      - StatName: 'IncreaseCriticalChance: 2'
+        Id: 11
+        StatToIncreaseIcon: {fileID: 21300000, guid: b9d2f7478b1c8ab46bbb5020604ee5f6, type: 2}
+        UseCustomIcon: 0
+        StatToIncrease:
+          StatsType: 12
+          BaseValue: 2
+          IncreaseValue: 0
+      - StatName: 'IncreaseCriticalChance: 5'
+        Id: 12
+        StatToIncreaseIcon: {fileID: 21300000, guid: b9d2f7478b1c8ab46bbb5020604ee5f6, type: 2}
+        UseCustomIcon: 0
+        StatToIncrease:
+          StatsType: 12
+          BaseValue: 5
+          IncreaseValue: 0
+      - StatName: 'IncreaseCriticalChance: 5'
+        Id: 13
+        StatToIncreaseIcon: {fileID: 21300000, guid: b9d2f7478b1c8ab46bbb5020604ee5f6, type: 2}
+        UseCustomIcon: 0
+        StatToIncrease:
+          StatsType: 12
+          BaseValue: 5
+          IncreaseValue: 0
+      - StatName: 'LifeMax: 5'
+        Id: 14
+        StatToIncreaseIcon: {fileID: 21300000, guid: d7aa7a4e64138c043b8ae43006dc23cc, type: 2}
+        UseCustomIcon: 0
+        StatToIncrease:
+          StatsType: 2
+          BaseValue: 5
+          IncreaseValue: 0
+      - StatName: 'IncreaseMissileDamagePercent: 10'
+        Id: 15
+        StatToIncreaseIcon: {fileID: 21300000, guid: 2b8e893e66e9f174a8a9580ae965144a, type: 2}
+        UseCustomIcon: 0
+        StatToIncrease:
+          StatsType: 20
+          BaseValue: 10
+          IncreaseValue: 0
+      - StatName: 'DashIncrease: 1'
+        Id: 16
+        StatToIncreaseIcon: {fileID: 21300000, guid: b1d11d60aff7133489f795614680f2a8, type: 2}
+        UseCustomIcon: 0
+        StatToIncrease:
+          StatsType: 24
+          BaseValue: 1
+          IncreaseValue: 0
+      - StatName: 'IncreaseCriticalChance: 2'
+        Id: 17
+        StatToIncreaseIcon: {fileID: 21300000, guid: b9d2f7478b1c8ab46bbb5020604ee5f6, type: 2}
+        UseCustomIcon: 0
+        StatToIncrease:
+          StatsType: 12
+          BaseValue: 2
+          IncreaseValue: 0
+      - StatName: 'LifeMax: 10'
+        Id: 18
+        StatToIncreaseIcon: {fileID: 21300000, guid: d7aa7a4e64138c043b8ae43006dc23cc, type: 2}
+        UseCustomIcon: 0
+        StatToIncrease:
+          StatsType: 2
+          BaseValue: 10
+          IncreaseValue: 0
+      - StatName: 'IncreaseCriticalChance: 2'
+        Id: 19
+        StatToIncreaseIcon: {fileID: 21300000, guid: b9d2f7478b1c8ab46bbb5020604ee5f6, type: 2}
+        UseCustomIcon: 0
+        StatToIncrease:
+          StatsType: 12
+          BaseValue: 2
+          IncreaseValue: 0
+      - StatName: 'IncreaseEnergyDamagePercent: 10'
+        Id: 20
+        StatToIncreaseIcon: {fileID: 21300000, guid: d8da4986d39274348beca0862f80c64e, type: 2}
+        UseCustomIcon: 0
+        StatToIncrease:
+          StatsType: 18
+          BaseValue: 10
+          IncreaseValue: 0
+      - StatName: 'IncreaseCriticalChance: 2'
+        Id: 21
+        StatToIncreaseIcon: {fileID: 21300000, guid: b9d2f7478b1c8ab46bbb5020604ee5f6, type: 2}
+        UseCustomIcon: 0
+        StatToIncrease:
+          StatsType: 12
+          BaseValue: 2
+          IncreaseValue: 0
+      - StatName: 'IncreaseCriticalDamage: 10'
+        Id: 22
+        StatToIncreaseIcon: {fileID: 21300000, guid: 8039d0e3604639842a064a9d0b6ba0ab, type: 2}
+        UseCustomIcon: 0
+        StatToIncrease:
+          StatsType: 13
+          BaseValue: 10
+          IncreaseValue: 0
+      - StatName: 'IncreaseCriticalChance: 2'
+        Id: 23
+        StatToIncreaseIcon: {fileID: 21300000, guid: b9d2f7478b1c8ab46bbb5020604ee5f6, type: 2}
+        UseCustomIcon: 0
+        StatToIncrease:
+          StatsType: 12
+          BaseValue: 2
+          IncreaseValue: 0
+      - StatName: 'IncreaseCriticalChance: 2'
+        Id: 24
+        StatToIncreaseIcon: {fileID: 21300000, guid: b9d2f7478b1c8ab46bbb5020604ee5f6, type: 2}
+        UseCustomIcon: 0
+        StatToIncrease:
+          StatsType: 12
+          BaseValue: 2
+          IncreaseValue: 0
+      - StatName: 'LifeMax: 10'
+        Id: 25
+        StatToIncreaseIcon: {fileID: 21300000, guid: d7aa7a4e64138c043b8ae43006dc23cc, type: 2}
+        UseCustomIcon: 0
+        StatToIncrease:
+          StatsType: 2
+          BaseValue: 10
+          IncreaseValue: 0
+      - StatName: 'IncreaseCriticalChance: 2'
+        Id: 26
+        StatToIncreaseIcon: {fileID: 21300000, guid: b9d2f7478b1c8ab46bbb5020604ee5f6, type: 2}
+        UseCustomIcon: 0
+        StatToIncrease:
+          StatsType: 12
+          BaseValue: 2
+          IncreaseValue: 0
+      - StatName: 'IncreaseCriticalDamage: 10'
+        Id: 27
+        StatToIncreaseIcon: {fileID: 21300000, guid: 8039d0e3604639842a064a9d0b6ba0ab, type: 2}
+        UseCustomIcon: 0
+        StatToIncrease:
+          StatsType: 13
+          BaseValue: 10
+          IncreaseValue: 0
+  - PilotDescriptionName: Kane Drax | Id:1 | Overload:12 | Overload2:30 | Chip:0 | Chip2:1
+    Name: Kane Drax
+    Description: Kane Drax_description
+    NotAvailable: 0
+    AvatarSprite: {fileID: 21300000, guid: 7e1b01b22b8c9b047894a042cac4562f, type: 2}
+    Id: 1
+    MaxLevel: 10
+    BodyPrefab: {fileID: 114384403120170545, guid: 86e8e2395ca216f4abea4223d02365af, type: 2}
+    Skills:
+      PilotOverloadId: 12
+      PilotOverloadId2: 30
+      PilotMicrochipId: 0
+      PilotMicrochipId2: 1
+      StatsOnPilot:
+      - StatName: 'IncreaseMagazinePercent: 10'
+        Id: 0
+        StatToIncreaseIcon: {fileID: 21300000, guid: b596613c5a890534a9cbba324409bec0, type: 2}
+        UseCustomIcon: 0
+        StatToIncrease:
+          StatsType: 6
+          BaseValue: 10
+          IncreaseValue: 0
+      - StatName: 'MagnetSize: 1'
+        Id: 1
+        StatToIncreaseIcon: {fileID: 21300000, guid: 3898e67113db1ee40934e0a44902c434, type: 2}
+        UseCustomIcon: 0
+        StatToIncrease:
+          StatsType: 27
+          BaseValue: 1
+          IncreaseValue: 0
+      - StatName: 'IncreaseDamagePercent: 5'
+        Id: 2
+        StatToIncreaseIcon: {fileID: 21300000, guid: 596a7399446d3214da932e5575a68601, type: 2}
+        UseCustomIcon: 0
+        StatToIncrease:
+          StatsType: 8
+          BaseValue: 5
+          IncreaseValue: 0
+      - StatName: 'IncreaseDamagePercent: 5'
+        Id: 3
+        StatToIncreaseIcon: {fileID: 21300000, guid: 596a7399446d3214da932e5575a68601, type: 2}
+        UseCustomIcon: 0
+        StatToIncrease:
+          StatsType: 8
+          BaseValue: 5
+          IncreaseValue: 0
+      - StatName: 'IncreaseMagazinePercent: 5'
+        Id: 4
+        StatToIncreaseIcon: {fileID: 21300000, guid: b596613c5a890534a9cbba324409bec0, type: 2}
+        UseCustomIcon: 0
+        StatToIncrease:
+          StatsType: 6
+          BaseValue: 5
+          IncreaseValue: 0
+      - StatName: 'MagnetSize: 1'
+        Id: 5
+        StatToIncreaseIcon: {fileID: 21300000, guid: 3898e67113db1ee40934e0a44902c434, type: 2}
+        UseCustomIcon: 0
+        StatToIncrease:
+          StatsType: 27
+          BaseValue: 1
+          IncreaseValue: 0
+      - StatName: 'IncreaseMagazinePercent: 5'
+        Id: 6
+        StatToIncreaseIcon: {fileID: 21300000, guid: b596613c5a890534a9cbba324409bec0, type: 2}
+        UseCustomIcon: 0
+        StatToIncrease:
+          StatsType: 6
+          BaseValue: 5
+          IncreaseValue: 0
+      - StatName: 'IncreaseDamagePercent: 10'
+        Id: 7
+        StatToIncreaseIcon: {fileID: 21300000, guid: 596a7399446d3214da932e5575a68601, type: 2}
+        UseCustomIcon: 0
+        StatToIncrease:
+          StatsType: 8
+          BaseValue: 10
+          IncreaseValue: 0
+      - StatName: 'IncreaseMagazinePercent: 10'
+        Id: 8
+        StatToIncreaseIcon: {fileID: 21300000, guid: b596613c5a890534a9cbba324409bec0, type: 2}
+        UseCustomIcon: 0
+        StatToIncrease:
+          StatsType: 6
+          BaseValue: 10
+          IncreaseValue: 0
+      - StatName: 'LifePercent: 10'
+        Id: 9
+        StatToIncreaseIcon: {fileID: 21300000, guid: f87f78bd0ed96dc4e87a7bed65b1d3c4, type: 2}
+        UseCustomIcon: 0
+        StatToIncrease:
+          StatsType: 1
+          BaseValue: 10
+          IncreaseValue: 0
+      - StatName: 'LifeMax: 10'
+        Id: 10
+        StatToIncreaseIcon: {fileID: 21300000, guid: d7aa7a4e64138c043b8ae43006dc23cc, type: 2}
+        UseCustomIcon: 0
+        StatToIncrease:
+          StatsType: 2
+          BaseValue: 10
+          IncreaseValue: 0
+      - StatName: 'LifeMax: 10'
+        Id: 11
+        StatToIncreaseIcon: {fileID: 21300000, guid: d7aa7a4e64138c043b8ae43006dc23cc, type: 2}
+        UseCustomIcon: 0
+        StatToIncrease:
+          StatsType: 2
+          BaseValue: 10
+          IncreaseValue: 0
+      - StatName: 'LifeMax: 5'
+        Id: 12
+        StatToIncreaseIcon: {fileID: 21300000, guid: d7aa7a4e64138c043b8ae43006dc23cc, type: 2}
+        UseCustomIcon: 0
+        StatToIncrease:
+          StatsType: 2
+          BaseValue: 5
+          IncreaseValue: 0
+      - StatName: 'LifeMax: 5'
+        Id: 13
+        StatToIncreaseIcon: {fileID: 21300000, guid: d7aa7a4e64138c043b8ae43006dc23cc, type: 2}
+        UseCustomIcon: 0
+        StatToIncrease:
+          StatsType: 2
+          BaseValue: 5
+          IncreaseValue: 0
+      - StatName: 'ShieldMax: 10'
+        Id: 14
+        StatToIncreaseIcon: {fileID: 21300000, guid: 3ee8d6f3ba2f67443b909809fe9a2a73, type: 2}
+        UseCustomIcon: 0
+        StatToIncrease:
+          StatsType: 4
+          BaseValue: 10
+          IncreaseValue: 0
+      - StatName: 'ExtraBulletToWeapon: 5'
+        Id: 15
+        StatToIncreaseIcon: {fileID: 21300000, guid: aeac92fb923702d489b835ebd0f0e361, type: 2}
+        UseCustomIcon: 0
+        StatToIncrease:
+          StatsType: 7
+          BaseValue: 5
+          IncreaseValue: 0
+      - StatName: 'LifeMax: 5'
+        Id: 16
+        StatToIncreaseIcon: {fileID: 21300000, guid: d7aa7a4e64138c043b8ae43006dc23cc, type: 2}
+        UseCustomIcon: 0
+        StatToIncrease:
+          StatsType: 2
+          BaseValue: 5
+          IncreaseValue: 0
+      - StatName: 'LifeMax: 5'
+        Id: 17
+        StatToIncreaseIcon: {fileID: 21300000, guid: d7aa7a4e64138c043b8ae43006dc23cc, type: 2}
+        UseCustomIcon: 0
+        StatToIncrease:
+          StatsType: 2
+          BaseValue: 5
+          IncreaseValue: 0
+      - StatName: 'LifePercent: 5'
+        Id: 18
+        StatToIncreaseIcon: {fileID: 21300000, guid: f87f78bd0ed96dc4e87a7bed65b1d3c4, type: 2}
+        UseCustomIcon: 0
+        StatToIncrease:
+          StatsType: 1
+          BaseValue: 5
+          IncreaseValue: 0
+      - StatName: 'LifeMax: 5'
+        Id: 19
+        StatToIncreaseIcon: {fileID: 21300000, guid: d7aa7a4e64138c043b8ae43006dc23cc, type: 2}
+        UseCustomIcon: 0
+        StatToIncrease:
+          StatsType: 2
+          BaseValue: 5
+          IncreaseValue: 0
+      - StatName: 'ExtraBulletToWeapon: 1'
+        Id: 20
+        StatToIncreaseIcon: {fileID: 21300000, guid: aeac92fb923702d489b835ebd0f0e361, type: 2}
+        UseCustomIcon: 0
+        StatToIncrease:
+          StatsType: 7
+          BaseValue: 1
+          IncreaseValue: 0
+      - StatName: 'LifeMax: 10'
+        Id: 21
+        StatToIncreaseIcon: {fileID: 21300000, guid: d7aa7a4e64138c043b8ae43006dc23cc, type: 2}
+        UseCustomIcon: 0
+        StatToIncrease:
+          StatsType: 2
+          BaseValue: 10
+          IncreaseValue: 0
+      - StatName: 'IncreaseMissileDamagePercent: 5'
+        Id: 22
+        StatToIncreaseIcon: {fileID: 21300000, guid: 2b8e893e66e9f174a8a9580ae965144a, type: 2}
+        UseCustomIcon: 0
+        StatToIncrease:
+          StatsType: 20
+          BaseValue: 5
+          IncreaseValue: 0
+      - StatName: 'LifeMax: 10'
+        Id: 23
+        StatToIncreaseIcon: {fileID: 21300000, guid: d7aa7a4e64138c043b8ae43006dc23cc, type: 2}
+        UseCustomIcon: 0
+        StatToIncrease:
+          StatsType: 2
+          BaseValue: 10
+          IncreaseValue: 0
+      - StatName: 'LifeMax: 5'
+        Id: 24
+        StatToIncreaseIcon: {fileID: 21300000, guid: d7aa7a4e64138c043b8ae43006dc23cc, type: 2}
+        UseCustomIcon: 0
+        StatToIncrease:
+          StatsType: 2
+          BaseValue: 5
+          IncreaseValue: 0
+      - StatName: 'LifePercent: 5'
+        Id: 25
+        StatToIncreaseIcon: {fileID: 21300000, guid: f87f78bd0ed96dc4e87a7bed65b1d3c4, type: 2}
+        UseCustomIcon: 0
+        StatToIncrease:
+          StatsType: 1
+          BaseValue: 5
+          IncreaseValue: 0
+      - StatName: 'LifeMax: 5'
+        Id: 26
+        StatToIncreaseIcon: {fileID: 21300000, guid: d7aa7a4e64138c043b8ae43006dc23cc, type: 2}
+        UseCustomIcon: 0
+        StatToIncrease:
+          StatsType: 2
+          BaseValue: 5
+          IncreaseValue: 0
+      - StatName: 'LifeMax: 5'
+        Id: 27
+        StatToIncreaseIcon: {fileID: 21300000, guid: d7aa7a4e64138c043b8ae43006dc23cc, type: 2}
+        UseCustomIcon: 0
+        StatToIncrease:
+          StatsType: 2
+          BaseValue: 5
+          IncreaseValue: 0
+  StatIcons:
+  - StatsType: 1
+    Icon: {fileID: 21300000, guid: f87f78bd0ed96dc4e87a7bed65b1d3c4, type: 2}
+  - StatsType: 2
+    Icon: {fileID: 21300000, guid: d7aa7a4e64138c043b8ae43006dc23cc, type: 2}
+  - StatsType: 3
+    Icon: {fileID: 21300000, guid: 202933d57ac0c0a468766c87d33c8b01, type: 2}
+  - StatsType: 4
+    Icon: {fileID: 21300000, guid: 3ee8d6f3ba2f67443b909809fe9a2a73, type: 2}
+  - StatsType: 5
+    Icon: {fileID: 21300000, guid: 8ac8b8217b545f447b618b07d4b62efc, type: 2}
+  - StatsType: 6
+    Icon: {fileID: 21300000, guid: b596613c5a890534a9cbba324409bec0, type: 2}
+  - StatsType: 7
+    Icon: {fileID: 21300000, guid: aeac92fb923702d489b835ebd0f0e361, type: 2}
+  - StatsType: 8
+    Icon: {fileID: 21300000, guid: 596a7399446d3214da932e5575a68601, type: 2}
+  - StatsType: 9
+    Icon: {fileID: 21300000, guid: 3898e67113db1ee40934e0a44902c434, type: 2}
+  - StatsType: 10
+    Icon: {fileID: 21300000, guid: 9721c7907842c0140a289885f9c9e5f9, type: 2}
+  - StatsType: 11
+    Icon: {fileID: 21300000, guid: 2ca466e2bb32e5d4f89b5a98c2979588, type: 2}
+  - StatsType: 12
+    Icon: {fileID: 21300000, guid: b9d2f7478b1c8ab46bbb5020604ee5f6, type: 2}
+  - StatsType: 13
+    Icon: {fileID: 21300000, guid: 8039d0e3604639842a064a9d0b6ba0ab, type: 2}
+  - StatsType: 14
+    Icon: {fileID: 21300000, guid: 8dd7d107f404b754180003b32a3f460b, type: 2}
+  - StatsType: 15
+    Icon: {fileID: 21300000, guid: 387a008641e0a334d9f0ed6cea9c04a6, type: 2}
+  - StatsType: 16
+    Icon: {fileID: 21300000, guid: 42c69241d8985ae4ebb6107f94be93cb, type: 2}
+  - StatsType: 17
+    Icon: {fileID: 21300000, guid: 714f06bc14f4dea4ba38ce718927a34c, type: 2}
+  - StatsType: 18
+    Icon: {fileID: 21300000, guid: d8da4986d39274348beca0862f80c64e, type: 2}
+  - StatsType: 19
+    Icon: {fileID: 21300000, guid: 151f8593e5e83d54b888292a820d1479, type: 2}
+  - StatsType: 20
+    Icon: {fileID: 21300000, guid: 2b8e893e66e9f174a8a9580ae965144a, type: 2}
+  - StatsType: 21
+    Icon: {fileID: 21300000, guid: 0d305c1b0fd0ab44c97f1f9ae450290f, type: 2}
+  - StatsType: 22
+    Icon: {fileID: 21300000, guid: 4469a6c9132286b47a82d25abbcec3d8, type: 2}
+  - StatsType: 23
+    Icon: {fileID: 21300000, guid: 3ba38be6e23282b43b684a34b458b7da, type: 2}
+  - StatsType: 24
+    Icon: {fileID: 21300000, guid: b1d11d60aff7133489f795614680f2a8, type: 2}
+  - StatsType: 25
+    Icon: {fileID: 21300000, guid: 58af808d35c3e384e97a4e99e749f4b8, type: 2}
+  - StatsType: 26
+    Icon: {fileID: 21300000, guid: 82e344f3e914857468934121f93bb0e6, type: 2}
+  - StatsType: 27
+    Icon: {fileID: 21300000, guid: 3898e67113db1ee40934e0a44902c434, type: 2}
+  - StatsType: 28
+    Icon: {fileID: 21300000, guid: b596613c5a890534a9cbba324409bec0, type: 2}
+  - StatsType: 29
+    Icon: {fileID: 21300000, guid: dec479cb7521ef74bb66a1872d734cfd, type: 2}
+  - StatsType: 30
+    Icon: {fileID: 21300000, guid: 42c69241d8985ae4ebb6107f94be93cb, type: 2}
+  - StatsType: 31
+    Icon: {fileID: 21300000, guid: 2b8e893e66e9f174a8a9580ae965144a, type: 2}
+  - StatsType: 32
+    Icon: {fileID: 21300000, guid: 0d305c1b0fd0ab44c97f1f9ae450290f, type: 2}
+  - StatsType: 33
+    Icon: {fileID: 21300000, guid: d8da4986d39274348beca0862f80c64e, type: 2}
+  - StatsType: 34
+    Icon: {fileID: 21300000, guid: 2086eb79d76096949a4c1c042f223a1f, type: 2}
+  - StatsType: 35
+    Icon: {fileID: 21300000, guid: 6f852cc358d13e843b3f09570eb86912, type: 2}
+  - StatsType: 36
+    Icon: {fileID: 21300000, guid: 418586a99fd20bb48ae9a90ee572702c, type: 2}
+  - StatsType: 37
+    Icon: {fileID: 21300000, guid: 3ee8d6f3ba2f67443b909809fe9a2a73, type: 2}
+  - StatsType: 38
+    Icon: {fileID: 21300000, guid: 8340f715aa374c648ba6356180673d2d, type: 2}
+  - StatsType: 39
+    Icon: {fileID: 21300000, guid: ee786653fdb159f44a617a78b81d1ee6, type: 2}
+  - StatsType: 40
+    Icon: {fileID: 21300000, guid: 5645f2ba09c293d41b5ff4f8a59c7dd7, type: 2}
+  OverloadDb: {fileID: 11400000, guid: 373881de5fd576940aba0d460c8a5543, type: 2}
+  ChipDb: {fileID: 11400000, guid: ba9430d1c62232c45bd4909f6b840061, type: 2}

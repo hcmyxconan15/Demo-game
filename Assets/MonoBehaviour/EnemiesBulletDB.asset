@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af536db8a4ddaded19bff81f6ea8d4fc, type: 3}
+  m_Name: EnemiesBulletDB
+  m_EditorClassIdentifier:
+  EnemyBullets:
+  - BulletName: AcidSpit
+    BulledId: 0
+    BulletPrefab: {fileID: 114709867586078768, guid: a3698c3f1358e714f9020566ec048914, type: 2}
+  - BulletName: Missile
+    BulledId: 1
+    BulletPrefab: {fileID: 114044625135789424, guid: 1f6db08751992ee4b88e3fa4e6fce09a, type: 2}
+  - BulletName: RedBullet
+    BulledId: 2
+    BulletPrefab: {fileID: 114061268324235159, guid: d4b9421e3744c4844893d67e48872d70, type: 2}
+  - BulletName: LavaAreaAttack
+    BulledId: 3
+    BulletPrefab: {fileID: 114061268324235159, guid: ebde26ad243d34d42b1c399ab29b093c, type: 2}
+  - BulletName: MeteorStrike
+    BulledId: 4
+    BulletPrefab: {fileID: 114705390221481576, guid: 698fbcdddf532d34db51798840a8e267, type: 2}
+  - BulletName: GaltingBullet
+    BulledId: 5
+    BulletPrefab: {fileID: 114587765826080250, guid: 89764dcfd4b48bf429d769857ce0b5ca, type: 2}
+  - BulletName: BallisticBullet
+    BulledId: 6
+    BulletPrefab: {fileID: 114587765826080250, guid: cec490b6e7f722643a0e67e246853698, type: 2}
+  - BulletName: SkyBeamAttack
+    BulledId: 7
+    BulletPrefab: {fileID: 114025901758691103, guid: 75e416fcf45a0ea419cf77f65921263e, type: 2}
+  - BulletName: DebrisExplotion
+    BulledId: 8
+    BulletPrefab: {fileID: 114709867586078768, guid: 8f2c13fc0a0be354d9d5dadbfbec5860, type: 2}
+  - BulletName: Meteor
+    BulledId: 9
+    BulletPrefab: {fileID: 114724804207875695, guid: 5556b07c54aaae54c9fcb29678ed2546, type: 2}
+  - BulletName: Flamethrower
+    BulledId: 10
+    BulletPrefab: {fileID: 114884547391421755, guid: a1baa1676326b0d47985e2eae4aa0e8c, type: 2}
+  - BulletName: Rock
+    BulledId: 11
+    BulletPrefab: {fileID: 114587765826080250, guid: 0d0d7cdde3221e849baf77dfa10d2ada, type: 2}
+  - BulletName: GaltinBulletBig
+    BulledId: 12
+    BulletPrefab: {fileID: 114061268324235159, guid: 48a99decc01f1a8498e3b040035a64a1, type: 2}
+  - BulletName: MagmaLike
+    BulledId: 13
+    BulletPrefab: {fileID: 114587765826080250, guid: baa2df24f255f8a408535af5842858c8, type: 2}
+  - BulletName: SmallAreaExplotionAir
+    BulledId: 14
+    BulletPrefab: {fileID: 114884547391421755, guid: f440a72c359c94b4a99de566b294e78f, type: 2}
+  - BulletName: CrystalStrikeArea
+    BulledId: 15
+    BulletPrefab: {fileID: 114977153420339851, guid: 87b0c8bae995c554598dea91d67252e8, type: 2}
+  - BulletName: CrystalRock
+    BulledId: 16
+    BulletPrefab: {fileID: 114709867586078768, guid: 0bba373f711b0a84aadc34057da8720c, type: 2}
+  - BulletName: BulletLighting
+    BulledId: 17
+    BulletPrefab: {fileID: 114618682377417806, guid: 73ad2cfd82fa7224782dba94a9bd0946, type: 2}

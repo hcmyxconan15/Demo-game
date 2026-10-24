@@ -1,0 +1,141 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 012177c0d005da7de47d96a97728ec57, type: 3}
+  m_Name: JoystickInputDb
+  m_EditorClassIdentifier:
+  JoystickInputs:
+  - Joystick: 0
+    ButtonSprite:
+    - Id: Action Bottom Row 1
+      Sprite: {fileID: 21300000, guid: 9a6afd8ae2384934e8f125674403d91d, type: 2}
+    - Id: Action Bottom Row 2
+      Sprite: {fileID: 21300000, guid: ac481a3141b9be240868548491a76a53, type: 2}
+    - Id: Action Top Row 1
+      Sprite: {fileID: 21300000, guid: 821fa777d93b8724ebae494b3e27fed8, type: 2}
+    - Id: Action Top Row 2
+      Sprite: {fileID: 21300000, guid: 821fa777d93b8724ebae494b3e27fed8, type: 2}
+    - Id: Left Shoulder 1
+      Sprite: {fileID: 21300000, guid: 821fa777d93b8724ebae494b3e27fed8, type: 2}
+    - Id: Right Shoulder 1
+      Sprite: {fileID: 21300000, guid: 821fa777d93b8724ebae494b3e27fed8, type: 2}
+    - Id: Left Shoulder 2
+      Sprite: {fileID: 21300000, guid: 821fa777d93b8724ebae494b3e27fed8, type: 2}
+    - Id: Right Shoulder 2
+      Sprite: {fileID: 21300000, guid: 821fa777d93b8724ebae494b3e27fed8, type: 2}
+  - Joystick: 1
+    ButtonSprite:
+    - Id: Action Bottom Row 1
+      Sprite: {fileID: 21300000, guid: c7c473238b9d78d4c9e9ea0117957e9c, type: 2}
+    - Id: Action Bottom Row 2
+      Sprite: {fileID: 21300000, guid: a2fe2130ce89d144c9d593d3e763946b, type: 2}
+    - Id: Action Top Row 1
+      Sprite: {fileID: 21300000, guid: 2c320e5e049c7534f94ec2401df4f2e3, type: 2}
+    - Id: Action Top Row 2
+      Sprite: {fileID: 21300000, guid: b343741efe9901c4bb772c93fd438229, type: 2}
+    - Id: Left Shoulder 1
+      Sprite: {fileID: 21300000, guid: 6e231a84824f32741b69d26c04d87aef, type: 2}
+    - Id: Right Shoulder 1
+      Sprite: {fileID: 21300000, guid: a6f7274368ce0554aa04c78e20db6509, type: 2}
+    - Id: Left Shoulder 2
+      Sprite: {fileID: 21300000, guid: ef36482e29e17584fafe517d41febe5c, type: 2}
+    - Id: Right Shoulder 2
+      Sprite: {fileID: 21300000, guid: 1a821d9aebb86064dbea42c10733800f, type: 2}
+  - Joystick: 2
+    ButtonSprite:
+    - Id: Action Bottom Row 1
+      Sprite: {fileID: 21300000, guid: 1fc6c55d8b2c38c4eb436a3883c609b8, type: 2}
+    - Id: Action Bottom Row 2
+      Sprite: {fileID: 21300000, guid: 8d62d2ffc695ef743b07ab6ca6e7fb71, type: 2}
+    - Id: Action Top Row 1
+      Sprite: {fileID: 21300000, guid: 9a9e54aad0617e54a884390a183808a2, type: 2}
+    - Id: Action Top Row 2
+      Sprite: {fileID: 21300000, guid: ff6a94354d7203042a442f6cdd9af2f4, type: 2}
+    - Id: Left Shoulder 1
+      Sprite: {fileID: 21300000, guid: 83d328594631ab044ab11243ccc230dd, type: 2}
+    - Id: Right Shoulder 1
+      Sprite: {fileID: 21300000, guid: 7acbebd0f84f8a745a9ca67ad9dc97f3, type: 2}
+    - Id: Left Shoulder 2
+      Sprite: {fileID: 21300000, guid: a49e46b4937c18641a80b37fa941f36e, type: 2}
+    - Id: Right Shoulder 2
+      Sprite: {fileID: 21300000, guid: 752d3028fe6c6934f96a2dd3139a80c8, type: 2}
+  - Joystick: 3
+    ButtonSprite:
+    - Id: Action Bottom Row 1
+      Sprite: {fileID: 21300000, guid: c7c473238b9d78d4c9e9ea0117957e9c, type: 2}
+    - Id: Action Bottom Row 2
+      Sprite: {fileID: 21300000, guid: a2fe2130ce89d144c9d593d3e763946b, type: 2}
+    - Id: Action Top Row 1
+      Sprite: {fileID: 21300000, guid: 2c320e5e049c7534f94ec2401df4f2e3, type: 2}
+    - Id: Action Top Row 2
+      Sprite: {fileID: 21300000, guid: b343741efe9901c4bb772c93fd438229, type: 2}
+    - Id: Left Shoulder 1
+      Sprite: {fileID: 21300000, guid: 6e231a84824f32741b69d26c04d87aef, type: 2}
+    - Id: Right Shoulder 1
+      Sprite: {fileID: 21300000, guid: a6f7274368ce0554aa04c78e20db6509, type: 2}
+    - Id: Left Shoulder 2
+      Sprite: {fileID: 21300000, guid: ef36482e29e17584fafe517d41febe5c, type: 2}
+    - Id: Right Shoulder 2
+      Sprite: {fileID: 21300000, guid: 1a821d9aebb86064dbea42c10733800f, type: 2}
+  - Joystick: 4
+    ButtonSprite:
+    - Id: Action Bottom Row 1
+      Sprite: {fileID: 21300000, guid: 74fe00ec19cc22840a1a51cdb6a38f71, type: 2}
+    - Id: Action Bottom Row 2
+      Sprite: {fileID: 21300000, guid: df14f6d78456cf54a8e3217315e9a2e6, type: 2}
+    - Id: Action Top Row 1
+      Sprite: {fileID: 21300000, guid: 38e8c666b58b57041b4be02100189837, type: 2}
+    - Id: Action Top Row 2
+      Sprite: {fileID: 21300000, guid: bd6ca940de107054ba91a250943e42e3, type: 2}
+    - Id: Left Shoulder 1
+      Sprite: {fileID: 21300000, guid: 1f7aa0c41b2aa2844af8ea5d7661f0f1, type: 2}
+    - Id: Right Shoulder 1
+      Sprite: {fileID: 21300000, guid: 1e1f867c33240054ca5fa02b662cb63d, type: 2}
+    - Id: Left Shoulder 2
+      Sprite: {fileID: 21300000, guid: e0e512e029cf0b4418d80e1c7f4274ba, type: 2}
+    - Id: Right Shoulder 2
+      Sprite: {fileID: 21300000, guid: 20ff3970403b2bf4bba322d6d2b6c477, type: 2}
+  - Joystick: 5
+    ButtonSprite:
+    - Id: Action Bottom Row 1
+      Sprite: {fileID: 21300000, guid: bc50bcb9407dade47bc23fbab25ef68b, type: 2}
+    - Id: Action Bottom Row 2
+      Sprite: {fileID: 21300000, guid: 3bdb7c38bf8cc214b94d6e0f8ee2a7f6, type: 2}
+    - Id: Action Top Row 1
+      Sprite: {fileID: 21300000, guid: 7dd1eeeb98a7dc94ca125e930cc599c5, type: 2}
+    - Id: Action Top Row 2
+      Sprite: {fileID: 21300000, guid: f9f64fac018f5574cae080d0eabc6fe9, type: 2}
+    - Id: Left Shoulder 1
+      Sprite: {fileID: 21300000, guid: 0bef0950c6d243744af05c8271cac679, type: 2}
+    - Id: Right Shoulder 1
+      Sprite: {fileID: 21300000, guid: 7d07bae0a9add8d4bb409f27a49653da, type: 2}
+    - Id: Left Shoulder 2
+      Sprite: {fileID: 21300000, guid: 2f5e37a84d74015418555a91490f2fcf, type: 2}
+    - Id: Right Shoulder 2
+      Sprite: {fileID: 21300000, guid: d584e3f11d9cf594d960968b9bb171b3, type: 2}
+  - Joystick: 6
+    ButtonSprite:
+    - Id: Action Bottom Row 1
+      Sprite: {fileID: 21300000, guid: 6b35ad9997669414fbaa8b9a15bcec78, type: 2}
+    - Id: Action Bottom Row 2
+      Sprite: {fileID: 21300000, guid: 2fcba6d37c7c808489bedfcd29c13b29, type: 2}
+    - Id: Action Top Row 1
+      Sprite: {fileID: 21300000, guid: 6b35ad9997669414fbaa8b9a15bcec78, type: 2}
+    - Id: Action Top Row 2
+      Sprite: {fileID: 0}
+    - Id: Left Shoulder 1
+      Sprite: {fileID: 0}
+    - Id: Right Shoulder 1
+      Sprite: {fileID: 0}
+    - Id: Left Shoulder 2
+      Sprite: {fileID: 0}
+    - Id: Right Shoulder 2
+      Sprite: {fileID: 0}

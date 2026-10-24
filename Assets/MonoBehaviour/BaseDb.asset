@@ -1,0 +1,361 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08f5eb22a410595f400ae1bfcfd81203, type: 3}
+  m_Name: BaseDb
+  m_EditorClassIdentifier:
+  BaseTypes:
+  - BaseDescriptionName: 0000 | Id:0 | Speed:9 | Dash:1/5s | MicrochipSlots:3 | OverloadSlots:2 | Growth:1x15/1lv| [ViperDash]
+    BodyName: 0000
+    NotAvailable: 0
+    Icon: {fileID: 21300000, guid: a04c7b60b294765488a8068ce6efbc58, type: 2}
+    BasePrefab: {fileID: 1709254077376921, guid: 798ac1fac7675324fb65e20beec59d93, type: 2}
+    BaseId: 0
+    Speed: 9
+    DashCharges: 1
+    DashCooldown: 5
+    UnlockPrice: 20
+    PartStats:
+      Life: 60
+      Shield: 50
+      Damage: 0
+      ReloadTimePercent: 15
+      MagazineIncreaseRaw: 0
+      CriticalDamagePercent: 150
+      CriticalChancePercent: 5
+      DamageIncreasePercent: 0
+      FireRateIncreasePercent: 0
+      MicrochipSlots: 3
+      OverloadSlots: 2
+      DroneCapacity: 0
+    ExtraTags: 3d000000150000003300000056000000
+    Archetypes: 02000000
+    LevelGrowthMaxTimes: 15
+    LevelGrowthLevelInterval: 1
+    LevelGrowthStats:
+    - StatsType: 13
+      BaseValue: 1
+      IncreaseValue: 1
+  - BaseDescriptionName: 0001 | Id:1 | Speed:9 | Dash:1/5s | MicrochipSlots:3 | OverloadSlots:2 | Growth:1x3/5lv| [ViperDash]
+    BodyName: 0001
+    NotAvailable: 0
+    Icon: {fileID: 21300000, guid: 11bdf306bc1922c46bc5eac2b1d18500, type: 2}
+    BasePrefab: {fileID: 1709254077376921, guid: 46f3cba688b794b4ea98222532954134, type: 2}
+    BaseId: 1
+    Speed: 9
+    DashCharges: 1
+    DashCooldown: 5
+    UnlockPrice: 25
+    PartStats:
+      Life: 70
+      Shield: 50
+      Damage: 0
+      ReloadTimePercent: 15
+      MagazineIncreaseRaw: 1
+      CriticalDamagePercent: 150
+      CriticalChancePercent: 0
+      DamageIncreasePercent: 0
+      FireRateIncreasePercent: 0
+      MicrochipSlots: 3
+      OverloadSlots: 2
+      DroneCapacity: 0
+    ExtraTags: 3d000000150000003300000056000000
+    Archetypes: 02000000
+    LevelGrowthMaxTimes: 3
+    LevelGrowthLevelInterval: 5
+    LevelGrowthStats:
+    - StatsType: 5
+      BaseValue: 5
+      IncreaseValue: 5
+  - BaseDescriptionName: 0002 | Id:2 | Speed:8 | Dash:1/5s | MicrochipSlots:3 | OverloadSlots:3 | Growth:1x3/10lv| [ViperDash]
+    BodyName: 0002
+    NotAvailable: 0
+    Icon: {fileID: 21300000, guid: 891c152ec9a4109479af953f98610310, type: 2}
+    BasePrefab: {fileID: 1709254077376921, guid: 61431bc6e4325274ba65a6e4a1ef100e, type: 2}
+    BaseId: 2
+    Speed: 8
+    DashCharges: 1
+    DashCooldown: 5
+    UnlockPrice: 0
+    PartStats:
+      Life: 80
+      Shield: 50
+      Damage: 0
+      ReloadTimePercent: 15
+      MagazineIncreaseRaw: 1
+      CriticalDamagePercent: 150
+      CriticalChancePercent: 0
+      DamageIncreasePercent: 5
+      FireRateIncreasePercent: 0
+      MicrochipSlots: 3
+      OverloadSlots: 3
+      DroneCapacity: 0
+    ExtraTags: 3d000000150000003300000056000000
+    Archetypes: 02000000
+    LevelGrowthMaxTimes: 3
+    LevelGrowthLevelInterval: 10
+    LevelGrowthStats:
+    - StatsType: 2
+      BaseValue: 10
+      IncreaseValue: 10
+  - BaseDescriptionName: 0100 | Id:3 | Speed:7 | Dash:1/6s | MicrochipSlots:2 | OverloadSlots:2| [BulwarkSiege]
+    BodyName: 0100
+    NotAvailable: 1
+    Icon: {fileID: 21300000, guid: 5ad79c6afb7bad34a945b461840e486b, type: 2}
+    BasePrefab: {fileID: 1709254077376921, guid: 312b24d603dc3d942856a00ceaccca14, type: 2}
+    BaseId: 3
+    Speed: 7
+    DashCharges: 1
+    DashCooldown: 6
+    UnlockPrice: 30
+    PartStats:
+      Life: 100
+      Shield: 50
+      Damage: 0
+      ReloadTimePercent: 0
+      MagazineIncreaseRaw: 1
+      CriticalDamagePercent: 140
+      CriticalChancePercent: 5
+      DamageIncreasePercent: 15
+      FireRateIncreasePercent: 0
+      MicrochipSlots: 2
+      OverloadSlots: 2
+      DroneCapacity: 0
+    ExtraTags:
+    Archetypes: 01000000
+    LevelGrowthMaxTimes: 0
+    LevelGrowthLevelInterval: 1
+    LevelGrowthStats: []
+  - BaseDescriptionName: 0101 | Id:4 | Speed:7 | Dash:1/6s | MicrochipSlots:2 | OverloadSlots:2| [BulwarkSiege]
+    BodyName: 0101
+    NotAvailable: 1
+    Icon: {fileID: 21300000, guid: 9da87368ee63c5043b9537fb0432db07, type: 2}
+    BasePrefab: {fileID: 1709254077376921, guid: 082bb266088f8a043aa95a8342f8245d, type: 2}
+    BaseId: 4
+    Speed: 7
+    DashCharges: 1
+    DashCooldown: 6
+    UnlockPrice: 30
+    PartStats:
+      Life: 120
+      Shield: 50
+      Damage: 0
+      ReloadTimePercent: 0
+      MagazineIncreaseRaw: 2
+      CriticalDamagePercent: 120
+      CriticalChancePercent: 0
+      DamageIncreasePercent: 20
+      FireRateIncreasePercent: 0
+      MicrochipSlots: 2
+      OverloadSlots: 2
+      DroneCapacity: 0
+    ExtraTags:
+    Archetypes: 01000000
+    LevelGrowthMaxTimes: 0
+    LevelGrowthLevelInterval: 1
+    LevelGrowthStats: []
+  - BaseDescriptionName: 0102 | Id:5 | Speed:7 | Dash:1/6s | MicrochipSlots:2 | OverloadSlots:2| [BulwarkSiege]
+    BodyName: 0102
+    NotAvailable: 1
+    Icon: {fileID: 21300000, guid: 81da9ba695570ce44a3db09d59846eab, type: 2}
+    BasePrefab: {fileID: 1709254077376921, guid: af46339c6601b3c4eaa585a25e491746, type: 2}
+    BaseId: 5
+    Speed: 7
+    DashCharges: 1
+    DashCooldown: 6
+    UnlockPrice: 30
+    PartStats:
+      Life: 150
+      Shield: 50
+      Damage: 0
+      ReloadTimePercent: 0
+      MagazineIncreaseRaw: 2
+      CriticalDamagePercent: 100
+      CriticalChancePercent: 0
+      DamageIncreasePercent: 15
+      FireRateIncreasePercent: 0
+      MicrochipSlots: 2
+      OverloadSlots: 2
+      DroneCapacity: 0
+    ExtraTags:
+    Archetypes: 01000000
+    LevelGrowthMaxTimes: 0
+    LevelGrowthLevelInterval: 1
+    LevelGrowthStats: []
+  - BaseDescriptionName: 0200 | Id:6 | Speed:8 | Dash:1/5s | MicrochipSlots:2 | OverloadSlots:2| [HiveSalvage]
+    BodyName: 0200
+    NotAvailable: 1
+    Icon: {fileID: 21300000, guid: daac4450405594f48891c7ff5116d63a, type: 2}
+    BasePrefab: {fileID: 1709254077376921, guid: 179c5470e31351a43b9d6a6bf7bf9396, type: 2}
+    BaseId: 6
+    Speed: 8
+    DashCharges: 1
+    DashCooldown: 5
+    UnlockPrice: 25
+    PartStats:
+      Life: 60
+      Shield: 50
+      Damage: 0
+      ReloadTimePercent: 0
+      MagazineIncreaseRaw: 0
+      CriticalDamagePercent: 100
+      CriticalChancePercent: 25
+      DamageIncreasePercent: 5
+      FireRateIncreasePercent: 0
+      MicrochipSlots: 2
+      OverloadSlots: 2
+      DroneCapacity: 0
+    ExtraTags:
+    Archetypes: 03000000
+    LevelGrowthMaxTimes: 0
+    LevelGrowthLevelInterval: 1
+    LevelGrowthStats: []
+  - BaseDescriptionName: 0201 | Id:7 | Speed:8 | Dash:1/5s | MicrochipSlots:2 | OverloadSlots:2| [HiveSalvage]
+    BodyName: 0201
+    NotAvailable: 1
+    Icon: {fileID: 21300000, guid: 6689c899fc6c5bb449bcce11bf6e6df5, type: 2}
+    BasePrefab: {fileID: 1709254077376921, guid: 4596845f7e3ad7641bfcbc0b469203eb, type: 2}
+    BaseId: 7
+    Speed: 8
+    DashCharges: 1
+    DashCooldown: 5
+    UnlockPrice: 25
+    PartStats:
+      Life: 80
+      Shield: 50
+      Damage: 0
+      ReloadTimePercent: 0
+      MagazineIncreaseRaw: 0
+      CriticalDamagePercent: 100
+      CriticalChancePercent: 20
+      DamageIncreasePercent: 10
+      FireRateIncreasePercent: 0
+      MicrochipSlots: 2
+      OverloadSlots: 2
+      DroneCapacity: 0
+    ExtraTags:
+    Archetypes: 03000000
+    LevelGrowthMaxTimes: 0
+    LevelGrowthLevelInterval: 1
+    LevelGrowthStats: []
+  - BaseDescriptionName: 0202 | Id:8 | Speed:8 | Dash:1/5s | MicrochipSlots:2 | OverloadSlots:2| [HiveSalvage]
+    BodyName: 0202
+    NotAvailable: 1
+    Icon: {fileID: 21300000, guid: 1dc964145ca345747a010207d904200b, type: 2}
+    BasePrefab: {fileID: 1709254077376921, guid: c183fce59ae7d1b40ac919eaf6f55de2, type: 2}
+    BaseId: 8
+    Speed: 8
+    DashCharges: 1
+    DashCooldown: 5
+    UnlockPrice: 25
+    PartStats:
+      Life: 70
+      Shield: 50
+      Damage: 0
+      ReloadTimePercent: 0
+      MagazineIncreaseRaw: 1
+      CriticalDamagePercent: 100
+      CriticalChancePercent: 10
+      DamageIncreasePercent: 15
+      FireRateIncreasePercent: 0
+      MicrochipSlots: 2
+      OverloadSlots: 2
+      DroneCapacity: 0
+    ExtraTags:
+    Archetypes: 03000000
+    LevelGrowthMaxTimes: 0
+    LevelGrowthLevelInterval: 1
+    LevelGrowthStats: []
+  - BaseDescriptionName: 0300 | Id:10 | Speed:7 | Dash:1/5s | MicrochipSlots:2 | OverloadSlots:2| [FurnacePrototype]
+    BodyName: 0300
+    NotAvailable: 1
+    Icon: {fileID: 21300000, guid: 6d569e68d3d5863438f43952ceaf43ad, type: 2}
+    BasePrefab: {fileID: 1709254077376921, guid: 84198d5df1bc8d14c8921e352caa2e90, type: 2}
+    BaseId: 10
+    Speed: 7
+    DashCharges: 1
+    DashCooldown: 5
+    UnlockPrice: 20
+    PartStats:
+      Life: 90
+      Shield: 50
+      Damage: 0
+      ReloadTimePercent: 0
+      MagazineIncreaseRaw: 2
+      CriticalDamagePercent: 100
+      CriticalChancePercent: 15
+      DamageIncreasePercent: 10
+      FireRateIncreasePercent: 0
+      MicrochipSlots: 2
+      OverloadSlots: 2
+      DroneCapacity: 0
+    ExtraTags:
+    Archetypes: 04000000
+    LevelGrowthMaxTimes: 0
+    LevelGrowthLevelInterval: 1
+    LevelGrowthStats: []
+  - BaseDescriptionName: 0301 | Id:9 | Speed:7 | Dash:1/5s | MicrochipSlots:3 | OverloadSlots:2| [FurnacePrototype]
+    BodyName: 0301
+    NotAvailable: 1
+    Icon: {fileID: 21300000, guid: 8772506cf6f96ae46af0af5245432700, type: 2}
+    BasePrefab: {fileID: 1709254077376921, guid: 28a4b30d0b5fd894baf8bce08a11522d, type: 2}
+    BaseId: 9
+    Speed: 7
+    DashCharges: 1
+    DashCooldown: 5
+    UnlockPrice: 30
+    PartStats:
+      Life: 100
+      Shield: 50
+      Damage: 0
+      ReloadTimePercent: 15
+      MagazineIncreaseRaw: 0
+      CriticalDamagePercent: 100
+      CriticalChancePercent: 15
+      DamageIncreasePercent: 5
+      FireRateIncreasePercent: 0
+      MicrochipSlots: 3
+      OverloadSlots: 2
+      DroneCapacity: 1
+    ExtraTags:
+    Archetypes: 04000000
+    LevelGrowthMaxTimes: 0
+    LevelGrowthLevelInterval: 1
+    LevelGrowthStats: []
+  - BaseDescriptionName: 0302 | Id:11 | Speed:8 | Dash:1/5s | MicrochipSlots:2 | OverloadSlots:2| [FurnacePrototype]
+    BodyName: 0302
+    NotAvailable: 1
+    Icon: {fileID: 21300000, guid: 0473196bbd1e07e4bbea828fdc5e101c, type: 2}
+    BasePrefab: {fileID: 1709254077376921, guid: 330b92074dc8bb949baf8723eb07da4e, type: 2}
+    BaseId: 11
+    Speed: 8
+    DashCharges: 1
+    DashCooldown: 5
+    UnlockPrice: 20
+    PartStats:
+      Life: 125
+      Shield: 50
+      Damage: 0
+      ReloadTimePercent: 0
+      MagazineIncreaseRaw: 2
+      CriticalDamagePercent: 100
+      CriticalChancePercent: 5
+      DamageIncreasePercent: 15
+      FireRateIncreasePercent: 0
+      MicrochipSlots: 2
+      OverloadSlots: 2
+      DroneCapacity: 0
+    ExtraTags:
+    Archetypes: 04000000
+    LevelGrowthMaxTimes: 0
+    LevelGrowthLevelInterval: 1
+    LevelGrowthStats: []
+  ColorPlus: {r: 0, g: 0.8745098, b: 0.69411767, a: 1}

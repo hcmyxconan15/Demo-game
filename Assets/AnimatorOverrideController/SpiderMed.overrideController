@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: SpiderMed
+  m_Controller: {fileID: 9100000, guid: bc7e348d8170267479e9cbf56e22529a, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: b631dd508afe9b9418c9705f17daddc7, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 72ca92ae472696545b46f31c2ee1b8a0, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: a2087ed8f40e439419bda934f7e2dc3b, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 3e8f1c5d99cf41d4cb5490af182c0c55, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 794a934aaddf59e4098c3e2181a108c3, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 4e4ac7f89c98482468eeeb00554f4b67, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 6a3fb9e2390d83c45b000753d28d0115, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: d2e647503b1c2ed438c5e0fc7d336501, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 3e6ff47bc5a5b954e87ce7effa0dfc05, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: d159d19f6f45e594c89a2d41fce48f5b, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 1d684d55b84e10447806ac265b7144fe, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 9a8b72d12227f144f81d02fb42a9d8b7, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 4c2c92fc5e2470c42bf1ac6b9fa3aec7, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 4d73babfdaea626459c1eb089eea52e8, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 125cd65bd50011b499568eaaea370a69, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 2412f15aa61e5274094b10b30fe561ba, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: a7aa8e408cff1bc41b029fcda7bddae5, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 4a9a42395d799234d969390501e0f2f7, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 1b0fdd7550de8014b893d84d622adc50, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: a07f1580e364075489ef4e88980b1661, type: 2}

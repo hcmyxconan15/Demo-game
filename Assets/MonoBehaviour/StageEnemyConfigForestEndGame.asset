@@ -1,0 +1,108 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 524e91b25765d46ca4bf2adc9d7613ac, type: 3}
+  m_Name: StageEnemyConfigForestEndGame
+  m_EditorClassIdentifier:
+  EnemySetups:
+  - SetupName: '| Step LV: 0 | Ceratoferox spw:30 Inter:5s Time:0s  | InfectedKamikaze spw:2 Inter:5s Time:0s  | Robot_2L_Random spw:1 Inter:5s Time:0s '
+    StepLevel: 0
+    MaxEnemiesAliveOnStep: 100
+    PrisonId: 0
+    ActivePrisonTime: 0
+    EnemySetups:
+    - EnemyName: Ceratoferox
+      EnemyIndex: 10
+      EnemyNumberToSpam: 30
+      SpamIntervalInitialTime: 1
+      SpamInterval: 5
+      SpamTimes: 0
+      InfinitySpawn: 1
+      OnceTimeSpawn: 0
+    - EnemyName: InfectedKamikaze
+      EnemyIndex: 25
+      EnemyNumberToSpam: 2
+      SpamIntervalInitialTime: 1
+      SpamInterval: 5
+      SpamTimes: 0
+      InfinitySpawn: 1
+      OnceTimeSpawn: 0
+    - EnemyName: Robot_2L_Random
+      EnemyIndex: 11
+      EnemyNumberToSpam: 1
+      SpamIntervalInitialTime: 1
+      SpamInterval: 5
+      SpamTimes: 0
+      InfinitySpawn: 0
+      OnceTimeSpawn: 0
+  - SetupName: '| Step LV: 1 | Ceratoferox spw:30 Inter:5s Time:0s  | InfectedKamikaze spw:2 Inter:5s Time:0s  | SpiderMecha spw:2 Inter:10s Time:0s '
+    StepLevel: 1
+    MaxEnemiesAliveOnStep: 100
+    PrisonId: 0
+    ActivePrisonTime: 0
+    EnemySetups:
+    - EnemyName: Ceratoferox
+      EnemyIndex: 10
+      EnemyNumberToSpam: 30
+      SpamIntervalInitialTime: 1
+      SpamInterval: 5
+      SpamTimes: 0
+      InfinitySpawn: 1
+      OnceTimeSpawn: 0
+    - EnemyName: InfectedKamikaze
+      EnemyIndex: 25
+      EnemyNumberToSpam: 2
+      SpamIntervalInitialTime: 1
+      SpamInterval: 5
+      SpamTimes: 0
+      InfinitySpawn: 1
+      OnceTimeSpawn: 0
+    - EnemyName: SpiderMecha
+      EnemyIndex: 14
+      EnemyNumberToSpam: 2
+      SpamIntervalInitialTime: 1
+      SpamInterval: 10
+      SpamTimes: 0
+      InfinitySpawn: 0
+      OnceTimeSpawn: 1
+  - SetupName: '| Step LV: 2 | Ceratoferox spw:30 Inter:5s Time:0s  | InfectedKamikaze spw:2 Inter:5s Time:0s  | Robot_2L_Random spw:2 Inter:5s Time:0s '
+    StepLevel: 2
+    MaxEnemiesAliveOnStep: 100
+    PrisonId: 0
+    ActivePrisonTime: 0
+    EnemySetups:
+    - EnemyName: Ceratoferox
+      EnemyIndex: 10
+      EnemyNumberToSpam: 30
+      SpamIntervalInitialTime: 1
+      SpamInterval: 5
+      SpamTimes: 0
+      InfinitySpawn: 1
+      OnceTimeSpawn: 0
+    - EnemyName: InfectedKamikaze
+      EnemyIndex: 25
+      EnemyNumberToSpam: 2
+      SpamIntervalInitialTime: 1
+      SpamInterval: 5
+      SpamTimes: 0
+      InfinitySpawn: 1
+      OnceTimeSpawn: 0
+    - EnemyName: Robot_2L_Random
+      EnemyIndex: 11
+      EnemyNumberToSpam: 2
+      SpamIntervalInitialTime: 1
+      SpamInterval: 5
+      SpamTimes: 0
+      InfinitySpawn: 0
+      OnceTimeSpawn: 1
+  EnemiesDb: {fileID: 11400000, guid: 7972e737efac39444bf1df5d52c0c962, type: 2}
+  DontSetLevelAutomatic: 0
+  LevelSetup:

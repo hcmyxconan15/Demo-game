@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7fd9488000d3734a9e00ee676215985, type: 3}
+  m_Name: Debris Field
+  m_EditorClassIdentifier:
+  components:
+  - {fileID: 11400000, guid: af76a1656ca2159449afaf3d84bf34bc, type: 2}
+  - {fileID: 11400000, guid: b49e371df2e55d642a5df72af31795d9, type: 2}
+  - {fileID: 11400000, guid: ee0d3314e09b9734b9e00dd868692cf8, type: 2}
+  - {fileID: 11400000, guid: 5071a350986902648883865065454ff1, type: 2}
+  - {fileID: 11400000, guid: 2d3bbc90e468eb44b9c0ad048a4b3844, type: 2}

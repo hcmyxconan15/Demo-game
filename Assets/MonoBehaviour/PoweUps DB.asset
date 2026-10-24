@@ -1,0 +1,303 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a4cc3e1c2e34ed3ca91c672667d8d0b, type: 3}
+  m_Name: PoweUps DB
+  m_EditorClassIdentifier:
+  PowerUps:
+  - PowerUpDescriptionName: Banish_p | Id:0 | Type:BanishPoint | Value:1 | Max:1
+    NameKey: Banish_p
+    Type: 1
+    Icon: {fileID: 21300000, guid: 4469a6c9132286b47a82d25abbcec3d8, type: 2}
+    Id: 0
+    Value: 1
+    Max: 1
+    SkillPointsPrice: 15
+    SkillPointsPriceUpgradeMultiplier: 1
+  - PowerUpDescriptionName: Reroll_p | Id:1 | Type:RerollPoint | Value:1 | Max:1
+    NameKey: Reroll_p
+    Type: 2
+    Icon: {fileID: 21300000, guid: 3ba38be6e23282b43b684a34b458b7da, type: 2}
+    Id: 1
+    Value: 1
+    Max: 1
+    SkillPointsPrice: 15
+    SkillPointsPriceUpgradeMultiplier: 1
+  - PowerUpDescriptionName: Skip_p | Id:2 | Type:SkipPoint | Value:1 | Max:2
+    NameKey: Skip_p
+    Type: 3
+    Icon: {fileID: 21300000, guid: 1fc7db772e95d9144ab04d29c941d47b, type: 2}
+    Id: 2
+    Value: 1
+    Max: 2
+    SkillPointsPrice: 15
+    SkillPointsPriceUpgradeMultiplier: 1
+  - PowerUpDescriptionName: Max health_p | Id:3 | Type:MaxHealth | Value:10 | Max:1
+    NameKey: Max health_p
+    Type: 4
+    Icon: {fileID: 21300000, guid: f87f78bd0ed96dc4e87a7bed65b1d3c4, type: 2}
+    Id: 3
+    Value: 10
+    Max: 1
+    SkillPointsPrice: 30
+    SkillPointsPriceUpgradeMultiplier: 1
+  - PowerUpDescriptionName: Speed_p | Id:4 | Type:Speed | Value:5 | Max:2
+    NameKey: Speed_p
+    Type: 5
+    Icon: {fileID: 21300000, guid: 82e344f3e914857468934121f93bb0e6, type: 2}
+    Id: 4
+    Value: 5
+    Max: 2
+    SkillPointsPrice: 30
+    SkillPointsPriceUpgradeMultiplier: 1
+  - PowerUpDescriptionName: Damage_p | Id:5 | Type:Damage | Value:10 | Max:2
+    NameKey: Damage_p
+    Type: 6
+    Icon: {fileID: 21300000, guid: 8039d0e3604639842a064a9d0b6ba0ab, type: 2}
+    Id: 5
+    Value: 10
+    Max: 2
+    SkillPointsPrice: 15
+    SkillPointsPriceUpgradeMultiplier: 1
+  - PowerUpDescriptionName: Magnet_p | Id:6 | Type:Magnet | Value:1 | Max:2
+    NameKey: Magnet_p
+    Type: 7
+    Icon: {fileID: 21300000, guid: 3898e67113db1ee40934e0a44902c434, type: 2}
+    Id: 6
+    Value: 1
+    Max: 2
+    SkillPointsPrice: 25
+    SkillPointsPriceUpgradeMultiplier: 1
+  - PowerUpDescriptionName: Greed_p | Id:7 | Type:Gold | Value:15 | Max:1
+    NameKey: Greed_p
+    Type: 8
+    Icon: {fileID: 21300000, guid: 2ca466e2bb32e5d4f89b5a98c2979588, type: 2}
+    Id: 7
+    Value: 15
+    Max: 1
+    SkillPointsPrice: 20
+    SkillPointsPriceUpgradeMultiplier: 1
+  - PowerUpDescriptionName: Reload_p | Id:8 | Type:Reload | Value:5 | Max:2
+    NameKey: Reload_p
+    Type: 9
+    Icon: {fileID: 21300000, guid: 8ac8b8217b545f447b618b07d4b62efc, type: 2}
+    Id: 8
+    Value: 5
+    Max: 2
+    SkillPointsPrice: 15
+    SkillPointsPriceUpgradeMultiplier: 1
+  - PowerUpDescriptionName: Drones_p | Id:9 | Type:Drone | Value:1 | Max:1
+    NameKey: Drones_p
+    Type: 10
+    Icon: {fileID: 21300000, guid: 8340f715aa374c648ba6356180673d2d, type: 2}
+    Id: 9
+    Value: 1
+    Max: 1
+    SkillPointsPrice: 30
+    SkillPointsPriceUpgradeMultiplier: 1
+  - PowerUpDescriptionName: Revival_p | Id:10 | Type:Revival | Value:1 | Max:2
+    NameKey: Revival_p
+    Type: 11
+    Icon: {fileID: 21300000, guid: a172bca03bd7f0c4e832584507c028da, type: 2}
+    Id: 10
+    Value: 1
+    Max: 2
+    SkillPointsPrice: 50
+    SkillPointsPriceUpgradeMultiplier: 1
+  - PowerUpDescriptionName: Xp_p | Id:11 | Type:Xp | Value:10 | Max:2
+    NameKey: Xp_p
+    Type: 12
+    Icon: {fileID: 21300000, guid: 9721c7907842c0140a289885f9c9e5f9, type: 2}
+    Id: 11
+    Value: 10
+    Max: 2
+    SkillPointsPrice: 35
+    SkillPointsPriceUpgradeMultiplier: 1
+  - PowerUpDescriptionName: Charger capacity_p | Id:12 | Type:MagazineCapacity | Value:1 | Max:3
+    NameKey: Charger capacity_p
+    Type: 13
+    Icon: {fileID: 21300000, guid: b596613c5a890534a9cbba324409bec0, type: 2}
+    Id: 12
+    Value: 1
+    Max: 3
+    SkillPointsPrice: 10
+    SkillPointsPriceUpgradeMultiplier: 1
+  - PowerUpDescriptionName: Recovery_p | Id:13 | Type:Recovery | Value:0.1 | Max:3
+    NameKey: Recovery_p
+    Type: 14
+    Icon: {fileID: 21300000, guid: 8dd7d107f404b754180003b32a3f460b, type: 2}
+    Id: 13
+    Value: 0.1
+    Max: 3
+    SkillPointsPrice: 50
+    SkillPointsPriceUpgradeMultiplier: 1
+  - PowerUpDescriptionName: InitialCoins_p | Id:14 | Type:InitialGold | Value:100 | Max:1
+    NameKey: InitialCoins_p
+    Type: 15
+    Icon: {fileID: 21300000, guid: bbc123d75f5654e4f8016ea6402bc410, type: 2}
+    Id: 14
+    Value: 100
+    Max: 1
+    SkillPointsPrice: 20
+    SkillPointsPriceUpgradeMultiplier: 1
+  - PowerUpDescriptionName: Overload_p | Id:15 | Type:Overload | Value:1 | Max:1
+    NameKey: Overload_p
+    Type: 16
+    Icon: {fileID: 21300000, guid: 80289c8598cc10d4d881a4b61c4a8de4, type: 2}
+    Id: 15
+    Value: 1
+    Max: 1
+    SkillPointsPrice: 40
+    SkillPointsPriceUpgradeMultiplier: 1
+  - PowerUpDescriptionName: Base_p | Id:16 | Type:None | Value:1 | Max:1
+    NameKey: Base_p
+    Type: 0
+    Icon: {fileID: 21300000, guid: da7d4f94d1628c144818849f06f2d057, type: 2}
+    Id: 16
+    Value: 1
+    Max: 1
+    SkillPointsPrice: 5
+    SkillPointsPriceUpgradeMultiplier: 1
+  - PowerUpDescriptionName: Drones_p | Id:17 | Type:Drone | Value:1 | Max:1
+    NameKey: Drones_p
+    Type: 10
+    Icon: {fileID: 21300000, guid: 8340f715aa374c648ba6356180673d2d, type: 2}
+    Id: 17
+    Value: 1
+    Max: 1
+    SkillPointsPrice: 30
+    SkillPointsPriceUpgradeMultiplier: 1
+  - PowerUpDescriptionName: Modular chassis_p | Id:18 | Type:ModularChassis | Value:1 | Max:1
+    NameKey: Modular chassis_p
+    Type: 17
+    Icon: {fileID: 21300000, guid: 32246f4b0fb46164883bd1ed43557fde, type: 2}
+    Id: 18
+    Value: 1
+    Max: 1
+    SkillPointsPrice: 35
+    SkillPointsPriceUpgradeMultiplier: 1
+  - PowerUpDescriptionName: Damage_p | Id:19 | Type:Damage | Value:10 | Max:2
+    NameKey: Damage_p
+    Type: 6
+    Icon: {fileID: 21300000, guid: 8039d0e3604639842a064a9d0b6ba0ab, type: 2}
+    Id: 19
+    Value: 10
+    Max: 2
+    SkillPointsPrice: 15
+    SkillPointsPriceUpgradeMultiplier: 1
+  - PowerUpDescriptionName: Reroll_p | Id:20 | Type:RerollPoint | Value:1 | Max:1
+    NameKey: Reroll_p
+    Type: 2
+    Icon: {fileID: 21300000, guid: 3ba38be6e23282b43b684a34b458b7da, type: 2}
+    Id: 20
+    Value: 1
+    Max: 1
+    SkillPointsPrice: 15
+    SkillPointsPriceUpgradeMultiplier: 1
+  - PowerUpDescriptionName: Spy_p | Id:21 | Type:Spy | Value:1 | Max:1
+    NameKey: Spy_p
+    Type: 18
+    Icon: {fileID: 21300000, guid: 66bf9130ddb81864d9bf89dd47b8917f, type: 2}
+    Id: 21
+    Value: 1
+    Max: 1
+    SkillPointsPrice: 200
+    SkillPointsPriceUpgradeMultiplier: 1
+  - PowerUpDescriptionName: Overload_p | Id:22 | Type:Overload | Value:1 | Max:1
+    NameKey: Overload_p
+    Type: 16
+    Icon: {fileID: 21300000, guid: 80289c8598cc10d4d881a4b61c4a8de4, type: 2}
+    Id: 22
+    Value: 1
+    Max: 1
+    SkillPointsPrice: 100
+    SkillPointsPriceUpgradeMultiplier: 1
+  - PowerUpDescriptionName: Overload_p | Id:23 | Type:Overload | Value:1 | Max:1
+    NameKey: Overload_p
+    Type: 16
+    Icon: {fileID: 21300000, guid: 80289c8598cc10d4d881a4b61c4a8de4, type: 2}
+    Id: 23
+    Value: 1
+    Max: 1
+    SkillPointsPrice: 150
+    SkillPointsPriceUpgradeMultiplier: 1
+  - PowerUpDescriptionName: Microchip_p | Id:24 | Type:Microchip | Value:1 | Max:1
+    NameKey: Microchip_p
+    Type: 19
+    Icon: {fileID: 21300000, guid: 86a78afed8f808e439e57ea4d75352b7, type: 2}
+    Id: 24
+    Value: 1
+    Max: 1
+    SkillPointsPrice: 60
+    SkillPointsPriceUpgradeMultiplier: 1
+  - PowerUpDescriptionName: Microchip_p | Id:25 | Type:Microchip | Value:1 | Max:1
+    NameKey: Microchip_p
+    Type: 19
+    Icon: {fileID: 21300000, guid: 86a78afed8f808e439e57ea4d75352b7, type: 2}
+    Id: 25
+    Value: 1
+    Max: 1
+    SkillPointsPrice: 10
+    SkillPointsPriceUpgradeMultiplier: 1
+  - PowerUpDescriptionName: Skip heal_p | Id:26 | Type:HitPointsOnSkip | Value:15 | Max:1
+    NameKey: Skip heal_p
+    Type: 20
+    Icon: {fileID: 21300000, guid: 343f2ebc9b2e36c43921f845d017eb2f, type: 2}
+    Id: 26
+    Value: 15
+    Max: 1
+    SkillPointsPrice: 15
+    SkillPointsPriceUpgradeMultiplier: 1
+  - PowerUpDescriptionName: Box second item_p | Id:27 | Type:BoxSecondItem | Value:20 | Max:1
+    NameKey: Box second item_p
+    Type: 21
+    Icon: {fileID: 21300000, guid: 4f6c61bf2707fef47aa1f6c1d1e27e5f, type: 2}
+    Id: 27
+    Value: 20
+    Max: 1
+    SkillPointsPrice: 20
+    SkillPointsPriceUpgradeMultiplier: 1
+  - PowerUpDescriptionName: Box third item_p | Id:28 | Type:BoxThirdItem | Value:10 | Max:1
+    NameKey: Box third item_p
+    Type: 22
+    Icon: {fileID: 21300000, guid: 4f6c61bf2707fef47aa1f6c1d1e27e5f, type: 2}
+    Id: 28
+    Value: 10
+    Max: 1
+    SkillPointsPrice: 40
+    SkillPointsPriceUpgradeMultiplier: 1
+  - PowerUpDescriptionName: Shop discount_p | Id:29 | Type:ShopDiscount | Value:10 | Max:1
+    NameKey: Shop discount_p
+    Type: 23
+    Icon: {fileID: 21300000, guid: 1c949845b2d1cdc40b801a6855e6ab4f, type: 2}
+    Id: 29
+    Value: 10
+    Max: 1
+    SkillPointsPrice: 25
+    SkillPointsPriceUpgradeMultiplier: 1
+  - PowerUpDescriptionName: Shop discount items_p | Id:30 | Type:ShopDiscountItems | Value:1 | Max:1
+    NameKey: Shop discount items_p
+    Type: 24
+    Icon: {fileID: 21300000, guid: e1a0489b81ce0f64fb48e943c5e65dee, type: 2}
+    Id: 30
+    Value: 1
+    Max: 1
+    SkillPointsPrice: 25
+    SkillPointsPriceUpgradeMultiplier: 1
+  - PowerUpDescriptionName: Pilot reset_p | Id:31 | Type:PilotSkillReset | Value:1 | Max:1
+    NameKey: Pilot reset_p
+    Type: 25
+    Icon: {fileID: 21300000, guid: b9d77ee172a290d4f9f6a4fe406de9c1, type: 2}
+    Id: 31
+    Value: 1
+    Max: 1
+    SkillPointsPrice: 25
+    SkillPointsPriceUpgradeMultiplier: 1

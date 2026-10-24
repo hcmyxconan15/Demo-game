@@ -1,0 +1,351 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1bfd4872ca4ff6f99e979d4b74ef1087, type: 3}
+  m_Name: BodyDb
+  m_EditorClassIdentifier:
+  BodyTypes:
+  - BodyDescriptionName: 0000 | Id:0 | Magnet:3 | MicrochipSlots:2 | OverloadSlots:2 | Growth:1x10/5lv |[ViperDash]
+    BodyName: 0000
+    NotAvailable: 0
+    Icon: {fileID: 21300000, guid: 9d511bad1a656c440a1b6342f32ce99e, type: 2}
+    BodyId: 0
+    MagnetSize: 3
+    UnlockPrice: 30
+    BodyJoin: {fileID: 114693329660128220, guid: fd1e8c2388526e24c9e5baebd0d8d3f6, type: 2}
+    PartStats:
+      Life: 0
+      Shield: 20
+      Damage: 0
+      ReloadTimePercent: 0
+      MagazineIncreaseRaw: 0
+      CriticalDamagePercent: 0
+      CriticalChancePercent: 0
+      DamageIncreasePercent: 0
+      FireRateIncreasePercent: 5
+      MicrochipSlots: 2
+      OverloadSlots: 2
+      DroneCapacity: 0
+    ExtraTags: 3d000000150000003300000056000000
+    Archetypes: 02000000
+    LevelGrowthMaxTimes: 10
+    LevelGrowthLevelInterval: 5
+    LevelGrowthStats:
+    - StatsType: 12
+      BaseValue: 2
+      IncreaseValue: 2
+    SpecialSkills: []
+  - BodyDescriptionName: 0001 | Id:1 | Magnet:3 | MicrochipSlots:2 | OverloadSlots:2 | Growth:1x20/1lv |[ViperDash]
+    BodyName: 0001
+    NotAvailable: 0
+    Icon: {fileID: 21300000, guid: 16c90e7ded333b34586cfd2e2fe227e4, type: 2}
+    BodyId: 1
+    MagnetSize: 3
+    UnlockPrice: 0
+    BodyJoin: {fileID: 114967328832014496, guid: 34a6f528b86ef4f499c2bf3b5bc1cab5, type: 2}
+    PartStats:
+      Life: 10
+      Shield: 30
+      Damage: 0
+      ReloadTimePercent: 0
+      MagazineIncreaseRaw: 0
+      CriticalDamagePercent: 0
+      CriticalChancePercent: 0
+      DamageIncreasePercent: 5
+      FireRateIncreasePercent: 0
+      MicrochipSlots: 2
+      OverloadSlots: 2
+      DroneCapacity: 0
+    ExtraTags: 3d000000150000003300000056000000
+    Archetypes: 02000000
+    LevelGrowthMaxTimes: 20
+    LevelGrowthLevelInterval: 1
+    LevelGrowthStats:
+    - StatsType: 8
+      BaseValue: 1
+      IncreaseValue: 1
+    SpecialSkills: []
+  - BodyDescriptionName: 0002 | Id:2 | Magnet:3 | MicrochipSlots:2 | OverloadSlots:2 | Skills:1 |[ViperDash]
+    BodyName: 0002
+    NotAvailable: 0
+    Icon: {fileID: 21300000, guid: 90df34854549c324eb9dc3d7bb3d8855, type: 2}
+    BodyId: 2
+    MagnetSize: 3
+    UnlockPrice: 30
+    BodyJoin: {fileID: 114384403120170545, guid: 243f478692d9bf14ca95cb88137f94c4, type: 2}
+    PartStats:
+      Life: 0
+      Shield: 20
+      Damage: 0
+      ReloadTimePercent: 0
+      MagazineIncreaseRaw: 0
+      CriticalDamagePercent: 5
+      CriticalChancePercent: 0
+      DamageIncreasePercent: 5
+      FireRateIncreasePercent: 0
+      MicrochipSlots: 2
+      OverloadSlots: 2
+      DroneCapacity: 1
+    ExtraTags: 3d000000150000003300000056000000
+    Archetypes: 02000000
+    LevelGrowthMaxTimes: 0
+    LevelGrowthLevelInterval: 1
+    LevelGrowthStats: []
+    SpecialSkills:
+    - Kind: 0
+      Slot: 2
+      Delivery: 0
+      FromDamageType: 0
+      ToDamageType: 1
+  - BodyDescriptionName: 0100 | Id:3 | Magnet:3 | MicrochipSlots:2 | OverloadSlots:2 |[BulwarkSiege]
+    BodyName: 0100
+    NotAvailable: 1
+    Icon: {fileID: 21300000, guid: 51f1009f3a5af6749b5174fd108a3c49, type: 2}
+    BodyId: 3
+    MagnetSize: 3
+    UnlockPrice: 30
+    BodyJoin: {fileID: 114384403120170545, guid: 4ee26e6e867e6374caf88fbb241e21ba, type: 2}
+    PartStats:
+      Life: 10
+      Shield: 100
+      Damage: 0
+      ReloadTimePercent: 0
+      MagazineIncreaseRaw: 0
+      CriticalDamagePercent: 0
+      CriticalChancePercent: 0
+      DamageIncreasePercent: 0
+      FireRateIncreasePercent: 5
+      MicrochipSlots: 2
+      OverloadSlots: 2
+      DroneCapacity: 0
+    ExtraTags: 530000000a0000001400000054000000
+    Archetypes: 01000000
+    LevelGrowthMaxTimes: 0
+    LevelGrowthLevelInterval: 1
+    LevelGrowthStats: []
+    SpecialSkills: []
+  - BodyDescriptionName: 0101 | Id:4 | Magnet:3 | MicrochipSlots:2 | OverloadSlots:2 |[BulwarkSiege]
+    BodyName: 0101
+    NotAvailable: 1
+    Icon: {fileID: 21300000, guid: f9de36fee0d56b043aa062fec1a4b2d6, type: 2}
+    BodyId: 4
+    MagnetSize: 3
+    UnlockPrice: 30
+    BodyJoin: {fileID: 114630643969539439, guid: 3f5e2e1041d65834c8a51bb907b59637, type: 2}
+    PartStats:
+      Life: 15
+      Shield: 80
+      Damage: 0
+      ReloadTimePercent: 0
+      MagazineIncreaseRaw: 0
+      CriticalDamagePercent: 0
+      CriticalChancePercent: 0
+      DamageIncreasePercent: 5
+      FireRateIncreasePercent: 0
+      MicrochipSlots: 2
+      OverloadSlots: 2
+      DroneCapacity: 0
+    ExtraTags: 530000000a0000001400000054000000
+    Archetypes: 01000000
+    LevelGrowthMaxTimes: 0
+    LevelGrowthLevelInterval: 1
+    LevelGrowthStats: []
+    SpecialSkills: []
+  - BodyDescriptionName: 0102 | Id:5 | Magnet:3 | MicrochipSlots:2 | OverloadSlots:2 |[BulwarkSiege]
+    BodyName: 0102
+    NotAvailable: 1
+    Icon: {fileID: 21300000, guid: 5511d3e5cb1596d47876ab2ef351a00b, type: 2}
+    BodyId: 5
+    MagnetSize: 3
+    UnlockPrice: 30
+    BodyJoin: {fileID: 114215879266689626, guid: 385c8268caac1414e9af6bdc0731903e, type: 2}
+    PartStats:
+      Life: 10
+      Shield: 100
+      Damage: 0
+      ReloadTimePercent: 0
+      MagazineIncreaseRaw: 0
+      CriticalDamagePercent: 5
+      CriticalChancePercent: 0
+      DamageIncreasePercent: 5
+      FireRateIncreasePercent: 0
+      MicrochipSlots: 2
+      OverloadSlots: 2
+      DroneCapacity: 0
+    ExtraTags: 530000000a0000001400000054000000
+    Archetypes: 01000000
+    LevelGrowthMaxTimes: 0
+    LevelGrowthLevelInterval: 1
+    LevelGrowthStats: []
+    SpecialSkills: []
+  - BodyDescriptionName: 0200 | Id:6 | Magnet:4 | MicrochipSlots:3 | OverloadSlots:2 |[HiveSalvage]
+    BodyName: 0200
+    NotAvailable: 1
+    Icon: {fileID: 21300000, guid: 587835c1dba66234da12477886720555, type: 2}
+    BodyId: 6
+    MagnetSize: 4
+    UnlockPrice: 25
+    BodyJoin: {fileID: 114436073260064126, guid: be0953636f598534fb9fe2e24695219e, type: 2}
+    PartStats:
+      Life: 0
+      Shield: 50
+      Damage: 0
+      ReloadTimePercent: 0
+      MagazineIncreaseRaw: 0
+      CriticalDamagePercent: 0
+      CriticalChancePercent: 0
+      DamageIncreasePercent: 0
+      FireRateIncreasePercent: 5
+      MicrochipSlots: 3
+      OverloadSlots: 2
+      DroneCapacity: 3
+    ExtraTags: 5500000052000000340000000b000000
+    Archetypes: 03000000
+    LevelGrowthMaxTimes: 0
+    LevelGrowthLevelInterval: 1
+    LevelGrowthStats: []
+    SpecialSkills: []
+  - BodyDescriptionName: 0201 | Id:7 | Magnet:4 | MicrochipSlots:3 | OverloadSlots:2 |[HiveSalvage]
+    BodyName: 0201
+    NotAvailable: 1
+    Icon: {fileID: 21300000, guid: d0ae98c2b81da104a86e75779e3630fb, type: 2}
+    BodyId: 7
+    MagnetSize: 4
+    UnlockPrice: 25
+    BodyJoin: {fileID: 114344419225485095, guid: 376dfb7fcebe38e49be31023de683985, type: 2}
+    PartStats:
+      Life: 10
+      Shield: 50
+      Damage: 0
+      ReloadTimePercent: 0
+      MagazineIncreaseRaw: 0
+      CriticalDamagePercent: 0
+      CriticalChancePercent: 0
+      DamageIncreasePercent: 5
+      FireRateIncreasePercent: 0
+      MicrochipSlots: 3
+      OverloadSlots: 2
+      DroneCapacity: 3
+    ExtraTags: 5500000052000000340000000b000000
+    Archetypes: 03000000
+    LevelGrowthMaxTimes: 0
+    LevelGrowthLevelInterval: 1
+    LevelGrowthStats: []
+    SpecialSkills: []
+  - BodyDescriptionName: 0202 | Id:8 | Magnet:4 | MicrochipSlots:3 | OverloadSlots:2 |[HiveSalvage]
+    BodyName: 0202
+    NotAvailable: 1
+    Icon: {fileID: 21300000, guid: 045c12d0280d06c488a55c32f050c16d, type: 2}
+    BodyId: 8
+    MagnetSize: 4
+    UnlockPrice: 25
+    BodyJoin: {fileID: 114581786255902400, guid: c255f8943654a9640aa2c00df1c93da6, type: 2}
+    PartStats:
+      Life: 0
+      Shield: 50
+      Damage: 0
+      ReloadTimePercent: 0
+      MagazineIncreaseRaw: 0
+      CriticalDamagePercent: 5
+      CriticalChancePercent: 0
+      DamageIncreasePercent: 5
+      FireRateIncreasePercent: 0
+      MicrochipSlots: 3
+      OverloadSlots: 2
+      DroneCapacity: 3
+    ExtraTags: 5500000052000000340000000b000000
+    Archetypes: 03000000
+    LevelGrowthMaxTimes: 0
+    LevelGrowthLevelInterval: 1
+    LevelGrowthStats: []
+    SpecialSkills: []
+  - BodyDescriptionName: 0300 | Id:9 | Magnet:3 | MicrochipSlots:2 | OverloadSlots:2 |[FurnacePrototype]
+    BodyName: 0300
+    NotAvailable: 1
+    Icon: {fileID: 21300000, guid: 9fd50b7faf1923d458993b60924f9fcb, type: 2}
+    BodyId: 9
+    MagnetSize: 3
+    UnlockPrice: 25
+    BodyJoin: {fileID: 114722951815217645, guid: e17daa8c3b66dd5439c89f5c2cfffe08, type: 2}
+    PartStats:
+      Life: 0
+      Shield: 50
+      Damage: 0
+      ReloadTimePercent: 0
+      MagazineIncreaseRaw: 0
+      CriticalDamagePercent: 0
+      CriticalChancePercent: 0
+      DamageIncreasePercent: 0
+      FireRateIncreasePercent: 5
+      MicrochipSlots: 2
+      OverloadSlots: 2
+      DroneCapacity: 0
+    ExtraTags: 570000000b0000001e00000058000000
+    Archetypes: 04000000
+    LevelGrowthMaxTimes: 0
+    LevelGrowthLevelInterval: 1
+    LevelGrowthStats: []
+    SpecialSkills: []
+  - BodyDescriptionName: 0301 | Id:10 | Magnet:3 | MicrochipSlots:3 | OverloadSlots:2 |[FurnacePrototype]
+    BodyName: 0301
+    NotAvailable: 1
+    Icon: {fileID: 21300000, guid: 886243bd18cd17046a5e98e539944115, type: 2}
+    BodyId: 10
+    MagnetSize: 3
+    UnlockPrice: 20
+    BodyJoin: {fileID: 114384403120170545, guid: 6771658f76f30134ca5138d461c380e6, type: 2}
+    PartStats:
+      Life: 10
+      Shield: 50
+      Damage: 0
+      ReloadTimePercent: 0
+      MagazineIncreaseRaw: 0
+      CriticalDamagePercent: 0
+      CriticalChancePercent: 0
+      DamageIncreasePercent: 5
+      FireRateIncreasePercent: 0
+      MicrochipSlots: 3
+      OverloadSlots: 2
+      DroneCapacity: 0
+    ExtraTags: 570000000b0000001e00000058000000
+    Archetypes: 04000000
+    LevelGrowthMaxTimes: 0
+    LevelGrowthLevelInterval: 1
+    LevelGrowthStats: []
+    SpecialSkills: []
+  - BodyDescriptionName: 0302 | Id:11 | Magnet:3 | MicrochipSlots:3 | OverloadSlots:2 |[FurnacePrototype]
+    BodyName: 0302
+    NotAvailable: 1
+    Icon: {fileID: 21300000, guid: 19691f7420438974592b95b715503ee5, type: 2}
+    BodyId: 11
+    MagnetSize: 3
+    UnlockPrice: 20
+    BodyJoin: {fileID: 114581786255902400, guid: a433fd46c925a1f40a9bbacb9878329f, type: 2}
+    PartStats:
+      Life: 0
+      Shield: 50
+      Damage: 0
+      ReloadTimePercent: 0
+      MagazineIncreaseRaw: 0
+      CriticalDamagePercent: 5
+      CriticalChancePercent: 0
+      DamageIncreasePercent: 5
+      FireRateIncreasePercent: 0
+      MicrochipSlots: 3
+      OverloadSlots: 2
+      DroneCapacity: 0
+    ExtraTags: 570000000b0000001e00000058000000
+    Archetypes: 04000000
+    LevelGrowthMaxTimes: 0
+    LevelGrowthLevelInterval: 1
+    LevelGrowthStats: []
+    SpecialSkills: []
+  ColorPlus: {r: 0, g: 0.8745098, b: 0.69411767, a: 1}

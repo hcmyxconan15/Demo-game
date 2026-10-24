@@ -1,0 +1,528 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 524e91b25765d46ca4bf2adc9d7613ac, type: 3}
+  m_Name: StageEnemyConfigMagma
+  m_EditorClassIdentifier:
+  EnemySetups:
+  - SetupName: '| Step LV: 0 | Venodonte spw:4 Inter:8s Time:0s '
+    StepLevel: 0
+    MaxEnemiesAliveOnStep: 20
+    PrisonId: 0
+    ActivePrisonTime: 0
+    EnemySetups:
+    - EnemyName: Venodonte
+      EnemyIndex: 34
+      EnemyNumberToSpam: 4
+      SpamIntervalInitialTime: 2
+      SpamInterval: 8
+      SpamTimes: 0
+      InfinitySpawn: 1
+      OnceTimeSpawn: 0
+  - SetupName: '| Step LV: 1 | Venodonte spw:6 Inter:2s Time:0s  | Limadon spw:2 Inter:1s Time:0s '
+    StepLevel: 1
+    MaxEnemiesAliveOnStep: 30
+    PrisonId: 0
+    ActivePrisonTime: 0
+    EnemySetups:
+    - EnemyName: Venodonte
+      EnemyIndex: 34
+      EnemyNumberToSpam: 6
+      SpamIntervalInitialTime: 1
+      SpamInterval: 2
+      SpamTimes: 0
+      InfinitySpawn: 1
+      OnceTimeSpawn: 0
+    - EnemyName: Limadon
+      EnemyIndex: 35
+      EnemyNumberToSpam: 2
+      SpamIntervalInitialTime: 1
+      SpamInterval: 1
+      SpamTimes: 0
+      InfinitySpawn: 0
+      OnceTimeSpawn: 1
+  - SetupName: '| Step LV: 2 | SerpmareTentacle spw:1 Inter:4s Time:0s  | Venodonte spw:6 Inter:2s Time:0s '
+    StepLevel: 2
+    MaxEnemiesAliveOnStep: 50
+    PrisonId: 0
+    ActivePrisonTime: 0
+    EnemySetups:
+    - EnemyName: SerpmareTentacle
+      EnemyIndex: 37
+      EnemyNumberToSpam: 1
+      SpamIntervalInitialTime: 1
+      SpamInterval: 4
+      SpamTimes: 0
+      InfinitySpawn: 0
+      OnceTimeSpawn: 1
+    - EnemyName: Venodonte
+      EnemyIndex: 34
+      EnemyNumberToSpam: 6
+      SpamIntervalInitialTime: 1
+      SpamInterval: 2
+      SpamTimes: 0
+      InfinitySpawn: 1
+      OnceTimeSpawn: 0
+  - SetupName: '| Step LV: 3 | Limadon spw:2 Inter:15s Time:0s  | Venodonte spw:8 Inter:2s Time:0s '
+    StepLevel: 3
+    MaxEnemiesAliveOnStep: 50
+    PrisonId: 0
+    ActivePrisonTime: 0
+    EnemySetups:
+    - EnemyName: Limadon
+      EnemyIndex: 35
+      EnemyNumberToSpam: 2
+      SpamIntervalInitialTime: 1
+      SpamInterval: 15
+      SpamTimes: 0
+      InfinitySpawn: 1
+      OnceTimeSpawn: 0
+    - EnemyName: Venodonte
+      EnemyIndex: 34
+      EnemyNumberToSpam: 8
+      SpamIntervalInitialTime: 1
+      SpamInterval: 2
+      SpamTimes: 0
+      InfinitySpawn: 1
+      OnceTimeSpawn: 0
+  - SetupName: '| Step LV: 4 | Limadon spw:5 Inter:0.2s Time:0s  | Horridomorph spw:15 Inter:2s Time:0s '
+    StepLevel: 4
+    MaxEnemiesAliveOnStep: 50
+    PrisonId: 0
+    ActivePrisonTime: 0
+    EnemySetups:
+    - EnemyName: Limadon
+      EnemyIndex: 35
+      EnemyNumberToSpam: 5
+      SpamIntervalInitialTime: 1
+      SpamInterval: 0.2
+      SpamTimes: 0
+      InfinitySpawn: 0
+      OnceTimeSpawn: 1
+    - EnemyName: Horridomorph
+      EnemyIndex: 33
+      EnemyNumberToSpam: 15
+      SpamIntervalInitialTime: 1
+      SpamInterval: 2
+      SpamTimes: 0
+      InfinitySpawn: 1
+      OnceTimeSpawn: 0
+  - SetupName: '| Step LV: 5 | Horridomorph spw:12 Inter:1s Time:0s  | SerpmareTentacle spw:1 Inter:15s Time:2s '
+    StepLevel: 5
+    MaxEnemiesAliveOnStep: 50
+    PrisonId: 0
+    ActivePrisonTime: 0
+    EnemySetups:
+    - EnemyName: Horridomorph
+      EnemyIndex: 33
+      EnemyNumberToSpam: 12
+      SpamIntervalInitialTime: 5
+      SpamInterval: 1
+      SpamTimes: 0
+      InfinitySpawn: 1
+      OnceTimeSpawn: 0
+    - EnemyName: SerpmareTentacle
+      EnemyIndex: 37
+      EnemyNumberToSpam: 1
+      SpamIntervalInitialTime: 1
+      SpamInterval: 15
+      SpamTimes: 2
+      InfinitySpawn: 0
+      OnceTimeSpawn: 1
+  - SetupName: '| Step LV: 6 | Horridomorph spw:12 Inter:1s Time:0s  | Limadon spw:1 Inter:8s Time:5s  | SerpmareTentacle spw:1 Inter:1s Time:0s | Prison player 45'
+    StepLevel: 6
+    MaxEnemiesAliveOnStep: 90
+    PrisonId: 0
+    ActivePrisonTime: 45
+    EnemySetups:
+    - EnemyName: Horridomorph
+      EnemyIndex: 33
+      EnemyNumberToSpam: 12
+      SpamIntervalInitialTime: 1
+      SpamInterval: 1
+      SpamTimes: 0
+      InfinitySpawn: 1
+      OnceTimeSpawn: 0
+    - EnemyName: Limadon
+      EnemyIndex: 35
+      EnemyNumberToSpam: 1
+      SpamIntervalInitialTime: 1
+      SpamInterval: 8
+      SpamTimes: 5
+      InfinitySpawn: 0
+      OnceTimeSpawn: 0
+    - EnemyName: SerpmareTentacle
+      EnemyIndex: 37
+      EnemyNumberToSpam: 1
+      SpamIntervalInitialTime: 1
+      SpamInterval: 1
+      SpamTimes: 0
+      InfinitySpawn: 0
+      OnceTimeSpawn: 1
+  - SetupName: '| Step LV: 7 | Larvae spw:20 Inter:2s Time:0s  | ScolokarckElite spw:1 Inter:1s Time:4s '
+    StepLevel: 7
+    MaxEnemiesAliveOnStep: 90
+    PrisonId: 0
+    ActivePrisonTime: 0
+    EnemySetups:
+    - EnemyName: Larvae
+      EnemyIndex: 9
+      EnemyNumberToSpam: 20
+      SpamIntervalInitialTime: 1
+      SpamInterval: 2
+      SpamTimes: 0
+      InfinitySpawn: 1
+      OnceTimeSpawn: 0
+    - EnemyName: ScolokarckElite
+      EnemyIndex: 40
+      EnemyNumberToSpam: 1
+      SpamIntervalInitialTime: 1
+      SpamInterval: 1
+      SpamTimes: 4
+      InfinitySpawn: 0
+      OnceTimeSpawn: 1
+  - SetupName: '| Step LV: 8 | Limadon spw:5 Inter:20s Time:4s  | Horridomorph spw:20 Inter:2s Time:0s '
+    StepLevel: 8
+    MaxEnemiesAliveOnStep: 100
+    PrisonId: 0
+    ActivePrisonTime: 0
+    EnemySetups:
+    - EnemyName: Limadon
+      EnemyIndex: 35
+      EnemyNumberToSpam: 5
+      SpamIntervalInitialTime: 1
+      SpamInterval: 20
+      SpamTimes: 4
+      InfinitySpawn: 0
+      OnceTimeSpawn: 0
+    - EnemyName: Horridomorph
+      EnemyIndex: 33
+      EnemyNumberToSpam: 20
+      SpamIntervalInitialTime: 1
+      SpamInterval: 2
+      SpamTimes: 0
+      InfinitySpawn: 1
+      OnceTimeSpawn: 0
+  - SetupName: '| Step LV: 9 | Larvae spw:20 Inter:1s Time:3s  | Venodonte spw:4 Inter:1s Time:3s  | HorridomorphElite spw:1 Inter:10s Time:1s '
+    StepLevel: 9
+    MaxEnemiesAliveOnStep: 100
+    PrisonId: 0
+    ActivePrisonTime: 0
+    EnemySetups:
+    - EnemyName: Larvae
+      EnemyIndex: 9
+      EnemyNumberToSpam: 20
+      SpamIntervalInitialTime: 1
+      SpamInterval: 1
+      SpamTimes: 3
+      InfinitySpawn: 1
+      OnceTimeSpawn: 0
+    - EnemyName: Venodonte
+      EnemyIndex: 34
+      EnemyNumberToSpam: 4
+      SpamIntervalInitialTime: 1
+      SpamInterval: 1
+      SpamTimes: 3
+      InfinitySpawn: 1
+      OnceTimeSpawn: 0
+    - EnemyName: HorridomorphElite
+      EnemyIndex: 38
+      EnemyNumberToSpam: 1
+      SpamIntervalInitialTime: 1
+      SpamInterval: 10
+      SpamTimes: 1
+      InfinitySpawn: 0
+      OnceTimeSpawn: 0
+  - SetupName: '| Step LV: 10 | Venodonte spw:30 Inter:2s Time:3s  | ScolokarckElite spw:1 Inter:1s Time:0s | Prison player 50'
+    StepLevel: 10
+    MaxEnemiesAliveOnStep: 100
+    PrisonId: 0
+    ActivePrisonTime: 50
+    EnemySetups:
+    - EnemyName: Venodonte
+      EnemyIndex: 34
+      EnemyNumberToSpam: 30
+      SpamIntervalInitialTime: 1
+      SpamInterval: 2
+      SpamTimes: 3
+      InfinitySpawn: 1
+      OnceTimeSpawn: 0
+    - EnemyName: ScolokarckElite
+      EnemyIndex: 40
+      EnemyNumberToSpam: 1
+      SpamIntervalInitialTime: 1
+      SpamInterval: 1
+      SpamTimes: 0
+      InfinitySpawn: 0
+      OnceTimeSpawn: 0
+  - SetupName: '| Step LV: 11 | Larvae spw:30 Inter:2s Time:3s  | Robot_2Leg_Melee spw:1 Inter:1s Time:0s '
+    StepLevel: 11
+    MaxEnemiesAliveOnStep: 150
+    PrisonId: 0
+    ActivePrisonTime: 0
+    EnemySetups:
+    - EnemyName: Larvae
+      EnemyIndex: 9
+      EnemyNumberToSpam: 30
+      SpamIntervalInitialTime: 1
+      SpamInterval: 2
+      SpamTimes: 3
+      InfinitySpawn: 1
+      OnceTimeSpawn: 0
+    - EnemyName: Robot_2Leg_Melee
+      EnemyIndex: 20
+      EnemyNumberToSpam: 1
+      SpamIntervalInitialTime: 1
+      SpamInterval: 1
+      SpamTimes: 0
+      InfinitySpawn: 0
+      OnceTimeSpawn: 0
+  - SetupName: '| Step LV: 12 | Horridomorph spw:20 Inter:2s Time:0s  | Robot_2L_Random spw:1 Inter:10s Time:0s | Prison player 50'
+    StepLevel: 12
+    MaxEnemiesAliveOnStep: 150
+    PrisonId: 0
+    ActivePrisonTime: 50
+    EnemySetups:
+    - EnemyName: Horridomorph
+      EnemyIndex: 33
+      EnemyNumberToSpam: 20
+      SpamIntervalInitialTime: 1
+      SpamInterval: 2
+      SpamTimes: 0
+      InfinitySpawn: 1
+      OnceTimeSpawn: 0
+    - EnemyName: Robot_2L_Random
+      EnemyIndex: 11
+      EnemyNumberToSpam: 1
+      SpamIntervalInitialTime: 1
+      SpamInterval: 10
+      SpamTimes: 0
+      InfinitySpawn: 0
+      OnceTimeSpawn: 1
+  - SetupName: '| Step LV: 13 | HorridomorphElite spw:1 Inter:5s Time:0s  | Horridomorph spw:30 Inter:2s Time:0s  | SerpmareTentacle spw:4 Inter:15s Time:0s '
+    StepLevel: 13
+    MaxEnemiesAliveOnStep: 150
+    PrisonId: 0
+    ActivePrisonTime: 0
+    EnemySetups:
+    - EnemyName: HorridomorphElite
+      EnemyIndex: 38
+      EnemyNumberToSpam: 1
+      SpamIntervalInitialTime: 1
+      SpamInterval: 5
+      SpamTimes: 0
+      InfinitySpawn: 0
+      OnceTimeSpawn: 0
+    - EnemyName: Horridomorph
+      EnemyIndex: 33
+      EnemyNumberToSpam: 30
+      SpamIntervalInitialTime: 1
+      SpamInterval: 2
+      SpamTimes: 0
+      InfinitySpawn: 1
+      OnceTimeSpawn: 0
+    - EnemyName: SerpmareTentacle
+      EnemyIndex: 37
+      EnemyNumberToSpam: 4
+      SpamIntervalInitialTime: 1
+      SpamInterval: 15
+      SpamTimes: 0
+      InfinitySpawn: 0
+      OnceTimeSpawn: 1
+  - SetupName: '| Step LV: 14 | Scolokarck spw:15 Inter:5s Time:0s  | SpiderMecha spw:1 Inter:5s Time:0s '
+    StepLevel: 14
+    MaxEnemiesAliveOnStep: 150
+    PrisonId: 0
+    ActivePrisonTime: 0
+    EnemySetups:
+    - EnemyName: Scolokarck
+      EnemyIndex: 36
+      EnemyNumberToSpam: 15
+      SpamIntervalInitialTime: 1
+      SpamInterval: 5
+      SpamTimes: 0
+      InfinitySpawn: 1
+      OnceTimeSpawn: 0
+    - EnemyName: SpiderMecha
+      EnemyIndex: 14
+      EnemyNumberToSpam: 1
+      SpamIntervalInitialTime: 1
+      SpamInterval: 5
+      SpamTimes: 0
+      InfinitySpawn: 0
+      OnceTimeSpawn: 1
+  - SetupName: '| Step LV: 15 | Horridomorph spw:30 Inter:2s Time:0s  | Robot_Heavy_2L_Laser spw:1 Inter:5s Time:0s  | SerpmareTentacle spw:3 Inter:5s Time:0s '
+    StepLevel: 15
+    MaxEnemiesAliveOnStep: 150
+    PrisonId: 0
+    ActivePrisonTime: 0
+    EnemySetups:
+    - EnemyName: Horridomorph
+      EnemyIndex: 33
+      EnemyNumberToSpam: 30
+      SpamIntervalInitialTime: 1
+      SpamInterval: 2
+      SpamTimes: 0
+      InfinitySpawn: 1
+      OnceTimeSpawn: 0
+    - EnemyName: Robot_Heavy_2L_Laser
+      EnemyIndex: 22
+      EnemyNumberToSpam: 1
+      SpamIntervalInitialTime: 3
+      SpamInterval: 5
+      SpamTimes: 0
+      InfinitySpawn: 0
+      OnceTimeSpawn: 1
+    - EnemyName: SerpmareTentacle
+      EnemyIndex: 37
+      EnemyNumberToSpam: 3
+      SpamIntervalInitialTime: 1
+      SpamInterval: 5
+      SpamTimes: 0
+      InfinitySpawn: 0
+      OnceTimeSpawn: 1
+  - SetupName: '| Step LV: 16 | Scolokarck spw:30 Inter:2s Time:0s  | ScolokarckElite spw:2 Inter:5s Time:0s  | SerpmareTentacle spw:3 Inter:1s Time:0s '
+    StepLevel: 16
+    MaxEnemiesAliveOnStep: 200
+    PrisonId: 0
+    ActivePrisonTime: 0
+    EnemySetups:
+    - EnemyName: Scolokarck
+      EnemyIndex: 36
+      EnemyNumberToSpam: 30
+      SpamIntervalInitialTime: 1
+      SpamInterval: 2
+      SpamTimes: 0
+      InfinitySpawn: 1
+      OnceTimeSpawn: 0
+    - EnemyName: ScolokarckElite
+      EnemyIndex: 40
+      EnemyNumberToSpam: 2
+      SpamIntervalInitialTime: 1
+      SpamInterval: 5
+      SpamTimes: 0
+      InfinitySpawn: 1
+      OnceTimeSpawn: 0
+    - EnemyName: SerpmareTentacle
+      EnemyIndex: 37
+      EnemyNumberToSpam: 3
+      SpamIntervalInitialTime: 1
+      SpamInterval: 1
+      SpamTimes: 0
+      InfinitySpawn: 0
+      OnceTimeSpawn: 1
+  - SetupName: '| Step LV: 17 | Scolokarck spw:30 Inter:2s Time:0s  | Limadon spw:6 Inter:2s Time:0s '
+    StepLevel: 17
+    MaxEnemiesAliveOnStep: 200
+    PrisonId: 0
+    ActivePrisonTime: 0
+    EnemySetups:
+    - EnemyName: Scolokarck
+      EnemyIndex: 36
+      EnemyNumberToSpam: 30
+      SpamIntervalInitialTime: 1
+      SpamInterval: 2
+      SpamTimes: 0
+      InfinitySpawn: 1
+      OnceTimeSpawn: 0
+    - EnemyName: Limadon
+      EnemyIndex: 35
+      EnemyNumberToSpam: 6
+      SpamIntervalInitialTime: 3
+      SpamInterval: 2
+      SpamTimes: 0
+      InfinitySpawn: 0
+      OnceTimeSpawn: 0
+  - SetupName: '| Step LV: 18 | Larvae spw:30 Inter:2s Time:0s  | HorridomorphElite spw:2 Inter:5s Time:0s  | EnemyMonsterCrassorrid spw:1 Inter:1s Time:0s '
+    StepLevel: 18
+    MaxEnemiesAliveOnStep: 200
+    PrisonId: 0
+    ActivePrisonTime: 0
+    EnemySetups:
+    - EnemyName: Larvae
+      EnemyIndex: 9
+      EnemyNumberToSpam: 30
+      SpamIntervalInitialTime: 1
+      SpamInterval: 2
+      SpamTimes: 0
+      InfinitySpawn: 1
+      OnceTimeSpawn: 0
+    - EnemyName: HorridomorphElite
+      EnemyIndex: 38
+      EnemyNumberToSpam: 2
+      SpamIntervalInitialTime: 1
+      SpamInterval: 5
+      SpamTimes: 0
+      InfinitySpawn: 0
+      OnceTimeSpawn: 0
+    - EnemyName: EnemyMonsterCrassorrid
+      EnemyIndex: 39
+      EnemyNumberToSpam: 1
+      SpamIntervalInitialTime: 1
+      SpamInterval: 1
+      SpamTimes: 0
+      InfinitySpawn: 0
+      OnceTimeSpawn: 1
+  - SetupName: '| Step LV: 19 | Scolokarck spw:30 Inter:2s Time:0s  | InfectedKamikaze spw:2 Inter:3s Time:0s '
+    StepLevel: 19
+    MaxEnemiesAliveOnStep: 200
+    PrisonId: 0
+    ActivePrisonTime: 0
+    EnemySetups:
+    - EnemyName: Scolokarck
+      EnemyIndex: 36
+      EnemyNumberToSpam: 30
+      SpamIntervalInitialTime: 1
+      SpamInterval: 2
+      SpamTimes: 0
+      InfinitySpawn: 1
+      OnceTimeSpawn: 0
+    - EnemyName: InfectedKamikaze
+      EnemyIndex: 25
+      EnemyNumberToSpam: 2
+      SpamIntervalInitialTime: 1
+      SpamInterval: 3
+      SpamTimes: 0
+      InfinitySpawn: 1
+      OnceTimeSpawn: 0
+  - SetupName: '| Step LV: 20 | Scolokarck spw:30 Inter:2s Time:0s  | SerpmareTentacle spw:3 Inter:3s Time:0s  | Robot_2L_Random spw:1 Inter:5s Time:0s '
+    StepLevel: 20
+    MaxEnemiesAliveOnStep: 200
+    PrisonId: 0
+    ActivePrisonTime: 0
+    EnemySetups:
+    - EnemyName: Scolokarck
+      EnemyIndex: 36
+      EnemyNumberToSpam: 30
+      SpamIntervalInitialTime: 1
+      SpamInterval: 2
+      SpamTimes: 0
+      InfinitySpawn: 1
+      OnceTimeSpawn: 0
+    - EnemyName: SerpmareTentacle
+      EnemyIndex: 37
+      EnemyNumberToSpam: 3
+      SpamIntervalInitialTime: 1
+      SpamInterval: 3
+      SpamTimes: 0
+      InfinitySpawn: 0
+      OnceTimeSpawn: 1
+    - EnemyName: Robot_2L_Random
+      EnemyIndex: 11
+      EnemyNumberToSpam: 1
+      SpamIntervalInitialTime: 1
+      SpamInterval: 5
+      SpamTimes: 0
+      InfinitySpawn: 0
+      OnceTimeSpawn: 0
+  EnemiesDb: {fileID: 11400000, guid: 7972e737efac39444bf1df5d52c0c962, type: 2}
+  DontSetLevelAutomatic: 0
+  LevelSetup:

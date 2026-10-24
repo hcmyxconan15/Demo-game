@@ -1,0 +1,435 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0277f09d3183e78870618473ed82eca6, type: 3}
+  m_Name: BulletsDB
+  m_EditorClassIdentifier:
+  Bullets:
+  - BulletDescriptionName: SmallBullet [0] | Id:0 | Physical Projectile
+    Name: SmallBullet [0]
+    BulletId: 0
+    BulletSoundId: 2
+    Type: 0
+    TypeBullet: 0
+    BulletPrefab: {fileID: 114243736805655561, guid: 43f7589115c551347872f02468a67ae3, type: 2}
+  - BulletDescriptionName: LaserBullet [1] | Id:1 | Energy Projectile
+    Name: LaserBullet [1]
+    BulletId: 1
+    BulletSoundId: 3
+    Type: 1
+    TypeBullet: 0
+    BulletPrefab: {fileID: 114243736805655561, guid: f2c7c994afe503d42829828847a479e5, type: 2}
+  - BulletDescriptionName: HeatSeeker [2] | Id:2 | Physical Missile
+    Name: HeatSeeker [2]
+    BulletId: 2
+    BulletSoundId: 4
+    Type: 0
+    TypeBullet: 1
+    BulletPrefab: {fileID: 114044625135789424, guid: 9e83ad00199a4ca43955e55d9aaf09a6, type: 2}
+  - BulletDescriptionName: HeatSeekerRandom [3] | Id:3 | Physical Missile
+    Name: HeatSeekerRandom [3]
+    BulletId: 3
+    BulletSoundId: 4
+    Type: 0
+    TypeBullet: 1
+    BulletPrefab: {fileID: 114709867586078768, guid: 0cdc3bb6c81688b40bd6f28380923d0b, type: 2}
+  - BulletDescriptionName: Plasma bullet [4] | Id:4 | Energy Projectile
+    Name: Plasma bullet [4]
+    BulletId: 4
+    BulletSoundId: 5
+    Type: 1
+    TypeBullet: 0
+    BulletPrefab: {fileID: 114243736805655561, guid: 7d6c998a1a45cf94a9297db2a5156dc0, type: 2}
+  - BulletDescriptionName: SkyMissiles [5] | Id:5 | Physical Missile
+    Name: SkyMissiles [5]
+    BulletId: 5
+    BulletSoundId: 4
+    Type: 0
+    TypeBullet: 1
+    BulletPrefab: {fileID: 114709867586078768, guid: b076ceeaba3719f47803361f6f3c02b6, type: 2}
+  - BulletDescriptionName: Electric field [6] | Id:6 | Energy Area
+    Name: Electric field [6]
+    BulletId: 6
+    BulletSoundId: 5
+    Type: 1
+    TypeBullet: 3
+    BulletPrefab: {fileID: 114589667821646929, guid: dc327b9dee15fc14698db83c97195a53, type: 2}
+  - BulletDescriptionName: Shotgun bullet [7] | Id:7 | Physical Projectile
+    Name: Shotgun bullet [7]
+    BulletId: 7
+    BulletSoundId: 2
+    Type: 0
+    TypeBullet: 0
+    BulletPrefab: {fileID: 114587765826080250, guid: 73f28a8fc2e97364a9a2a36beee4eca5, type: 2}
+  - BulletDescriptionName: Shotgun shell[8] | Id:8 | Physical Projectile
+    Name: Shotgun shell[8]
+    BulletId: 8
+    BulletSoundId: 2
+    Type: 0
+    TypeBullet: 0
+    BulletPrefab: {fileID: 114243736805655561, guid: 9e3f2f25f7b91aa44982f1fd236de486, type: 2}
+  - BulletDescriptionName: Steal rain bullet [9] | Id:9 | Physical Area
+    Name: Steal rain bullet [9]
+    BulletId: 9
+    BulletSoundId: 2
+    Type: 0
+    TypeBullet: 3
+    BulletPrefab: {fileID: 114372920208702427, guid: 6818601dc97422446bcdfdf9d6f86c70, type: 2}
+  - BulletDescriptionName: Sky beam attack [10] | Id:10 | Energy Beam
+    Name: Sky beam attack [10]
+    BulletId: 10
+    BulletSoundId: -1
+    Type: 1
+    TypeBullet: 2
+    BulletPrefab: {fileID: 114025901758691103, guid: 3cd844cacf5596642be71d458c3b6e07, type: 2}
+  - BulletDescriptionName: Timer mine [11] | Id:11 | Physical Area
+    Name: Timer mine [11]
+    BulletId: 11
+    BulletSoundId: -1
+    Type: 0
+    TypeBullet: 3
+    BulletPrefab: {fileID: 114587765826080250, guid: 4387d848d805f694fb731d71423820c2, type: 2}
+  - BulletDescriptionName: Electric area damage [12] | Id:12 | Energy Area
+    Name: Electric area damage [12]
+    BulletId: 12
+    BulletSoundId: -1
+    Type: 1
+    TypeBullet: 3
+    BulletPrefab: {fileID: 114256069497284392, guid: 853176efd04d17444ae78dcf76d29c94, type: 2}
+  - BulletDescriptionName: HeatSeeker Copter Bullet | Id:13 | Physical Missile
+    Name: HeatSeeker Copter Bullet
+    BulletId: 13
+    BulletSoundId: -1
+    Type: 0
+    TypeBullet: 1
+    BulletPrefab: {fileID: 114044625135789424, guid: f514729754b990f46941788babd1a17c, type: 2}
+  - BulletDescriptionName: Copter Skill | Id:14 | Physical Missile
+    Name: Copter Skill
+    BulletId: 14
+    BulletSoundId: 4
+    Type: 0
+    TypeBullet: 1
+    BulletPrefab: {fileID: 114724804207875695, guid: 0194d17696792524bb9e96afb21bfca6, type: 2}
+  - BulletDescriptionName: Copter | Id:15 | Physical Missile
+    Name: Copter
+    BulletId: 15
+    BulletSoundId: 4
+    Type: 0
+    TypeBullet: 1
+    BulletPrefab: {fileID: 114528911807818478, guid: 0fc217be37e2de34889bc8930f44e6b2, type: 2}
+  - BulletDescriptionName: CutWave | Id:16 | Energy Area
+    Name: CutWave
+    BulletId: 16
+    BulletSoundId: 2
+    Type: 1
+    TypeBullet: 3
+    BulletPrefab: {fileID: 114587765826080250, guid: 59762c011efdb674e859afe7356afc66, type: 2}
+  - BulletDescriptionName: Dismembering blades | Id:17 | Physical Area
+    Name: Dismembering blades
+    BulletId: 17
+    BulletSoundId: 5
+    Type: 0
+    TypeBullet: 3
+    BulletPrefab: {fileID: 114061268324235159, guid: 651f476ddc363ff4ebd1ec6eaa05a652, type: 2}
+  - BulletDescriptionName: Minigun bullet [18] | Id:18 | Physical Projectile
+    Name: Minigun bullet [18]
+    BulletId: 18
+    BulletSoundId: 2
+    Type: 0
+    TypeBullet: 0
+    BulletPrefab: {fileID: 114243736805655561, guid: 0a4adc31671ca41469303735bc47a64c, type: 2}
+  - BulletDescriptionName: Photon bullet [19] | Id:19 | Energy Projectile
+    Name: Photon bullet [19]
+    BulletId: 19
+    BulletSoundId: 4
+    Type: 1
+    TypeBullet: 0
+    BulletPrefab: {fileID: 114099118695303065, guid: a22198740960f304e8287e62ad1636fe, type: 2}
+  - BulletDescriptionName: HeatSeeker [20] | Id:20 | Physical Missile
+    Name: HeatSeeker [20]
+    BulletId: 20
+    BulletSoundId: 4
+    Type: 0
+    TypeBullet: 1
+    BulletPrefab: {fileID: 114044625135789424, guid: 69f4d0e457a5c57428cdc78bc721fe34, type: 2}
+  - BulletDescriptionName: Sky beam attack Mother Ship [21] | Id:21 | Energy Beam
+    Name: Sky beam attack Mother Ship [21]
+    BulletId: 21
+    BulletSoundId: -1
+    Type: 1
+    TypeBullet: 2
+    BulletPrefab: {fileID: 114025901758691103, guid: 2b5363fb8892f3c44bbb162ba3b99959, type: 2}
+  - BulletDescriptionName: Pulse grenade [22] | Id:22 | Energy Area
+    Name: Pulse grenade [22]
+    BulletId: 22
+    BulletSoundId: -1
+    Type: 1
+    TypeBullet: 3
+    BulletPrefab: {fileID: 114372920208702427, guid: 91d641d3bf08f89438baa78c8748eb86, type: 2}
+  - BulletDescriptionName: Flamethrower[23] | Id:23 | Energy Beam
+    Name: Flamethrower[23]
+    BulletId: 23
+    BulletSoundId: -1
+    Type: 1
+    TypeBullet: 2
+    BulletPrefab: {fileID: 114884547391421755, guid: 6e05aacd0f33dea4483b2f4833abbdd2, type: 2}
+  - BulletDescriptionName: SetShield [24] | Id:24 | Energy Area
+    Name: SetShield [24]
+    BulletId: 24
+    BulletSoundId: -1
+    Type: 1
+    TypeBullet: 3
+    BulletPrefab: {fileID: 114724804207875695, guid: 8aa9ccb72b550f541b12f5f00b919814, type: 2}
+  - BulletDescriptionName: OnFireExplodeBullet [25] | Id:25 | Energy Area
+    Name: OnFireExplodeBullet [25]
+    BulletId: 25
+    BulletSoundId: -1
+    Type: 1
+    TypeBullet: 3
+    BulletPrefab: {fileID: 114099118695303065, guid: f1d3c001f67c23447bf56ecb04d68201, type: 2}
+  - BulletDescriptionName: OnShockExplodeBullet [26] | Id:26 | Energy Area
+    Name: OnShockExplodeBullet [26]
+    BulletId: 26
+    BulletSoundId: -1
+    Type: 1
+    TypeBullet: 3
+    BulletPrefab: {fileID: 114243736805655561, guid: ba224399409839b468e207cd9a3ee08a, type: 2}
+  - BulletDescriptionName: OnKillWeakExplode [27] | Id:27 | Energy Area
+    Name: OnKillWeakExplode [27]
+    BulletId: 27
+    BulletSoundId: -1
+    Type: 1
+    TypeBullet: 3
+    BulletPrefab: {fileID: 114099118695303065, guid: 090f04f715b50b6459d569fa354d6eb5, type: 2}
+  - BulletDescriptionName: FragamentedBullet [28] | Id:28 | Physical Projectile
+    Name: FragamentedBullet [28]
+    BulletId: 28
+    BulletSoundId: -1
+    Type: 0
+    TypeBullet: 0
+    BulletPrefab: {fileID: 114243736805655561, guid: b57dca2fd3facbd4b897245f8319e63e, type: 2}
+  - BulletDescriptionName: FragamentedBulleLauncher [29] | Id:29 | Physical Projectile
+    Name: FragamentedBulleLauncher [29]
+    BulletId: 29
+    BulletSoundId: -1
+    Type: 0
+    TypeBullet: 0
+    BulletPrefab: {fileID: 114061268324235159, guid: 7b7c9f56a69e76f46b361e3eeae48e16, type: 2}
+  - BulletDescriptionName: FragamentedSmallBulle [30] | Id:30 | Physical Projectile
+    Name: FragamentedSmallBulle [30]
+    BulletId: 30
+    BulletSoundId: -1
+    Type: 0
+    TypeBullet: 0
+    BulletPrefab: {fileID: 114243736805655561, guid: 5813637dbf1bb7a43895882273dea0dd, type: 2}
+  - BulletDescriptionName: CutWaveBothSide [31] | Id:31 | Physical Area
+    Name: CutWaveBothSide [31]
+    BulletId: 31
+    BulletSoundId: -1
+    Type: 0
+    TypeBullet: 3
+    BulletPrefab: {fileID: 114884547391421755, guid: 8ab8d88a39ce21043846d4f294534107, type: 2}
+  - BulletDescriptionName: CutWaveBothSide [32] | Id:32 | Physical Area
+    Name: CutWaveBothSide [32]
+    BulletId: 32
+    BulletSoundId: -1
+    Type: 0
+    TypeBullet: 3
+    BulletPrefab: {fileID: 114587765826080250, guid: f2306479748224c489a04382c37b6436, type: 2}
+  - BulletDescriptionName: Laser beam [33] | Id:33 | Energy Beam
+    Name: Laser beam [33]
+    BulletId: 33
+    BulletSoundId: -1
+    Type: 1
+    TypeBullet: 2
+    BulletPrefab: {fileID: 114372920208702427, guid: a101f0a594c242f469dffd84c136fca7, type: 2}
+  - BulletDescriptionName: Laser beam blue [34] | Id:34 | Energy Beam
+    Name: Laser beam blue [34]
+    BulletId: 34
+    BulletSoundId: -1
+    Type: 1
+    TypeBullet: 2
+    BulletPrefab: {fileID: 114709867586078768, guid: 434b5471b4a65f048b9f5ba4c6ce0b25, type: 2}
+  - BulletDescriptionName: Damage around [35] | Id:35 | Energy Beam
+    Name: Damage around [35]
+    BulletId: 35
+    BulletSoundId: -1
+    Type: 1
+    TypeBullet: 2
+    BulletPrefab: {fileID: 114099118695303065, guid: 0e3ad59abe4ea334d9c4943c5bc1fc75, type: 2}
+  - BulletDescriptionName: Granade bullet [36] | Id:36 | Physical Projectile
+    Name: Granade bullet [36]
+    BulletId: 36
+    BulletSoundId: 5
+    Type: 0
+    TypeBullet: 0
+    BulletPrefab: {fileID: 114587765826080250, guid: a52953d4a334fe443a3ba299ad370793, type: 2}
+  - BulletDescriptionName: Laser sword [37] | Id:37 | Energy Area
+    Name: Laser sword [37]
+    BulletId: 37
+    BulletSoundId: 5
+    Type: 1
+    TypeBullet: 3
+    BulletPrefab: {fileID: 114621510681728303, guid: 1c87a6382fa296c49aabe037ec375649, type: 2}
+  - BulletDescriptionName: Fire step OnPlayer[38] | Id:38 | Energy Area
+    Name: Fire step OnPlayer[38]
+    BulletId: 38
+    BulletSoundId: -1
+    Type: 1
+    TypeBullet: 3
+    BulletPrefab: {fileID: 114724804207875695, guid: d4ac759bf7a23c442bc15584c11911a3, type: 2}
+  - BulletDescriptionName: Fire on ground [39] | Id:39 | Energy Area
+    Name: Fire on ground [39]
+    BulletId: 39
+    BulletSoundId: -1
+    Type: 1
+    TypeBullet: 3
+    BulletPrefab: {fileID: 114618682377417806, guid: cfddb52dbd44e8844a2ad417b63055cf, type: 2}
+  - BulletDescriptionName: Shotgun bullet [40] | Id:40 | Physical Projectile
+    Name: Shotgun bullet [40]
+    BulletId: 40
+    BulletSoundId: 2
+    Type: 0
+    TypeBullet: 0
+    BulletPrefab: {fileID: 114372920208702427, guid: 71be3a43bc5010a47948f90f45c03ae3, type: 2}
+  - BulletDescriptionName: Sky beam attack on position[41] | Id:41 | Energy Beam
+    Name: Sky beam attack on position[41]
+    BulletId: 41
+    BulletSoundId: -1
+    Type: 1
+    TypeBullet: 2
+    BulletPrefab: {fileID: 114025901758691103, guid: 3120fab4ba09fff4f9e4d61fbeb0cfbe, type: 2}
+  - BulletDescriptionName: MissingBullet [42] | Id:42 | Physical Missile
+    Name: MissingBullet [42]
+    BulletId: 42
+    BulletSoundId: 4
+    Type: 0
+    TypeBullet: 1
+    BulletPrefab: {fileID: 114044625135789424, guid: 69f4d0e457a5c57428cdc78bc721fe34, type: 2}
+  - BulletDescriptionName: Lighting chain red [43] | Id:43 | Energy Beam
+    Name: Lighting chain red [43]
+    BulletId: 43
+    BulletSoundId: 4
+    Type: 1
+    TypeBullet: 2
+    BulletPrefab: {fileID: 114618682377417806, guid: 1137e8e30e2b32c40aec7788c2bc09e7, type: 2}
+  - BulletDescriptionName: Boomerang [44] | Id:44 | Physical Projectile
+    Name: Boomerang [44]
+    BulletId: 44
+    BulletSoundId: 2
+    Type: 0
+    TypeBullet: 0
+    BulletPrefab: {fileID: 114044625135789424, guid: 5c7aa5cf753e4bf49a6fe6bfdb387138, type: 2}
+  - BulletDescriptionName: Lightning strike [45] | Id:45 | Energy Area
+    Name: Lightning strike [45]
+    BulletId: 45
+    BulletSoundId: -1
+    Type: 1
+    TypeBullet: 3
+    BulletPrefab: {fileID: 114044625135789424, guid: 3af55b39e01fd14488c3a2ad5f2aa1e8, type: 2}
+  - BulletDescriptionName: Massive ship attack [46] | Id:46 | Energy Beam
+    Name: Massive ship attack [46]
+    BulletId: 46
+    BulletSoundId: -1
+    Type: 1
+    TypeBullet: 2
+    BulletPrefab: {fileID: 114724804207875695, guid: 414a0f9b16ca0784383c2472e84e1fc8, type: 2}
+  - BulletDescriptionName: Railgun bullet [47] | Id:47 | Physical Projectile
+    Name: Railgun bullet [47]
+    BulletId: 47
+    BulletSoundId: 38
+    Type: 0
+    TypeBullet: 0
+    BulletPrefab: {fileID: 114099118695303065, guid: 8bae92fa46598114cbdff29159da36b0, type: 2}
+  - BulletDescriptionName: Pulse grenade [48] | Id:48 | Energy Area
+    Name: Pulse grenade [48]
+    BulletId: 48
+    BulletSoundId: -1
+    Type: 1
+    TypeBullet: 3
+    BulletPrefab: {fileID: 114372920208702427, guid: 2ba2dab261dd4694b801ede2a76f0a6b, type: 2}
+  - BulletDescriptionName: StandarExplodeBullet [49] | Id:49 | Physical Area
+    Name: StandarExplodeBullet [49]
+    BulletId: 49
+    BulletSoundId: -1
+    Type: 0
+    TypeBullet: 3
+    BulletPrefab: {fileID: 114243736805655561, guid: 91d3134080354a14a92ba605c2b1c09d, type: 2}
+  - BulletDescriptionName: StandarExplodeBullet2 [50] | Id:50 | Energy Area
+    Name: StandarExplodeBullet2 [50]
+    BulletId: 50
+    BulletSoundId: -1
+    Type: 1
+    TypeBullet: 3
+    BulletPrefab: {fileID: 114099118695303065, guid: 045166f4c4908464294b309847c2e227, type: 2}
+  - BulletDescriptionName: Contact mine [51] | Id:51 | Physical Area
+    Name: Contact mine [51]
+    BulletId: 51
+    BulletSoundId: -1
+    Type: 0
+    TypeBullet: 3
+    BulletPrefab: {fileID: 114884547391421755, guid: 72bb13221fc43b44692886f06e32c82c, type: 2}
+  - BulletDescriptionName: Dash mine [52] | Id:52 | Physical Area
+    Name: Dash mine [52]
+    BulletId: 52
+    BulletSoundId: -1
+    Type: 0
+    TypeBullet: 3
+    BulletPrefab: {fileID: 114884547391421755, guid: dc01bec6f36172147878339c24daadb7, type: 2}
+  - BulletDescriptionName: ExplosiveMissile red [53] | Id:53 | Physical Missile
+    Name: ExplosiveMissile red [53]
+    BulletId: 53
+    BulletSoundId: 4
+    Type: 0
+    TypeBullet: 1
+    BulletPrefab: {fileID: 114044625135789424, guid: dc0f4f233afc15e4a86c9e388ee8dbfe, type: 2}
+  - BulletDescriptionName: EnergyHeatSeekerRandom [3] | Id:54 | Energy Missile
+    Name: EnergyHeatSeekerRandom [3]
+    BulletId: 54
+    BulletSoundId: 4
+    Type: 1
+    TypeBullet: 1
+    BulletPrefab: {fileID: 114044625135789424, guid: ae65a1d3b8b89f84cb17a6e8233e6046, type: 2}
+  - BulletDescriptionName: Railgun bullet [55] | Id:55 | Physical Projectile
+    Name: Railgun bullet [55]
+    BulletId: 55
+    BulletSoundId: 38
+    Type: 0
+    TypeBullet: 0
+    BulletPrefab: {fileID: 114099118695303065, guid: b3a513f14b627dc46b155a56904046ff, type: 2}
+  - BulletDescriptionName: ExplosiveMissileEvolution [56] | Id:56 | Physical Missile
+    Name: ExplosiveMissileEvolution [56]
+    BulletId: 56
+    BulletSoundId: 4
+    Type: 0
+    TypeBullet: 1
+    BulletPrefab: {fileID: 114709867586078768, guid: 9fef8ee18e60cec43a6b00d874cd3149, type: 2}
+  - BulletDescriptionName: Flamethrower[57] | Id:57 | Energy Beam
+    Name: Flamethrower[57]
+    BulletId: 57
+    BulletSoundId: -1
+    Type: 1
+    TypeBullet: 2
+    BulletPrefab: {fileID: 114884547391421755, guid: eaac44cb1c1b29e499cc3cfc804ce75b, type: 2}
+  - BulletDescriptionName: Pulse grenade | Id:58 | Energy Area
+    Name: Pulse grenade
+    BulletId: 58
+    BulletSoundId: -1
+    Type: 1
+    TypeBullet: 3
+    BulletPrefab: {fileID: 114587765826080250, guid: 201acc438bf1995498b164b1e52ddb80, type: 2}
+  - BulletDescriptionName: Minigun bullet energy | Id:59 | Energy Projectile
+    Name: Minigun bullet energy
+    BulletId: 59
+    BulletSoundId: 2
+    Type: 1
+    TypeBullet: 0
+    BulletPrefab: {fileID: 114243736805655561, guid: b2f531c71565f3845830648e73df2707, type: 2}

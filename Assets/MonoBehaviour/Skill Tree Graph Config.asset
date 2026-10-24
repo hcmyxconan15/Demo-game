@@ -1,0 +1,434 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1b70581c46d4a64a71321079c033ee4, type: 3}
+  m_Name: Skill Tree Graph Config
+  m_EditorClassIdentifier:
+  PowerUpsDb: {fileID: 11400000, guid: fb8f9bee9450f304caae4d021c1314a1, type: 2}
+  NodeSpacing: 420
+  HorizontalSpacing: 400
+  VerticalSpacing: 400
+  Nodes:
+  - NodeId: 1a47b498a65c4c6c9345b2229784f4a3
+    ButtonIndex: 0
+    PowerUpId: 16
+    Position: {x: -200, y: 0}
+    IsLocked: 0
+    LockedLabel:
+  - NodeId: 19389621a4fb4eb7b99b47338c9b3e1c
+    ButtonIndex: 1
+    PowerUpId: 11
+    Position: {x: -200, y: -400}
+    IsLocked: 0
+    LockedLabel:
+  - NodeId: 42ee9565b6b84a66baff9cae1e139fef
+    ButtonIndex: 3
+    PowerUpId: 5
+    Position: {x: -600, y: 0}
+    IsLocked: 0
+    LockedLabel:
+  - NodeId: fae546d4182342f396cfadbeb8e1c31d
+    ButtonIndex: 4
+    PowerUpId: 6
+    Position: {x: 600, y: 383.3333}
+    IsLocked: 0
+    LockedLabel:
+  - NodeId: e35ec83a24084212a3efc6ebfa6aa05e
+    ButtonIndex: 5
+    PowerUpId: 3
+    Position: {x: 200, y: 16}
+    IsLocked: 0
+    LockedLabel:
+  - NodeId: 2add3abd058c4b978e05b44f44af03f9
+    ButtonIndex: 6
+    PowerUpId: 0
+    Position: {x: 200, y: 800}
+    IsLocked: 0
+    LockedLabel:
+  - NodeId: ceed0b6b680040c0b550673e5360510a
+    ButtonIndex: 7
+    PowerUpId: 1
+    Position: {x: -200, y: 1211.3333}
+    IsLocked: 0
+    LockedLabel:
+  - NodeId: 40482f1ebcc84bdfbdf0ec7cc1ea58ad
+    ButtonIndex: 8
+    PowerUpId: 2
+    Position: {x: -600, y: 383.3333}
+    IsLocked: 0
+    LockedLabel:
+  - NodeId: 2d76ee3528fe46d29147cb0f1b6aaf78
+    ButtonIndex: 9
+    PowerUpId: 13
+    Position: {x: 600, y: 16}
+    IsLocked: 0
+    LockedLabel:
+  - NodeId: 6a1c574421db47c097c2bb08d766b2e9
+    ButtonIndex: 10
+    PowerUpId: 10
+    Position: {x: 1000, y: 16}
+    IsLocked: 0
+    LockedLabel:
+  - NodeId: a7e5962e62624e71a8f1063989277ea8
+    ButtonIndex: 11
+    PowerUpId: 4
+    Position: {x: -1000, y: 0}
+    IsLocked: 0
+    LockedLabel:
+  - NodeId: 20a66df63710435a8a0dd7a544835f64
+    ButtonIndex: 12
+    PowerUpId: 12
+    Position: {x: -1000, y: 383.3333}
+    IsLocked: 0
+    LockedLabel:
+  - NodeId: aa54e2202abf48cd852afcc158c34825
+    ButtonIndex: 13
+    PowerUpId: 15
+    Position: {x: -1400, y: 0}
+    IsLocked: 0
+    LockedLabel:
+  - NodeId: f818e42c4ff24a3787b2311f6e585e21
+    ButtonIndex: 14
+    PowerUpId: 8
+    Position: {x: -1000, y: -400}
+    IsLocked: 0
+    LockedLabel:
+  - NodeId: 87ba3dc983b2424ca0976b8612fde58b
+    ButtonIndex: 15
+    PowerUpId: 9
+    Position: {x: -1837.3334, y: 0}
+    IsLocked: 0
+    LockedLabel:
+  - NodeId: 9758b6b24bdd4d668c1d92b20eb71db6
+    ButtonIndex: 16
+    PowerUpId: 7
+    Position: {x: -200, y: -800}
+    IsLocked: 0
+    LockedLabel:
+  - NodeId: ba22099aa2804e3bb8425f50cb717949
+    ButtonIndex: 17
+    PowerUpId: -1
+    Position: {x: -200, y: -1200}
+    IsLocked: 1
+    LockedLabel: Locked
+  - NodeId: 89c5d4ade7a6403e88df832c96344d6a
+    ButtonIndex: 18
+    PowerUpId: -1
+    Position: {x: -600, y: 1211.3333}
+    IsLocked: 1
+    LockedLabel: Locked
+  - NodeId: 4ff0cf4ac8d64313b4f7cabe87f1512e
+    ButtonIndex: 19
+    PowerUpId: -1
+    Position: {x: -1400, y: 800}
+    IsLocked: 1
+    LockedLabel: Locked
+  - NodeId: ecf8733c0d1d4cd49bec6da4d4a8b48e
+    ButtonIndex: 20
+    PowerUpId: -1
+    Position: {x: -1000, y: 800}
+    IsLocked: 1
+    LockedLabel: Locked
+  - NodeId: 0b621b3ab7954e67ac221bacd14d938a
+    ButtonIndex: 21
+    PowerUpId: -1
+    Position: {x: 200, y: -800}
+    IsLocked: 1
+    LockedLabel: Locked
+  - NodeId: 4d1de5d992bf46d3aaaf5e456255b152
+    ButtonIndex: 22
+    PowerUpId: -1
+    Position: {x: 1800, y: 383.3333}
+    IsLocked: 1
+    LockedLabel: Locked
+  - NodeId: 765e5b73271247128e64093cb3693d4f
+    ButtonIndex: 23
+    PowerUpId: -1
+    Position: {x: -1400, y: -400}
+    IsLocked: 1
+    LockedLabel: Locked
+  - NodeId: 37f97e9c589d4851a5a607f0020f7971
+    ButtonIndex: -1
+    PowerUpId: -1
+    Position: {x: 600, y: 800}
+    IsLocked: 1
+    LockedLabel: Locked
+  - NodeId: 907698b257c9494a8784a7e2532747f8
+    ButtonIndex: -1
+    PowerUpId: 17
+    Position: {x: 1400, y: 16}
+    IsLocked: 0
+    LockedLabel: Locked
+  - NodeId: 188c0a88fea040be8c277c6ed9bbcf3e
+    ButtonIndex: -1
+    PowerUpId: -1
+    Position: {x: 1800, y: 16}
+    IsLocked: 1
+    LockedLabel: Locked
+  - NodeId: 3afaf9c4620b41079c45aaf759c40f3d
+    ButtonIndex: -1
+    PowerUpId: -1
+    Position: {x: -2240, y: 0}
+    IsLocked: 1
+    LockedLabel: Locked
+  - NodeId: d7a850ce95ec4cedbc347d3a222bf44b
+    ButtonIndex: -1
+    PowerUpId: -1
+    Position: {x: 1400, y: -400}
+    IsLocked: 1
+    LockedLabel: Locked
+  - NodeId: 34b6140db46c47cb977f5d4a43794642
+    ButtonIndex: -1
+    PowerUpId: -1
+    Position: {x: -1000, y: -800}
+    IsLocked: 1
+    LockedLabel: Locked
+  - NodeId: d461e85f09894b2b8e6526e46cd4d151
+    ButtonIndex: -1
+    PowerUpId: 18
+    Position: {x: -200, y: 383.3333}
+    IsLocked: 0
+    LockedLabel: Locked
+  - NodeId: d3398c546c404f03a761e9b31eb00739
+    ButtonIndex: -1
+    PowerUpId: -1
+    Position: {x: 1000, y: 800}
+    IsLocked: 1
+    LockedLabel: Locked
+  - NodeId: 5642a9762ec94c4ea17cddde432bd514
+    ButtonIndex: -1
+    PowerUpId: 19
+    Position: {x: -1837.3334, y: 383.3333}
+    IsLocked: 0
+    LockedLabel: Locked
+  - NodeId: decd7abcf60b4eb1ada7d340fd29ab73
+    ButtonIndex: -1
+    PowerUpId: -1
+    Position: {x: -1837.3334, y: 800}
+    IsLocked: 1
+    LockedLabel: Locked
+  - NodeId: 248c4df5e6bf4928a41fbb144787b9ae
+    ButtonIndex: -1
+    PowerUpId: 20
+    Position: {x: 600, y: -400}
+    IsLocked: 0
+    LockedLabel: Locked
+  - NodeId: f0096de2c298441dafcb5d2821ebbe25
+    ButtonIndex: -1
+    PowerUpId: 21
+    Position: {x: 600, y: -800}
+    IsLocked: 0
+    LockedLabel: Locked
+  - NodeId: c693da8f859e4acf814bf3740f2ac2ec
+    ButtonIndex: -1
+    PowerUpId: -1
+    Position: {x: 600, y: -1200}
+    IsLocked: 1
+    LockedLabel: Locked
+  - NodeId: 620158d94ac84454b594cc328a2b805c
+    ButtonIndex: -1
+    PowerUpId: 22
+    Position: {x: 1000, y: -400}
+    IsLocked: 0
+    LockedLabel: Locked
+  - NodeId: 483ef6454a7d4d0c8a562092df2bdde4
+    ButtonIndex: -1
+    PowerUpId: 23
+    Position: {x: -600, y: -400}
+    IsLocked: 0
+    LockedLabel: Locked
+  - NodeId: e045072feed548859fca1fcd2d9ea72c
+    ButtonIndex: -1
+    PowerUpId: 24
+    Position: {x: 200, y: -400}
+    IsLocked: 0
+    LockedLabel: Locked
+  - NodeId: c744af4da4704378b57d2b8850a781f1
+    ButtonIndex: -1
+    PowerUpId: 25
+    Position: {x: -200, y: 800}
+    IsLocked: 0
+    LockedLabel: Locked
+  - NodeId: f0260728f3d24e6e9b2d384da3f0df64
+    ButtonIndex: -1
+    PowerUpId: -1
+    Position: {x: 200, y: 1211.3333}
+    IsLocked: 1
+    LockedLabel: Locked
+  - NodeId: 893e899161994bf19285853693b2bfa6
+    ButtonIndex: -1
+    PowerUpId: -1
+    Position: {x: -200, y: 1628.6666}
+    IsLocked: 1
+    LockedLabel: Locked
+  - NodeId: 9c190e2e0f604c3ca294ceac064a18ba
+    ButtonIndex: -1
+    PowerUpId: -1
+    Position: {x: -1837.3334, y: -400}
+    IsLocked: 1
+    LockedLabel: Locked
+  - NodeId: 4f8d218f42d04fc98e313e6c011ac559
+    ButtonIndex: -1
+    PowerUpId: -1
+    Position: {x: 1000, y: -800}
+    IsLocked: 1
+    LockedLabel: Locked
+  - NodeId: 1e19afdd49554e8f97932db60b7e0bd4
+    ButtonIndex: -1
+    PowerUpId: -1
+    Position: {x: -600, y: -1462}
+    IsLocked: 1
+    LockedLabel: Locked
+  - NodeId: 9cd4f67501344b9dbfb3bf5eb7e2cad5
+    ButtonIndex: -1
+    PowerUpId: 26
+    Position: {x: -600, y: 800}
+    IsLocked: 0
+    LockedLabel: Locked
+  - NodeId: 21f35b9172de4d96bac1204cde414432
+    ButtonIndex: -1
+    PowerUpId: 27
+    Position: {x: 1000, y: 383.3333}
+    IsLocked: 1
+    LockedLabel: Locked
+  - NodeId: 22bf120f903541f594e12200e5c374ae
+    ButtonIndex: -1
+    PowerUpId: 28
+    Position: {x: 1384.6666, y: 383.3333}
+    IsLocked: 1
+    LockedLabel: Locked
+  - NodeId: 569687b89bfc43e6bb9aed05fb972b15
+    ButtonIndex: -1
+    PowerUpId: 14
+    Position: {x: -1400, y: 383.3333}
+    IsLocked: 0
+    LockedLabel: Locked
+  - NodeId: 38abd4cc3a3a4e99bcd472941e23bd20
+    ButtonIndex: -1
+    PowerUpId: 29
+    Position: {x: -600, y: -800}
+    IsLocked: 1
+    LockedLabel: Locked
+  - NodeId: 98658fea4aa348f9b69a6abed5431d35
+    ButtonIndex: -1
+    PowerUpId: 30
+    Position: {x: -600, y: -1200}
+    IsLocked: 1
+    LockedLabel: Locked
+  - NodeId: 0b1e0175563f47efaac70e99a363ac80
+    ButtonIndex: -1
+    PowerUpId: 31
+    Position: {x: 200, y: 383.3333}
+    IsLocked: 0
+    LockedLabel: Locked
+  Edges:
+  - PrerequisiteNodeId: 1a47b498a65c4c6c9345b2229784f4a3
+    TargetNodeId: 19389621a4fb4eb7b99b47338c9b3e1c
+  - PrerequisiteNodeId: 1a47b498a65c4c6c9345b2229784f4a3
+    TargetNodeId: 42ee9565b6b84a66baff9cae1e139fef
+  - PrerequisiteNodeId: 42ee9565b6b84a66baff9cae1e139fef
+    TargetNodeId: a7e5962e62624e71a8f1063989277ea8
+  - PrerequisiteNodeId: a7e5962e62624e71a8f1063989277ea8
+    TargetNodeId: 20a66df63710435a8a0dd7a544835f64
+  - PrerequisiteNodeId: a7e5962e62624e71a8f1063989277ea8
+    TargetNodeId: aa54e2202abf48cd852afcc158c34825
+  - PrerequisiteNodeId: a7e5962e62624e71a8f1063989277ea8
+    TargetNodeId: f818e42c4ff24a3787b2311f6e585e21
+  - PrerequisiteNodeId: aa54e2202abf48cd852afcc158c34825
+    TargetNodeId: 87ba3dc983b2424ca0976b8612fde58b
+  - PrerequisiteNodeId: 19389621a4fb4eb7b99b47338c9b3e1c
+    TargetNodeId: 9758b6b24bdd4d668c1d92b20eb71db6
+  - PrerequisiteNodeId: 9758b6b24bdd4d668c1d92b20eb71db6
+    TargetNodeId: ba22099aa2804e3bb8425f50cb717949
+  - PrerequisiteNodeId: 20a66df63710435a8a0dd7a544835f64
+    TargetNodeId: ecf8733c0d1d4cd49bec6da4d4a8b48e
+  - PrerequisiteNodeId: e35ec83a24084212a3efc6ebfa6aa05e
+    TargetNodeId: 2d76ee3528fe46d29147cb0f1b6aaf78
+  - PrerequisiteNodeId: 6a1c574421db47c097c2bb08d766b2e9
+    TargetNodeId: 907698b257c9494a8784a7e2532747f8
+  - PrerequisiteNodeId: 907698b257c9494a8784a7e2532747f8
+    TargetNodeId: 188c0a88fea040be8c277c6ed9bbcf3e
+  - PrerequisiteNodeId: aa54e2202abf48cd852afcc158c34825
+    TargetNodeId: 765e5b73271247128e64093cb3693d4f
+  - PrerequisiteNodeId: 87ba3dc983b2424ca0976b8612fde58b
+    TargetNodeId: 3afaf9c4620b41079c45aaf759c40f3d
+  - PrerequisiteNodeId: 907698b257c9494a8784a7e2532747f8
+    TargetNodeId: d7a850ce95ec4cedbc347d3a222bf44b
+  - PrerequisiteNodeId: f818e42c4ff24a3787b2311f6e585e21
+    TargetNodeId: 34b6140db46c47cb977f5d4a43794642
+  - PrerequisiteNodeId: 87ba3dc983b2424ca0976b8612fde58b
+    TargetNodeId: 5642a9762ec94c4ea17cddde432bd514
+  - PrerequisiteNodeId: 5642a9762ec94c4ea17cddde432bd514
+    TargetNodeId: decd7abcf60b4eb1ada7d340fd29ab73
+  - PrerequisiteNodeId: 248c4df5e6bf4928a41fbb144787b9ae
+    TargetNodeId: f0096de2c298441dafcb5d2821ebbe25
+  - PrerequisiteNodeId: f0096de2c298441dafcb5d2821ebbe25
+    TargetNodeId: c693da8f859e4acf814bf3740f2ac2ec
+  - PrerequisiteNodeId: 6a1c574421db47c097c2bb08d766b2e9
+    TargetNodeId: 620158d94ac84454b594cc328a2b805c
+  - PrerequisiteNodeId: 42ee9565b6b84a66baff9cae1e139fef
+    TargetNodeId: 483ef6454a7d4d0c8a562092df2bdde4
+  - PrerequisiteNodeId: e045072feed548859fca1fcd2d9ea72c
+    TargetNodeId: 0b621b3ab7954e67ac221bacd14d938a
+  - PrerequisiteNodeId: 2add3abd058c4b978e05b44f44af03f9
+    TargetNodeId: f0260728f3d24e6e9b2d384da3f0df64
+  - PrerequisiteNodeId: 87ba3dc983b2424ca0976b8612fde58b
+    TargetNodeId: 9c190e2e0f604c3ca294ceac064a18ba
+  - PrerequisiteNodeId: 620158d94ac84454b594cc328a2b805c
+    TargetNodeId: 4f8d218f42d04fc98e313e6c011ac559
+  - PrerequisiteNodeId: 9cd4f67501344b9dbfb3bf5eb7e2cad5
+    TargetNodeId: 89c5d4ade7a6403e88df832c96344d6a
+  - PrerequisiteNodeId: 21f35b9172de4d96bac1204cde414432
+    TargetNodeId: 22bf120f903541f594e12200e5c374ae
+  - PrerequisiteNodeId: 21f35b9172de4d96bac1204cde414432
+    TargetNodeId: d3398c546c404f03a761e9b31eb00739
+  - PrerequisiteNodeId: 22bf120f903541f594e12200e5c374ae
+    TargetNodeId: 4d1de5d992bf46d3aaaf5e456255b152
+  - PrerequisiteNodeId: 6a1c574421db47c097c2bb08d766b2e9
+    TargetNodeId: 21f35b9172de4d96bac1204cde414432
+  - PrerequisiteNodeId: aa54e2202abf48cd852afcc158c34825
+    TargetNodeId: 569687b89bfc43e6bb9aed05fb972b15
+  - PrerequisiteNodeId: 569687b89bfc43e6bb9aed05fb972b15
+    TargetNodeId: 4ff0cf4ac8d64313b4f7cabe87f1512e
+  - PrerequisiteNodeId: 9758b6b24bdd4d668c1d92b20eb71db6
+    TargetNodeId: 38abd4cc3a3a4e99bcd472941e23bd20
+  - PrerequisiteNodeId: 38abd4cc3a3a4e99bcd472941e23bd20
+    TargetNodeId: 98658fea4aa348f9b69a6abed5431d35
+  - PrerequisiteNodeId: 98658fea4aa348f9b69a6abed5431d35
+    TargetNodeId: 1e19afdd49554e8f97932db60b7e0bd4
+  - PrerequisiteNodeId: 2d76ee3528fe46d29147cb0f1b6aaf78
+    TargetNodeId: 6a1c574421db47c097c2bb08d766b2e9
+  - PrerequisiteNodeId: e35ec83a24084212a3efc6ebfa6aa05e
+    TargetNodeId: e045072feed548859fca1fcd2d9ea72c
+  - PrerequisiteNodeId: fae546d4182342f396cfadbeb8e1c31d
+    TargetNodeId: 37f97e9c589d4851a5a607f0020f7971
+  - PrerequisiteNodeId: 2d76ee3528fe46d29147cb0f1b6aaf78
+    TargetNodeId: 248c4df5e6bf4928a41fbb144787b9ae
+  - PrerequisiteNodeId: 1a47b498a65c4c6c9345b2229784f4a3
+    TargetNodeId: e35ec83a24084212a3efc6ebfa6aa05e
+  - PrerequisiteNodeId: 0b1e0175563f47efaac70e99a363ac80
+    TargetNodeId: fae546d4182342f396cfadbeb8e1c31d
+  - PrerequisiteNodeId: ceed0b6b680040c0b550673e5360510a
+    TargetNodeId: 893e899161994bf19285853693b2bfa6
+  - PrerequisiteNodeId: c744af4da4704378b57d2b8850a781f1
+    TargetNodeId: 9cd4f67501344b9dbfb3bf5eb7e2cad5
+  - PrerequisiteNodeId: d461e85f09894b2b8e6526e46cd4d151
+    TargetNodeId: c744af4da4704378b57d2b8850a781f1
+  - PrerequisiteNodeId: c744af4da4704378b57d2b8850a781f1
+    TargetNodeId: 2add3abd058c4b978e05b44f44af03f9
+  - PrerequisiteNodeId: c744af4da4704378b57d2b8850a781f1
+    TargetNodeId: ceed0b6b680040c0b550673e5360510a
+  - PrerequisiteNodeId: 1a47b498a65c4c6c9345b2229784f4a3
+    TargetNodeId: d461e85f09894b2b8e6526e46cd4d151
+  - PrerequisiteNodeId: d461e85f09894b2b8e6526e46cd4d151
+    TargetNodeId: 0b1e0175563f47efaac70e99a363ac80
+  - PrerequisiteNodeId: d461e85f09894b2b8e6526e46cd4d151
+    TargetNodeId: 40482f1ebcc84bdfbdf0ec7cc1ea58ad

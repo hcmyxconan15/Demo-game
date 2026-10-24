@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 248c1e5302dec319ccbf815b9aa8c5bf, type: 3}
+  m_Name: SpawnPartsDB
+  m_EditorClassIdentifier:
+  Parts:
+  - {fileID: 114470112387431263, guid: 2eb7a8040911a2141a5d632de4c28e90, type: 2}
+  - {fileID: 114470112387431263, guid: 2eb7a8040911a2141a5d632de4c28e90, type: 2}
+  - {fileID: 114589667821646929, guid: 8080466e7cc768d4b977bde1fc5d21d7, type: 2}
+  - {fileID: 114587765826080250, guid: 5644566b6b791574aa08d7980023bafb, type: 2}
+  - {fileID: 114025901758691103, guid: 8635c954853c6d74a9dc238f85cfa96d, type: 2}
+  - {fileID: 114372920208702427, guid: a5f4603a12678364d93570c04c47349c, type: 2}
+  - {fileID: 114918264173551851, guid: cc7c09655c4eb7d4f8b88a9f149aab22, type: 2}
+  - {fileID: 114918264173551851, guid: a19079fe416c61e4bb57e5d4e53aee68, type: 2}
+  - {fileID: 114470112387431263, guid: 2eb7a8040911a2141a5d632de4c28e90, type: 2}
+  - {fileID: 114470112387431263, guid: 2eb7a8040911a2141a5d632de4c28e90, type: 2}
+  - {fileID: 114632457200066912, guid: b60c8204225384e4ca26d86c7878f10a, type: 2}
+  - {fileID: 114709867586078768, guid: 2ef731989186bae45a2d4bc9632a75b3, type: 2}
+  - {fileID: 114587765826080250, guid: 11a766f12b42fd14f98ab691d9939bc6, type: 2}
+  - {fileID: 114985305603660343, guid: e0bb2d0ff85ef9147b3dd3dd73b0ad46, type: 2}
+  - {fileID: 114709867586078768, guid: c3974f575fa8fb146a5ff08d47733450, type: 2}
+  - {fileID: 114587765826080250, guid: 04a4fcca4972bdc42ac0826ae6b69a63, type: 2}
+  - {fileID: 114587397909062814, guid: 4beaf65e7c4cb4d4684b5f7187f92495, type: 2}
+  - {fileID: 114470112387431263, guid: 2eb7a8040911a2141a5d632de4c28e90, type: 2}
+  - {fileID: 114470112387431263, guid: 2eb7a8040911a2141a5d632de4c28e90, type: 2}
+  - {fileID: 114470112387431263, guid: 2eb7a8040911a2141a5d632de4c28e90, type: 2}
+  - {fileID: 114470112387431263, guid: 2eb7a8040911a2141a5d632de4c28e90, type: 2}
+  - {fileID: 114470112387431263, guid: 2eb7a8040911a2141a5d632de4c28e90, type: 2}
+  - {fileID: 114470112387431263, guid: 2eb7a8040911a2141a5d632de4c28e90, type: 2}

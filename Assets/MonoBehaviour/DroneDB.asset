@@ -1,0 +1,123 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32959a5f98c6505f2383eb668ef01fef, type: 3}
+  m_Name: DroneDB
+  m_EditorClassIdentifier:
+  Drones:
+  - DroneDescriptionName: Drone_Gatling Cannon | Id:0 | Combat | Weapon:0 | Max Lv:5 DupEvery:3
+    DroneName: Drone_Gatling Cannon
+    Role: 0
+    NotInclude: 0
+    NotAvailable: 1
+    NotFoundByLevelUp: 0
+    Icon: {fileID: 21300000, guid: 052bbbe146f3c8c4e8c74d0a0ef1b16a, type: 2}
+    DroneId: 0
+    DroneWeaponId: 0
+    DroneMaxLevel: 5
+    DuplicateEveryNLevels: 3
+    CollectRadius: 8
+    CollectPreferMinRadius: 5
+    CollectCapacity: 5
+    BasePrice: 100
+    UnlockPrice: 30
+    DronePrefab: {fileID: 114026196548002408, guid: c4f7944a570e4384eaef5e5f37aa277f, type: 2}
+    Archetypes: 03000000
+  - DroneDescriptionName: Drone_Laser | Id:1 | Combat | Weapon:1 | Max Lv:5 DupEvery:3
+    DroneName: Drone_Laser
+    Role: 0
+    NotInclude: 0
+    NotAvailable: 1
+    NotFoundByLevelUp: 1
+    Icon: {fileID: 21300000, guid: 17fb66f6d7852834c82ce7ef53e7512a, type: 2}
+    DroneId: 1
+    DroneWeaponId: 1
+    DroneMaxLevel: 5
+    DuplicateEveryNLevels: 3
+    CollectRadius: 8
+    CollectPreferMinRadius: 5
+    CollectCapacity: 5
+    BasePrice: 100
+    UnlockPrice: 30
+    DronePrefab: {fileID: 114094320201520353, guid: a43efe81e0c86d944979625c2a270131, type: 2}
+    Archetypes: 03000000
+  - DroneDescriptionName: Shotgun drone | Id:2 | Combat | Weapon:3 | Max Lv:5 DupEvery:3
+    DroneName: Shotgun drone
+    Role: 0
+    NotInclude: 0
+    NotAvailable: 1
+    NotFoundByLevelUp: 0
+    Icon: {fileID: 21300000, guid: 7e2ac5198fbdce640a793fb1ba12866a, type: 2}
+    DroneId: 2
+    DroneWeaponId: 3
+    DroneMaxLevel: 5
+    DuplicateEveryNLevels: 3
+    CollectRadius: 8
+    CollectPreferMinRadius: 5
+    CollectCapacity: 5
+    BasePrice: 100
+    UnlockPrice: 30
+    DronePrefab: {fileID: 114149520701623706, guid: 44a5c6b567c0d7a4aba513914683e4ca, type: 2}
+    Archetypes: 03000000
+  - DroneDescriptionName: Missile drone | Id:3 | Combat | Weapon:2 | Max Lv:5 DupEvery:3
+    DroneName: Missile drone
+    Role: 0
+    NotInclude: 0
+    NotAvailable: 0
+    NotFoundByLevelUp: 0
+    Icon: {fileID: 21300000, guid: 4f226b02c0c269c49af222d1d3921ebb, type: 2}
+    DroneId: 3
+    DroneWeaponId: 2
+    DroneMaxLevel: 5
+    DuplicateEveryNLevels: 3
+    CollectRadius: 8
+    CollectPreferMinRadius: 5
+    CollectCapacity: 5
+    BasePrice: 100
+    UnlockPrice: 30
+    DronePrefab: {fileID: 114094320201520353, guid: 80e0885c7e9c3fa49b329ea4780ba0f9, type: 2}
+    Archetypes: 03000000
+  - DroneDescriptionName: Flamethrower drone | Id:4 | Combat | Weapon:4 | Max Lv:5 DupEvery:3
+    DroneName: Flamethrower drone
+    Role: 0
+    NotInclude: 0
+    NotAvailable: 0
+    NotFoundByLevelUp: 0
+    Icon: {fileID: 21300000, guid: 3856216046103464faec18aaf3566648, type: 2}
+    DroneId: 4
+    DroneWeaponId: 4
+    DroneMaxLevel: 5
+    DuplicateEveryNLevels: 3
+    CollectRadius: 8
+    CollectPreferMinRadius: 5
+    CollectCapacity: 5
+    BasePrice: 100
+    UnlockPrice: 30
+    DronePrefab: {fileID: 114026196548002408, guid: 7dda93b6e30551344ba02388d4908928, type: 2}
+    Archetypes: 03000000
+  - DroneDescriptionName: Collector drone | Id:5 | Collector | Radius:15-30 Cap:5 | Max Lv:5 DupEvery:1
+    DroneName: Collector drone
+    Role: 1
+    NotInclude: 0
+    NotAvailable: 0
+    NotFoundByLevelUp: 0
+    Icon: {fileID: 21300000, guid: b64b0f0eaf4dff9458d848bdf51e0f9f, type: 2}
+    DroneId: 5
+    DroneWeaponId: -1
+    DroneMaxLevel: 5
+    DuplicateEveryNLevels: 1
+    CollectRadius: 30
+    CollectPreferMinRadius: 15
+    CollectCapacity: 5
+    BasePrice: 100
+    UnlockPrice: 30
+    DronePrefab: {fileID: 114651560128206891, guid: 917c458349e1c00429c7304d275b90c8, type: 2}
+    Archetypes: 03000000

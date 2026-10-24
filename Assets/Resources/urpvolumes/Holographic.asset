@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7fd9488000d3734a9e00ee676215985, type: 3}
+  m_Name: Holographic
+  m_EditorClassIdentifier:
+  components:
+  - {fileID: 11400000, guid: ac70c3ad452944f49b165264831a0d84, type: 2}
+  - {fileID: 11400000, guid: f07c136f877a74d46b7c1eb72aa2010c, type: 2}
+  - {fileID: 11400000, guid: 50f55fb30981c31499e6f49e919b38e7, type: 2}
+  - {fileID: 11400000, guid: c7421fa60172c954ebcf02675452ee0c, type: 2}
+  - {fileID: 11400000, guid: 9ebd9cb0abc45724bb8b51e86519133e, type: 2}
+  - {fileID: 11400000, guid: 95b16a83fc111f44fbf77d5a9fbf080b, type: 2}
+  - {fileID: 11400000, guid: 3faa6473396f85e47988f7f803baf704, type: 2}

@@ -1,0 +1,6931 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!2058629509 &2058629509
+VisualEffectAsset:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: LS_Chain_100perStrip50perBranchedStrip
+  m_Infos:
+    m_RendererSettings:
+      motionVectorGenerationMode: 0
+      shadowCastingMode: 0
+    m_CullingFlags: 3
+    m_UpdateMode: 0
+    m_PreWarmDeltaTime: 0.05
+    m_PreWarmStepCount: 0
+    m_InitialEventName: OnPlay
+    m_InstancingMode: -1
+    m_InstancingCapacity: 64
+    m_Expressions:
+      m_Expressions:
+      - op: 1
+        dataType: 1
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 3
+        valueIndex: 0
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 1
+      - op: 1
+        dataType: 5
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 4
+        valueIndex: 1
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 5
+      - op: 33
+        dataType: 6
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 101
+        valueIndex: 2
+        data[0]: 1
+        data[1]: -1
+        data[2]: -1
+        data[3]: -1
+      - op: 1
+        dataType: 8
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 3
+        valueIndex: 3
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 8
+      - op: 141
+        dataType: 6
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 425
+        valueIndex: 4
+        data[0]: 3
+        data[1]: -1
+        data[2]: -1
+        data[3]: -1
+      - op: 140
+        dataType: 6
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 422
+        valueIndex: 5
+        data[0]: 3
+        data[1]: -1
+        data[2]: -1
+        data[3]: -1
+      - op: 16
+        dataType: 6
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 50
+        valueIndex: 6
+        data[0]: 4
+        data[1]: 5
+        data[2]: -1
+        data[3]: 6
+      - op: 1
+        dataType: 6
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 5
+        valueIndex: 7
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 6
+      - op: 1
+        dataType: 6
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 5
+        valueIndex: 8
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 6
+      - op: 20
+        dataType: 6
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 62
+        valueIndex: 9
+        data[0]: 6
+        data[1]: 7
+        data[2]: -1
+        data[3]: 6
+      - op: 21
+        dataType: 6
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 65
+        valueIndex: 10
+        data[0]: 9
+        data[1]: 8
+        data[2]: -1
+        data[3]: 6
+      - op: 1
+        dataType: 6
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 5
+        valueIndex: 11
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 6
+      - op: 55
+        dataType: 6
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 167
+        valueIndex: 12
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: -1
+      - op: 1
+        dataType: 6
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 5
+        valueIndex: 13
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 6
+      - op: 1
+        dataType: 6
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 5
+        valueIndex: 14
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 6
+      - op: 1
+        dataType: 6
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 5
+        valueIndex: 15
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 6
+      - op: 1
+        dataType: 6
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 5
+        valueIndex: 16
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 6
+      - op: 28
+        dataType: 6
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 86
+        valueIndex: 17
+        data[0]: 11
+        data[1]: 12
+        data[2]: -1
+        data[3]: 6
+      - op: 28
+        dataType: 6
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 86
+        valueIndex: 18
+        data[0]: 8
+        data[1]: 12
+        data[2]: -1
+        data[3]: 6
+      - op: 28
+        dataType: 6
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 86
+        valueIndex: 19
+        data[0]: 13
+        data[1]: 12
+        data[2]: -1
+        data[3]: 6
+      - op: 28
+        dataType: 6
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 86
+        valueIndex: 20
+        data[0]: 14
+        data[1]: 12
+        data[2]: -1
+        data[3]: 6
+      - op: 28
+        dataType: 6
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 86
+        valueIndex: 21
+        data[0]: 15
+        data[1]: 12
+        data[2]: -1
+        data[3]: 6
+      - op: 28
+        dataType: 6
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 86
+        valueIndex: 22
+        data[0]: 16
+        data[1]: 12
+        data[2]: -1
+        data[3]: 6
+      - op: 1
+        dataType: 1
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 3
+        valueIndex: 23
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 1
+      - op: 1
+        dataType: 5
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 4
+        valueIndex: 24
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 5
+      - op: 1
+        dataType: 1
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 3
+        valueIndex: 25
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 1
+      - op: 31
+        dataType: 1
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 93
+        valueIndex: 26
+        data[0]: 24
+        data[1]: -1
+        data[2]: -1
+        data[3]: -1
+      - op: 1
+        dataType: 1
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 3
+        valueIndex: 27
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 1
+      - op: 1
+        dataType: 1
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 3
+        valueIndex: 28
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 1
+      - op: 1
+        dataType: 1
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 3
+        valueIndex: 29
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 1
+      - op: 1
+        dataType: 1
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 3
+        valueIndex: 30
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 1
+      - op: 1
+        dataType: 1
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 3
+        valueIndex: 31
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 1
+      - op: 1
+        dataType: 1
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 3
+        valueIndex: 32
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 1
+      - op: 1
+        dataType: 1
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 3
+        valueIndex: 33
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 1
+      - op: 1
+        dataType: 1
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 3
+        valueIndex: 34
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 1
+      - op: 1
+        dataType: 1
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 3
+        valueIndex: 35
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 1
+      - op: 1
+        dataType: 1
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 3
+        valueIndex: 36
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 1
+      - op: 16
+        dataType: 1
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 48
+        valueIndex: 37
+        data[0]: 30
+        data[1]: 29
+        data[2]: -1
+        data[3]: 1
+      - op: 1
+        dataType: 15
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 3
+        valueIndex: 38
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 15
+      - op: 1
+        dataType: 15
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 3
+        valueIndex: 39
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 15
+      - op: 1
+        dataType: 1
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 3
+        valueIndex: 40
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 1
+      - op: 17
+        dataType: 1
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 51
+        valueIndex: 41
+        data[0]: 34
+        data[1]: 33
+        data[2]: -1
+        data[3]: 1
+      - op: 1
+        dataType: 1
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 3
+        valueIndex: 42
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 1
+      - op: 17
+        dataType: 1
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 51
+        valueIndex: 43
+        data[0]: 32
+        data[1]: 37
+        data[2]: -1
+        data[3]: 1
+      - op: 1
+        dataType: 1
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 3
+        valueIndex: 44
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 1
+      - op: 1
+        dataType: 15
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 3
+        valueIndex: 45
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 15
+      - op: 1
+        dataType: 19
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 5
+        valueIndex: 46
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 19
+      - op: 101
+        dataType: 4
+        dataSize: 4
+        scalarSwitchCase: 0
+        jmpCode: 303
+        valueIndex: 47
+        data[0]: 38
+        data[1]: -1
+        data[2]: -1
+        data[3]: 3
+      - op: 101
+        dataType: 4
+        dataSize: 4
+        scalarSwitchCase: 0
+        jmpCode: 303
+        valueIndex: 51
+        data[0]: 39
+        data[1]: -1
+        data[2]: -1
+        data[3]: 4
+      - op: 16
+        dataType: 1
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 48
+        valueIndex: 55
+        data[0]: 43
+        data[1]: 44
+        data[2]: -1
+        data[3]: 1
+      - op: 1
+        dataType: 3
+        dataSize: 3
+        scalarSwitchCase: 0
+        jmpCode: 3
+        valueIndex: 56
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 3
+      - op: 47
+        dataType: 6
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 143
+        valueIndex: 59
+        data[0]: 46
+        data[1]: 11
+        data[2]: 8
+        data[3]: 6
+      - op: 105
+        dataType: 14
+        dataSize: 16
+        scalarSwitchCase: 0
+        jmpCode: 315
+        valueIndex: 60
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: -1
+      - op: 101
+        dataType: 4
+        dataSize: 4
+        scalarSwitchCase: 0
+        jmpCode: 303
+        valueIndex: 76
+        data[0]: 45
+        data[1]: -1
+        data[2]: -1
+        data[3]: 5
+      - op: 1
+        dataType: 3
+        dataSize: 3
+        scalarSwitchCase: 0
+        jmpCode: 3
+        valueIndex: 80
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 3
+      - op: 1
+        dataType: 5
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 4
+        valueIndex: 83
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 5
+      - op: 1
+        dataType: 1
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 3
+        valueIndex: 84
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 1
+      - op: 43
+        dataType: 3
+        dataSize: 3
+        scalarSwitchCase: 1
+        jmpCode: 129
+        valueIndex: 85
+        data[0]: 55
+        data[1]: 0
+        data[2]: 23
+        data[3]: -1
+      - op: 1
+        dataType: 15
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 3
+        valueIndex: 88
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 15
+      - op: 1
+        dataType: 1
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 3
+        valueIndex: 89
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 1
+      - op: 1
+        dataType: 16
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 3
+        valueIndex: 90
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 16
+      - op: 1
+        dataType: 19
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 5
+        valueIndex: 91
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 19
+      - op: 56
+        dataType: 14
+        dataSize: 16
+        scalarSwitchCase: 0
+        jmpCode: 168
+        valueIndex: 92
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: -1
+      - op: 18
+        dataType: 6
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 56
+        valueIndex: 108
+        data[0]: 2
+        data[1]: 59
+        data[2]: -1
+        data[3]: 6
+      - op: 74
+        dataType: 3
+        dataSize: 3
+        scalarSwitchCase: 0
+        jmpCode: 222
+        valueIndex: 109
+        data[0]: 60
+        data[1]: -1
+        data[2]: -1
+        data[3]: -1
+      - op: 1
+        dataType: 1
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 3
+        valueIndex: 112
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 1
+      - op: 1
+        dataType: 1
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 3
+        valueIndex: 113
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 1
+      - op: 1
+        dataType: 1
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 3
+        valueIndex: 114
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 1
+      - op: 1
+        dataType: 15
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 3
+        valueIndex: 115
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 15
+      - op: 1
+        dataType: 15
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 3
+        valueIndex: 116
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 15
+      - op: 1
+        dataType: 1
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 3
+        valueIndex: 117
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 1
+      - op: 1
+        dataType: 15
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 3
+        valueIndex: 118
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 15
+      - op: 74
+        dataType: 3
+        dataSize: 3
+        scalarSwitchCase: 0
+        jmpCode: 222
+        valueIndex: 119
+        data[0]: 92
+        data[1]: -1
+        data[2]: -1
+        data[3]: -1
+      - op: 101
+        dataType: 4
+        dataSize: 4
+        scalarSwitchCase: 0
+        jmpCode: 303
+        valueIndex: 122
+        data[0]: 88
+        data[1]: -1
+        data[2]: -1
+        data[3]: 6
+      - op: 102
+        dataType: 3
+        dataSize: 3
+        scalarSwitchCase: 0
+        jmpCode: 306
+        valueIndex: 126
+        data[0]: 90
+        data[1]: -1
+        data[2]: -1
+        data[3]: 1
+      - op: 1
+        dataType: 1
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 3
+        valueIndex: 129
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 1
+      - op: 1
+        dataType: 15
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 3
+        valueIndex: 130
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 15
+      - op: 1
+        dataType: 19
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 5
+        valueIndex: 131
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 19
+      - op: 1
+        dataType: 19
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 5
+        valueIndex: 132
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 19
+      - op: 1
+        dataType: 15
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 3
+        valueIndex: 133
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 15
+      - op: 101
+        dataType: 4
+        dataSize: 4
+        scalarSwitchCase: 0
+        jmpCode: 303
+        valueIndex: 134
+        data[0]: 115
+        data[1]: -1
+        data[2]: -1
+        data[3]: 7
+      - op: 88
+        dataType: 1
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 264
+        valueIndex: 138
+        data[0]: 118
+        data[1]: 32
+        data[2]: -1
+        data[3]: -1
+      - op: 101
+        dataType: 4
+        dataSize: 4
+        scalarSwitchCase: 0
+        jmpCode: 303
+        valueIndex: 139
+        data[0]: 116
+        data[1]: -1
+        data[2]: -1
+        data[3]: 8
+      - op: 1
+        dataType: 15
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 3
+        valueIndex: 143
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 15
+      - op: 1
+        dataType: 5
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 4
+        valueIndex: 144
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 5
+      - op: 1
+        dataType: 15
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 3
+        valueIndex: 145
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 15
+      - op: 1
+        dataType: 8
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 3
+        valueIndex: 146
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 8
+      - op: 1
+        dataType: 1
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 3
+        valueIndex: 147
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 1
+      - op: 42
+        dataType: 2
+        dataSize: 2
+        scalarSwitchCase: 1
+        jmpCode: 126
+        valueIndex: 148
+        data[0]: 138
+        data[1]: 138
+        data[2]: -1
+        data[3]: -1
+      - op: 101
+        dataType: 4
+        dataSize: 4
+        scalarSwitchCase: 0
+        jmpCode: 303
+        valueIndex: 150
+        data[0]: 130
+        data[1]: -1
+        data[2]: -1
+        data[3]: 9
+      - op: 101
+        dataType: 4
+        dataSize: 4
+        scalarSwitchCase: 0
+        jmpCode: 303
+        valueIndex: 154
+        data[0]: 133
+        data[1]: -1
+        data[2]: -1
+        data[3]: 10
+      - op: 101
+        dataType: 4
+        dataSize: 4
+        scalarSwitchCase: 0
+        jmpCode: 303
+        valueIndex: 158
+        data[0]: 143
+        data[1]: -1
+        data[2]: -1
+        data[3]: 0
+      - op: 1
+        dataType: 1
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 3
+        valueIndex: 162
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 1
+      - op: 46
+        dataType: 19
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 140
+        valueIndex: 163
+        data[0]: 1
+        data[1]: 144
+        data[2]: 5
+        data[3]: 0
+      - op: 18
+        dataType: 6
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 56
+        valueIndex: 164
+        data[0]: 2
+        data[1]: 8
+        data[2]: -1
+        data[3]: 6
+      - op: 1
+        dataType: 15
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 3
+        valueIndex: 165
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 15
+      - op: 1
+        dataType: 15
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 3
+        valueIndex: 166
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 15
+      - op: 1
+        dataType: 1
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 3
+        valueIndex: 167
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 1
+      - op: 1
+        dataType: 4
+        dataSize: 4
+        scalarSwitchCase: 0
+        jmpCode: 3
+        valueIndex: 168
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 4
+      - op: 101
+        dataType: 4
+        dataSize: 4
+        scalarSwitchCase: 0
+        jmpCode: 303
+        valueIndex: 172
+        data[0]: 145
+        data[1]: -1
+        data[2]: -1
+        data[3]: 11
+      - op: 42
+        dataType: 2
+        dataSize: 2
+        scalarSwitchCase: 1
+        jmpCode: 126
+        valueIndex: 176
+        data[0]: 30
+        data[1]: 30
+        data[2]: -1
+        data[3]: -1
+      - op: 1
+        dataType: 2
+        dataSize: 2
+        scalarSwitchCase: 0
+        jmpCode: 3
+        valueIndex: 178
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 2
+      - op: 47
+        dataType: 6
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 143
+        valueIndex: 180
+        data[0]: 163
+        data[1]: 11
+        data[2]: 164
+        data[3]: 6
+      - op: 1
+        dataType: 1
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 3
+        valueIndex: 181
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 1
+      - op: 1
+        dataType: 4
+        dataSize: 4
+        scalarSwitchCase: 0
+        jmpCode: 3
+        valueIndex: 182
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 4
+      - op: 1
+        dataType: 15
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 3
+        valueIndex: 186
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 15
+      - op: 1
+        dataType: 16
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 3
+        valueIndex: 187
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 16
+      - op: 1
+        dataType: 19
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 5
+        valueIndex: 188
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 19
+      - op: 1
+        dataType: 5
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 4
+        valueIndex: 189
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 5
+      - op: 101
+        dataType: 4
+        dataSize: 4
+        scalarSwitchCase: 0
+        jmpCode: 303
+        valueIndex: 190
+        data[0]: 166
+        data[1]: -1
+        data[2]: -1
+        data[3]: 12
+      - op: 43
+        dataType: 3
+        dataSize: 3
+        scalarSwitchCase: 1
+        jmpCode: 129
+        valueIndex: 194
+        data[0]: 167
+        data[1]: 167
+        data[2]: 167
+        data[3]: -1
+      - op: 101
+        dataType: 4
+        dataSize: 4
+        scalarSwitchCase: 0
+        jmpCode: 303
+        valueIndex: 197
+        data[0]: 165
+        data[1]: -1
+        data[2]: -1
+        data[3]: 13
+      - op: 1
+        dataType: 1
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 3
+        valueIndex: 201
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 1
+      - op: 16
+        dataType: 2
+        dataSize: 2
+        scalarSwitchCase: 0
+        jmpCode: 48
+        valueIndex: 202
+        data[0]: 176
+        data[1]: 178
+        data[2]: -1
+        data[3]: 2
+      - op: 1
+        dataType: 19
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 5
+        valueIndex: 204
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 19
+      - op: 35
+        dataType: 5
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 106
+        valueIndex: 205
+        data[0]: 180
+        data[1]: -1
+        data[2]: -1
+        data[3]: -1
+      - op: 1
+        dataType: 19
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 5
+        valueIndex: 206
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 19
+      - op: 1
+        dataType: 19
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 5
+        valueIndex: 207
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 19
+      - op: 1
+        dataType: 1
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 3
+        valueIndex: 208
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 1
+      - op: 31
+        dataType: 1
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 93
+        valueIndex: 209
+        data[0]: 1
+        data[1]: -1
+        data[2]: -1
+        data[3]: -1
+      - op: 1
+        dataType: 1
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 3
+        valueIndex: 210
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 1
+      - op: 1
+        dataType: 15
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 3
+        valueIndex: 211
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 15
+      - op: 1
+        dataType: 15
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 3
+        valueIndex: 212
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 15
+      - op: 1
+        dataType: 1
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 3
+        valueIndex: 213
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 1
+      - op: 101
+        dataType: 4
+        dataSize: 4
+        scalarSwitchCase: 0
+        jmpCode: 303
+        valueIndex: 214
+        data[0]: 118
+        data[1]: -1
+        data[2]: -1
+        data[3]: 14
+      - op: 101
+        dataType: 4
+        dataSize: 4
+        scalarSwitchCase: 0
+        jmpCode: 303
+        valueIndex: 218
+        data[0]: 186
+        data[1]: -1
+        data[2]: -1
+        data[3]: 15
+      - op: 102
+        dataType: 3
+        dataSize: 3
+        scalarSwitchCase: 0
+        jmpCode: 306
+        valueIndex: 222
+        data[0]: 187
+        data[1]: -1
+        data[2]: -1
+        data[3]: 2
+      - op: 1
+        dataType: 1
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 3
+        valueIndex: 225
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 1
+      - op: 1
+        dataType: 15
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 3
+        valueIndex: 226
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 15
+      - op: 42
+        dataType: 2
+        dataSize: 2
+        scalarSwitchCase: 1
+        jmpCode: 126
+        valueIndex: 227
+        data[0]: 29
+        data[1]: 29
+        data[2]: -1
+        data[3]: -1
+      - op: 44
+        dataType: 4
+        dataSize: 4
+        scalarSwitchCase: 1
+        jmpCode: 132
+        valueIndex: 229
+        data[0]: 181
+        data[1]: 181
+        data[2]: 181
+        data[3]: 181
+      - op: 1
+        dataType: 1
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 3
+        valueIndex: 233
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 1
+      - op: 47
+        dataType: 5
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 142
+        valueIndex: 234
+        data[0]: 204
+        data[1]: 144
+        data[2]: 205
+        data[3]: 5
+      - op: 47
+        dataType: 6
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 143
+        valueIndex: 235
+        data[0]: 206
+        data[1]: 8
+        data[2]: 11
+        data[3]: 6
+      - op: 47
+        dataType: 5
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 142
+        valueIndex: 236
+        data[0]: 207
+        data[1]: 144
+        data[2]: 205
+        data[3]: 5
+      - op: 1
+        dataType: 19
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 5
+        valueIndex: 237
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 19
+      - op: 18
+        dataType: 1
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 54
+        valueIndex: 238
+        data[0]: 209
+        data[1]: 32
+        data[2]: -1
+        data[3]: 1
+      - op: 1
+        dataType: 2
+        dataSize: 2
+        scalarSwitchCase: 0
+        jmpCode: 3
+        valueIndex: 239
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 2
+      - op: 1
+        dataType: 4
+        dataSize: 4
+        scalarSwitchCase: 0
+        jmpCode: 3
+        valueIndex: 241
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 4
+      - op: 1
+        dataType: 1
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 3
+        valueIndex: 245
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 1
+      - op: 1
+        dataType: 15
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 3
+        valueIndex: 246
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 15
+      - op: 1
+        dataType: 4
+        dataSize: 4
+        scalarSwitchCase: 0
+        jmpCode: 3
+        valueIndex: 247
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 4
+      - op: 1
+        dataType: 15
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 3
+        valueIndex: 251
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 15
+      - op: 1
+        dataType: 4
+        dataSize: 4
+        scalarSwitchCase: 0
+        jmpCode: 3
+        valueIndex: 252
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 4
+      - op: 33
+        dataType: 6
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 101
+        valueIndex: 256
+        data[0]: 24
+        data[1]: -1
+        data[2]: -1
+        data[3]: -1
+      - op: 1
+        dataType: 1
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 3
+        valueIndex: 257
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 1
+      - op: 101
+        dataType: 4
+        dataSize: 4
+        scalarSwitchCase: 0
+        jmpCode: 303
+        valueIndex: 258
+        data[0]: 212
+        data[1]: -1
+        data[2]: -1
+        data[3]: 16
+      - op: 1
+        dataType: 1
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 3
+        valueIndex: 262
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 1
+      - op: 1
+        dataType: 1
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 3
+        valueIndex: 263
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 1
+      - op: 1
+        dataType: 1
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 3
+        valueIndex: 264
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 1
+      - op: 101
+        dataType: 4
+        dataSize: 4
+        scalarSwitchCase: 0
+        jmpCode: 303
+        valueIndex: 265
+        data[0]: 226
+        data[1]: -1
+        data[2]: -1
+        data[3]: 1
+      - op: 101
+        dataType: 4
+        dataSize: 4
+        scalarSwitchCase: 0
+        jmpCode: 303
+        valueIndex: 269
+        data[0]: 211
+        data[1]: -1
+        data[2]: -1
+        data[3]: 17
+      - op: 33
+        dataType: 6
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 101
+        valueIndex: 273
+        data[0]: 234
+        data[1]: -1
+        data[2]: -1
+        data[3]: -1
+      - op: 33
+        dataType: 6
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 101
+        valueIndex: 274
+        data[0]: 236
+        data[1]: -1
+        data[2]: -1
+        data[3]: -1
+      - op: 47
+        dataType: 1
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 141
+        valueIndex: 275
+        data[0]: 237
+        data[1]: 28
+        data[2]: 208
+        data[3]: 1
+      - op: 30
+        dataType: 1
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 90
+        valueIndex: 276
+        data[0]: 235
+        data[1]: -1
+        data[2]: -1
+        data[3]: -1
+      - op: 17
+        dataType: 1
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 51
+        valueIndex: 277
+        data[0]: 238
+        data[1]: 112
+        data[2]: -1
+        data[3]: 1
+      - op: 1
+        dataType: 5
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 4
+        valueIndex: 278
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 5
+      - op: 1
+        dataType: 3
+        dataSize: 3
+        scalarSwitchCase: 0
+        jmpCode: 3
+        valueIndex: 279
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 3
+      - op: 1
+        dataType: 1
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 3
+        valueIndex: 282
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 1
+      - op: 1
+        dataType: 1
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 3
+        valueIndex: 283
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 1
+      - op: 1
+        dataType: 1
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 3
+        valueIndex: 284
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 1
+      - op: 1
+        dataType: 15
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 3
+        valueIndex: 285
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 15
+      - op: 1
+        dataType: 1
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 3
+        valueIndex: 286
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 1
+      - op: 1
+        dataType: 15
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 3
+        valueIndex: 287
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 15
+      - op: 1
+        dataType: 15
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 3
+        valueIndex: 288
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 15
+      - op: 1
+        dataType: 4
+        dataSize: 4
+        scalarSwitchCase: 0
+        jmpCode: 3
+        valueIndex: 289
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 4
+      - op: 1
+        dataType: 4
+        dataSize: 4
+        scalarSwitchCase: 0
+        jmpCode: 3
+        valueIndex: 293
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 4
+      - op: 1
+        dataType: 1
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 3
+        valueIndex: 297
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 1
+      - op: 1
+        dataType: 1
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 3
+        valueIndex: 298
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 1
+      - op: 1
+        dataType: 15
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 3
+        valueIndex: 299
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 15
+      - op: 1
+        dataType: 1
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 3
+        valueIndex: 300
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 1
+      - op: 101
+        dataType: 4
+        dataSize: 4
+        scalarSwitchCase: 0
+        jmpCode: 303
+        valueIndex: 301
+        data[0]: 251
+        data[1]: -1
+        data[2]: -1
+        data[3]: 18
+      - op: 19
+        dataType: 4
+        dataSize: 4
+        scalarSwitchCase: 0
+        jmpCode: 57
+        valueIndex: 305
+        data[0]: 252
+        data[1]: 241
+        data[2]: -1
+        data[3]: 4
+      - op: 101
+        dataType: 4
+        dataSize: 4
+        scalarSwitchCase: 0
+        jmpCode: 303
+        valueIndex: 309
+        data[0]: 246
+        data[1]: -1
+        data[2]: -1
+        data[3]: 19
+      - op: 19
+        dataType: 4
+        dataSize: 4
+        scalarSwitchCase: 0
+        jmpCode: 57
+        valueIndex: 313
+        data[0]: 247
+        data[1]: 241
+        data[2]: -1
+        data[3]: 4
+      - op: 16
+        dataType: 6
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 50
+        valueIndex: 317
+        data[0]: 273
+        data[1]: 235
+        data[2]: -1
+        data[3]: 6
+      - op: 16
+        dataType: 6
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 50
+        valueIndex: 318
+        data[0]: 274
+        data[1]: 235
+        data[2]: -1
+        data[3]: 6
+      - op: 16
+        dataType: 1
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 48
+        valueIndex: 319
+        data[0]: 275
+        data[1]: 276
+        data[2]: -1
+        data[3]: 1
+      - op: 47
+        dataType: 1
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 141
+        valueIndex: 320
+        data[0]: 163
+        data[1]: 28
+        data[2]: 277
+        data[3]: 1
+      - op: 16
+        dataType: 5
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 49
+        valueIndex: 321
+        data[0]: 278
+        data[1]: 1
+        data[2]: -1
+        data[3]: 5
+      - op: 1
+        dataType: 15
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 3
+        valueIndex: 322
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 15
+      - op: 1
+        dataType: 1
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 3
+        valueIndex: 323
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 1
+      - op: 1
+        dataType: 15
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 3
+        valueIndex: 324
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 15
+      - op: 1
+        dataType: 1
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 3
+        valueIndex: 325
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 1
+      - op: 1
+        dataType: 1
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 3
+        valueIndex: 326
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 1
+      - op: 1
+        dataType: 15
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 3
+        valueIndex: 327
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 15
+      - op: 1
+        dataType: 1
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 3
+        valueIndex: 328
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 1
+      - op: 1
+        dataType: 1
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 3
+        valueIndex: 329
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 1
+      - op: 1
+        dataType: 4
+        dataSize: 4
+        scalarSwitchCase: 0
+        jmpCode: 3
+        valueIndex: 330
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 4
+      - op: 1
+        dataType: 19
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 5
+        valueIndex: 334
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 19
+      - op: 1
+        dataType: 15
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 3
+        valueIndex: 335
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 15
+      - op: 1
+        dataType: 5
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 4
+        valueIndex: 336
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 5
+      - op: 43
+        dataType: 3
+        dataSize: 3
+        scalarSwitchCase: 1
+        jmpCode: 129
+        valueIndex: 337
+        data[0]: 210
+        data[1]: 210
+        data[2]: 210
+        data[3]: -1
+      - op: 43
+        dataType: 3
+        dataSize: 3
+        scalarSwitchCase: 1
+        jmpCode: 129
+        valueIndex: 340
+        data[0]: 282
+        data[1]: 282
+        data[2]: 282
+        data[3]: -1
+      - op: 101
+        dataType: 4
+        dataSize: 4
+        scalarSwitchCase: 0
+        jmpCode: 303
+        valueIndex: 343
+        data[0]: 287
+        data[1]: -1
+        data[2]: -1
+        data[3]: 20
+      - op: 101
+        dataType: 4
+        dataSize: 4
+        scalarSwitchCase: 0
+        jmpCode: 303
+        valueIndex: 347
+        data[0]: 288
+        data[1]: -1
+        data[2]: -1
+        data[3]: 21
+      - op: 101
+        dataType: 4
+        dataSize: 4
+        scalarSwitchCase: 0
+        jmpCode: 303
+        valueIndex: 351
+        data[0]: 299
+        data[1]: -1
+        data[2]: -1
+        data[3]: 22
+      - op: 1
+        dataType: 1
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 3
+        valueIndex: 355
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 1
+      - op: 1
+        dataType: 3
+        dataSize: 3
+        scalarSwitchCase: 0
+        jmpCode: 3
+        valueIndex: 356
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 3
+      - op: 1
+        dataType: 1
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 3
+        valueIndex: 359
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 1
+      - op: 101
+        dataType: 4
+        dataSize: 4
+        scalarSwitchCase: 0
+        jmpCode: 303
+        valueIndex: 360
+        data[0]: 285
+        data[1]: -1
+        data[2]: -1
+        data[3]: 23
+      - op: 44
+        dataType: 4
+        dataSize: 4
+        scalarSwitchCase: 1
+        jmpCode: 132
+        valueIndex: 364
+        data[0]: 297
+        data[1]: 297
+        data[2]: 297
+        data[3]: 297
+      - op: 30
+        dataType: 1
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 90
+        valueIndex: 368
+        data[0]: 317
+        data[1]: -1
+        data[2]: -1
+        data[3]: -1
+      - op: 30
+        dataType: 1
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 90
+        valueIndex: 369
+        data[0]: 318
+        data[1]: -1
+        data[2]: -1
+        data[3]: -1
+      - op: 16
+        dataType: 1
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 48
+        valueIndex: 370
+        data[0]: 319
+        data[1]: 320
+        data[2]: -1
+        data[3]: 1
+      - op: 16
+        dataType: 1
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 48
+        valueIndex: 371
+        data[0]: 209
+        data[1]: 113
+        data[2]: -1
+        data[3]: 1
+      - op: 31
+        dataType: 1
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 93
+        valueIndex: 372
+        data[0]: 321
+        data[1]: -1
+        data[2]: -1
+        data[3]: -1
+      - op: 1
+        dataType: 15
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 3
+        valueIndex: 373
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 15
+      - op: 1
+        dataType: 1
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 3
+        valueIndex: 374
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 1
+      - op: 1
+        dataType: 1
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 3
+        valueIndex: 375
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 1
+      - op: 1
+        dataType: 15
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 3
+        valueIndex: 376
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 15
+      - op: 1
+        dataType: 1
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 3
+        valueIndex: 377
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 1
+      - op: 1
+        dataType: 1
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 3
+        valueIndex: 378
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 1
+      - op: 1
+        dataType: 1
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 3
+        valueIndex: 379
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 1
+      - op: 1
+        dataType: 15
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 3
+        valueIndex: 380
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 15
+      - op: 1
+        dataType: 15
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 3
+        valueIndex: 381
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 15
+      - op: 1
+        dataType: 15
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 3
+        valueIndex: 382
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 15
+      - op: 1
+        dataType: 4
+        dataSize: 4
+        scalarSwitchCase: 0
+        jmpCode: 3
+        valueIndex: 383
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 4
+      - op: 1
+        dataType: 1
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 3
+        valueIndex: 387
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 1
+      - op: 1
+        dataType: 1
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 3
+        valueIndex: 388
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 1
+      - op: 1
+        dataType: 1
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 3
+        valueIndex: 389
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 1
+      - op: 43
+        dataType: 3
+        dataSize: 3
+        scalarSwitchCase: 1
+        jmpCode: 129
+        valueIndex: 390
+        data[0]: 30
+        data[1]: 30
+        data[2]: 30
+        data[3]: -1
+      - op: 31
+        dataType: 1
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 93
+        valueIndex: 393
+        data[0]: 336
+        data[1]: -1
+        data[2]: -1
+        data[3]: -1
+      - op: 1
+        dataType: 1
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 3
+        valueIndex: 394
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 1
+      - op: 101
+        dataType: 4
+        dataSize: 4
+        scalarSwitchCase: 0
+        jmpCode: 303
+        valueIndex: 395
+        data[0]: 335
+        data[1]: -1
+        data[2]: -1
+        data[3]: 24
+      - op: 101
+        dataType: 4
+        dataSize: 4
+        scalarSwitchCase: 0
+        jmpCode: 303
+        valueIndex: 399
+        data[0]: 324
+        data[1]: -1
+        data[2]: -1
+        data[3]: 25
+      - op: 17
+        dataType: 1
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 51
+        valueIndex: 403
+        data[0]: 32
+        data[1]: 329
+        data[2]: -1
+        data[3]: 1
+      - op: 101
+        dataType: 4
+        dataSize: 4
+        scalarSwitchCase: 0
+        jmpCode: 303
+        valueIndex: 404
+        data[0]: 327
+        data[1]: -1
+        data[2]: -1
+        data[3]: 26
+      - op: 101
+        dataType: 4
+        dataSize: 4
+        scalarSwitchCase: 0
+        jmpCode: 303
+        valueIndex: 408
+        data[0]: 322
+        data[1]: -1
+        data[2]: -1
+        data[3]: 27
+      - op: 1
+        dataType: 3
+        dataSize: 3
+        scalarSwitchCase: 0
+        jmpCode: 3
+        valueIndex: 412
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 3
+      - op: 44
+        dataType: 4
+        dataSize: 4
+        scalarSwitchCase: 1
+        jmpCode: 132
+        valueIndex: 415
+        data[0]: 326
+        data[1]: 326
+        data[2]: 326
+        data[3]: 326
+      - op: 1
+        dataType: 19
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 5
+        valueIndex: 419
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 19
+      - op: 21
+        dataType: 1
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 63
+        valueIndex: 420
+        data[0]: 368
+        data[1]: 28
+        data[2]: -1
+        data[3]: 1
+      - op: 21
+        dataType: 1
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 63
+        valueIndex: 421
+        data[0]: 369
+        data[1]: 28
+        data[2]: -1
+        data[3]: 1
+      - op: 21
+        dataType: 1
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 63
+        valueIndex: 422
+        data[0]: 370
+        data[1]: 28
+        data[2]: -1
+        data[3]: 1
+      - op: 21
+        dataType: 1
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 63
+        valueIndex: 423
+        data[0]: 371
+        data[1]: 28
+        data[2]: -1
+        data[3]: 1
+      - op: 21
+        dataType: 1
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 63
+        valueIndex: 424
+        data[0]: 372
+        data[1]: 28
+        data[2]: -1
+        data[3]: 1
+      - op: 1
+        dataType: 15
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 3
+        valueIndex: 425
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 15
+      - op: 1
+        dataType: 1
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 3
+        valueIndex: 426
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 1
+      - op: 1
+        dataType: 1
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 3
+        valueIndex: 427
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 1
+      - op: 1
+        dataType: 1
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 3
+        valueIndex: 428
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 1
+      - op: 1
+        dataType: 15
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 3
+        valueIndex: 429
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 15
+      - op: 1
+        dataType: 19
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 5
+        valueIndex: 430
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 19
+      - op: 43
+        dataType: 3
+        dataSize: 3
+        scalarSwitchCase: 1
+        jmpCode: 129
+        valueIndex: 431
+        data[0]: 29
+        data[1]: 29
+        data[2]: 29
+        data[3]: -1
+      - op: 101
+        dataType: 4
+        dataSize: 4
+        scalarSwitchCase: 0
+        jmpCode: 303
+        valueIndex: 434
+        data[0]: 373
+        data[1]: -1
+        data[2]: -1
+        data[3]: 28
+      - op: 101
+        dataType: 4
+        dataSize: 4
+        scalarSwitchCase: 0
+        jmpCode: 303
+        valueIndex: 438
+        data[0]: 376
+        data[1]: -1
+        data[2]: -1
+        data[3]: 29
+      - op: 21
+        dataType: 1
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 63
+        valueIndex: 442
+        data[0]: 375
+        data[1]: 394
+        data[2]: -1
+        data[3]: 1
+      - op: 1
+        dataType: 1
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 3
+        valueIndex: 443
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 1
+      - op: 21
+        dataType: 1
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 63
+        valueIndex: 444
+        data[0]: 387
+        data[1]: 394
+        data[2]: -1
+        data[3]: 1
+      - op: 1
+        dataType: 1
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 3
+        valueIndex: 445
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 1
+      - op: 16
+        dataType: 3
+        dataSize: 3
+        scalarSwitchCase: 0
+        jmpCode: 48
+        valueIndex: 446
+        data[0]: 412
+        data[1]: 390
+        data[2]: -1
+        data[3]: 3
+      - op: 101
+        dataType: 4
+        dataSize: 4
+        scalarSwitchCase: 0
+        jmpCode: 303
+        valueIndex: 449
+        data[0]: 380
+        data[1]: -1
+        data[2]: -1
+        data[3]: 30
+      - op: 1
+        dataType: 15
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 3
+        valueIndex: 453
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 15
+      - op: 1
+        dataType: 16
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 3
+        valueIndex: 454
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 16
+      - op: 101
+        dataType: 4
+        dataSize: 4
+        scalarSwitchCase: 0
+        jmpCode: 303
+        valueIndex: 455
+        data[0]: 381
+        data[1]: -1
+        data[2]: -1
+        data[3]: 31
+      - op: 101
+        dataType: 4
+        dataSize: 4
+        scalarSwitchCase: 0
+        jmpCode: 303
+        valueIndex: 459
+        data[0]: 382
+        data[1]: -1
+        data[2]: -1
+        data[3]: 32
+      - op: 42
+        dataType: 2
+        dataSize: 2
+        scalarSwitchCase: 1
+        jmpCode: 126
+        valueIndex: 463
+        data[0]: 420
+        data[1]: 420
+        data[2]: -1
+        data[3]: -1
+      - op: 1
+        dataType: 2
+        dataSize: 2
+        scalarSwitchCase: 0
+        jmpCode: 3
+        valueIndex: 465
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 2
+      - op: 42
+        dataType: 2
+        dataSize: 2
+        scalarSwitchCase: 1
+        jmpCode: 126
+        valueIndex: 467
+        data[0]: 421
+        data[1]: 421
+        data[2]: -1
+        data[3]: -1
+      - op: 42
+        dataType: 2
+        dataSize: 2
+        scalarSwitchCase: 1
+        jmpCode: 126
+        valueIndex: 469
+        data[0]: 422
+        data[1]: 422
+        data[2]: -1
+        data[3]: -1
+      - op: 1
+        dataType: 2
+        dataSize: 2
+        scalarSwitchCase: 0
+        jmpCode: 3
+        valueIndex: 471
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 2
+      - op: 42
+        dataType: 2
+        dataSize: 2
+        scalarSwitchCase: 1
+        jmpCode: 126
+        valueIndex: 473
+        data[0]: 423
+        data[1]: 423
+        data[2]: -1
+        data[3]: -1
+      - op: 42
+        dataType: 2
+        dataSize: 2
+        scalarSwitchCase: 1
+        jmpCode: 126
+        valueIndex: 475
+        data[0]: 424
+        data[1]: 424
+        data[2]: -1
+        data[3]: -1
+      - op: 1
+        dataType: 3
+        dataSize: 3
+        scalarSwitchCase: 0
+        jmpCode: 3
+        valueIndex: 477
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 3
+      - op: 1
+        dataType: 17
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 3
+        valueIndex: 480
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 17
+      - op: 1
+        dataType: 6
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 5
+        valueIndex: 481
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 6
+      - op: 1
+        dataType: 8
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 3
+        valueIndex: 482
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 8
+      - op: 1
+        dataType: 8
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 3
+        valueIndex: 483
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 8
+      - op: 1
+        dataType: 1
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 3
+        valueIndex: 484
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 1
+      - op: 1
+        dataType: 8
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 3
+        valueIndex: 485
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 8
+      - op: 1
+        dataType: 8
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 3
+        valueIndex: 486
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 8
+      - op: 1
+        dataType: 1
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 3
+        valueIndex: 487
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 1
+      - op: 1
+        dataType: 8
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 3
+        valueIndex: 488
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 8
+      - op: 1
+        dataType: 1
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 3
+        valueIndex: 489
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 1
+      - op: 1
+        dataType: 1
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 3
+        valueIndex: 490
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 1
+      - op: 1
+        dataType: 1
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 3
+        valueIndex: 491
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 1
+      - op: 1
+        dataType: 19
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 5
+        valueIndex: 492
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 19
+      - op: 1
+        dataType: 19
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 5
+        valueIndex: 493
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 19
+      - op: 53
+        dataType: 1
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 159
+        valueIndex: 494
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: -1
+      - op: 101
+        dataType: 4
+        dataSize: 4
+        scalarSwitchCase: 0
+        jmpCode: 303
+        valueIndex: 495
+        data[0]: 425
+        data[1]: -1
+        data[2]: -1
+        data[3]: 33
+      - op: 1
+        dataType: 1
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 3
+        valueIndex: 499
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 1
+      - op: 10
+        dataType: 1
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 30
+        valueIndex: 500
+        data[0]: 426
+        data[1]: -1
+        data[2]: -1
+        data[3]: 1
+      - op: 20
+        dataType: 1
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 60
+        valueIndex: 501
+        data[0]: 442
+        data[1]: 443
+        data[2]: -1
+        data[3]: 1
+      - op: 20
+        dataType: 1
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 60
+        valueIndex: 502
+        data[0]: 444
+        data[1]: 445
+        data[2]: -1
+        data[3]: 1
+      - op: 16
+        dataType: 3
+        dataSize: 3
+        scalarSwitchCase: 0
+        jmpCode: 48
+        valueIndex: 503
+        data[0]: 446
+        data[1]: 431
+        data[2]: -1
+        data[3]: 3
+      - op: 101
+        dataType: 4
+        dataSize: 4
+        scalarSwitchCase: 0
+        jmpCode: 303
+        valueIndex: 506
+        data[0]: 453
+        data[1]: -1
+        data[2]: -1
+        data[3]: 2
+      - op: 102
+        dataType: 3
+        dataSize: 3
+        scalarSwitchCase: 0
+        jmpCode: 306
+        valueIndex: 510
+        data[0]: 454
+        data[1]: -1
+        data[2]: -1
+        data[3]: 0
+      - op: 1
+        dataType: 1
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 3
+        valueIndex: 513
+        data[0]: -1
+        data[1]: -1
+        data[2]: -1
+        data[3]: 1
+      - op: 101
+        dataType: 4
+        dataSize: 4
+        scalarSwitchCase: 0
+        jmpCode: 303
+        valueIndex: 514
+        data[0]: 429
+        data[1]: -1
+        data[2]: -1
+        data[3]: 34
+      - op: 16
+        dataType: 1
+        dataSize: 1
+        scalarSwitchCase: 1
+        jmpCode: 48
+        valueIndex: 518
+        data[0]: 374
+        data[1]: 297
+        data[2]: -1
+        data[3]: 1
+      m_MaxCommonExpressionsIndex: 291
+      m_ConstantBakeCurveCount: 3
+      m_ConstantBakeGradientCount: 1
+      m_DynamicBakeCurveCount: 32
+      m_DynamicBakeGradientCount: 2
+      m_NeedsLocalToWorld: 1
+      m_NeedsWorldToLocal: 0
+      m_NeedsMainCamera: 1
+      m_NeededMainCameraBuffers: 0
+    m_PropertySheet:
+      m_Float:
+        m_Array:
+        - m_ExpressionIndex: 0
+          m_Value: 0.5
+        - m_ExpressionIndex: 23
+          m_Value: 2
+        - m_ExpressionIndex: 25
+          m_Value: -1
+        - m_ExpressionIndex: 27
+          m_Value: 49
+        - m_ExpressionIndex: 28
+          m_Value: 0
+        - m_ExpressionIndex: 29
+          m_Value: 1
+        - m_ExpressionIndex: 30
+          m_Value: 1
+        - m_ExpressionIndex: 31
+          m_Value: 99
+        - m_ExpressionIndex: 32
+          m_Value: 1
+        - m_ExpressionIndex: 33
+          m_Value: 0.6
+        - m_ExpressionIndex: 34
+          m_Value: 0.6
+        - m_ExpressionIndex: 35
+          m_Value: 10
+        - m_ExpressionIndex: 36
+          m_Value: 120
+        - m_ExpressionIndex: 40
+          m_Value: 50
+        - m_ExpressionIndex: 42
+          m_Value: 240
+        - m_ExpressionIndex: 44
+          m_Value: 12
+        - m_ExpressionIndex: 56
+          m_Value: 6
+        - m_ExpressionIndex: 59
+          m_Value: 1
+        - m_ExpressionIndex: 65
+          m_Value: 4
+        - m_ExpressionIndex: 66
+          m_Value: 100
+        - m_ExpressionIndex: 67
+          m_Value: 0.42
+        - m_ExpressionIndex: 70
+          m_Value: 0.42
+        - m_ExpressionIndex: 75
+          m_Value: 1.5
+        - m_ExpressionIndex: 87
+          m_Value: 0.33
+        - m_ExpressionIndex: 92
+          m_Value: 0.12
+        - m_ExpressionIndex: 97
+          m_Value: 2
+        - m_ExpressionIndex: 103
+          m_Value: 75
+        - m_ExpressionIndex: 112
+          m_Value: 3
+        - m_ExpressionIndex: 118
+          m_Value: 50
+        - m_ExpressionIndex: 120
+          m_Value: 0.46
+        - m_ExpressionIndex: 123
+          m_Value: 0.46
+        - m_ExpressionIndex: 127
+          m_Value: -0.15000004
+        - m_ExpressionIndex: 131
+          m_Value: 1.5
+        - m_ExpressionIndex: 139
+          m_Value: 0.2
+        - m_ExpressionIndex: 145
+          m_Value: 157
+        - m_ExpressionIndex: 147
+          m_Value: 0.85
+        - m_ExpressionIndex: 148
+          m_Value: 0.06
+        - m_ExpressionIndex: 149
+          m_Value: 1E-10
+        - m_ExpressionIndex: 159
+          m_Value: 0.25
+        - m_ExpressionIndex: 160
+          m_Value: 1
+        - m_ExpressionIndex: 161
+          m_Value: 50
+        - m_ExpressionIndex: 163
+          m_Value: 1
+        - m_ExpressionIndex: 168
+          m_Value: 1
+        - m_ExpressionIndex: 169
+          m_Value: 1
+        - m_ExpressionIndex: 171
+          m_Value: 512
+        - m_ExpressionIndex: 182
+          m_Value: 1
+        - m_ExpressionIndex: 184
+          m_Value: 1
+        - m_ExpressionIndex: 185
+          m_Value: 1
+        - m_ExpressionIndex: 187
+          m_Value: 1
+        - m_ExpressionIndex: 188
+          m_Value: 1
+        - m_ExpressionIndex: 198
+          m_Value: 0.4
+        - m_ExpressionIndex: 200
+          m_Value: 10
+        - m_ExpressionIndex: 209
+          m_Value: 100
+        - m_ExpressionIndex: 210
+          m_Value: 2
+        - m_ExpressionIndex: 212
+          m_Value: 1
+        - m_ExpressionIndex: 213
+          m_Value: 1
+        - m_ExpressionIndex: 214
+          m_Value: 1
+        - m_ExpressionIndex: 219
+          m_Value: 4
+        - m_ExpressionIndex: 220
+          m_Value: 1
+        - m_ExpressionIndex: 221
+          m_Value: 1
+        - m_ExpressionIndex: 224
+          m_Value: 0.2
+        - m_ExpressionIndex: 239
+          m_Value: 1
+        - m_ExpressionIndex: 240
+          m_Value: 0
+        - m_ExpressionIndex: 241
+          m_Value: 1
+        - m_ExpressionIndex: 248
+          m_Value: 8
+        - m_ExpressionIndex: 250
+          m_Value: 16
+        - m_ExpressionIndex: 269
+          m_Value: 0.75
+        - m_ExpressionIndex: 272
+          m_Value: 0.33
+        - m_ExpressionIndex: 274
+          m_Value: 1
+        - m_ExpressionIndex: 275
+          m_Value: 1
+        - m_ExpressionIndex: 276
+          m_Value: 1
+        - m_ExpressionIndex: 281
+          m_Value: 0.75
+        - m_ExpressionIndex: 288
+          m_Value: 1.25
+      m_Vector2f:
+        m_Array:
+        - m_ExpressionIndex: 101
+          m_Value: {x: 1, y: 2}
+        - m_ExpressionIndex: 137
+          m_Value: {x: 0, y: 0}
+        - m_ExpressionIndex: 258
+          m_Value: {x: 0.125, y: 0.125}
+        - m_ExpressionIndex: 261
+          m_Value: {x: 0.25, y: 0.25}
+      m_Vector3f:
+        m_Array:
+        - m_ExpressionIndex: 50
+          m_Value: {x: -1, y: -1, z: -1}
+        - m_ExpressionIndex: 54
+          m_Value: {x: 1, y: 0.5, z: 2}
+        - m_ExpressionIndex: 158
+          m_Value: {x: 0, y: 0, z: 0}
+        - m_ExpressionIndex: 199
+          m_Value: {x: 0.125, y: 0.125, z: 0.125}
+        - m_ExpressionIndex: 230
+          m_Value: {x: 0, y: -9.81, z: 0}
+        - m_ExpressionIndex: 264
+          m_Value: {x: 25, y: 25, z: 25}
+      m_Vector4f:
+        m_Array:
+        - m_ExpressionIndex: 98
+          m_Value: {x: 1, y: 1, z: 1, w: 0}
+        - m_ExpressionIndex: 104
+          m_Value: {x: 0, y: 0.20000005, z: 1, w: 1}
+        - m_ExpressionIndex: 138
+          m_Value: {x: 0, y: 0.20000005, z: 1, w: 1}
+        - m_ExpressionIndex: 141
+          m_Value: {x: 0, y: 0.20000005, z: 1, w: 1}
+        - m_ExpressionIndex: 143
+          m_Value: {x: 0, y: 0.20000005, z: 1, w: 1}
+        - m_ExpressionIndex: 166
+          m_Value: {x: 0, y: 0.20000005, z: 1, w: 1}
+        - m_ExpressionIndex: 167
+          m_Value: {x: 1, y: 1, z: 1, w: 0.003921569}
+        - m_ExpressionIndex: 189
+          m_Value: {x: 0, y: 0.20000005, z: 1, w: 1}
+        - m_ExpressionIndex: 218
+          m_Value: {x: 0, y: 0.20000005, z: 1, w: 1}
+      m_Uint:
+        m_Array:
+        - m_ExpressionIndex: 7
+          m_Value: 256
+        - m_ExpressionIndex: 8
+          m_Value: 1
+        - m_ExpressionIndex: 11
+          m_Value: 0
+        - m_ExpressionIndex: 13
+          m_Value: 2
+        - m_ExpressionIndex: 14
+          m_Value: 3
+        - m_ExpressionIndex: 15
+          m_Value: 4
+        - m_ExpressionIndex: 16
+          m_Value: 5
+        - m_ExpressionIndex: 266
+          m_Value: 4294967295
+      m_Int:
+        m_Array:
+        - m_ExpressionIndex: 1
+          m_Value: 0
+        - m_ExpressionIndex: 24
+          m_Value: 0
+        - m_ExpressionIndex: 55
+          m_Value: 1
+        - m_ExpressionIndex: 84
+          m_Value: 0
+        - m_ExpressionIndex: 108
+          m_Value: 4
+        - m_ExpressionIndex: 157
+          m_Value: 0
+        - m_ExpressionIndex: 192
+          m_Value: 0
+      m_Matrix4x4f:
+        m_Array: []
+      m_AnimationCurve:
+        m_Array:
+        - m_ExpressionIndex: 38
+          m_Value:
+            serializedVersion: 2
+            m_Curve:
+            - serializedVersion: 3
+              time: 0
+              value: 0
+              inSlope: 2
+              outSlope: 2
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            - serializedVersion: 3
+              time: 1
+              value: 1
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            m_PreInfinity: 2
+            m_PostInfinity: 2
+            m_RotationOrder: 4
+        - m_ExpressionIndex: 39
+          m_Value:
+            serializedVersion: 2
+            m_Curve:
+            - serializedVersion: 3
+              time: 0
+              value: 0
+              inSlope: 2
+              outSlope: 2
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            - serializedVersion: 3
+              time: 1
+              value: 1
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            m_PreInfinity: 2
+            m_PostInfinity: 2
+            m_RotationOrder: 4
+        - m_ExpressionIndex: 45
+          m_Value:
+            serializedVersion: 2
+            m_Curve:
+            - serializedVersion: 3
+              time: 0
+              value: 0
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            - serializedVersion: 3
+              time: 1
+              value: 0
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            m_PreInfinity: 2
+            m_PostInfinity: 2
+            m_RotationOrder: 4
+        - m_ExpressionIndex: 58
+          m_Value:
+            serializedVersion: 2
+            m_Curve:
+            - serializedVersion: 3
+              time: 0
+              value: 0
+              inSlope: 2
+              outSlope: 2
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            - serializedVersion: 3
+              time: 1
+              value: 1
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            m_PreInfinity: 2
+            m_PostInfinity: 2
+            m_RotationOrder: 4
+        - m_ExpressionIndex: 68
+          m_Value:
+            serializedVersion: 2
+            m_Curve:
+            - serializedVersion: 3
+              time: 0
+              value: 0
+              inSlope: 1
+              outSlope: 1
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            - serializedVersion: 3
+              time: 1
+              value: 1
+              inSlope: 1
+              outSlope: 1
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            m_PreInfinity: 2
+            m_PostInfinity: 2
+            m_RotationOrder: 4
+        - m_ExpressionIndex: 69
+          m_Value:
+            serializedVersion: 2
+            m_Curve:
+            - serializedVersion: 3
+              time: 0
+              value: 0
+              inSlope: 2
+              outSlope: 2
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            - serializedVersion: 3
+              time: 1
+              value: 1
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            m_PreInfinity: 2
+            m_PostInfinity: 2
+            m_RotationOrder: 4
+        - m_ExpressionIndex: 71
+          m_Value:
+            serializedVersion: 2
+            m_Curve:
+            - serializedVersion: 3
+              time: 0
+              value: 0
+              inSlope: 2.037736
+              outSlope: 2.037736
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            - serializedVersion: 3
+              time: 0.5
+              value: 1.018868
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            - serializedVersion: 3
+              time: 1
+              value: 0
+              inSlope: -2.037736
+              outSlope: -2.037736
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            m_PreInfinity: 2
+            m_PostInfinity: 2
+            m_RotationOrder: 4
+        - m_ExpressionIndex: 76
+          m_Value:
+            serializedVersion: 2
+            m_Curve:
+            - serializedVersion: 3
+              time: 0
+              value: 0
+              inSlope: 2.012097
+              outSlope: 2.012097
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            - serializedVersion: 3
+              time: 0.496994
+              value: 1
+              inSlope: 0.012024462
+              outSlope: 0.012024462
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            - serializedVersion: 3
+              time: 1
+              value: 0
+              inSlope: -1.988048
+              outSlope: -1.988048
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            m_PreInfinity: 2
+            m_PostInfinity: 2
+            m_RotationOrder: 4
+        - m_ExpressionIndex: 79
+          m_Value:
+            serializedVersion: 2
+            m_Curve:
+            - serializedVersion: 3
+              time: 0
+              value: 0
+              inSlope: 2.012097
+              outSlope: 2.012097
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            - serializedVersion: 3
+              time: 0.496994
+              value: 1
+              inSlope: 0.012024462
+              outSlope: 0.012024462
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            - serializedVersion: 3
+              time: 1
+              value: 0
+              inSlope: -1.988048
+              outSlope: -1.988048
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            m_PreInfinity: 2
+            m_PostInfinity: 2
+            m_RotationOrder: 4
+        - m_ExpressionIndex: 83
+          m_Value:
+            serializedVersion: 2
+            m_Curve:
+            - serializedVersion: 3
+              time: 0
+              value: 0
+              inSlope: 2
+              outSlope: 2
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            - serializedVersion: 3
+              time: 1
+              value: 1
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            m_PreInfinity: 2
+            m_PostInfinity: 2
+            m_RotationOrder: 4
+        - m_ExpressionIndex: 85
+          m_Value:
+            serializedVersion: 2
+            m_Curve:
+            - serializedVersion: 3
+              time: 0
+              value: 0
+              inSlope: 2
+              outSlope: 2
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            - serializedVersion: 3
+              time: 1
+              value: 1
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            m_PreInfinity: 2
+            m_PostInfinity: 2
+            m_RotationOrder: 4
+        - m_ExpressionIndex: 95
+          m_Value:
+            serializedVersion: 2
+            m_Curve:
+            - serializedVersion: 3
+              time: 0
+              value: 1
+              inSlope: 3.0517578E-05
+              outSlope: 3.0517578E-05
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            - serializedVersion: 3
+              time: 1
+              value: 1.5
+              inSlope: 1.522751
+              outSlope: 1.522751
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            m_PreInfinity: 2
+            m_PostInfinity: 2
+            m_RotationOrder: 4
+        - m_ExpressionIndex: 96
+          m_Value:
+            serializedVersion: 2
+            m_Curve:
+            - serializedVersion: 3
+              time: 0
+              value: 0
+              inSlope: 2.012097
+              outSlope: 2.012097
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            - serializedVersion: 3
+              time: 0.496994
+              value: 1
+              inSlope: 0.012024462
+              outSlope: 0.012024462
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            - serializedVersion: 3
+              time: 1
+              value: 0
+              inSlope: -1.988048
+              outSlope: -1.988048
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            m_PreInfinity: 2
+            m_PostInfinity: 2
+            m_RotationOrder: 4
+        - m_ExpressionIndex: 105
+          m_Value:
+            serializedVersion: 2
+            m_Curve:
+            - serializedVersion: 3
+              time: 0
+              value: 0
+              inSlope: 0.023472596
+              outSlope: 0.023472596
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            - serializedVersion: 3
+              time: 0.5
+              value: 1
+              inSlope: 0.01860097
+              outSlope: 0.01860097
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            m_PreInfinity: 2
+            m_PostInfinity: 2
+            m_RotationOrder: 4
+        - m_ExpressionIndex: 121
+          m_Value:
+            serializedVersion: 2
+            m_Curve:
+            - serializedVersion: 3
+              time: 0
+              value: 1
+              inSlope: -2.751959
+              outSlope: -2.751959
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            - serializedVersion: 3
+              time: 1
+              value: 0
+              inSlope: 0.008508283
+              outSlope: 0.008508283
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            m_PreInfinity: 2
+            m_PostInfinity: 2
+            m_RotationOrder: 4
+        - m_ExpressionIndex: 122
+          m_Value:
+            serializedVersion: 2
+            m_Curve:
+            - serializedVersion: 3
+              time: 0
+              value: 1
+              inSlope: -6.0747867
+              outSlope: -6.0747867
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            - serializedVersion: 3
+              time: 0.1566071
+              value: 0.39890057
+              inSlope: -1.6940354
+              outSlope: -1.6940354
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            - serializedVersion: 3
+              time: 0.42469066
+              value: 0.1258851
+              inSlope: -0.507721
+              outSlope: -0.507721
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            - serializedVersion: 3
+              time: 1
+              value: 0
+              inSlope: 0.032872207
+              outSlope: 0.032872207
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            m_PreInfinity: 2
+            m_PostInfinity: 2
+            m_RotationOrder: 4
+        - m_ExpressionIndex: 128
+          m_Value:
+            serializedVersion: 2
+            m_Curve:
+            - serializedVersion: 3
+              time: 0
+              value: 1
+              inSlope: Infinity
+              outSlope: Infinity
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            - serializedVersion: 3
+              time: 0.37559304
+              value: 1.2865486
+              inSlope: Infinity
+              outSlope: Infinity
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            - serializedVersion: 3
+              time: 0.66530097
+              value: 0.80794734
+              inSlope: Infinity
+              outSlope: Infinity
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            - serializedVersion: 3
+              time: 0.8821202
+              value: 1.7729471
+              inSlope: Infinity
+              outSlope: Infinity
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            m_PreInfinity: 2
+            m_PostInfinity: 2
+            m_RotationOrder: 4
+        - m_ExpressionIndex: 140
+          m_Value:
+            serializedVersion: 2
+            m_Curve:
+            - serializedVersion: 3
+              time: 0
+              value: 1
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            - serializedVersion: 3
+              time: 1
+              value: 1
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            m_PreInfinity: 2
+            m_PostInfinity: 2
+            m_RotationOrder: 4
+        - m_ExpressionIndex: 142
+          m_Value:
+            serializedVersion: 2
+            m_Curve:
+            - serializedVersion: 3
+              time: 0
+              value: 0
+              inSlope: 4.41716
+              outSlope: 4.41716
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            - serializedVersion: 3
+              time: 0.49760765
+              value: 1.0023584
+              inSlope: 0.0095921755
+              outSlope: 0.0095921755
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            - serializedVersion: 3
+              time: 1
+              value: 0
+              inSlope: -4.792599
+              outSlope: -4.792599
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            m_PreInfinity: 2
+            m_PostInfinity: 2
+            m_RotationOrder: 4
+        - m_ExpressionIndex: 162
+          m_Value:
+            serializedVersion: 2
+            m_Curve:
+            - serializedVersion: 3
+              time: 0
+              value: 0
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            - serializedVersion: 3
+              time: 0.25
+              value: 0.25
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            - serializedVersion: 3
+              time: 1
+              value: 0
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            m_PreInfinity: 2
+            m_PostInfinity: 2
+            m_RotationOrder: 4
+        - m_ExpressionIndex: 164
+          m_Value:
+            serializedVersion: 2
+            m_Curve:
+            - serializedVersion: 3
+              time: 0
+              value: 1
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            - serializedVersion: 3
+              time: 1
+              value: 1
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            m_PreInfinity: 2
+            m_PostInfinity: 2
+            m_RotationOrder: 4
+        - m_ExpressionIndex: 165
+          m_Value:
+            serializedVersion: 2
+            m_Curve:
+            - serializedVersion: 3
+              time: 0
+              value: 1
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            - serializedVersion: 3
+              time: 1
+              value: 1
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            m_PreInfinity: 2
+            m_PostInfinity: 2
+            m_RotationOrder: 4
+        - m_ExpressionIndex: 170
+          m_Value:
+            serializedVersion: 2
+            m_Curve:
+            - serializedVersion: 3
+              time: 0
+              value: 1
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            - serializedVersion: 3
+              time: 1
+              value: 1
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            m_PreInfinity: 2
+            m_PostInfinity: 2
+            m_RotationOrder: 4
+        - m_ExpressionIndex: 181
+          m_Value:
+            serializedVersion: 2
+            m_Curve:
+            - serializedVersion: 3
+              time: 0
+              value: 1.0000093
+              inSlope: 0.018464556
+              outSlope: 0.018464556
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            - serializedVersion: 3
+              time: 1
+              value: 0.49999398
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            m_PreInfinity: 2
+            m_PostInfinity: 2
+            m_RotationOrder: 4
+        - m_ExpressionIndex: 183
+          m_Value:
+            serializedVersion: 2
+            m_Curve:
+            - serializedVersion: 3
+              time: 0
+              value: 0
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            - serializedVersion: 3
+              time: 0.25
+              value: 0.25
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            - serializedVersion: 3
+              time: 1
+              value: 0
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            m_PreInfinity: 2
+            m_PostInfinity: 2
+            m_RotationOrder: 4
+        - m_ExpressionIndex: 186
+          m_Value:
+            serializedVersion: 2
+            m_Curve:
+            - serializedVersion: 3
+              time: 0
+              value: 0
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            - serializedVersion: 3
+              time: 0.25
+              value: 0.25
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            - serializedVersion: 3
+              time: 1
+              value: 0
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            m_PreInfinity: 2
+            m_PostInfinity: 2
+            m_RotationOrder: 4
+        - m_ExpressionIndex: 191
+          m_Value:
+            serializedVersion: 2
+            m_Curve:
+            - serializedVersion: 3
+              time: 0
+              value: 1
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            - serializedVersion: 3
+              time: 1
+              value: 1
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            m_PreInfinity: 2
+            m_PostInfinity: 2
+            m_RotationOrder: 4
+        - m_ExpressionIndex: 208
+          m_Value:
+            serializedVersion: 2
+            m_Curve:
+            - serializedVersion: 3
+              time: 0.002004008
+              value: 0.14999072
+              inSlope: 0.018464556
+              outSlope: 0.018464556
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            - serializedVersion: 3
+              time: 0.6870264
+              value: 0.24737796
+              inSlope: 0.4016299
+              outSlope: 0.4016299
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            - serializedVersion: 3
+              time: 1
+              value: 0.19838245
+              inSlope: -0.9843194
+              outSlope: -0.9843194
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            m_PreInfinity: 2
+            m_PostInfinity: 2
+            m_RotationOrder: 4
+        - m_ExpressionIndex: 211
+          m_Value:
+            serializedVersion: 2
+            m_Curve:
+            - serializedVersion: 3
+              time: 0.6
+              value: 0.049987793
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            - serializedVersion: 3
+              time: 1
+              value: 0.5
+              inSlope: 3.3719676
+              outSlope: 3.3719676
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            m_PreInfinity: 2
+            m_PostInfinity: 2
+            m_RotationOrder: 4
+        - m_ExpressionIndex: 215
+          m_Value:
+            serializedVersion: 2
+            m_Curve:
+            - serializedVersion: 3
+              time: 0
+              value: 1
+              inSlope: -0.008324104
+              outSlope: -0.008324104
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            - serializedVersion: 3
+              time: 1
+              value: 8.106232E-06
+              inSlope: -2.778553
+              outSlope: -2.778553
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            m_PreInfinity: 2
+            m_PostInfinity: 2
+            m_RotationOrder: 4
+        - m_ExpressionIndex: 216
+          m_Value:
+            serializedVersion: 2
+            m_Curve:
+            - serializedVersion: 3
+              time: 0
+              value: 1
+              inSlope: -6.0747867
+              outSlope: -6.0747867
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            - serializedVersion: 3
+              time: 0.1566071
+              value: 0.39890057
+              inSlope: -1.6940354
+              outSlope: -1.6940354
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            - serializedVersion: 3
+              time: 0.42469066
+              value: 0.1258851
+              inSlope: -0.507721
+              outSlope: -0.507721
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            - serializedVersion: 3
+              time: 1
+              value: 0
+              inSlope: 0.032872207
+              outSlope: 0.032872207
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            m_PreInfinity: 2
+            m_PostInfinity: 2
+            m_RotationOrder: 4
+        - m_ExpressionIndex: 217
+          m_Value:
+            serializedVersion: 2
+            m_Curve:
+            - serializedVersion: 3
+              time: 0
+              value: 0.2000122
+              inSlope: 1.7999878
+              outSlope: 1.7999878
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            - serializedVersion: 3
+              time: 1
+              value: 2
+              inSlope: 1.7999878
+              outSlope: 1.7999878
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            m_PreInfinity: 2
+            m_PostInfinity: 2
+            m_RotationOrder: 4
+        - m_ExpressionIndex: 238
+          m_Value:
+            serializedVersion: 2
+            m_Curve:
+            - serializedVersion: 3
+              time: 0
+              value: 0
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            - serializedVersion: 3
+              time: 0.25
+              value: 0.25
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            - serializedVersion: 3
+              time: 1
+              value: 0
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            m_PreInfinity: 2
+            m_PostInfinity: 2
+            m_RotationOrder: 4
+        - m_ExpressionIndex: 242
+          m_Value:
+            serializedVersion: 2
+            m_Curve:
+            - serializedVersion: 3
+              time: 0
+              value: 0
+              inSlope: 2
+              outSlope: 2
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            - serializedVersion: 3
+              time: 1
+              value: 1
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            m_PreInfinity: 2
+            m_PostInfinity: 2
+            m_RotationOrder: 4
+        - m_ExpressionIndex: 253
+          m_Value:
+            serializedVersion: 2
+            m_Curve:
+            - serializedVersion: 3
+              time: 0
+              value: 1
+              inSlope: 3
+              outSlope: 3
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            - serializedVersion: 3
+              time: 1
+              value: 4
+              inSlope: 3
+              outSlope: 3
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            m_PreInfinity: 2
+            m_PostInfinity: 2
+            m_RotationOrder: 4
+      m_Gradient:
+        m_Array:
+        - m_ExpressionIndex: 60
+          m_Value:
+            serializedVersion: 2
+            key0: {r: 0, g: 0, b: 0, a: 1}
+            key1: {r: 1, g: 1, b: 1, a: 1}
+            key2: {r: 0, g: 0, b: 0, a: 0}
+            key3: {r: 0, g: 0, b: 0, a: 0}
+            key4: {r: 0, g: 0, b: 0, a: 0}
+            key5: {r: 0, g: 0, b: 0, a: 0}
+            key6: {r: 0, g: 0, b: 0, a: 0}
+            key7: {r: 0, g: 0, b: 0, a: 0}
+            ctime0: 3277
+            ctime1: 9830
+            ctime2: 0
+            ctime3: 0
+            ctime4: 0
+            ctime5: 0
+            ctime6: 0
+            ctime7: 0
+            atime0: 0
+            atime1: 65535
+            atime2: 0
+            atime3: 0
+            atime4: 0
+            atime5: 0
+            atime6: 0
+            atime7: 0
+            m_Mode: 0
+            m_ColorSpace: -1
+            m_NumColorKeys: 2
+            m_NumAlphaKeys: 2
+        - m_ExpressionIndex: 106
+          m_Value:
+            serializedVersion: 2
+            key0: {r: 1, g: 1, b: 1, a: 1}
+            key1: {r: 1, g: 1, b: 1, a: 1}
+            key2: {r: 0, g: 0, b: 0, a: 0}
+            key3: {r: 0, g: 0, b: 0, a: 0}
+            key4: {r: 0, g: 0, b: 0, a: 0}
+            key5: {r: 0, g: 0, b: 0, a: 0}
+            key6: {r: 0, g: 0, b: 0, a: 0}
+            key7: {r: 0, g: 0, b: 0, a: 0}
+            ctime0: 0
+            ctime1: 65535
+            ctime2: 0
+            ctime3: 0
+            ctime4: 0
+            ctime5: 0
+            ctime6: 0
+            ctime7: 0
+            atime0: 0
+            atime1: 65535
+            atime2: 0
+            atime3: 0
+            atime4: 0
+            atime5: 0
+            atime6: 0
+            atime7: 0
+            m_Mode: 0
+            m_ColorSpace: -1
+            m_NumColorKeys: 2
+            m_NumAlphaKeys: 2
+        - m_ExpressionIndex: 254
+          m_Value:
+            serializedVersion: 2
+            key0: {r: 1, g: 1, b: 1, a: 1}
+            key1: {r: 0, g: 0, b: 0, a: 0}
+            key2: {r: 0, g: 0, b: 0, a: 0}
+            key3: {r: 0, g: 0, b: 0, a: 0}
+            key4: {r: 0, g: 0, b: 0, a: 0}
+            key5: {r: 0, g: 0, b: 0, a: 0}
+            key6: {r: 0, g: 0, b: 0, a: 0}
+            key7: {r: 0, g: 0, b: 0, a: 0}
+            ctime0: 0
+            ctime1: 65535
+            ctime2: 0
+            ctime3: 0
+            ctime4: 0
+            ctime5: 0
+            ctime6: 0
+            ctime7: 0
+            atime0: 0
+            atime1: 65535
+            atime2: 0
+            atime3: 0
+            atime4: 0
+            atime5: 0
+            atime6: 0
+            atime7: 0
+            m_Mode: 0
+            m_ColorSpace: -1
+            m_NumColorKeys: 2
+            m_NumAlphaKeys: 2
+      m_NamedObject:
+        m_Array:
+        - m_ExpressionIndex: 3
+          m_Value: {fileID: 2800000, guid: 116193d37149b7a4a8435bc2ce218ec4, type: 3}
+        - m_ExpressionIndex: 86
+          m_Value: {fileID: 2800000, guid: 116193d37149b7a4a8435bc2ce218ec4, type: 3}
+        - m_ExpressionIndex: 267
+          m_Value: {fileID: 2800000, guid: 116193d37149b7a4a8435bc2ce218ec4, type: 3}
+        - m_ExpressionIndex: 268
+          m_Value: {fileID: 2800000, guid: 116193d37149b7a4a8435bc2ce218ec4, type: 3}
+        - m_ExpressionIndex: 270
+          m_Value: {fileID: 2800000, guid: 116193d37149b7a4a8435bc2ce218ec4, type: 3}
+        - m_ExpressionIndex: 271
+          m_Value: {fileID: 2800000, guid: 116193d37149b7a4a8435bc2ce218ec4, type: 3}
+        - m_ExpressionIndex: 273
+          m_Value: {fileID: 2800000, guid: 116193d37149b7a4a8435bc2ce218ec4, type: 3}
+        - m_ExpressionIndex: 265
+          m_Value: {fileID: 4300000, guid: 9abc980850780dc4587f0554fc2c33bd, type: 2}
+      m_Bool:
+        m_Array:
+        - m_ExpressionIndex: 46
+          m_Value: 0
+        - m_ExpressionIndex: 61
+          m_Value: 0
+        - m_ExpressionIndex: 77
+          m_Value: 0
+        - m_ExpressionIndex: 78
+          m_Value: 0
+        - m_ExpressionIndex: 107
+          m_Value: 0
+        - m_ExpressionIndex: 114
+          m_Value: 0
+        - m_ExpressionIndex: 116
+          m_Value: 1
+        - m_ExpressionIndex: 117
+          m_Value: 0
+        - m_ExpressionIndex: 135
+          m_Value: 0
+        - m_ExpressionIndex: 190
+          m_Value: 0
+        - m_ExpressionIndex: 232
+          m_Value: 1
+        - m_ExpressionIndex: 243
+          m_Value: 0
+        - m_ExpressionIndex: 277
+          m_Value: 0
+        - m_ExpressionIndex: 278
+          m_Value: 0
+    m_ExposedExpressions:
+    - mapping:
+        nameId: AutoScaleHIDDEN
+        index: 30
+      space: -1
+    - mapping:
+        nameId: Branched Arc Emission Boost
+        index: 221
+      space: -1
+    - mapping:
+        nameId: Branched Arc Noise Mask Profile
+        index: 79
+      space: -1
+    - mapping:
+        nameId: Branched Arc Offset
+        index: 97
+      space: -1
+    - mapping:
+        nameId: Branched Arc Offset Mask
+        index: 142
+      space: -1
+    - mapping:
+        nameId: Branched Arc Offset Over Lifetime
+        index: 45
+      space: -1
+    - mapping:
+        nameId: Branched Arc Probability
+        index: 276
+      space: -1
+    - mapping:
+        nameId: Branched Arc Thickness
+        index: 220
+      space: -1
+    - mapping:
+        nameId: Branched Arc Transparency Mask
+        index: 106
+      space: -1
+    - mapping:
+        nameId: Branched Strip AoT
+        index: 170
+      space: -1
+    - mapping:
+        nameId: Branched Strip EoT
+        index: 140
+      space: -1
+    - mapping:
+        nameId: Branched Strip Lifetime
+        index: 34
+      space: -1
+    - mapping:
+        nameId: Branched Strip Low Lifetime Fix
+        index: 60
+      space: -1
+    - mapping:
+        nameId: Branched Strip Profile
+        index: 181
+      space: -1
+    - mapping:
+        nameId: ChainCountHIDDEN
+        index: 1
+      space: -1
+    - mapping:
+        nameId: ChainPositionsTextureHIDDEN
+        index: 3
+      space: -1
+    - mapping:
+        nameId: Disable Arc
+        index: 277
+      space: -1
+    - mapping:
+        nameId: Disable Double VFX When Closing Chain
+        index: 46
+      space: -1
+    - mapping:
+        nameId: Disable Hit
+        index: 117
+      space: -1
+    - mapping:
+        nameId: Disable Hit 3
+        index: 114
+      space: -1
+    - mapping:
+        nameId: Disable Sparks
+        index: 135
+      space: -1
+    - mapping:
+        nameId: Dissolve Noise Enabled
+        index: 190
+      space: -1
+    - mapping:
+        nameId: Dissolve Noise Scale Arc
+        index: 35
+      space: -1
+    - mapping:
+        nameId: Dissolve Noise Scale Strips
+        index: 40
+      space: -1
+    - mapping:
+        nameId: Hit 3 Emission Power
+        index: 185
+      space: -1
+    - mapping:
+        nameId: Hit 3 EoL
+        index: 121
+      space: -1
+    - mapping:
+        nameId: Hit 3 Lifetime
+        index: 272
+      space: -1
+    - mapping:
+        nameId: Hit 3 Noise Scale U
+        index: 274
+      space: -1
+    - mapping:
+        nameId: Hit 3 Noise Scale V
+        index: 275
+      space: -1
+    - mapping:
+        nameId: Hit 3 Noise Texture
+        index: 273
+      space: -1
+    - mapping:
+        nameId: Hit 3 OoL
+        index: 216
+      space: -1
+    - mapping:
+        nameId: Hit 3 Rim Exp
+        index: 217
+      space: -1
+    - mapping:
+        nameId: Hit 3 Size Mult
+        index: 184
+      space: -1
+    - mapping:
+        nameId: Hit 3 SoL
+        index: 242
+      space: -1
+    - mapping:
+        nameId: Hit EoL
+        index: 164
+      space: -1
+    - mapping:
+        nameId: Hit Main Size Mult
+        index: 182
+      space: -1
+    - mapping:
+        nameId: Hit Move To Camera Fix
+        index: 159
+      space: -1
+    - mapping:
+        nameId: Hit SoL Cirve
+        index: 238
+      space: -1
+    - mapping:
+        nameId: Hit Texture
+        index: 268
+      space: -1
+    - mapping:
+        nameId: HowManyTimesVFXWasTriggeredHIDDEN
+        index: 192
+      space: -1
+    - mapping:
+        nameId: HowManyTimesVFXWasTriggeredPerTriggerHIDDEN
+        index: 24
+      space: -1
+    - mapping:
+        nameId: Lightning Branched Arc Color
+        index: 189
+      space: -1
+    - mapping:
+        nameId: Lightning Branched Strip Color
+        index: 141
+      space: -1
+    - mapping:
+        nameId: Lightning Branched Strip Color Transition
+        index: 105
+      space: -1
+    - mapping:
+        nameId: Lightning Hit 3 Color
+        index: 166
+      space: -1
+    - mapping:
+        nameId: Lightning Hit Color
+        index: 218
+      space: -1
+    - mapping:
+        nameId: Lightning Hits Emission Power
+        index: 209
+      space: -1
+    - mapping:
+        nameId: Lightning Main Strip Color
+        index: 138
+      space: -1
+    - mapping:
+        nameId: Lightning Main Strip Color 2
+        index: 143
+      space: -1
+    - mapping:
+        nameId: Lightning Main Strip Color Transition
+        index: 71
+      space: -1
+    - mapping:
+        nameId: Lightning Sparks Color
+        index: 104
+      space: -1
+    - mapping:
+        nameId: Lightning Sparks Emission Power
+        index: 103
+      space: -1
+    - mapping:
+        nameId: Lightning Strips Emission Power
+        index: 161
+      space: -1
+    - mapping:
+        nameId: Main Strip AoT
+        index: 191
+      space: -1
+    - mapping:
+        nameId: Main Strip B Noise Boost
+        index: 163
+      space: -1
+    - mapping:
+        nameId: Main Strip B Noise Mask Profile
+        index: 76
+      space: -1
+    - mapping:
+        nameId: Main Strip B Profile
+        index: 186
+      space: -1
+    - mapping:
+        nameId: Main Strip EoT
+        index: 165
+      space: -1
+    - mapping:
+        nameId: Main Strip Hit Lifetime
+        index: 269
+      space: -1
+    - mapping:
+        nameId: Main Strip Lifetime
+        index: 33
+      space: -1
+    - mapping:
+        nameId: Main Strip Noise Mask Profile
+        index: 96
+      space: -1
+    - mapping:
+        nameId: Main Strip Profile
+        index: 208
+      space: -1
+    - mapping:
+        nameId: MASTER Color
+        index: 167
+      space: -1
+    - mapping:
+        nameId: MASTER Emission
+        index: 168
+      space: -1
+    - mapping:
+        nameId: MASTER SCALE Hits And Sparks
+        index: 29
+      space: -1
+    - mapping:
+        nameId: MASTER SCALE Strips Noise
+        index: 59
+      space: -1
+    - mapping:
+        nameId: MASTER SCALE Strips Thickness
+        index: 187
+      space: -1
+    - mapping:
+        nameId: MASTER SCALE Strips UV
+        index: 188
+      space: -1
+    - mapping:
+        nameId: Move Local Enabled
+        index: 78
+      space: -1
+    - mapping:
+        nameId: Ramp
+        index: 86
+      space: -1
+    - mapping:
+        nameId: Ramp Color Tint
+        index: 98
+      space: -1
+    - mapping:
+        nameId: Ramp Instead Of Two Colors
+        index: 107
+      space: -1
+    - mapping:
+        nameId: Sparks 2 Lifetime Mult
+        index: 241
+      space: -1
+    - mapping:
+        nameId: Sparks 2 Linear Drag Curve
+        index: 162
+      space: -1
+    - mapping:
+        nameId: Sparks 2 Linear Drag Mult
+        index: 214
+      space: -1
+    - mapping:
+        nameId: Sparks 2 Size Mult
+        index: 212
+      space: -1
+    - mapping:
+        nameId: Sparks 2 SoL Curve
+        index: 215
+      space: -1
+    - mapping:
+        nameId: Sparks 2 Texture
+        index: 271
+      space: -1
+    - mapping:
+        nameId: Sparks 2 Velocity Mult
+        index: 213
+      space: -1
+    - mapping:
+        nameId: Sparks Local Enabled
+        index: 243
+      space: -1
+    - mapping:
+        nameId: Strip Center UV
+        index: 270
+      space: -1
+    - mapping:
+        nameId: Strip To Center
+        index: 240
+      space: -1
+    - mapping:
+        nameId: Strip To Center Curve
+        index: 183
+      space: -1
+    - mapping:
+        nameId: Strip UV Stretch
+        index: 160
+      space: -1
+    - mapping:
+        nameId: Strip UV Stretch Arc
+        index: 169
+      space: -1
+    - mapping:
+        nameId: Strips EoL
+        index: 122
+      space: -1
+    - mapping:
+        nameId: Strips Noise PoL
+        index: 68
+      space: -1
+    - mapping:
+        nameId: Strips Noise PoL Arc
+        index: 69
+      space: -1
+    - mapping:
+        nameId: Strips Noise Scale
+        index: 67
+      space: -1
+    - mapping:
+        nameId: Strips Noise Scale Arc
+        index: 70
+      space: -1
+    - mapping:
+        nameId: Strips Noise Strength
+        index: 120
+      space: -1
+    - mapping:
+        nameId: Strips Noise Strength Arc
+        index: 123
+      space: -1
+    - mapping:
+        nameId: Strips NpoL Along Direction Enabled
+        index: 77
+      space: -1
+    - mapping:
+        nameId: Strips NpoL Along Direction Flip
+        index: 61
+      space: -1
+    - mapping:
+        nameId: Strips NpoL Curve
+        index: 38
+      space: -1
+    - mapping:
+        nameId: Strips NpoL Curve Arc
+        index: 39
+      space: -1
+    - mapping:
+        nameId: Strips SAoL Alpha
+        index: 85
+      space: -1
+    - mapping:
+        nameId: Strips SAoL Min Allowed Size
+        index: 139
+      space: -1
+    - mapping:
+        nameId: Strips SAoL Overshot Curve
+        index: 95
+      space: -1
+    - mapping:
+        nameId: Strips SAoL Overshot Peak Value
+        index: 75
+      space: -1
+    - mapping:
+        nameId: Strips SAoL Size
+        index: 58
+      space: -1
+    - mapping:
+        nameId: Strips Texture
+        index: 267
+      space: -1
+    - mapping:
+        nameId: Strips V Mask Enabled
+        index: 278
+      space: -1
+    - mapping:
+        nameId: Strips V Mask Exp
+        index: 219
+      space: -1
+    - mapping:
+        nameId: TotalBranchedParticleCountHIDDEN
+        index: 157
+      space: -1
+    - mapping:
+        nameId: Transition Exp
+        index: 210
+      space: -1
+    - mapping:
+        nameId: Transition Length Curve
+        index: 211
+      space: -1
+    - mapping:
+        nameId: Transition Width
+        index: 239
+      space: -1
+    - mapping:
+        nameId: VFXEnabledHIDDEN
+        index: 116
+      space: -1
+    m_Buffers:
+    - target: 32
+      size: 768000
+      layout:
+      - name: MyParticleID
+        type: 6
+        offset:
+          bucket: 0
+          structure: 1
+          element: 0
+      - name: lifetime
+        type: 1
+        offset:
+          bucket: 51200
+          structure: 3
+          element: 0
+      - name: SeedPerMainStrip
+        type: 1
+        offset:
+          bucket: 51200
+          structure: 3
+          element: 1
+      - name: AutoScaleValue
+        type: 1
+        offset:
+          bucket: 51200
+          structure: 3
+          element: 2
+      - name: position
+        type: 3
+        offset:
+          bucket: 204800
+          structure: 3
+          element: 0
+      - name: targetPosition
+        type: 3
+        offset:
+          bucket: 358400
+          structure: 3
+          element: 0
+      - name: HistoryPosition
+        type: 3
+        offset:
+          bucket: 512000
+          structure: 3
+          element: 0
+      - name: age
+        type: 1
+        offset:
+          bucket: 665600
+          structure: 1
+          element: 0
+      - name: alive
+        type: 19
+        offset:
+          bucket: 716800
+          structure: 1
+          element: 0
+      capacity: 51200
+      stride: 4
+      mode: 0
+      debugName: VFXAttributeBuffer
+    - target: 16
+      size: 2561
+      layout: []
+      capacity: 0
+      stride: 4
+      mode: 0
+      debugName: VFXStripDataBuffer
+    - target: 32
+      size: 32768
+      layout:
+      - name: lifetime
+        type: 1
+        offset:
+          bucket: 0
+          structure: 1
+          element: 0
+      - name: position
+        type: 3
+        offset:
+          bucket: 4096
+          structure: 3
+          element: 0
+      - name: SeedPerMainStrip
+        type: 1
+        offset:
+          bucket: 16384
+          structure: 1
+          element: 0
+      - name: particleId
+        type: 6
+        offset:
+          bucket: 20480
+          structure: 1
+          element: 0
+      - name: alive
+        type: 19
+        offset:
+          bucket: 24576
+          structure: 2
+          element: 0
+      - name: age
+        type: 1
+        offset:
+          bucket: 24576
+          structure: 2
+          element: 1
+      capacity: 4096
+      stride: 4
+      mode: 0
+      debugName: VFXAttributeBuffer
+    - target: 32
+      size: 435200
+      layout:
+      - name: MyParticleID
+        type: 6
+        offset:
+          bucket: 0
+          structure: 2
+          element: 0
+      - name: HowManyTimesVFXWasTriggeredPerTriggerVar
+        type: 5
+        offset:
+          bucket: 0
+          structure: 2
+          element: 1
+      - name: MainAddOrNot
+        type: 19
+        offset:
+          bucket: 51200
+          structure: 4
+          element: 0
+      - name: lifetime
+        type: 1
+        offset:
+          bucket: 51200
+          structure: 4
+          element: 1
+      - name: SeedPerMainStrip
+        type: 1
+        offset:
+          bucket: 51200
+          structure: 4
+          element: 2
+      - name: AutoScaleValue
+        type: 1
+        offset:
+          bucket: 51200
+          structure: 4
+          element: 3
+      - name: position
+        type: 3
+        offset:
+          bucket: 153600
+          structure: 3
+          element: 0
+      - name: targetPosition
+        type: 3
+        offset:
+          bucket: 230400
+          structure: 3
+          element: 0
+      - name: HistoryPosition
+        type: 3
+        offset:
+          bucket: 307200
+          structure: 3
+          element: 0
+      - name: age
+        type: 1
+        offset:
+          bucket: 384000
+          structure: 1
+          element: 0
+      - name: alive
+        type: 19
+        offset:
+          bucket: 409600
+          structure: 1
+          element: 0
+      capacity: 25600
+      stride: 4
+      mode: 0
+      debugName: VFXAttributeBuffer
+    - target: 16
+      size: 2561
+      layout: []
+      capacity: 0
+      stride: 4
+      mode: 0
+      debugName: VFXStripDataBuffer
+    - target: 32
+      size: 786432
+      layout:
+      - name: position
+        type: 3
+        offset:
+          bucket: 0
+          structure: 4
+          element: 0
+      - name: size
+        type: 1
+        offset:
+          bucket: 0
+          structure: 4
+          element: 3
+      - name: velocity
+        type: 3
+        offset:
+          bucket: 262144
+          structure: 4
+          element: 0
+      - name: age
+        type: 1
+        offset:
+          bucket: 262144
+          structure: 4
+          element: 3
+      - name: alive
+        type: 19
+        offset:
+          bucket: 524288
+          structure: 1
+          element: 0
+      - name: AssignedSparkSize
+        type: 1
+        offset:
+          bucket: 589824
+          structure: 1
+          element: 0
+      - name: lifetime
+        type: 1
+        offset:
+          bucket: 655360
+          structure: 2
+          element: 0
+      - name: particleId
+        type: 6
+        offset:
+          bucket: 655360
+          structure: 2
+          element: 1
+      capacity: 65536
+      stride: 4
+      mode: 0
+      debugName: VFXAttributeBuffer
+    - target: 32
+      size: 57344
+      layout:
+      - name: lifetime
+        type: 1
+        offset:
+          bucket: 0
+          structure: 2
+          element: 0
+      - name: particleId
+        type: 6
+        offset:
+          bucket: 0
+          structure: 2
+          element: 1
+      - name: position
+        type: 3
+        offset:
+          bucket: 16384
+          structure: 3
+          element: 0
+      - name: alive
+        type: 19
+        offset:
+          bucket: 40960
+          structure: 2
+          element: 0
+      - name: age
+        type: 1
+        offset:
+          bucket: 40960
+          structure: 2
+          element: 1
+      capacity: 8192
+      stride: 4
+      mode: 0
+      debugName: VFXAttributeBuffer
+    - target: 32
+      size: 2
+      layout:
+      - name: AutoScaleValue
+        type: 1
+        offset:
+          bucket: 0
+          structure: 2
+          element: 0
+      - name: TrueEandom
+        type: 1
+        offset:
+          bucket: 0
+          structure: 2
+          element: 1
+      capacity: 1
+      stride: 4
+      mode: 1
+      debugName: VFXAttributeBuffer
+    - target: 16
+      size: 4
+      layout: []
+      capacity: 0
+      stride: 4
+      mode: 1
+      debugName: VFXInstancesIndirectionBuffer
+    - target: 16
+      size: 51201
+      layout: []
+      capacity: 0
+      stride: 8
+      mode: 0
+      debugName: indirectBuffer0_aPerCamera
+    - target: 16
+      size: 51201
+      layout: []
+      capacity: 0
+      stride: 4
+      mode: 0
+      debugName: sortedIndirectBuffer0_bPerCamera
+    - target: 32
+      size: 112
+      layout: []
+      capacity: 0
+      stride: 4
+      mode: 1
+      debugName: VFXGraphValuesBuffer
+    - target: 16
+      size: 4
+      layout: []
+      capacity: 0
+      stride: 4
+      mode: 1
+      debugName: VFXInstancesPrefixSumBuffer
+    - target: 16
+      size: 2
+      layout: []
+      capacity: 0
+      stride: 4
+      mode: 1
+      debugName: VFXSpawnEventBuffer
+    - target: 16
+      size: 51201
+      layout: []
+      capacity: 0
+      stride: 8
+      mode: 0
+      debugName: VFXScratchSortBuffer
+    - target: 32
+      size: 0
+      layout: []
+      capacity: 1
+      stride: 4
+      mode: 1
+      debugName: VFXAttributeBuffer
+    - target: 16
+      size: 4098
+      layout: []
+      capacity: 0
+      stride: 4
+      mode: 0
+      debugName: VFXDeadList
+    - target: 16
+      size: 4
+      layout: []
+      capacity: 0
+      stride: 4
+      mode: 1
+      debugName: VFXInstancesIndirectionBuffer
+    - target: 16
+      size: 4097
+      layout: []
+      capacity: 0
+      stride: 8
+      mode: 0
+      debugName: indirectBuffer0_aPerCamera
+    - target: 16
+      size: 4097
+      layout: []
+      capacity: 0
+      stride: 4
+      mode: 0
+      debugName: sortedIndirectBuffer0_bPerCamera
+    - target: 32
+      size: 52
+      layout: []
+      capacity: 0
+      stride: 4
+      mode: 1
+      debugName: VFXGraphValuesBuffer
+    - target: 16
+      size: 4
+      layout: []
+      capacity: 0
+      stride: 4
+      mode: 1
+      debugName: VFXInstancesPrefixSumBuffer
+    - target: 16
+      size: 2
+      layout: []
+      capacity: 0
+      stride: 4
+      mode: 1
+      debugName: VFXSpawnEventBuffer
+    - target: 32
+      size: 6
+      layout:
+      - name: HitPosition
+        type: 3
+        offset:
+          bucket: 0
+          structure: 6
+          element: 0
+      - name: AutoScaleValue
+        type: 1
+        offset:
+          bucket: 0
+          structure: 6
+          element: 3
+      - name: ArcIsPresent
+        type: 19
+        offset:
+          bucket: 0
+          structure: 6
+          element: 4
+      - name: TrueEandom
+        type: 1
+        offset:
+          bucket: 0
+          structure: 6
+          element: 5
+      capacity: 1
+      stride: 4
+      mode: 1
+      debugName: VFXAttributeBuffer
+    - target: 16
+      size: 4
+      layout: []
+      capacity: 0
+      stride: 4
+      mode: 1
+      debugName: VFXInstancesIndirectionBuffer
+    - target: 16
+      size: 25601
+      layout: []
+      capacity: 0
+      stride: 8
+      mode: 0
+      debugName: indirectBuffer0_aPerCamera
+    - target: 16
+      size: 25601
+      layout: []
+      capacity: 0
+      stride: 4
+      mode: 0
+      debugName: sortedIndirectBuffer0_bPerCamera
+    - target: 32
+      size: 164
+      layout: []
+      capacity: 0
+      stride: 4
+      mode: 1
+      debugName: VFXGraphValuesBuffer
+    - target: 16
+      size: 4
+      layout: []
+      capacity: 0
+      stride: 4
+      mode: 1
+      debugName: VFXInstancesPrefixSumBuffer
+    - target: 16
+      size: 2
+      layout: []
+      capacity: 0
+      stride: 4
+      mode: 1
+      debugName: VFXSpawnEventBuffer
+    - target: 16
+      size: 25601
+      layout: []
+      capacity: 0
+      stride: 8
+      mode: 0
+      debugName: VFXScratchSortBuffer
+    - target: 32
+      size: 1
+      layout:
+      - name: SeedPerMainStrip
+        type: 1
+        offset:
+          bucket: 0
+          structure: 1
+          element: 0
+      capacity: 1
+      stride: 4
+      mode: 1
+      debugName: VFXAttributeBuffer
+    - target: 16
+      size: 65538
+      layout: []
+      capacity: 0
+      stride: 4
+      mode: 0
+      debugName: VFXDeadList
+    - target: 16
+      size: 5
+      layout: []
+      capacity: 0
+      stride: 4
+      mode: 1
+      debugName: VFXInstancesIndirectionBuffer
+    - target: 16
+      size: 65537
+      layout: []
+      capacity: 0
+      stride: 8
+      mode: 0
+      debugName: indirectBuffer0_aPerCamera
+    - target: 16
+      size: 65537
+      layout: []
+      capacity: 0
+      stride: 4
+      mode: 0
+      debugName: sortedIndirectBuffer0_bPerCamera
+    - target: 32
+      size: 76
+      layout: []
+      capacity: 0
+      stride: 4
+      mode: 1
+      debugName: VFXGraphValuesBuffer
+    - target: 16
+      size: 5
+      layout: []
+      capacity: 0
+      stride: 4
+      mode: 1
+      debugName: VFXInstancesPrefixSumBuffer
+    - target: 16
+      size: 2
+      layout: []
+      capacity: 0
+      stride: 4
+      mode: 1
+      debugName: VFXSpawnEventBuffer
+    - target: 16
+      size: 65537
+      layout: []
+      capacity: 0
+      stride: 8
+      mode: 0
+      debugName: VFXScratchSortBuffer
+    - target: 32
+      size: 0
+      layout: []
+      capacity: 1
+      stride: 4
+      mode: 1
+      debugName: VFXAttributeBuffer
+    - target: 16
+      size: 8194
+      layout: []
+      capacity: 0
+      stride: 4
+      mode: 0
+      debugName: VFXDeadList
+    - target: 16
+      size: 5
+      layout: []
+      capacity: 0
+      stride: 4
+      mode: 1
+      debugName: VFXInstancesIndirectionBuffer
+    - target: 16
+      size: 8193
+      layout: []
+      capacity: 0
+      stride: 8
+      mode: 0
+      debugName: indirectBuffer0_aPerCamera
+    - target: 16
+      size: 8193
+      layout: []
+      capacity: 0
+      stride: 4
+      mode: 0
+      debugName: sortedIndirectBuffer0_bPerCamera
+    - target: 32
+      size: 52
+      layout: []
+      capacity: 0
+      stride: 4
+      mode: 1
+      debugName: VFXGraphValuesBuffer
+    - target: 16
+      size: 5
+      layout: []
+      capacity: 0
+      stride: 4
+      mode: 1
+      debugName: VFXInstancesPrefixSumBuffer
+    - target: 16
+      size: 2
+      layout: []
+      capacity: 0
+      stride: 4
+      mode: 1
+      debugName: VFXSpawnEventBuffer
+    - target: 16
+      size: 8193
+      layout: []
+      capacity: 0
+      stride: 8
+      mode: 0
+      debugName: VFXScratchSortBuffer
+    m_TemporaryBuffers: []
+    m_CPUBuffers:
+    - capacity: 1
+      stride: 8
+      layout:
+      - name: spawnCount
+        type: 1
+        offset:
+          bucket: 0
+          structure: 8
+          element: 0
+      - name: SeedPerMainStrip
+        type: 1
+        offset:
+          bucket: 0
+          structure: 8
+          element: 1
+      - name: AutoScaleValue
+        type: 1
+        offset:
+          bucket: 0
+          structure: 8
+          element: 2
+      - name: TrueEandom
+        type: 1
+        offset:
+          bucket: 0
+          structure: 8
+          element: 3
+      - name: ArcIsPresent
+        type: 19
+        offset:
+          bucket: 0
+          structure: 8
+          element: 4
+      - name: HitPosition
+        type: 3
+        offset:
+          bucket: 0
+          structure: 8
+          element: 5
+      initialData:
+        data: 0000803f00000000000000000000000000000000000000000000000000000000
+      debugName:
+    - capacity: 1
+      stride: 8
+      layout:
+      - name: spawnCount
+        type: 1
+        offset:
+          bucket: 0
+          structure: 8
+          element: 0
+      - name: SeedPerMainStrip
+        type: 1
+        offset:
+          bucket: 0
+          structure: 8
+          element: 1
+      - name: AutoScaleValue
+        type: 1
+        offset:
+          bucket: 0
+          structure: 8
+          element: 2
+      - name: TrueEandom
+        type: 1
+        offset:
+          bucket: 0
+          structure: 8
+          element: 3
+      - name: ArcIsPresent
+        type: 19
+        offset:
+          bucket: 0
+          structure: 8
+          element: 4
+      - name: HitPosition
+        type: 3
+        offset:
+          bucket: 0
+          structure: 8
+          element: 5
+      initialData:
+        data: 0000803f00000000000000000000000000000000000000000000000000000000
+      debugName:
+    - capacity: 1
+      stride: 8
+      layout:
+      - name: spawnCount
+        type: 1
+        offset:
+          bucket: 0
+          structure: 8
+          element: 0
+      - name: SeedPerMainStrip
+        type: 1
+        offset:
+          bucket: 0
+          structure: 8
+          element: 1
+      - name: AutoScaleValue
+        type: 1
+        offset:
+          bucket: 0
+          structure: 8
+          element: 2
+      - name: TrueEandom
+        type: 1
+        offset:
+          bucket: 0
+          structure: 8
+          element: 3
+      - name: ArcIsPresent
+        type: 19
+        offset:
+          bucket: 0
+          structure: 8
+          element: 4
+      - name: HitPosition
+        type: 3
+        offset:
+          bucket: 0
+          structure: 8
+          element: 5
+      initialData:
+        data: 0000803f00000000000000000000000000000000000000000000000000000000
+      debugName:
+    - capacity: 1
+      stride: 8
+      layout:
+      - name: spawnCount
+        type: 1
+        offset:
+          bucket: 0
+          structure: 8
+          element: 0
+      - name: SeedPerMainStrip
+        type: 1
+        offset:
+          bucket: 0
+          structure: 8
+          element: 1
+      - name: AutoScaleValue
+        type: 1
+        offset:
+          bucket: 0
+          structure: 8
+          element: 2
+      - name: TrueEandom
+        type: 1
+        offset:
+          bucket: 0
+          structure: 8
+          element: 3
+      - name: ArcIsPresent
+        type: 19
+        offset:
+          bucket: 0
+          structure: 8
+          element: 4
+      - name: HitPosition
+        type: 3
+        offset:
+          bucket: 0
+          structure: 8
+          element: 5
+      initialData:
+        data: 0000803f00000000000000000000000000000000000000000000000000000000
+      debugName:
+    - capacity: 1
+      stride: 8
+      layout:
+      - name: spawnCount
+        type: 1
+        offset:
+          bucket: 0
+          structure: 8
+          element: 0
+      - name: SeedPerMainStrip
+        type: 1
+        offset:
+          bucket: 0
+          structure: 8
+          element: 1
+      - name: AutoScaleValue
+        type: 1
+        offset:
+          bucket: 0
+          structure: 8
+          element: 2
+      - name: TrueEandom
+        type: 1
+        offset:
+          bucket: 0
+          structure: 8
+          element: 3
+      - name: ArcIsPresent
+        type: 19
+        offset:
+          bucket: 0
+          structure: 8
+          element: 4
+      - name: HitPosition
+        type: 3
+        offset:
+          bucket: 0
+          structure: 8
+          element: 5
+      initialData:
+        data: 0000803f00000000000000000000000000000000000000000000000000000000
+      debugName:
+    - capacity: 1
+      stride: 8
+      layout:
+      - name: spawnCount
+        type: 1
+        offset:
+          bucket: 0
+          structure: 8
+          element: 0
+      - name: SeedPerMainStrip
+        type: 1
+        offset:
+          bucket: 0
+          structure: 8
+          element: 1
+      - name: AutoScaleValue
+        type: 1
+        offset:
+          bucket: 0
+          structure: 8
+          element: 2
+      - name: TrueEandom
+        type: 1
+        offset:
+          bucket: 0
+          structure: 8
+          element: 3
+      - name: ArcIsPresent
+        type: 19
+        offset:
+          bucket: 0
+          structure: 8
+          element: 4
+      - name: HitPosition
+        type: 3
+        offset:
+          bucket: 0
+          structure: 8
+          element: 5
+      initialData:
+        data: 0000803f00000000000000000000000000000000000000000000000000000000
+      debugName:
+    m_Events:
+    - name: OnPlay
+      playSystems: 010000000300000004000000
+      stopSystems:
+      initSystems:
+    - name: OnStop
+      playSystems:
+      stopSystems: 0000000001000000020000000300000004000000
+      initSystems:
+    - name: CreateLightning
+      playSystems: 0000000002000000
+      stopSystems:
+      initSystems:
+    m_InstancingDisabledReason: 0
+    m_RuntimeVersion: 40
+    m_CompilationVersion: 7
+  m_Systems:
+  - type: 0
+    flags: 0
+    capacity: 0
+    layer: 4294967295
+    name: System (8)
+    buffers:
+    - nameId: spawner_output
+      index: 1
+    values: []
+    tasks:
+    - type: 268435457
+      buffers: []
+      temporaryBuffers: []
+      values:
+      - nameId: _vfx_enabled
+        index: 232
+      - nameId: Delay
+        index: 137
+      - nameId: Count
+        index: 262
+      params: []
+      processor: {fileID: 0}
+      instanceSplitIndex: 0
+    instanceSplitDescs: []
+  - type: 0
+    flags: 0
+    capacity: 0
+    layer: 4294967295
+    name: System (5)
+    buffers:
+    - nameId: spawner_output
+      index: 2
+    values: []
+    tasks:
+    - type: 268435458
+      buffers: []
+      temporaryBuffers: []
+      values:
+      - nameId: _vfx_enabled
+        index: 232
+      - nameId: period
+        index: 258
+      - nameId: nb
+        index: 259
+      params: []
+      processor: {fileID: 0}
+      instanceSplitIndex: 0
+    instanceSplitDescs: []
+  - type: 0
+    flags: 0
+    capacity: 0
+    layer: 4294967295
+    name: System (10)
+    buffers:
+    - nameId: spawner_output
+      index: 3
+    values: []
+    tasks:
+    - type: 268435457
+      buffers: []
+      temporaryBuffers: []
+      values:
+      - nameId: _vfx_enabled
+        index: 232
+      - nameId: Delay
+        index: 137
+      - nameId: Count
+        index: 263
+      params: []
+      processor: {fileID: 0}
+      instanceSplitIndex: 0
+    instanceSplitDescs: []
+  - type: 0
+    flags: 0
+    capacity: 0
+    layer: 4294967295
+    name: System (6)
+    buffers:
+    - nameId: spawner_output
+      index: 4
+    values: []
+    tasks:
+    - type: 268435456
+      buffers: []
+      temporaryBuffers: []
+      values:
+      - nameId: _vfx_enabled
+        index: 232
+      - nameId: Rate
+        index: 235
+      params: []
+      processor: {fileID: 0}
+      instanceSplitIndex: 0
+    - type: 268435458
+      buffers: []
+      temporaryBuffers: []
+      values:
+      - nameId: _vfx_enabled
+        index: 232
+      - nameId: nb
+        index: 260
+      - nameId: period
+        index: 261
+      params: []
+      processor: {fileID: 0}
+      instanceSplitIndex: 0
+    instanceSplitDescs: []
+  - type: 0
+    flags: 0
+    capacity: 0
+    layer: 4294967295
+    name: System (4)
+    buffers:
+    - nameId: spawner_output
+      index: 5
+    values: []
+    tasks:
+    - type: 268435458
+      buffers: []
+      temporaryBuffers: []
+      values:
+      - nameId: _vfx_enabled
+        index: 232
+      - nameId: nb
+        index: 257
+      - nameId: period
+        index: 258
+      params: []
+      processor: {fileID: 0}
+      instanceSplitIndex: 0
+    instanceSplitDescs: []
+  - type: 1
+    flags: 843
+    capacity: 51200
+    layer: 0
+    name: System
+    buffers:
+    - nameId: attributeBuffer
+      index: 0
+    - nameId: sourceAttributeBuffer
+      index: 7
+    - nameId: stripDataBuffer
+      index: 1
+    - nameId: instancingIndirectAndActiveIndirect
+      index: 8
+    - nameId: spawner_input
+      index: 1
+    - nameId: indirectBuffer0_aPerCamera
+      index: 9
+    - nameId: graphValuesBuffer
+      index: 11
+    - nameId: instancingPrefixSum
+      index: 12
+    - nameId: spawnBuffer
+      index: 13
+    values:
+    - nameId: stripCount
+      index: 512
+    - nameId: particlePerStripCount
+      index: 100
+    - nameId: bounds_center
+      index: 158
+    - nameId: bounds_size
+      index: 264
+    - nameId: graphValuesOffset
+      index: 5
+    - nameId: uniform_i
+      index: 47
+    - nameId: uniform_m
+      index: 109
+    - nameId: uniform_n
+      index: 80
+    - nameId: uniform_p
+      index: 111
+    - nameId: uniform_q
+      index: 73
+    - nameId: uniform_u
+      index: 245
+    - nameId: uniform_w
+      index: 146
+    - nameId: uniform_x
+      index: 196
+    - nameId: uniform_ba
+      index: 98
+    - nameId: uniform_bc
+      index: 124
+    - nameId: uniform_bd
+      index: 138
+    - nameId: uniform_be
+      index: 173
+    - nameId: uniform_bf
+      index: 167
+    - nameId: uniform_bg
+      index: 246
+    - nameId: uniform_bk
+      index: 91
+    - nameId: uniform_bl
+      index: 99
+    - nameId: uniform_bm
+      index: 225
+    - nameId: uniform_bo
+      index: 226
+    - nameId: uniform_f
+      index: 72
+    - nameId: _Lifetime_a
+      index: 33
+    - nameId: uniform_o
+      index: 193
+    - nameId: uniform_a
+      index: 78
+    - nameId: uniform_c
+      index: 2
+    - nameId: uniform_d
+      index: 10
+    - nameId: uniform_e
+      index: 5
+    - nameId: uniform_g
+      index: 12
+    - nameId: uniform_h
+      index: 77
+    - nameId: uniform_j
+      index: 61
+    - nameId: uniform_k
+      index: 59
+    - nameId: uniform_l
+      index: 67
+    - nameId: deltaTime_a
+      index: 279
+    - nameId: uniform_r
+      index: 75
+    - nameId: uniform_s
+      index: 139
+    - nameId: uniform_t
+      index: 187
+    - nameId: uniform_v
+      index: 161
+    - nameId: uniform_y
+      index: 168
+    - nameId: uniform_z
+      index: 107
+    - nameId: Transition_Width_a
+      index: 282
+    - nameId: Transition_Exp_a
+      index: 283
+    - nameId: uniform_bh
+      index: 190
+    - nameId: uniform_bi
+      index: 40
+    - nameId: uniform_bj
+      index: 17
+    - nameId: uniform_bn
+      index: 240
+    - nameId: _V_Mask_Enabled_a
+      index: 278
+    - nameId: _V_Mask_Exp_a
+      index: 284
+    - nameId: uniform_bp
+      index: 160
+    - nameId: uniform_bq
+      index: 227
+    tasks:
+    - type: 536870912
+      buffers:
+      - nameId: attributeBuffer
+        index: 0
+      - nameId: graphValuesBuffer
+        index: 11
+      - nameId: sourceAttributeBuffer
+        index: 7
+      - nameId: stripDataBuffer
+        index: 1
+      - nameId: spawnBuffer
+        index: 13
+      - nameId: instancingPrefixSum
+        index: 12
+      - nameId: instancingIndirectAndActiveIndirect
+        index: 8
+      temporaryBuffers: []
+      values:
+      - nameId: texture_b
+        index: 3
+      params:
+      - nameId: bounds_center
+        index: 158
+      - nameId: bounds_size
+        index: 264
+      processor: {fileID: 7200000, guid: 755d6a0af9dafd747bad04cdc845a7f9, type: 2}
+      instanceSplitIndex: 1
+    - type: 805306368
+      buffers:
+      - nameId: attributeBuffer
+        index: 0
+      - nameId: graphValuesBuffer
+        index: 11
+      - nameId: stripDataBuffer
+        index: 1
+      - nameId: instancingIndirectAndActiveIndirect
+        index: 8
+      temporaryBuffers: []
+      values:
+      - nameId: texture_d
+        index: 3
+      params: []
+      processor: {fileID: 7200000, guid: 40f883cab712a154b87e2c52d22a1b1e, type: 2}
+      instanceSplitIndex: 1
+    - type: 805306370
+      buffers:
+      - nameId: attributeBuffer
+        index: 0
+      - nameId: graphValuesBuffer
+        index: 11
+      - nameId: stripDataBuffer
+        index: 1
+      - nameId: instancingIndirectAndActiveIndirect
+        index: 8
+      - nameId: outputBuffer0
+        index: 9
+      - nameId: sortedIndirectBuffer
+        index: 10
+      temporaryBuffers: []
+      values: []
+      params: []
+      processor: {fileID: 7200000, guid: 781dc4fa8cadc2d48b90c5b99678974f, type: 2}
+      instanceSplitIndex: 0
+    - type: 805306372
+      buffers:
+      - nameId: srcBuffer
+        index: 9
+      - nameId: scratchBuffer
+        index: 14
+      - nameId: dstBuffer
+        index: 10
+      temporaryBuffers: []
+      values: []
+      params:
+      - nameId: globalSort
+        index: 0
+      - nameId: isPerCameraSort
+        index: 1
+      processor: {fileID: 0}
+      instanceSplitIndex: 0
+    - type: 1073741826
+      buffers:
+      - nameId: attributeBuffer
+        index: 0
+      - nameId: graphValuesBuffer
+        index: 11
+      - nameId: stripDataBuffer
+        index: 1
+      - nameId: indirectBuffer
+        index: 10
+      temporaryBuffers: []
+      values:
+      - nameId: texture_u
+        index: 3
+      - nameId: texture_m
+        index: 86
+      - nameId: Mask_Texture
+        index: 267
+      - nameId: Center_UV
+        index: 270
+      params:
+      - nameId: sortPriority
+        index: 0
+      - nameId: indirectDraw
+        index: 1
+      - nameId: indirectPerCamera
+        index: 1
+      - nameId: strips
+        index: 1
+      - nameId: indirectIndex
+        index: 9
+      processor: {fileID: 2100000, guid: 176f232b1d87427409fa0ef6156fc0d2, type: 2}
+      instanceSplitIndex: 2
+    instanceSplitDescs:
+    - values:
+    - values: 03000000
+    - values: 03000000560000000b0100000e010000
+  - type: 1
+    flags: 835
+    capacity: 4096
+    layer: 0
+    name: System (1)
+    buffers:
+    - nameId: attributeBuffer
+      index: 2
+    - nameId: sourceAttributeBuffer
+      index: 15
+    - nameId: deadList
+      index: 16
+    - nameId: instancingIndirectAndActiveIndirect
+      index: 17
+    - nameId: spawner_input
+      index: 2
+    - nameId: indirectBuffer0_aPerCamera
+      index: 18
+    - nameId: graphValuesBuffer
+      index: 20
+    - nameId: instancingPrefixSum
+      index: 21
+    - nameId: spawnBuffer
+      index: 22
+    values:
+    - nameId: bounds_center
+      index: 158
+    - nameId: bounds_size
+      index: 264
+    - nameId: graphValuesOffset
+      index: 3
+    - nameId: Size_a
+      index: 280
+    - nameId: uniform_m
+      index: 98
+    - nameId: uniform_p
+      index: 218
+    - nameId: uniform_q
+      index: 167
+    - nameId: uniform_s
+      index: 195
+    - nameId: uniform_h
+      index: 64
+    - nameId: _Lifetime_a
+      index: 269
+    - nameId: uniform_i
+      index: 194
+    - nameId: uniform_b
+      index: 63
+    - nameId: uniform_j
+      index: 222
+    - nameId: uniform_c
+      index: 10
+    - nameId: uniform_k
+      index: 244
+    - nameId: uniform_d
+      index: 5
+    - nameId: uniform_o
+      index: 88
+    - nameId: uniform_e
+      index: 17
+    - nameId: _AutoScaleValue_a
+      index: 30
+    - nameId: deltaTime_a
+      index: 279
+    - nameId: uniform_f
+      index: 182
+    - nameId: uniform_g
+      index: 29
+    - nameId: uniform_l
+      index: 107
+    - nameId: uniform_r
+      index: 209
+    - nameId: uniform_t
+      index: 168
+    tasks:
+    - type: 536870912
+      buffers:
+      - nameId: attributeBuffer
+        index: 2
+      - nameId: graphValuesBuffer
+        index: 20
+      - nameId: deadList
+        index: 16
+      - nameId: sourceAttributeBuffer
+        index: 15
+      - nameId: spawnBuffer
+        index: 22
+      - nameId: instancingPrefixSum
+        index: 21
+      - nameId: instancingIndirectAndActiveIndirect
+        index: 17
+      temporaryBuffers: []
+      values:
+      - nameId: texture_a
+        index: 3
+      params:
+      - nameId: bounds_center
+        index: 158
+      - nameId: bounds_size
+        index: 264
+      processor: {fileID: 7200000, guid: 2f6401478c46df642a65f4406205e0c2, type: 2}
+      instanceSplitIndex: 1
+    - type: 805306368
+      buffers:
+      - nameId: attributeBuffer
+        index: 2
+      - nameId: graphValuesBuffer
+        index: 20
+      - nameId: deadList
+        index: 16
+      - nameId: instancingIndirectAndActiveIndirect
+        index: 17
+      temporaryBuffers: []
+      values:
+      - nameId: texture_a
+        index: 3
+      params: []
+      processor: {fileID: 7200000, guid: 18625fd4a85238144bfe8326df48d63f, type: 2}
+      instanceSplitIndex: 1
+    - type: 805306370
+      buffers:
+      - nameId: attributeBuffer
+        index: 2
+      - nameId: graphValuesBuffer
+        index: 20
+      - nameId: instancingIndirectAndActiveIndirect
+        index: 17
+      - nameId: outputBuffer0
+        index: 18
+      - nameId: sortedIndirectBuffer
+        index: 19
+      temporaryBuffers: []
+      values: []
+      params: []
+      processor: {fileID: 7200000, guid: 446e28dc8df45594ab7ba0c6d536d7d9, type: 2}
+      instanceSplitIndex: 0
+    - type: 805306372
+      buffers:
+      - nameId: srcBuffer
+        index: 18
+      - nameId: scratchBuffer
+        index: -1
+      - nameId: dstBuffer
+        index: 19
+      temporaryBuffers: []
+      values: []
+      params:
+      - nameId: globalSort
+        index: 0
+      - nameId: isPerCameraSort
+        index: 1
+      processor: {fileID: 0}
+      instanceSplitIndex: 0
+    - type: 1073741826
+      buffers:
+      - nameId: attributeBuffer
+        index: 2
+      - nameId: graphValuesBuffer
+        index: 20
+      - nameId: indirectBuffer
+        index: 19
+      - nameId: deadList
+        index: 16
+      temporaryBuffers: []
+      values:
+      - nameId: texture_j
+        index: 86
+      - nameId: _MainMask
+        index: 268
+      params:
+      - nameId: sortPriority
+        index: 0
+      - nameId: indirectDraw
+        index: 1
+      - nameId: indirectPerCamera
+        index: 1
+      - nameId: indirectIndex
+        index: 18
+      processor: {fileID: 2100000, guid: 580621fe3785376428dc7159c44adbe0, type: 2}
+      instanceSplitIndex: 2
+    instanceSplitDescs:
+    - values:
+    - values: 03000000
+    - values: 560000000c010000
+  - type: 1
+    flags: 843
+    capacity: 25600
+    layer: 0
+    name: System (2)
+    buffers:
+    - nameId: attributeBuffer
+      index: 3
+    - nameId: sourceAttributeBuffer
+      index: 23
+    - nameId: stripDataBuffer
+      index: 4
+    - nameId: instancingIndirectAndActiveIndirect
+      index: 24
+    - nameId: spawner_input
+      index: 3
+    - nameId: indirectBuffer0_aPerCamera
+      index: 25
+    - nameId: graphValuesBuffer
+      index: 27
+    - nameId: instancingPrefixSum
+      index: 28
+    - nameId: spawnBuffer
+      index: 29
+    values:
+    - nameId: stripCount
+      index: 512
+    - nameId: particlePerStripCount
+      index: 50
+    - nameId: bounds_center
+      index: 158
+    - nameId: bounds_size
+      index: 264
+    - nameId: graphValuesOffset
+      index: 5
+    - nameId: uniform_j
+      index: 172
+    - nameId: uniform_s
+      index: 53
+    - nameId: uniform_u
+      index: 47
+    - nameId: uniform_v
+      index: 48
+    - nameId: uniform_bb
+      index: 89
+    - nameId: uniform_bc
+      index: 90
+    - nameId: uniform_bd
+      index: 80
+    - nameId: uniform_be
+      index: 82
+    - nameId: uniform_bj
+      index: 111
+    - nameId: uniform_bk
+      index: 73
+    - nameId: uniform_bq
+      index: 228
+    - nameId: uniform_br
+      index: 229
+    - nameId: uniform_bt
+      index: 146
+    - nameId: uniform_bu
+      index: 174
+    - nameId: uniform_bx
+      index: 138
+    - nameId: uniform_by
+      index: 125
+    - nameId: uniform_bz
+      index: 175
+    - nameId: uniform_cb
+      index: 98
+    - nameId: uniform_ce
+      index: 189
+    - nameId: uniform_cf
+      index: 167
+    - nameId: uniform_cg
+      index: 246
+    - nameId: uniform_cj
+      index: 91
+    - nameId: uniform_ck
+      index: 99
+    - nameId: uniform_cl
+      index: 197
+    - nameId: uniform_cn
+      index: 226
+    - nameId: uniform_i
+      index: 72
+    - nameId: uniform_a
+      index: 223
+    - nameId: uniform_n
+      index: 110
+    - nameId: uniform_b
+      index: 144
+    - nameId: uniform_bm
+      index: 74
+    - nameId: _Lifetime_a
+      index: 34
+    - nameId: uniform_cm
+      index: 126
+    - nameId: uniform_c
+      index: 78
+    - nameId: uniform_cd
+      index: 88
+    - nameId: uniform_e
+      index: 26
+    - nameId: uniform_f
+      index: 2
+    - nameId: uniform_g
+      index: 10
+    - nameId: uniform_h
+      index: 5
+    - nameId: uniform_k
+      index: 17
+    - nameId: uniform_l
+      index: 18
+    - nameId: uniform_m
+      index: 19
+    - nameId: uniform_o
+      index: 20
+    - nameId: uniform_p
+      index: 21
+    - nameId: uniform_q
+      index: 22
+    - nameId: uniform_r
+      index: 12
+    - nameId: _HowManyTimesVFXWasTriggeredPerTriggerVar_a
+      index: 24
+    - nameId: uniform_t
+      index: 77
+    - nameId: uniform_w
+      index: 41
+    - nameId: uniform_x
+      index: 61
+    - nameId: uniform_y
+      index: 59
+    - nameId: uniform_z
+      index: 67
+    - nameId: uniform_ba
+      index: 70
+    - nameId: uniform_bf
+      index: 120
+    - nameId: uniform_bg
+      index: 123
+    - nameId: uniform_bh
+      index: 163
+    - nameId: uniform_bi
+      index: 63
+    - nameId: deltaTime_a
+      index: 279
+    - nameId: uniform_bl
+      index: 75
+    - nameId: uniform_bn
+      index: 139
+    - nameId: uniform_bo
+      index: 187
+    - nameId: uniform_bp
+      index: 220
+    - nameId: uniform_bs
+      index: 161
+    - nameId: uniform_bv
+      index: 168
+    - nameId: uniform_bw
+      index: 221
+    - nameId: uniform_ca
+      index: 107
+    - nameId: Transition_Width_a
+      index: 282
+    - nameId: Transition_Exp_a
+      index: 283
+    - nameId: uniform_ch
+      index: 190
+    - nameId: uniform_ci
+      index: 35
+    - nameId: uniform_co
+      index: 240
+    - nameId: _V_Mask_Enabled_a
+      index: 278
+    - nameId: _V_Mask_Exp_a
+      index: 284
+    - nameId: uniform_cp
+      index: 160
+    - nameId: uniform_cq
+      index: 169
+    - nameId: uniform_cr
+      index: 227
+    tasks:
+    - type: 536870912
+      buffers:
+      - nameId: attributeBuffer
+        index: 3
+      - nameId: graphValuesBuffer
+        index: 27
+      - nameId: sourceAttributeBuffer
+        index: 23
+      - nameId: stripDataBuffer
+        index: 4
+      - nameId: spawnBuffer
+        index: 29
+      - nameId: instancingPrefixSum
+        index: 28
+      - nameId: instancingIndirectAndActiveIndirect
+        index: 24
+      temporaryBuffers: []
+      values:
+      - nameId: texture_d
+        index: 3
+      params:
+      - nameId: bounds_center
+        index: 158
+      - nameId: bounds_size
+        index: 264
+      processor: {fileID: 7200000, guid: 34036fce2b1740e42ac00a9e2f3c145d, type: 2}
+      instanceSplitIndex: 1
+    - type: 805306368
+      buffers:
+      - nameId: attributeBuffer
+        index: 3
+      - nameId: graphValuesBuffer
+        index: 27
+      - nameId: stripDataBuffer
+        index: 4
+      - nameId: instancingIndirectAndActiveIndirect
+        index: 24
+      temporaryBuffers: []
+      values:
+      - nameId: texture_g
+        index: 3
+      params: []
+      processor: {fileID: 7200000, guid: 69071fd11aef29144b0362397468f29b, type: 2}
+      instanceSplitIndex: 1
+    - type: 805306370
+      buffers:
+      - nameId: attributeBuffer
+        index: 3
+      - nameId: graphValuesBuffer
+        index: 27
+      - nameId: stripDataBuffer
+        index: 4
+      - nameId: instancingIndirectAndActiveIndirect
+        index: 24
+      - nameId: outputBuffer0
+        index: 25
+      - nameId: sortedIndirectBuffer
+        index: 26
+      temporaryBuffers: []
+      values: []
+      params: []
+      processor: {fileID: 7200000, guid: 0849090c9dabc9741abde3086f54021e, type: 2}
+      instanceSplitIndex: 0
+    - type: 805306372
+      buffers:
+      - nameId: srcBuffer
+        index: 25
+      - nameId: scratchBuffer
+        index: 30
+      - nameId: dstBuffer
+        index: 26
+      temporaryBuffers: []
+      values: []
+      params:
+      - nameId: globalSort
+        index: 0
+      - nameId: isPerCameraSort
+        index: 1
+      processor: {fileID: 0}
+      instanceSplitIndex: 0
+    - type: 1073741826
+      buffers:
+      - nameId: attributeBuffer
+        index: 3
+      - nameId: graphValuesBuffer
+        index: 27
+      - nameId: stripDataBuffer
+        index: 4
+      - nameId: indirectBuffer
+        index: 26
+      temporaryBuffers: []
+      values:
+      - nameId: texture_bb
+        index: 3
+      - nameId: texture_u
+        index: 86
+      - nameId: Mask_Texture
+        index: 267
+      - nameId: Center_UV
+        index: 270
+      params:
+      - nameId: sortPriority
+        index: 0
+      - nameId: indirectDraw
+        index: 1
+      - nameId: indirectPerCamera
+        index: 1
+      - nameId: strips
+        index: 1
+      - nameId: indirectIndex
+        index: 25
+      processor: {fileID: 2100000, guid: 89a5427248315de48bcdc81ea4312432, type: 2}
+      instanceSplitIndex: 2
+    instanceSplitDescs:
+    - values:
+    - values: 03000000
+    - values: 03000000560000000b0100000e010000
+  - type: 1
+    flags: 835
+    capacity: 65536
+    layer: 0
+    name: Swarm
+    buffers:
+    - nameId: attributeBuffer
+      index: 5
+    - nameId: sourceAttributeBuffer
+      index: 31
+    - nameId: deadList
+      index: 32
+    - nameId: instancingIndirectAndActiveIndirect
+      index: 33
+    - nameId: spawner_input
+      index: 4
+    - nameId: indirectBuffer0_aPerCamera
+      index: 34
+    - nameId: graphValuesBuffer
+      index: 36
+    - nameId: instancingPrefixSum
+      index: 37
+    - nameId: spawnBuffer
+      index: 38
+    values:
+    - nameId: bounds_center
+      index: 158
+    - nameId: bounds_size
+      index: 264
+    - nameId: graphValuesOffset
+      index: 3
+    - nameId: uniform_o
+      index: 150
+    - nameId: uniform_p
+      index: 201
+    - nameId: uniform_r
+      index: 252
+    - nameId: Scale_a
+      index: 286
+    - nameId: uniform_v
+      index: 98
+    - nameId: uniform_y
+      index: 104
+    - nameId: uniform_z
+      index: 130
+    - nameId: uniform_ba
+      index: 167
+    - nameId: uniform_bb
+      index: 202
+    - nameId: uniform_k
+      index: 222
+    - nameId: uniform_a
+      index: 243
+    - nameId: uniform_l
+      index: 244
+    - nameId: uniform_c
+      index: 63
+    - nameId: uniform_m
+      index: 57
+    - nameId: uniform_d
+      index: 10
+    - nameId: Force_a
+      index: 285
+    - nameId: uniform_e
+      index: 5
+    - nameId: Color_a
+      index: 287
+    - nameId: uniform_f
+      index: 17
+    - nameId: uniform_s
+      index: 113
+    - nameId: uniform_t
+      index: 129
+    - nameId: uniform_x
+      index: 88
+    - nameId: uniform_g
+      index: 30
+    - nameId: uniform_h
+      index: 212
+    - nameId: uniform_i
+      index: 29
+    - nameId: uniform_j
+      index: 241
+    - nameId: Speed_a
+      index: 37
+    - nameId: uniform_n
+      index: 213
+    - nameId: uniform_q
+      index: 214
+    - nameId: deltaTime_a
+      index: 279
+    - nameId: uniform_u
+      index: 107
+    tasks:
+    - type: 536870912
+      buffers:
+      - nameId: attributeBuffer
+        index: 5
+      - nameId: graphValuesBuffer
+        index: 36
+      - nameId: deadList
+        index: 32
+      - nameId: sourceAttributeBuffer
+        index: 31
+      - nameId: spawnBuffer
+        index: 38
+      - nameId: instancingPrefixSum
+        index: 37
+      - nameId: instancingIndirectAndActiveIndirect
+        index: 33
+      temporaryBuffers: []
+      values:
+      - nameId: texture_b
+        index: 3
+      params:
+      - nameId: bounds_center
+        index: 158
+      - nameId: bounds_size
+        index: 264
+      processor: {fileID: 7200000, guid: 76481c03af4e26f479680646d269e26a, type: 2}
+      instanceSplitIndex: 1
+    - type: 805306368
+      buffers:
+      - nameId: attributeBuffer
+        index: 5
+      - nameId: graphValuesBuffer
+        index: 36
+      - nameId: deadList
+        index: 32
+      - nameId: instancingIndirectAndActiveIndirect
+        index: 33
+      temporaryBuffers: []
+      values: []
+      params: []
+      processor: {fileID: 7200000, guid: e6fbda3b5c1b838438d5fed658cb95ea, type: 2}
+      instanceSplitIndex: 0
+    - type: 805306370
+      buffers:
+      - nameId: attributeBuffer
+        index: 5
+      - nameId: graphValuesBuffer
+        index: 36
+      - nameId: instancingIndirectAndActiveIndirect
+        index: 33
+      - nameId: outputBuffer0
+        index: 34
+      - nameId: sortedIndirectBuffer
+        index: 35
+      temporaryBuffers: []
+      values:
+      - nameId: texture_m
+        index: 3
+      - nameId: texture_e
+        index: 86
+      params: []
+      processor: {fileID: 7200000, guid: ae2b3b532b245d94dba979e98ca7d2e4, type: 2}
+      instanceSplitIndex: 2
+    - type: 805306372
+      buffers:
+      - nameId: srcBuffer
+        index: 34
+      - nameId: scratchBuffer
+        index: 39
+      - nameId: dstBuffer
+        index: 35
+      temporaryBuffers: []
+      values: []
+      params:
+      - nameId: globalSort
+        index: 0
+      - nameId: isPerCameraSort
+        index: 1
+      processor: {fileID: 0}
+      instanceSplitIndex: 0
+    - type: 1073741826
+      buffers:
+      - nameId: attributeBuffer
+        index: 5
+      - nameId: graphValuesBuffer
+        index: 36
+      - nameId: indirectBuffer
+        index: 35
+      - nameId: deadList
+        index: 32
+      temporaryBuffers: []
+      values:
+      - nameId: texture_m
+        index: 3
+      - nameId: texture_e
+        index: 86
+      - nameId: mainTexture
+        index: 271
+      params:
+      - nameId: sortPriority
+        index: 0
+      - nameId: indirectDraw
+        index: 1
+      - nameId: indirectPerCamera
+        index: 1
+      - nameId: indirectIndex
+        index: 34
+      processor: {fileID: 2100000, guid: 9d2d5fe09ed2b1247a72a6f948e0635e, type: 2}
+      instanceSplitIndex: 3
+    instanceSplitDescs:
+    - values:
+    - values: 03000000
+    - values: 0300000056000000
+    - values: 03000000560000000f010000
+  - type: 1
+    flags: 835
+    capacity: 8192
+    layer: 0
+    name: System (3)
+    buffers:
+    - nameId: attributeBuffer
+      index: 6
+    - nameId: sourceAttributeBuffer
+      index: 40
+    - nameId: deadList
+      index: 41
+    - nameId: instancingIndirectAndActiveIndirect
+      index: 42
+    - nameId: spawner_input
+      index: 5
+    - nameId: indirectBuffer0_aPerCamera
+      index: 43
+    - nameId: graphValuesBuffer
+      index: 45
+    - nameId: instancingPrefixSum
+      index: 46
+    - nameId: spawnBuffer
+      index: 47
+    values:
+    - nameId: bounds_center
+      index: 158
+    - nameId: bounds_size
+      index: 264
+    - nameId: graphValuesOffset
+      index: 3
+    - nameId: Size_a
+      index: 289
+    - nameId: uniform_i
+      index: 98
+    - nameId: uniform_l
+      index: 166
+    - nameId: uniform_m
+      index: 151
+    - nameId: uniform_n
+      index: 231
+    - nameId: uniform_o
+      index: 167
+    - nameId: uniform_p
+      index: 255
+    - nameId: uniform_q
+      index: 256
+    - nameId: uniform_k
+      index: 88
+    - nameId: _Lifetime_a
+      index: 272
+    - nameId: uniform_b
+      index: 63
+    - nameId: uniform_c
+      index: 10
+    - nameId: uniform_d
+      index: 5
+    - nameId: uniform_e
+      index: 17
+    - nameId: _AutoScaleValue_a
+      index: 30
+    - nameId: deltaTime_a
+      index: 279
+    - nameId: uniform_f
+      index: 184
+    - nameId: uniform_g
+      index: 29
+    - nameId: uniform_h
+      index: 107
+    - nameId: _EmissionPower_a
+      index: 290
+    - nameId: _NoiseScaleU_a
+      index: 274
+    - nameId: _NoiseScaleV_a
+      index: 275
+    tasks:
+    - type: 536870912
+      buffers:
+      - nameId: attributeBuffer
+        index: 6
+      - nameId: graphValuesBuffer
+        index: 45
+      - nameId: deadList
+        index: 41
+      - nameId: sourceAttributeBuffer
+        index: 40
+      - nameId: spawnBuffer
+        index: 47
+      - nameId: instancingPrefixSum
+        index: 46
+      - nameId: instancingIndirectAndActiveIndirect
+        index: 42
+      temporaryBuffers: []
+      values:
+      - nameId: texture_a
+        index: 3
+      params:
+      - nameId: bounds_center
+        index: 158
+      - nameId: bounds_size
+        index: 264
+      processor: {fileID: 7200000, guid: 7a161bcb4b9870546b1033ee980155a3, type: 2}
+      instanceSplitIndex: 1
+    - type: 805306368
+      buffers:
+      - nameId: attributeBuffer
+        index: 6
+      - nameId: graphValuesBuffer
+        index: 45
+      - nameId: deadList
+        index: 41
+      - nameId: instancingIndirectAndActiveIndirect
+        index: 42
+      temporaryBuffers: []
+      values:
+      - nameId: texture_a
+        index: 3
+      params: []
+      processor: {fileID: 7200000, guid: 07b32edc9b42ff8439c2b588575030a9, type: 2}
+      instanceSplitIndex: 1
+    - type: 805306370
+      buffers:
+      - nameId: attributeBuffer
+        index: 6
+      - nameId: graphValuesBuffer
+        index: 45
+      - nameId: instancingIndirectAndActiveIndirect
+        index: 42
+      - nameId: outputBuffer0
+        index: 43
+      - nameId: sortedIndirectBuffer
+        index: 44
+      temporaryBuffers: []
+      values: []
+      params: []
+      processor: {fileID: 7200000, guid: 5e1dc131d4580e94ca2a01d2dd6d6fdc, type: 2}
+      instanceSplitIndex: 0
+    - type: 805306372
+      buffers:
+      - nameId: srcBuffer
+        index: 43
+      - nameId: scratchBuffer
+        index: 48
+      - nameId: dstBuffer
+        index: 44
+      temporaryBuffers: []
+      values: []
+      params:
+      - nameId: globalSort
+        index: 0
+      - nameId: isPerCameraSort
+        index: 1
+      processor: {fileID: 0}
+      instanceSplitIndex: 0
+    - type: 1073741828
+      buffers:
+      - nameId: attributeBuffer
+        index: 6
+      - nameId: graphValuesBuffer
+        index: 45
+      - nameId: indirectBuffer
+        index: 44
+      temporaryBuffers: []
+      values:
+      - nameId: texture_g
+        index: 86
+      - nameId: _NoiseTexture
+        index: 273
+      params:
+      - nameId: mesh
+        index: 265
+      - nameId: subMeshMask
+        index: 266
+      - nameId: sortPriority
+        index: 0
+      - nameId: indirectDraw
+        index: 1
+      - nameId: indirectPerCamera
+        index: 1
+      - nameId: indirectIndex
+        index: 43
+      processor: {fileID: 2100000, guid: 20536b24252ec094693e0ba1f329c550, type: 2}
+      instanceSplitIndex: 3
+    instanceSplitDescs:
+    - values:
+    - values: 03000000
+    - values: 560000000901000011010000
+    - values: 5600000009010000090100000a01000011010000
+  m_RendererSettings:
+    motionVectorGenerationMode: 0
+    shadowCastingMode: 0
+  m_CullingFlags: 0
+  m_ShaderSources: []
+  m_EditorSystems: []
+  m_CompilationMode: 0

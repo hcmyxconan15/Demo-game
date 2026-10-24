@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aca3de51d628f1351bdd193cc705add2, type: 3}
+  m_Name: NodeDb
+  m_EditorClassIdentifier:
+  NodeTypes:
+  - Name: Enemy
+    NodeIcon: {fileID: 21300000, guid: c1b945a0773437f4792d27dfa68df4f8, type: 2}
+    NodeBackground: {fileID: 21300000, guid: 62ee2783fe32d8344bd5f2db8082f1f6, type: 2}
+    Type: 0
+  - Name: Elite Enemy
+    NodeIcon: {fileID: 21300000, guid: dcf62511caf92174eb56faa543854cc4, type: 2}
+    NodeBackground: {fileID: 21300000, guid: 9fecec71c45a37c468395289758c3dde, type: 2}
+    Type: 1
+  - Name: Mercenary
+    NodeIcon: {fileID: 21300000, guid: 40f72972c96ab554692cebdfd01c6970, type: 2}
+    NodeBackground: {fileID: 21300000, guid: 219112cffb4ec7148bb42bfe74f2ac82, type: 2}
+    Type: 2
+  - Name: Treasure
+    NodeIcon: {fileID: 21300000, guid: d7ed71e71d6c2504e969ef91c47d2408, type: 2}
+    NodeBackground: {fileID: 21300000, guid: 803da5fe78d814643ba16f8ef4eaa72c, type: 2}
+    Type: 3
+  - Name: Shop
+    NodeIcon: {fileID: 21300000, guid: 383c61a25e89f2f4db47e6d2c00c089e, type: 2}
+    NodeBackground: {fileID: 21300000, guid: 552e46a20274ea7499020064b0d04ea8, type: 2}
+    Type: 4
+  - Name: Rest
+    NodeIcon: {fileID: 21300000, guid: 8575d7ced2a0b474aa69ea763825d506, type: 2}
+    NodeBackground: {fileID: 21300000, guid: faeaec0954885bb45908c745ac1c482a, type: 2}
+    Type: 5
+  - Name: Unknown
+    NodeIcon: {fileID: 21300000, guid: 0ad99e16c4f072f4cb58c1658a4be71d, type: 2}
+    NodeBackground: {fileID: 21300000, guid: 62ee2783fe32d8344bd5f2db8082f1f6, type: 2}
+    Type: 6
+  - Name: Boss
+    NodeIcon: {fileID: 21300000, guid: 94d18335da16d054a8b2eda0adbd1780, type: 2}
+    NodeBackground: {fileID: 21300000, guid: 417f22aa52d28304482a4a819eb6f5b8, type: 2}
+    Type: 7
+  - Name: Initial State
+    NodeIcon: {fileID: 21300000, guid: c6f20868be88e024ca7e710be14de673, type: 2}
+    NodeBackground: {fileID: 21300000, guid: 62ee2783fe32d8344bd5f2db8082f1f6, type: 2}
+    Type: 8
+  - Name: Optional Hunt
+    NodeIcon: {fileID: 21300000, guid: 22219421ce362ca499e1e56485b4732f, type: 2}
+    NodeBackground: {fileID: 21300000, guid: cd9277e42af7a3d4a9ce23a426f98ffd, type: 2}
+    Type: 9
+  - Name: Special Event
+    NodeIcon: {fileID: 21300000, guid: 0ad99e16c4f072f4cb58c1658a4be71d, type: 2}
+    NodeBackground: {fileID: 21300000, guid: 652a9116be37edb439cec6070677e751, type: 2}
+    Type: 10
